@@ -973,16 +973,20 @@ img {
     padding: 4.5rem 1rem;
   }
   .hero-section {
-    padding: 6.5rem 1rem 2rem;
-    min-height: 100vh;
-    min-height: 100dvh;
-    justify-content: flex-end;
+    padding: 7.8rem 1rem 2.2rem;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     box-sizing: border-box;
   }
+  .hero-content {
+    margin-top: 0.5rem;
+  }
   .hero-eyebrow {
-    margin-bottom: 0.6rem;
-    font-size: 0.66rem;
-    padding: 0.35rem 0.75rem;
+    margin-bottom: 0.75rem;
+    font-size: 0.68rem;
+    padding: 0.35rem 0.8rem;
   }
   .hero-title {
     font-size: clamp(2rem, 8.5vw, 2.9rem);
