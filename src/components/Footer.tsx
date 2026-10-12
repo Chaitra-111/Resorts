@@ -42,23 +42,23 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 strokeWidth="1.8"
               >
                 <circle cx="32" cy="18" r="7" stroke="var(--amber)" fill="rgba(165,88,45,0.12)" />
-                <path d="M8 52L26 26L36 38L46 24L58 52H8Z" />
-                <path d="M26 26L34 38" />
-                <path d="M46 24L40 38" />
+                <path d="M14 52L32 20L50 52H14Z" />
+                <path d="M22 52L32 34L42 52" />
+                <path d="M32 52V20" />
               </svg>
               <div>
                 <h3 style={{ fontSize: "1.45rem", letterSpacing: "0.15em", textTransform: "uppercase" }}>
-                  Hills View
+                  Woodland
                 </h3>
                 <span style={{ fontSize: "0.68rem", letterSpacing: "0.3em", textTransform: "uppercase", color: "var(--muted)" }}>
-                  Residential Resort
+                  Resort & Convention
                 </span>
               </div>
             </div>
 
             <p style={{ fontSize: "0.95rem", lineHeight: 1.65, maxWidth: "340px", marginBottom: "1.5rem" }}>
-              An unhurried residential sanctuary in the heart of Ananthagiri Hills, Vikarabad.
-              Designed for peaceful retreats, family reunions, and destination celebrations.
+              An 8-acre luxury villa estate in Aziz Nagar, Moinabad.
+              Designed for peaceful weekend escapes, destination weddings, and corporate summits.
             </p>
 
             {/* Atmosphere Mood Switcher in Footer */}
@@ -97,7 +97,7 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.85rem", fontSize: "0.95rem" }}>
               <li>
                 <a href="#suites" className="footer-link">
-                  Residential Suites
+                  Luxury Villas (51 Units)
                 </a>
               </li>
               <li>
@@ -107,17 +107,17 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
               </li>
               <li>
                 <a href="#experiences" className="footer-link">
-                  Swimming Pool & Sports
+                  Glass-Edge Pool & Sports
                 </a>
               </li>
               <li>
                 <a href="#banquets" className="footer-link">
-                  Weddings & Banquet Lawn
+                  Convention Lawns (1,500+)
                 </a>
               </li>
               <li>
                 <a href="#dining" className="footer-link">
-                  Hillside Dining & Barbecue
+                  Cascade Restaurant & Grills
                 </a>
               </li>
             </ul>
@@ -135,14 +135,14 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 marginBottom: "1.5rem",
               }}
             >
-              Vikarabad Highlights
+              Moinabad & Nearby
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.85rem", fontSize: "0.92rem", color: "var(--ink)" }}>
-              <li>• Ananthagiri Forest Nature Walk (Adjacent)</li>
-              <li>• Kotepally Kayaking Reservoir (8 km)</li>
-              <li>• Historic Anantha Padmanabha Swamy Temple (4 km)</li>
-              <li>• Kerelli Viewpoint & Sunset Ridge (6 km)</li>
-              <li>• Vikarabad Railway Junction (12 km)</li>
+              <li>• Sreenidhi International School (Opposite)</li>
+              <li>• Chilkur Balaji Temple (8 km)</li>
+              <li>• Osman Sagar / Gandipet Lake (12 km)</li>
+              <li>• Financial District / Gachibowli (15 km)</li>
+              <li>• Rajiv Gandhi Intl Airport via ORR (28 km)</li>
             </ul>
           </div>
 
@@ -167,24 +167,24 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                   <a href={`tel:${RESORT_CONTACT.phoneRaw}`} style={{ fontWeight: 600 }}>
                     {RESORT_CONTACT.phone}
                   </a>
-                  <div style={{ fontSize: "0.8rem", color: "var(--muted)" }}>24/7 Front Desk Inquiries</div>
+                  <div style={{ fontSize: "0.8rem", color: "var(--muted)" }}>24/7 Front Desk & Bookings</div>
                 </div>
               </div>
 
               <div style={{ display: "flex", gap: "0.6rem", alignItems: "flex-start" }}>
                 <MapPin size={18} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
-                <span>Mudallagadda, Gangawaram, Vikarabad, TS 501101</span>
+                <span>{RESORT_CONTACT.address}</span>
               </div>
 
               <div style={{ display: "flex", gap: "0.6rem", alignItems: "center" }}>
                 <ExternalLink size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                 <a
-                  href={RESORT_CONTACT.justdialLink}
+                  href={RESORT_CONTACT.googleMapsLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ color: "var(--amber)", textDecoration: "underline" }}
                 >
-                  Verified Justdial Listing
+                  View on Google Maps
                 </a>
               </div>
             </div>
@@ -206,7 +206,7 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
           }}
         >
           <div>
-            © {new Date().getFullYear()} Hills View Luxury Holidays Residential Resort. All rights reserved.
+            © {new Date().getFullYear()} Woodland Resorts (Woodland Resort & Convention). All rights reserved.
           </div>
 
           <button

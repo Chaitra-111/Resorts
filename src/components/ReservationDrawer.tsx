@@ -35,17 +35,17 @@ export const ReservationDrawer: React.FC<ReservationDrawerProps> = ({
 
   // WhatsApp Dispatch Message
   const suiteNames = selectedSuites.map((s) => s.name).join(", ");
-  const waMessage = `*HILLS VIEW RESORT STAY RESERVATION INQUIRY*
+  const waMessage = `*WOODLAND RESORTS STAY RESERVATION INQUIRY*
 ----------------------------------------
 Guest Name: ${guestName || "Guest"}
 Phone: ${guestPhone || "Not provided"}
 Check-in: ${checkIn}
 Check-out: ${checkOut} (${nights} night${nights > 1 ? "s" : ""})
 Guests: ${guestCount}
-Suites Selected: ${suiteNames || "General Residential Suite Inquiry"}
+Villas Selected: ${suiteNames || "General Luxury Villa Inquiry"}
 Estimated Total: ₹${baseTotal.toLocaleString()}
 ----------------------------------------
-Please confirm room availability and tariff.`;
+Please confirm villa availability and tariff.`;
 
   return (
     <div className="drawer-backdrop" onClick={onClose}>

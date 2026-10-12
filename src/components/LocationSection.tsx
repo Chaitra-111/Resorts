@@ -19,8 +19,8 @@ export const LocationSection: React.FC = () => {
             Location & Getting Here
           </h2>
           <p style={{ maxWidth: "620px", margin: "0.8rem auto 0" }}>
-            Tucked alongside the verdant hills of Vikarabad, an easy drive from Hyderabad's outer ring
-            road.
+            Centrally situated in Aziz Nagar, Moinabad — just 20 minutes from Gachibowli Financial
+            District and Hyderabad ORR Exit 18.
           </p>
         </div>
 
@@ -59,11 +59,11 @@ export const LocationSection: React.FC = () => {
                 }}
               >
                 <Compass size={16} />
-                <span>Ananthagiri Hills Belt</span>
+                <span>Moinabad Nature Belt</span>
               </div>
 
               <h3 style={{ fontSize: "1.9rem", color: "var(--ink)", marginBottom: "1rem" }}>
-                Hills View Luxury Holidays Residential Resort
+                Woodland Resorts
               </h3>
 
               <div
@@ -95,14 +95,14 @@ export const LocationSection: React.FC = () => {
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Car size={18} style={{ color: "var(--amber)" }} />
                   <span style={{ fontSize: "0.92rem" }}>
-                    <strong>75 km from Hyderabad:</strong> Via Gachibowli → Shankarpalli → Vikarabad (approx. 90 mins).
+                    <strong>15 km from Gachibowli:</strong> Via Financial District → Chevella Rd / ORR Exit 18 (~20-25 mins).
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Clock size={18} style={{ color: "var(--amber)" }} />
                   <span style={{ fontSize: "0.92rem" }}>
-                    <strong>Operating Hours:</strong> Open 24/7 with round-the-clock security and guest support.
+                    <strong>Operating Hours:</strong> Open 24/7 with round-the-clock security and guest concierge.
                   </span>
                 </div>
 
@@ -118,7 +118,7 @@ export const LocationSection: React.FC = () => {
             {/* Action Buttons */}
             <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <a
-                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(RESORT_CONTACT.name + " " + RESORT_CONTACT.address)}`}
+                href={RESORT_CONTACT.googleMapsLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-luxury"
@@ -150,7 +150,7 @@ export const LocationSection: React.FC = () => {
             }}
           >
             <iframe
-              title="Hills View Luxury Residential Resort Vikarabad Map"
+              title="Woodland Resorts Moinabad Google Map"
               src={RESORT_CONTACT.googleMapsEmbed}
               width="100%"
               height="100%"

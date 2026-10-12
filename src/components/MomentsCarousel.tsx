@@ -59,12 +59,12 @@ export const MomentsCarousel: React.FC = () => {
         }}
       >
         <div>
-          <span className="section-label">A Day at Hills View</span>
+          <span className="section-label">A Day at Woodland Resorts</span>
           <h2 style={{ fontSize: "clamp(2.4rem, 4.2vw, 3.8rem)", color: "var(--ink)" }}>
             Moments in Golden Light
           </h2>
           <p style={{ maxWidth: "580px", marginTop: "0.5rem" }}>
-            From the crisp dawn mist rolling over the ridges to the warmth of evening campfires
+            From morning birdsong across the 8-acre gardens to the warmth of twilight poolside grills
             beneath open constellations.
           </p>
         </div>

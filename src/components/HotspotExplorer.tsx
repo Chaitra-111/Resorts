@@ -28,7 +28,7 @@ export const HotspotExplorer: React.FC = () => {
       <div className="hotspot-stage">
         <img
           src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1800&q=88"
-          alt="Hills View Sanctuary Architecture and Pool Deck"
+          alt="Woodland Resorts Estate Architecture and Pool Deck"
         />
 
         {/* Hotspot Pins */}

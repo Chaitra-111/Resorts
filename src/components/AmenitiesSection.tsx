@@ -52,8 +52,8 @@ export const AmenitiesSection: React.FC = () => {
             Curated for Recharging & Reconnecting
           </h2>
           <p style={{ maxWidth: "620px", margin: "0.8rem auto 0" }}>
-            Every corner of Hills View is crafted to balance outdoor adventure across Ananthagiri with
-            restorative residential peace.
+            Every corner of Woodland Resorts is crafted to balance active outdoor leisure with
+            restorative estate peace.
           </p>
         </div>
 

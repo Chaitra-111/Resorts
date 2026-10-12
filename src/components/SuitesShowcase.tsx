@@ -1,5 +1,5 @@
 import React from "react";
-import { RESORT_SUITES, type Suite } from "../data/resortData";
+import { RESORT_SUITES, RESORT_CONTACT, type Suite } from "../data/resortData";
 import { Users, Maximize2, Bed, Check, Calendar, ArrowRight } from "lucide-react";
 import gsap from "gsap";
 
@@ -262,8 +262,8 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                       <span>{isSelected ? "Selected in Plan" : "Select Suite"}</span>
                     </button>
                     <a
-                      href={`https://wa.me/916302919296?text=${encodeURIComponent(
-                        `Hi Hills View Resort, I would like details about ${suite.name} (₹${suite.pricePerNight}/night).`
+                      href={`https://wa.me/${RESORT_CONTACT.phoneRaw}?text=${encodeURIComponent(
+                        `Hi Woodland Resorts, I would like details about ${suite.name} (₹${suite.pricePerNight}/night).`
                       )}`}
                       target="_blank"
                       rel="noopener noreferrer"

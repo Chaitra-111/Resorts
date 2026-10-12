@@ -33,7 +33,7 @@ export const BanquetsSection: React.FC = () => {
             >
               <img
                 src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1400&q=85"
-                alt="Banquets & Celebrations at Hills View Luxury Resort"
+                alt="Woodland Resort & Convention Lawns"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -65,10 +65,10 @@ export const BanquetsSection: React.FC = () => {
                 Event Capacity
               </span>
               <h4 style={{ fontSize: "1.8rem", color: "var(--ink)", margin: "0.2rem 0" }}>
-                Up to 250+
+                Up to 1,500+
               </h4>
               <p style={{ fontSize: "0.85rem", color: "var(--muted)" }}>
-                Guests across open celebration lawns & poolside pavilion.
+                Guests across open celebration lawns & convention pavilions.
               </p>
             </div>
           </div>
@@ -84,13 +84,13 @@ export const BanquetsSection: React.FC = () => {
                 marginBottom: "1.5rem",
               }}
             >
-              Celebrate Life's Milestones Under the Open Stars.
+              Grand Celebrations Under the Open Canopy.
             </h2>
 
             <p style={{ fontSize: "1.05rem", lineHeight: 1.7, marginBottom: "2.2rem" }}>
-              Whether you are planning a picturesque destination sangeet, an intimate wedding ceremony,
-              a milestone birthday, or a corporate leadership retreat away from the city, our manicured
-              emerald lawns provide the ultimate natural open-air canvas.
+              Whether you are planning a grand destination wedding, sangeet gala, corporate summit,
+              or a large family reunion, Woodland Resorts offers expansive emerald convention lawns
+              and dedicated event pavilions just minutes from Hyderabad's Financial District.
             </p>
 
             <div
@@ -105,31 +105,31 @@ export const BanquetsSection: React.FC = () => {
                 <Sparkles size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "3px" }} />
                 <div>
                   <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Destination Weddings</h4>
-                  <p style={{ fontSize: "0.88rem" }}>Natural hillside backdrop with fairy lighting & stage setups.</p>
+                  <p style={{ fontSize: "0.88rem" }}>Expansive lawns accommodating up to 1,500 guests with custom decor.</p>
                 </div>
               </div>
 
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Users size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "3px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Family Reunions</h4>
-                  <p style={{ fontSize: "0.88rem" }}>Spacious 2-BHK residential villas to host entire families together.</p>
+                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>51 Luxury Villas</h4>
+                  <p style={{ fontSize: "0.88rem" }}>Host bride and groom parties comfortably across private lawn villas.</p>
                 </div>
               </div>
 
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Music size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "3px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Sangeet & Parties</h4>
-                  <p style={{ fontSize: "0.88rem" }}>Outdoor audio acoustics, DJ spaces, and pool party zones.</p>
+                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Sangeet & Cocktail Nights</h4>
+                  <p style={{ fontSize: "0.88rem" }}>Poolside deck parties, DJ sound setups, and ambient twilight lighting.</p>
                 </div>
               </div>
 
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <HeartHandshake size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "3px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Corporate Retreats</h4>
-                  <p style={{ fontSize: "0.88rem" }}>Strategy sessions, team bonding, and open-air leadership dinners.</p>
+                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Corporate Summits</h4>
+                  <p style={{ fontSize: "0.88rem" }}>Only 20 mins from Gachibowli, perfect for offsites and corporate days.</p>
                 </div>
               </div>
             </div>
@@ -144,8 +144,8 @@ export const BanquetsSection: React.FC = () => {
                 <span>Call Banquet Manager</span>
               </a>
               <a
-                href={`https://wa.me/916302919296?text=${encodeURIComponent(
-                  "Hello, I am interested in booking Hills View Resort lawn/banquet for a celebration event."
+                href={`https://wa.me/919951844444?text=${encodeURIComponent(
+                  "Hello, I am interested in booking Woodland Resorts convention lawns for a celebration event."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"

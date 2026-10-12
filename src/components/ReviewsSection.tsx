@@ -37,7 +37,7 @@ export const ReviewsSection: React.FC = () => {
                 <Star key={i} size={15} fill="var(--amber)" stroke="none" />
               ))}
             </div>
-            <span>5.0 / 5.0 Rated on Justdial & Google Reviews</span>
+            <span>4.8 / 5.0 Rated on Google Reviews & Guest Feedback</span>
           </div>
         </div>
 
@@ -97,17 +97,17 @@ export const ReviewsSection: React.FC = () => {
           ))}
         </div>
 
-        {/* Justdial & External verification CTA */}
+        {/* Google Reviews CTA */}
         <div style={{ textAlign: "center" }}>
           <a
-            href={RESORT_CONTACT.justdialLink}
+            href={RESORT_CONTACT.googleMapsLink}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-outline"
             style={{ fontSize: "0.82rem" }}
-            data-cursor="Open Justdial"
+            data-cursor="Open Google Maps"
           >
-            <span>Read Verified Reviews on Justdial</span>
+            <span>Read Verified Reviews on Google Maps</span>
             <ExternalLink size={14} />
           </a>
         </div>

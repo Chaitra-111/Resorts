@@ -20,8 +20,8 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
       {/* Background container with parallax */}
       <div className="hero-bg-container">
         <img
-          src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=2400&q=88"
-          alt="Hills View Luxury Residential Resort in Ananthagiri Hills Vikarabad"
+          src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=2400&q=88"
+          alt="Woodland Resorts 8-Acre Luxury Villas and Pool in Moinabad Hyderabad"
           className="hero-image"
         />
         <div className="hero-overlay" />
@@ -31,25 +31,25 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
       <div className="hero-content">
         <div className="hero-eyebrow">
           <MapPin size={13} style={{ color: "var(--peach-light)" }} />
-          <span>Ananthagiri Hills · Mudallagadda, Vikarabad</span>
+          <span>Aziz Nagar · Near Sreenidhi School, Moinabad, Hyderabad</span>
         </div>
 
         <h1 className="hero-title">
-          Where Misty Ridges Meet <em>Residential Elegance.</em>
+          8 Acres of Serenity & <em>Signature Villa Luxury.</em>
         </h1>
 
         <p className="hero-desc">
-          Escape the city pulse into the crisp, forest-scented heights of Ananthagiri.
-          Expansive private balcony suites, azure pool waters, and lush celebration lawns.
+          Just 20 minutes from Financial District. 51 independent luxury villas,
+          glass-edge swimming pool, live multi-cuisine dining, and 1,500-guest convention grounds.
         </p>
 
         <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap", alignItems: "center" }}>
-          <a href="#suites" className="btn-luxury" data-cursor="View Suites">
-            <span>Explore The Suites</span>
+          <a href="#suites" className="btn-luxury" data-cursor="View Villas">
+            <span>Explore The Villas</span>
             <ArrowRight size={15} />
           </a>
           <a
-            href={`https://wa.me/916302919296?text=${encodeURIComponent("Hello Hills View Resort, I would like to inquire about booking a stay.")}`}
+            href={`https://wa.me/919951844444?text=${encodeURIComponent("Hello Woodland Resorts, I would like to inquire about booking a villa / event stay.")}`}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-outline"
@@ -103,17 +103,17 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
             onChange={(e) => setGuests(Number(e.target.value))}
           >
             <option value={1}>1 Guest (Solo)</option>
-            <option value={2}>2 Guests (Couple)</option>
-            <option value={4}>4 Guests (Family Suite)</option>
-            <option value={6}>6+ Guests (Full Villa / Group)</option>
-            <option value={15}>15+ Guests (Celebration / Banquet)</option>
+            <option value={2}>2 Guests (Shloka / Chandan Villa)</option>
+            <option value={4}>4 Guests (Vatika Private Lawn Villa)</option>
+            <option value={8}>8-10 Guests (Samasth Grand Villa)</option>
+            <option value={25}>25+ Guests (Convention & Lawns)</option>
           </select>
         </div>
 
         <div className="booking-field">
           <label className="booking-label">Resort Destination</label>
           <div style={{ fontSize: "0.95rem", fontWeight: 600, color: "var(--ink)" }}>
-            Ananthagiri Hills, TS
+            Moinabad, Hyderabad
           </div>
         </div>
 

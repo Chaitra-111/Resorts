@@ -37,12 +37,12 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
             strokeLinecap="round"
             strokeLinejoin="round"
           >
-            {/* Majestic Mountain Ridges and Sun */}
-            <circle cx="32" cy="18" r="7" stroke="var(--amber)" fill="rgba(165,88,45,0.12)" />
-            <path d="M8 52L26 26L36 38L46 24L58 52H8Z" />
-            <path d="M26 26L34 38" />
-            <path d="M46 24L40 38" />
-            <path d="M14 52C22 50 42 50 50 52" />
+            {/* Elegant Tree and Estate Canopy Icon */}
+            <circle cx="32" cy="16" r="6" stroke="var(--amber)" fill="rgba(165,88,45,0.12)" />
+            <path d="M32 22V52" />
+            <path d="M32 28C22 28 14 34 14 42C14 48 22 52 32 52C42 52 50 48 50 42C50 34 42 28 32 28Z" />
+            <path d="M22 36C26 34 38 34 42 36" />
+            <path d="M18 44C24 42 40 42 46 44" />
           </svg>
         </div>
 
@@ -58,7 +58,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.15s",
             } as React.CSSProperties}
           >
-            Ananthagiri Hills · Vikarabad
+            Aziz Nagar · Moinabad, Hyderabad
           </span>
         </span>
 
@@ -74,7 +74,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.35s",
             } as React.CSSProperties}
           >
-            Hills View Residential Resort
+            Woodland Resorts
           </span>
         </h2>
 
@@ -89,7 +89,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.55s",
             } as React.CSSProperties}
           >
-            "Where the hills whisper peace, and time slows down."
+            "8 Acres of Serene Greens, Luxury Villas & Grand Celebrations."
           </span>
         </p>
       </div>
