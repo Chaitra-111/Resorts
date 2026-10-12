@@ -111,18 +111,7 @@ export const AmenitiesSection: React.FC = () => {
         </div>
 
         {/* Helpful Guest Guidance Banner (reflecting Justdial & Google Maps real residential notes) */}
-        <div
-          style={{
-            background: "linear-gradient(135deg, rgba(165,88,45,0.08) 0%, rgba(238,208,183,0.2) 100%)",
-            border: "1px solid rgba(165,88,45,0.2)",
-            borderRadius: "22px",
-            padding: "2.5rem 3rem",
-            display: "grid",
-            gridTemplateColumns: "1fr auto",
-            gap: "2rem",
-            alignItems: "center",
-          }}
-        >
+        <div className="guidelines-banner">
           <div>
             <div
               style={{

@@ -405,10 +405,11 @@ img {
 .hero-section {
   position: relative;
   min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 0 3.5rem 4rem;
+  padding: 8.5rem 3.5rem 4rem;
   overflow: hidden;
 }
 
@@ -423,7 +424,7 @@ img {
   height: 100%;
   object-fit: cover;
   object-position: center 38%;
-  filter: brightness(0.88) contrast(1.04);
+  filter: brightness(0.85) contrast(1.04);
   transform: scale(1.05);
   transition: transform 1.2s ease-out;
 }
@@ -862,6 +863,17 @@ img {
 }
 
 /* ────────── Responsive Adjustments ────────── */
+.guidelines-banner {
+  background: linear-gradient(135deg, rgba(165,88,45,0.08) 0%, rgba(238,208,183,0.2) 100%);
+  border: 1px solid rgba(165,88,45,0.2);
+  border-radius: 22px;
+  padding: 2.5rem 3rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2rem;
+  align-items: center;
+}
+
 @media (max-width: 1024px) {
   .site-header {
     padding: 1.2rem 2rem;
@@ -873,7 +885,8 @@ img {
     display: none;
   }
   .hero-section {
-    padding: 0 2rem 3rem;
+    padding: 7.5rem 2rem 3rem;
+    min-height: auto;
   }
   .booking-bar {
     grid-template-columns: 1fr 1fr;
@@ -882,6 +895,11 @@ img {
   .statement-stats {
     grid-template-columns: 1fr 1fr;
     gap: 2.5rem;
+  }
+  .guidelines-banner {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+    gap: 1.5rem;
   }
 }
 
@@ -893,20 +911,40 @@ img {
     padding: 0.75rem 1.25rem;
   }
   .hero-section {
-    padding: 0 1.25rem 2.5rem;
+    padding: 6.5rem 1.25rem 2.5rem;
+    min-height: auto;
+  }
+  .hero-title {
+    font-size: clamp(2.4rem, 8vw, 3.8rem);
   }
   .booking-bar {
     grid-template-columns: 1fr;
+    padding: 1.2rem 1.25rem;
   }
   .editorial-section {
-    padding: 6rem 1.5rem;
+    padding: 5rem 1.25rem;
   }
   .hotspot-stage {
     height: 440px;
   }
   .moment-card {
-    flex: 0 0 300px;
-    height: 440px;
+    flex: 0 0 calc(100vw - 2.5rem);
+    max-width: 340px;
+    height: 420px;
+  }
+  .guidelines-banner {
+    padding: 1.6rem 1.25rem;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: left;
+    gap: 1.5rem;
+  }
+  .guidelines-banner .btn-luxury {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
   }
   .drawer-panel {
     padding: 1.5rem;
