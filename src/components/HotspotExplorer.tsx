@@ -8,8 +8,8 @@ export const HotspotExplorer: React.FC = () => {
   return (
     <section
       id="hotspots"
+      className="section-pad"
       style={{
-        padding: "6rem 3.5rem",
         maxWidth: "1300px",
         margin: "0 auto",
       }}

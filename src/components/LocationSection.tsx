@@ -6,8 +6,8 @@ export const LocationSection: React.FC = () => {
   return (
     <section
       id="location"
+      className="section-pad"
       style={{
-        padding: "7rem 3.5rem",
         background: "var(--cream)",
         borderTop: "1px solid var(--card-border)",
       }}
@@ -27,7 +27,7 @@ export const LocationSection: React.FC = () => {
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(360px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 340px), 1fr))",
             gap: "3rem",
             alignItems: "stretch",
           }}

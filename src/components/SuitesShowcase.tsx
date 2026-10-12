@@ -44,8 +44,8 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
   return (
     <section
       id="suites"
+      className="section-pad"
       style={{
-        padding: "7rem 3.5rem",
         background: "var(--cream-soft)",
         borderTop: "1px solid var(--card-border)",
         borderBottom: "1px solid var(--card-border)",
@@ -79,7 +79,7 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(360px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 350px), 1fr))",
             gap: "2.5rem",
           }}
         >

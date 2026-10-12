@@ -40,21 +40,22 @@ export const MomentsCarousel: React.FC = () => {
     <section
       id="moments"
       style={{
-        padding: "7rem 0",
+        padding: "6rem 0",
         maxWidth: "1400px",
         margin: "0 auto",
         overflow: "hidden",
       }}
     >
       <div
+        className="section-pad"
         style={{
-          padding: "0 3.5rem",
+          paddingTop: 0,
+          paddingBottom: "2.5rem",
           display: "flex",
           justifyContent: "space-between",
           alignItems: "flex-end",
           flexWrap: "wrap",
           gap: "2rem",
-          marginBottom: "3rem",
         }}
       >
         <div>
@@ -117,7 +118,7 @@ export const MomentsCarousel: React.FC = () => {
       </div>
 
       {/* Carousel Track */}
-      <div style={{ padding: "0 3.5rem" }} ref={containerRef}>
+      <div className="section-pad" style={{ paddingTop: 0, paddingBottom: 0 }} ref={containerRef}>
         <div className="moments-container">
           <div
             className="moments-track"

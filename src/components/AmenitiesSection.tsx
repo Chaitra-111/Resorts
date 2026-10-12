@@ -39,8 +39,8 @@ export const AmenitiesSection: React.FC = () => {
   return (
     <section
       id="experiences"
+      className="section-pad"
       style={{
-        padding: "7rem 3.5rem",
         background: "var(--cream)",
         borderTop: "1px solid var(--card-border)",
       }}
@@ -61,7 +61,7 @@ export const AmenitiesSection: React.FC = () => {
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 280px), 1fr))",
             gap: "2rem",
             marginBottom: "4.5rem",
           }}
