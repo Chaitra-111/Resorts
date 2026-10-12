@@ -96,27 +96,27 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.85rem", fontSize: "0.95rem" }}>
               <li>
-                <a href="#suites" className="nav-link">
+                <a href="#suites" className="footer-link">
                   Residential Suites
                 </a>
               </li>
               <li>
-                <a href="#hotspots" className="nav-link">
+                <a href="#hotspots" className="footer-link">
                   Interactive Grounds
                 </a>
               </li>
               <li>
-                <a href="#experiences" className="nav-link">
+                <a href="#experiences" className="footer-link">
                   Swimming Pool & Sports
                 </a>
               </li>
               <li>
-                <a href="#banquets" className="nav-link">
+                <a href="#banquets" className="footer-link">
                   Weddings & Banquet Lawn
                 </a>
               </li>
               <li>
-                <a href="#dining" className="nav-link">
+                <a href="#dining" className="footer-link">
                   Hillside Dining & Barbecue
                 </a>
               </li>
@@ -137,7 +137,7 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
             >
               Vikarabad Highlights
             </h4>
-            <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.85rem", fontSize: "0.92rem", color: "var(--muted)" }}>
+            <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.85rem", fontSize: "0.92rem", color: "var(--ink)" }}>
               <li>• Ananthagiri Forest Nature Walk (Adjacent)</li>
               <li>• Kotepally Kayaking Reservoir (8 km)</li>
               <li>• Historic Anantha Padmanabha Swamy Temple (4 km)</li>

@@ -303,6 +303,20 @@ img {
   color: var(--amber);
 }
 
+.footer-link {
+  color: var(--ink) !important;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+  opacity: 0.95;
+}
+
+.footer-link:hover {
+  color: var(--amber) !important;
+  transform: translateX(4px);
+  opacity: 1;
+}
+
 .header-actions {
   display: flex;
   align-items: center;
@@ -409,8 +423,9 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 8.5rem 3.5rem 4rem;
+  padding: 10rem 3.5rem 3.5rem;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 .hero-bg-container {
@@ -424,7 +439,7 @@ img {
   height: 100%;
   object-fit: cover;
   object-position: center 38%;
-  filter: brightness(0.85) contrast(1.04);
+  filter: brightness(0.82) contrast(1.05);
   transform: scale(1.05);
   transition: transform 1.2s ease-out;
 }
@@ -876,7 +891,7 @@ img {
 
 @media (max-width: 1024px) {
   .site-header {
-    padding: 1.2rem 2rem;
+    padding: 1.1rem 2rem;
   }
   .site-header.is-scrolled {
     padding: 0.8rem 2rem;
@@ -885,8 +900,10 @@ img {
     display: none;
   }
   .hero-section {
-    padding: 7.5rem 2rem 3rem;
-    min-height: auto;
+    padding: 9rem 2rem 3rem;
+    min-height: 100vh;
+    min-height: 100dvh;
+    justify-content: flex-end;
   }
   .booking-bar {
     grid-template-columns: 1fr 1fr;
@@ -905,24 +922,37 @@ img {
 
 @media (max-width: 768px) {
   .site-header {
-    padding: 1rem 1.25rem;
+    padding: 0.85rem 1.25rem;
   }
   .site-header.is-scrolled {
     padding: 0.75rem 1.25rem;
   }
   .hero-section {
-    padding: 6.5rem 1.25rem 2.5rem;
-    min-height: auto;
+    padding: 8rem 1.25rem 2.5rem;
+    min-height: 100vh;
+    min-height: 100dvh;
+    justify-content: flex-end;
+  }
+  .hero-eyebrow {
+    margin-bottom: 0.8rem;
+    font-size: 0.68rem;
+    padding: 0.35rem 0.85rem;
   }
   .hero-title {
-    font-size: clamp(2.4rem, 8vw, 3.8rem);
+    font-size: clamp(2.3rem, 7.5vw, 3.4rem);
+    margin-bottom: 0.8rem;
+  }
+  .hero-desc {
+    font-size: 0.98rem;
+    margin-bottom: 1.6rem;
   }
   .booking-bar {
     grid-template-columns: 1fr;
     padding: 1.2rem 1.25rem;
+    margin-top: 1.2rem;
   }
   .editorial-section {
-    padding: 5rem 1.25rem;
+    padding: 4.5rem 1.25rem;
   }
   .hotspot-stage {
     height: 440px;
