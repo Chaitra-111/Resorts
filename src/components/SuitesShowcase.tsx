@@ -64,14 +64,14 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
           }}
         >
           <div>
-            <span className="section-label">Residential Accommodations</span>
+            <span className="section-label">Lake & Forest Accommodations</span>
             <h2 style={{ fontSize: "clamp(2.4rem, 4.2vw, 3.8rem)", color: "var(--ink)" }}>
-              The Suites & Residencies
+              The Cottages & Suites
             </h2>
           </div>
           <p style={{ maxWidth: "520px", fontSize: "1.05rem" }}>
-            Thoughtfully engineered for extended family vacations, intimate staycations, and weekend
-            reunions. Every residence features spacious open layouts and scenic nature balconies.
+            Thoughtfully crafted for families, couples, and group reunions visiting Laknavaram Lake.
+            Every cottage features air conditioning, scenic veranda sit-outs, and direct access to the pool.
           </p>
         </div>
 
@@ -259,11 +259,11 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                       data-cursor="Select"
                     >
                       <Calendar size={14} />
-                      <span>{isSelected ? "Selected in Plan" : "Select Suite"}</span>
+                      <span>{isSelected ? "Selected in Plan" : "Select Cottage"}</span>
                     </button>
                     <a
                       href={`https://wa.me/${RESORT_CONTACT.phoneRaw}?text=${encodeURIComponent(
-                        `Hi Woodland Resorts, I would like details about ${suite.name} (₹${suite.pricePerNight}/night).`
+                        `Hi Kakatiya Resorts Laknavaram, I would like details about ${suite.name} (₹${suite.pricePerNight}/night).`
                       )}`}
                       target="_blank"
                       rel="noopener noreferrer"

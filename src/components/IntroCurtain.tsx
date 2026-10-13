@@ -25,24 +25,27 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
       }}
     >
       <div style={{ textAlign: "center", maxWidth: "600px" }}>
-        {/* Luxury Hill Crest Emblem */}
+        {/* Kakatiya Kala Thoranam Arch Emblem */}
         <div style={{ marginBottom: "1.8rem" }}>
           <svg
-            width="54"
-            height="54"
+            width="58"
+            height="58"
             viewBox="0 0 64 64"
             fill="none"
             stroke="var(--amber)"
-            strokeWidth="1.6"
+            strokeWidth="1.8"
             strokeLinecap="round"
             strokeLinejoin="round"
           >
-            {/* Elegant Tree and Estate Canopy Icon */}
-            <circle cx="32" cy="16" r="6" stroke="var(--amber)" fill="rgba(165,88,45,0.12)" />
-            <path d="M32 22V52" />
-            <path d="M32 28C22 28 14 34 14 42C14 48 22 52 32 52C42 52 50 48 50 42C50 34 42 28 32 28Z" />
-            <path d="M22 36C26 34 38 34 42 36" />
-            <path d="M18 44C24 42 40 42 46 44" />
+            {/* Kakatiya Arch / Gateway representation */}
+            <path d="M12 54V22H18V54" />
+            <path d="M46 54V22H52V54" />
+            <path d="M8 22H56" />
+            <path d="M10 16H54" />
+            <path d="M16 16C20 10 44 10 48 16" />
+            <circle cx="32" cy="13" r="3" stroke="var(--amber)" fill="rgba(165,88,45,0.2)" />
+            {/* Lake water waves beneath */}
+            <path d="M16 48C22 46 26 50 32 48C38 46 42 50 48 48" />
           </svg>
         </div>
 
@@ -58,7 +61,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.15s",
             } as React.CSSProperties}
           >
-            Aziz Nagar · Moinabad, Hyderabad
+            Laknavaram Lake · Bussapur, Telangana
           </span>
         </span>
 
@@ -74,7 +77,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.35s",
             } as React.CSSProperties}
           >
-            Woodland Resorts
+            Kakatiya Resorts
           </span>
         </h2>
 
@@ -89,7 +92,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.55s",
             } as React.CSSProperties}
           >
-            "8 Acres of Serene Greens, Luxury Villas & Grand Celebrations."
+            "Lakeside Serenity, Heritage Cottages & Nature Under the Open Stars."
           </span>
         </p>
       </div>

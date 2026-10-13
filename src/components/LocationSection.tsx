@@ -19,8 +19,8 @@ export const LocationSection: React.FC = () => {
             Location & Getting Here
           </h2>
           <p style={{ maxWidth: "620px", margin: "0.8rem auto 0" }}>
-            Centrally situated in Aziz Nagar, Moinabad — just 20 minutes from Gachibowli Financial
-            District and Hyderabad ORR Exit 18.
+            Centrally situated in Bussapur Village near Laknavaram Lake, Govindaraopet Mandal —
+            just 70 km from Warangal and 210 km from Hyderabad along NH 163.
           </p>
         </div>
 
@@ -59,11 +59,11 @@ export const LocationSection: React.FC = () => {
                 }}
               >
                 <Compass size={16} />
-                <span>Moinabad Nature Belt</span>
+                <span>Laknavaram Lake & Forest Belt</span>
               </div>
 
               <h3 style={{ fontSize: "1.9rem", color: "var(--ink)", marginBottom: "1rem" }}>
-                Woodland Resorts
+                Kakatiya Resorts Laknavaram
               </h3>
 
               <div
@@ -95,14 +95,21 @@ export const LocationSection: React.FC = () => {
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Car size={18} style={{ color: "var(--amber)" }} />
                   <span style={{ fontSize: "0.92rem" }}>
-                    <strong>15 km from Gachibowli:</strong> Via Financial District → Chevella Rd / ORR Exit 18 (~20-25 mins).
+                    <strong>From Hyderabad (210 km):</strong> Via NH 163 (Warangal Highway) → Mulugu → Govindaraopet (~3.5 - 4 hrs).
+                  </span>
+                </div>
+
+                <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
+                  <Car size={18} style={{ color: "var(--amber)" }} />
+                  <span style={{ fontSize: "0.92rem" }}>
+                    <strong>From Warangal (70 km):</strong> Scenic 1.5-hour drive via Mulugu Road to Bussapur & Laknavaram.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Clock size={18} style={{ color: "var(--amber)" }} />
                   <span style={{ fontSize: "0.92rem" }}>
-                    <strong>Operating Hours:</strong> Open 24/7 with round-the-clock security and guest concierge.
+                    <strong>Operating Hours:</strong> Check-in: 12:00 PM | Check-out: 11:00 AM (24/7 Caretaker & Front Desk).
                   </span>
                 </div>
 
@@ -150,7 +157,7 @@ export const LocationSection: React.FC = () => {
             }}
           >
             <iframe
-              title="Woodland Resorts Moinabad Google Map"
+              title="Kakatiya Resorts Laknavaram Google Map"
               src={RESORT_CONTACT.googleMapsEmbed}
               width="100%"
               height="100%"

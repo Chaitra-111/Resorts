@@ -4,20 +4,20 @@ import { Trees, Compass, Heart } from "lucide-react";
 export const EditorialIntro: React.FC = () => {
   return (
     <section className="editorial-section" id="story">
-      <span className="section-label">8-Acre Nature Sanctuary</span>
+      <span className="section-label">The Cradle of Kakatiya Heritage & Nature</span>
 
       <h2 className="statement-heading">
-        A serene villa sanctuary tucked amidst the <br />
+        A peaceful lakeside haven tucked beside the <br />
         <em style={{ fontFamily: "var(--serif)", fontStyle: "italic", color: "var(--amber)" }}>
-          green estates of Moinabad.
+          10,000-acre waters of Laknavaram.
         </em>
       </h2>
 
       <p className="statement-body">
-        Just 15 kilometers from Gachibowli Financial District, Woodland Resorts is an 8-acre
-        haven of lush manicured grounds, 51 private luxury villas, and calm open skies. Designed
-        for unhurried weekend getaways, grand destination celebrations, and corporate retreats
-        far from the city commotion.
+        Constructed in the 13th century by visionary Kakatiya rulers, Laknavaram Lake cradles 13
+        enchanting green islands enveloped by the dense deciduous forests of Mulugu. Kakatiya Resorts
+        was curated as your ultimate nature sanctuary — where cool water ripples, canopy birdsong,
+        welcoming cottages, and swimming pool fun invite you to slow down and unwind.
       </p>
 
       {/* Feature Pillars */}
@@ -39,10 +39,10 @@ export const EditorialIntro: React.FC = () => {
           }}
         >
           <Trees size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Lush 8-Acre Canopy</h3>
+          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>13-Island Lake Basin</h3>
           <p style={{ fontSize: "0.94rem" }}>
-            Stroll through flowering gardens, manicured emerald lawns, and private villa pathways
-            designed to deliver immediate tranquility.
+            Moments away from the iconic 160-meter suspension hanging bridge, speed boating,
+            and pristine hill panoramas of Laknavaram.
           </p>
         </div>
 
@@ -55,10 +55,10 @@ export const EditorialIntro: React.FC = () => {
           }}
         >
           <Compass size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>20-Minute City Getaway</h3>
+          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Pool & Water Fun</h3>
           <p style={{ fontSize: "0.94rem" }}>
-            Effortless drive from Gachibowli via Chevella Road / ORR Exit 18, putting luxury
-            seclusion right at Hyderabad’s doorstep.
+            An inviting outdoor swimming pool equipped with water slides and kids splash areas,
+            surrounded by lush green coconut palms.
           </p>
         </div>
 
@@ -71,10 +71,10 @@ export const EditorialIntro: React.FC = () => {
           }}
         >
           <Heart size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>51 Private Villas</h3>
+          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Campfires & Orugallu Feasts</h3>
           <p style={{ fontSize: "0.94rem" }}>
-            Individually crafted villas with personal lawn sit-outs, ambient interiors, and total
-            privacy for couples, families, and gatherings.
+            Savor authentic Telangana country chicken, fresh lake fish fry, and gather around
+            warm twilight bonfires under starlit forest skies.
           </p>
         </div>
       </div>
@@ -82,19 +82,19 @@ export const EditorialIntro: React.FC = () => {
       {/* Key Stats Counter */}
       <div className="statement-stats">
         <div className="stat-item">
-          <h3>8 Acres</h3>
-          <p>Lush Green Estate</p>
+          <h3>10,000 Ac</h3>
+          <p>Historic Lake Area</p>
         </div>
         <div className="stat-item">
-          <h3>51 Villas</h3>
-          <p>Private Living Units</p>
+          <h3>13</h3>
+          <p>Natural Islands</p>
         </div>
         <div className="stat-item">
-          <h3>1500+</h3>
-          <p>Lawn Capacity</p>
+          <h3>160m</h3>
+          <p>Suspension Bridge</p>
         </div>
         <div className="stat-item">
-          <h3>4.8 ★</h3>
+          <h3>4.2 ★</h3>
           <p>Google Guest Rating</p>
         </div>
       </div>

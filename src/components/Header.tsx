@@ -30,7 +30,7 @@ export const Header: React.FC<HeaderProps> = ({
   return (
     <header className={`site-header ${scrolled ? "is-scrolled" : ""}`}>
       {/* Brand Crest */}
-      <a href="#" className="brand-mark" data-cursor="Woodland Resorts">
+      <a href="#" className="brand-mark" data-cursor="Kakatiya Resorts">
         <svg
           className="brand-crest"
           viewBox="0 0 64 64"
@@ -40,13 +40,16 @@ export const Header: React.FC<HeaderProps> = ({
           strokeLinecap="round"
           strokeLinejoin="round"
         >
-          <circle cx="32" cy="16" r="6" stroke="var(--amber)" fill="rgba(165,88,45,0.12)" />
-          <path d="M32 22V52" />
-          <path d="M32 28C22 28 14 34 14 42C14 48 22 52 32 52C42 52 50 48 50 42C50 34 42 28 32 28Z" />
-          <path d="M22 36C26 34 38 34 42 36" />
+          <path d="M12 54V22H18V54" />
+          <path d="M46 54V22H52V54" />
+          <path d="M8 22H56" />
+          <path d="M10 16H54" />
+          <path d="M16 16C20 10 44 10 48 16" />
+          <circle cx="32" cy="13" r="3" stroke="var(--amber)" fill="rgba(165,88,45,0.2)" />
+          <path d="M16 48C22 46 26 50 32 48C38 46 42 50 48 48" />
         </svg>
-        <span className="brand-word">Woodland</span>
-        <span className="brand-sub">Resorts & Conventions</span>
+        <span className="brand-word">Kakatiya</span>
+        <span className="brand-sub">Resorts Laknavaram</span>
       </a>
 
       {/* Navigation Links */}
@@ -54,7 +57,7 @@ export const Header: React.FC<HeaderProps> = ({
         <ul className="nav-links">
           <li>
             <a href="#suites" className="nav-link">
-              Villas
+              Cottages
             </a>
           </li>
           <li>

@@ -20,8 +20,8 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
       {/* Background container with parallax */}
       <div className="hero-bg-container">
         <img
-          src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=2400&q=88"
-          alt="Woodland Resorts 8-Acre Luxury Villas and Pool in Moinabad Hyderabad"
+          src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=2400&q=88"
+          alt="Kakatiya Resorts Laknavaram Lake Cottages and Nature Landscape"
           className="hero-image"
         />
         <div className="hero-overlay" />
@@ -31,25 +31,25 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
       <div className="hero-content">
         <div className="hero-eyebrow">
           <MapPin size={13} style={{ color: "var(--peach-light)" }} />
-          <span>Aziz Nagar · Near Sreenidhi School, Moinabad, Hyderabad</span>
+          <span>Bussapur · Near Laknavaram Lake & Hanging Bridge, Telangana</span>
         </div>
 
         <h1 className="hero-title">
-          8 Acres of Serenity & <em>Signature Villa Luxury.</em>
+          Lakeside Serenity & <em>Heritage Forest Cottages.</em>
         </h1>
 
         <p className="hero-desc">
-          Just 20 minutes from Financial District. 51 independent luxury villas,
-          glass-edge swimming pool, live multi-cuisine dining, and 1,500-guest convention grounds.
+          Surrounded by whispering teak trees and the historic 10,000-acre Laknavaram Lake.
+          Swimming pool with water slides, lake boating cruises, traditional Orugallu dining, and starry campfire nights.
         </p>
 
         <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap", alignItems: "center" }}>
-          <a href="#suites" className="btn-luxury" data-cursor="View Villas">
-            <span>Explore The Villas</span>
+          <a href="#suites" className="btn-luxury" data-cursor="View Cottages">
+            <span>Explore The Cottages</span>
             <ArrowRight size={15} />
           </a>
           <a
-            href={`https://wa.me/919951844444?text=${encodeURIComponent("Hello Woodland Resorts, I would like to inquire about booking a villa / event stay.")}`}
+            href={`https://wa.me/919398316500?text=${encodeURIComponent("Hello Kakatiya Resorts Laknavaram, I would like to inquire about booking a cottage / weekend stay.")}`}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-outline"
@@ -102,18 +102,19 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
             value={guests}
             onChange={(e) => setGuests(Number(e.target.value))}
           >
-            <option value={1}>1 Guest (Solo)</option>
-            <option value={2}>2 Guests (Shloka / Chandan Villa)</option>
-            <option value={4}>4 Guests (Vatika Private Lawn Villa)</option>
-            <option value={8}>8-10 Guests (Samasth Grand Villa)</option>
-            <option value={25}>25+ Guests (Convention & Lawns)</option>
+            <option value={1}>1 Guest (Solo Traveler)</option>
+            <option value={2}>2 Guests (Rudrama Lakeview Cottage)</option>
+            <option value={3}>3 Guests (Ganapati Deluxe Suite)</option>
+            <option value={6}>4-6 Guests (Prataparudra Family Cottage)</option>
+            <option value={10}>8-12 Guests (Kakatiya Imperial Villa)</option>
+            <option value={25}>25+ Guests (Lawn Celebrations & Outing)</option>
           </select>
         </div>
 
         <div className="booking-field">
-          <label className="booking-label">Resort Destination</label>
+          <label className="booking-label">Destination</label>
           <div style={{ fontSize: "0.95rem", fontWeight: 600, color: "var(--ink)" }}>
-            Moinabad, Hyderabad
+            Laknavaram Lake, Mulugu
           </div>
         </div>
 

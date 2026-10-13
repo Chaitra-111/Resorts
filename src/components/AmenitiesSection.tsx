@@ -52,8 +52,8 @@ export const AmenitiesSection: React.FC = () => {
             Curated for Recharging & Reconnecting
           </h2>
           <p style={{ maxWidth: "620px", margin: "0.8rem auto 0" }}>
-            Every corner of Woodland Resorts is crafted to balance active outdoor leisure with
-            restorative estate peace.
+            Every corner of Kakatiya Resorts is crafted to balance outdoor lake adventures across
+            Laknavaram with restorative forest cottage peace.
           </p>
         </div>
 

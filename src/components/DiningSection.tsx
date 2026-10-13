@@ -15,11 +15,11 @@ export const DiningSection: React.FC = () => {
         <div style={{ textAlign: "center", marginBottom: "4rem" }}>
           <span className="section-label">Culinary Flavors & Feasts</span>
           <h2 style={{ fontSize: "clamp(2.4rem, 4.2vw, 3.8rem)", color: "var(--ink)" }}>
-            Cascade Restaurant & Alfresco Feasts
+            Orugallu Kitchen & Lakeside Feasts
           </h2>
           <p style={{ maxWidth: "640px", margin: "0.8rem auto 0" }}>
-            Savor hearty multi-cuisine delicacies, Hyderabadi specialties, and sizzling live barbecues
-            prepared fresh at our on-site culinary pavilions.
+            Savor authentic Telangana culinary feasts, fresh lake fish fry, country chicken curries,
+            and sizzling live barbecues prepared fresh at our on-site kitchen.
           </p>
         </div>
 
@@ -35,22 +35,22 @@ export const DiningSection: React.FC = () => {
             <div style={{ position: "relative", height: "200px", borderRadius: "14px", overflow: "hidden", marginBottom: "1.5rem" }}>
               <img
                 src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80"
-                alt="Cascade Multi-Cuisine Restaurant"
+                alt="Orugallu Kitchen at Kakatiya Resorts"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", color: "var(--amber)", marginBottom: "0.5rem" }}>
               <Utensils size={18} />
               <span style={{ fontSize: "0.78rem", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase" }}>
-                Cascade Restaurant
+                Orugallu Kitchen
               </span>
             </div>
             <h3 style={{ fontSize: "1.55rem", marginBottom: "0.8rem", color: "var(--ink)" }}>
-              Multi-Cuisine Delicacies
+              Telangana Culinary Specialties
             </h3>
             <p style={{ fontSize: "0.94rem", lineHeight: 1.65 }}>
-              Handcrafted Hyderabadi biryanis, authentic North Indian gravies, Chinese wok dishes,
-              and flavorful South Indian thalis prepared by seasoned resort chefs.
+              Traditional Natukodi pulusu (country chicken), Gongura mutton & paneer, fresh Laknavaram
+              lake fish fry, and fragrant pot dum biryanis cooked to order.
             </p>
           </div>
 
@@ -59,7 +59,7 @@ export const DiningSection: React.FC = () => {
             <div style={{ position: "relative", height: "200px", borderRadius: "14px", overflow: "hidden", marginBottom: "1.5rem" }}>
               <img
                 src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
-                alt="Live Barbecue by the Lawn"
+                alt="Live Barbecue by the Bonfire"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -70,15 +70,15 @@ export const DiningSection: React.FC = () => {
               </span>
             </div>
             <h3 style={{ fontSize: "1.55rem", marginBottom: "0.8rem", color: "var(--ink)" }}>
-              Live Barbecue by the Pool
+              Live Barbecue by the Campfire
             </h3>
             <p style={{ fontSize: "0.94rem", lineHeight: 1.65 }}>
-              Gather under the Moinabad night sky for sizzling paneer tikkas, tandoori kebabs,
-              and live grill stations set beside our glass-edge swimming pool.
+              Gather under the starry forest night sky for sizzling paneer tikkas, spicy chicken kebabs,
+              and live grill stations set right beside the campfire circle.
             </p>
           </div>
 
-          {/* Card 3: Garden Breakfast */}
+          {/* Card 3: Lakeside Garden Breakfast */}
           <div className="card-tilt" style={{ padding: "2.5rem" }}>
             <div style={{ position: "relative", height: "200px", borderRadius: "14px", overflow: "hidden", marginBottom: "1.5rem" }}>
               <img
@@ -94,11 +94,11 @@ export const DiningSection: React.FC = () => {
               </span>
             </div>
             <h3 style={{ fontSize: "1.55rem", marginBottom: "0.8rem", color: "var(--ink)" }}>
-              Sunny Garden Breakfast
+              Lakeside Garden Breakfast
             </h3>
             <p style={{ fontSize: "0.94rem", lineHeight: 1.65 }}>
-              Wake up to steaming filter coffee, crisp dosas, idlis, and fresh seasonal fruit spreads
-              served in our open-air garden gazebo or right at your private villa porch.
+              Wake up to steaming filter coffee, crisp ghee dosas, hot idlis, and fresh seasonal fruit
+              served in our open-air garden or right onto your cottage veranda.
             </p>
           </div>
         </div>

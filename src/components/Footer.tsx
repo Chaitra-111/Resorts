@@ -40,25 +40,30 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 fill="none"
                 stroke="var(--amber)"
                 strokeWidth="1.8"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
-                <circle cx="32" cy="18" r="7" stroke="var(--amber)" fill="rgba(165,88,45,0.12)" />
-                <path d="M14 52L32 20L50 52H14Z" />
-                <path d="M22 52L32 34L42 52" />
-                <path d="M32 52V20" />
+                <path d="M12 54V22H18V54" />
+                <path d="M46 54V22H52V54" />
+                <path d="M8 22H56" />
+                <path d="M10 16H54" />
+                <path d="M16 16C20 10 44 10 48 16" />
+                <circle cx="32" cy="13" r="3" stroke="var(--amber)" fill="rgba(165,88,45,0.2)" />
+                <path d="M16 48C22 46 26 50 32 48C38 46 42 50 48 48" />
               </svg>
               <div>
                 <h3 style={{ fontSize: "1.45rem", letterSpacing: "0.15em", textTransform: "uppercase" }}>
-                  Woodland
+                  Kakatiya
                 </h3>
                 <span style={{ fontSize: "0.68rem", letterSpacing: "0.3em", textTransform: "uppercase", color: "var(--muted)" }}>
-                  Resort & Convention
+                  Resorts Laknavaram
                 </span>
               </div>
             </div>
 
             <p style={{ fontSize: "0.95rem", lineHeight: 1.65, maxWidth: "340px", marginBottom: "1.5rem" }}>
-              An 8-acre luxury villa estate in Aziz Nagar, Moinabad.
-              Designed for peaceful weekend escapes, destination weddings, and corporate summits.
+              A serene lakeside nature retreat located near Laknavaram Lake in Bussapur, Mulugu.
+              Featuring lakeview cottages, swimming pool with water slides, Orugallu traditional dining, and campfire nights.
             </p>
 
             {/* Atmosphere Mood Switcher in Footer */}
@@ -97,27 +102,27 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.85rem", fontSize: "0.95rem" }}>
               <li>
                 <a href="#suites" className="footer-link">
-                  Luxury Villas (51 Units)
+                  Lakeview Cottages & Suites
                 </a>
               </li>
               <li>
                 <a href="#hotspots" className="footer-link">
-                  Interactive Grounds
+                  Interactive Grounds & Lake
                 </a>
               </li>
               <li>
                 <a href="#experiences" className="footer-link">
-                  Glass-Edge Pool & Sports
+                  Swimming Pool & Slides
                 </a>
               </li>
               <li>
                 <a href="#banquets" className="footer-link">
-                  Convention Lawns (1,500+)
+                  Celebration Lawns (500+)
                 </a>
               </li>
               <li>
                 <a href="#dining" className="footer-link">
-                  Cascade Restaurant & Grills
+                  Orugallu Kitchen & Barbecue
                 </a>
               </li>
             </ul>
@@ -135,14 +140,14 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 marginBottom: "1.5rem",
               }}
             >
-              Moinabad & Nearby
+              Laknavaram & Heritage
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.85rem", fontSize: "0.92rem", color: "var(--ink)" }}>
-              <li>• Sreenidhi International School (Opposite)</li>
-              <li>• Chilkur Balaji Temple (8 km)</li>
-              <li>• Osman Sagar / Gandipet Lake (12 km)</li>
-              <li>• Financial District / Gachibowli (15 km)</li>
-              <li>• Rajiv Gandhi Intl Airport via ORR (28 km)</li>
+              <li>• Laknavaram Lake & Suspension Bridge (1.5 km)</li>
+              <li>• UNESCO Ramappa Temple, Palampet (28 km)</li>
+              <li>• Medaram Sammakka Sarakka Shrine (42 km)</li>
+              <li>• Eturnagaram Wildlife Sanctuary (50 km)</li>
+              <li>• Historic Warangal Fort & Thousand Pillar (72 km)</li>
             </ul>
           </div>
 
@@ -206,7 +211,7 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
           }}
         >
           <div>
-            © {new Date().getFullYear()} Woodland Resorts (Woodland Resort & Convention). All rights reserved.
+            © {new Date().getFullYear()} Kakatiya Resorts Laknavaram. All rights reserved.
           </div>
 
           <button
