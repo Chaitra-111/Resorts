@@ -33,7 +33,7 @@ export const BanquetsSection: React.FC = () => {
             >
               <img
                 src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1400&q=85"
-                alt="Chamundi Resorts & Valley Celebration Grounds & Event Lawns"
+                alt="Haritha Resort Ananthagiri Hilltop Lawns & Gathering Grounds"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -65,10 +65,10 @@ export const BanquetsSection: React.FC = () => {
                 Event Capacity
               </span>
               <h4 style={{ fontSize: "1.8rem", color: "var(--ink)", margin: "0.2rem 0" }}>
-                Up to 400+
+                Up to 300+
               </h4>
               <p style={{ fontSize: "0.85rem", color: "var(--muted)" }}>
-                Guests across open celebration lawns & poolside pavilion.
+                Guests across open hilltop lawns, conference hall & garden pavilion.
               </p>
             </div>
           </div>
@@ -84,13 +84,13 @@ export const BanquetsSection: React.FC = () => {
                 marginBottom: "1.5rem",
               }}
             >
-              Celebrations Under Open Skies by the Canal.
+              Celebrations & Offsites in the Cool Hills.
             </h2>
 
             <p style={{ fontSize: "1.05rem", lineHeight: 1.7, marginBottom: "2.2rem" }}>
-              Whether you are organizing a valley-side destination celebration, family reunion,
-              birthday bash, or corporate leadership retreat away from city chaos, our lush
-              green celebration lawns and poolside grounds in Mallampally offer the ultimate refreshing open-air canvas.
+              Whether you are organizing a corporate leadership offsite from Hyderabad, a family pilgrimage
+              reunion near the sacred temple, or an energetic college retreat with bonfires, our panoramic
+              hilltop grounds and fresh mountain air offer the most refreshing natural canvas.
             </p>
 
             <div
@@ -104,32 +104,32 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Sparkles size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "3px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Destination Celebrations</h4>
-                  <p style={{ fontSize: "0.88rem" }}>Rustic valley & canal backdrop with fairy lighting & stage setups.</p>
+                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Corporate Retreats</h4>
+                  <p style={{ fontSize: "0.88rem" }}>Team bonding and leadership workshops only 75 km from Hitech City.</p>
                 </div>
               </div>
 
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Users size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "3px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Family Chalets</h4>
-                  <p style={{ fontSize: "0.88rem" }}>Wooden chalets and spacious villas to host entire families together.</p>
+                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Family Pilgrimages</h4>
+                  <p style={{ fontSize: "0.88rem" }}>Group cottages located 3 mins from Sri Anantha Padmanabha Swamy Temple.</p>
                 </div>
               </div>
 
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Music size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "3px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Campfire & Barbecue</h4>
-                  <p style={{ fontSize: "0.88rem" }}>Poolside deck parties, music systems, and live barbecue under the stars.</p>
+                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Hilltop Campfires</h4>
+                  <p style={{ fontSize: "0.88rem" }}>Crisp evening air, live barbecue, music, and starry night skies.</p>
                 </div>
               </div>
 
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <HeartHandshake size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "3px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Corporate Retreats</h4>
-                  <p style={{ fontSize: "0.88rem" }}>Team bonding, lawn activities, and day outings just 38 km from Warangal.</p>
+                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Kayaking & Treks</h4>
+                  <p style={{ fontSize: "0.88rem" }}>Group kayaking at Kotepally Reservoir and guided forest hikes.</p>
                 </div>
               </div>
             </div>
@@ -145,7 +145,7 @@ export const BanquetsSection: React.FC = () => {
               </a>
               <a
                 href={`https://wa.me/${RESORT_CONTACT.phoneRaw}?text=${encodeURIComponent(
-                  "Hello, I am interested in booking Chamundi Resorts & Valley lawns for a celebration event."
+                  "Hello, I am interested in booking Haritha Resort Ananthagiri for an offsite / group event."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"

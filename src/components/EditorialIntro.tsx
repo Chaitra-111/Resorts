@@ -4,20 +4,19 @@ import { Trees, Compass, Heart } from "lucide-react";
 export const EditorialIntro: React.FC = () => {
   return (
     <section className="editorial-section" id="story">
-      <span className="section-label">Canalside Serenity in Mallampally</span>
+      <span className="section-label">Telangana's Premier Hill Station Escape</span>
 
       <h2 className="statement-heading">
-        A rustic countryside retreat tucked along the <br />
+        A misty forest hill retreat perched atop the <br />
         <em style={{ fontFamily: "var(--serif)", fontStyle: "italic", color: "var(--amber)" }}>
-          breezy canal valley of Mallampally.
+          panoramic mountain crest of Ananthagiri Hills.
         </em>
       </h2>
 
       <p className="statement-body">
-        Located along the scenic Warangal-Mulugu highway, Chamundi Resorts & Valley was envisioned
-        as a tranquil countryside escape. Featuring soothing canal views, rustic wooden chalets,
-        sparkling swimming pool waters, and leafy coconut groves, it serves as the perfect weekend
-        pause for families and travelers exploring Warangal, Ramappa Temple, and Laknavaram Lake.
+        At 700 meters above sea level and enveloped by dense medicinal teak forests, Haritha Resort Ananthagiri
+        offers crisp mountain breezes, sunrise valley views, and direct access to ancient cave temples and forest trekking routes.
+        Located just 75 km from Hyderabad, it is the premier weekend destination for families, trekkers, and peace seekers.
       </p>
 
       {/* Feature Pillars */}
@@ -39,10 +38,10 @@ export const EditorialIntro: React.FC = () => {
           }}
         >
           <Trees size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Canalside Greenery</h3>
+          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Misty Hilltop Climate</h3>
           <p style={{ fontSize: "0.94rem" }}>
-            Wake up to refreshing canal breezes, rustling palms, and morning birdsong
-            far removed from urban congestion.
+            Wake up to rolling morning fog, pure oxygen-rich air, and chirping mountain birds
+            at 700m elevation far above the city heat.
           </p>
         </div>
 
@@ -55,10 +54,10 @@ export const EditorialIntro: React.FC = () => {
           }}
         >
           <Compass size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Poolside Leisure</h3>
+          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Ancient Sacred Shrine</h3>
           <p style={{ fontSize: "0.94rem" }}>
-            Enjoy refreshing daytime swims in our outdoor pool, complete with comfortable
-            deck loungers and garden walkways.
+            Just 1.5 km from the historic Sri Anantha Padmanabha Swamy Temple in natural rock caves,
+            revered as the sacred origin of River Musi.
           </p>
         </div>
 
@@ -71,10 +70,10 @@ export const EditorialIntro: React.FC = () => {
           }}
         >
           <Heart size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Campfires & Barbecue</h3>
+          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Kotepally Boating & Treks</h3>
           <p style={{ fontSize: "0.94rem" }}>
-            Gather around crackling evening bonfires with hot tandoor skewers, local Telangana
-            feasts, and open-air stargazing.
+            Enjoy kayaking and pedal boating at Kotepally Reservoir (14 km), or hike along forest trails
+            winding through medicinal plant reserves.
           </p>
         </div>
       </div>
@@ -82,20 +81,20 @@ export const EditorialIntro: React.FC = () => {
       {/* Key Stats Counter */}
       <div className="statement-stats">
         <div className="stat-item">
-          <h3>38 km</h3>
-          <p>From Warangal City</p>
+          <h3>75 km</h3>
+          <p>From Hyderabad</p>
         </div>
         <div className="stat-item">
-          <h3>400+</h3>
-          <p>Lawn Guest Capacity</p>
+          <h3>700 m</h3>
+          <p>Hill Elevation</p>
         </div>
         <div className="stat-item">
-          <h3>100%</h3>
-          <p>Canalside Nature</p>
+          <h3>1.5 km</h3>
+          <p>To Ancient Temple</p>
         </div>
         <div className="stat-item">
-          <h3>4.0 ★</h3>
-          <p>Guest Rating</p>
+          <h3>3.6 ★</h3>
+          <p>Google Rating (3,500+)</p>
         </div>
       </div>
     </section>

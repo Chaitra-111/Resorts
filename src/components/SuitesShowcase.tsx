@@ -64,14 +64,14 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
           }}
         >
           <div>
-            <span className="section-label">Valley & Canalside Accommodations</span>
+            <span className="section-label">Hillside Forest Accommodations</span>
             <h2 style={{ fontSize: "clamp(2.4rem, 4.2vw, 3.8rem)", color: "var(--ink)" }}>
-              The Chalets & Suites
+              Hill Suites & Cottages
             </h2>
           </div>
           <p style={{ maxWidth: "520px", fontSize: "1.05rem" }}>
-            Thoughtfully designed for families, couples, and road-trippers on the Warangal-Mulugu highway.
-            Every cottage features air conditioning, scenic veranda sit-outs, and easy pool access.
+            Perched on the crest of Ananthagiri Hills, Vikarabad.
+            Every suite features sweeping valley views, refreshing mountain breezes, and quiet forest seclusion.
           </p>
         </div>
 
@@ -259,11 +259,11 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                       data-cursor="Select"
                     >
                       <Calendar size={14} />
-                      <span>{isSelected ? "Selected in Plan" : "Select Cottage"}</span>
+                      <span>{isSelected ? "Selected in Plan" : "Select Suite"}</span>
                     </button>
                     <a
                       href={`https://wa.me/${RESORT_CONTACT.phoneRaw}?text=${encodeURIComponent(
-                        `Hi Chamundi Resorts & Valley, I would like details about ${suite.name} (₹${suite.pricePerNight}/night).`
+                        `Hi Haritha Resort Ananthagiri, I would like details about ${suite.name} (₹${suite.pricePerNight}/night).`
                       )}`}
                       target="_blank"
                       rel="noopener noreferrer"

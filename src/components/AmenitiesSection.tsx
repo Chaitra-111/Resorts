@@ -1,5 +1,5 @@
 import React from "react";
-import { RESORT_AMENITIES } from "../data/resortData";
+import { RESORT_AMENITIES, RESORT_CONTACT } from "../data/resortData";
 import {
   Waves,
   Sparkles,
@@ -10,6 +10,9 @@ import {
   ShieldCheck,
   Coffee,
   CheckCircle2,
+  TreePine,
+  Car,
+  Compass,
 } from "lucide-react";
 
 export const AmenitiesSection: React.FC = () => {
@@ -31,6 +34,12 @@ export const AmenitiesSection: React.FC = () => {
         return <ShieldCheck size={26} />;
       case "Coffee":
         return <Coffee size={26} />;
+      case "TreePine":
+        return <TreePine size={26} />;
+      case "Car":
+        return <Car size={26} />;
+      case "Compass":
+        return <Compass size={26} />;
       default:
         return <Sparkles size={26} />;
     }
@@ -52,8 +61,8 @@ export const AmenitiesSection: React.FC = () => {
             Curated for Recharging & Reconnecting
           </h2>
           <p style={{ maxWidth: "620px", margin: "0.8rem auto 0" }}>
-            Every corner of Chamundi Resorts & Valley is crafted to balance outdoor countryside
-            leisure with peaceful canalside cottage relaxation.
+            Every aspect of Haritha Resort Ananthagiri is tailored to balance refreshing hill station climate
+            with tranquil forest trekking, ancient cave temples, and peaceful mountain relaxation.
           </p>
         </div>
 
@@ -130,23 +139,22 @@ export const AmenitiesSection: React.FC = () => {
               <span>Residential Stay Guidelines & Tips</span>
             </div>
             <h4 style={{ fontSize: "1.45rem", marginBottom: "0.6rem", color: "var(--ink)" }}>
-              A Truly Tailored Holiday Experience
+              A Truly Refreshing Hilltop Stay
             </h4>
             <p style={{ fontSize: "0.95rem", maxWidth: "800px" }}>
-              As a dedicated residential getaway, we encourage guests to bring their preferred personal
-              toiletries, swim attire for the pool, and specialty foods or snacks if self-catering.
-              Our on-site caretaking crew is on standby 24/7 to arrange campfires, barbecue setups, and
-              hot beverages.
+              For the best experience in Ananthagiri, we recommend booking suites well in advance for weekends.
+              Bring light woolens for cool foggy mornings and evenings, comfortable walking shoes for forest trails,
+              and don't miss early morning sunrise viewpoints and kayaking at Kotepally Reservoir.
             </p>
           </div>
 
           <a
-            href="tel:+916302919296"
+            href={`tel:${RESORT_CONTACT.phoneRaw}`}
             className="btn-luxury"
             style={{ whiteSpace: "nowrap" }}
             data-cursor="Call Concierge"
           >
-            <span>Ask Concierge</span>
+            <span>Ask Front Desk</span>
           </a>
         </div>
       </div>

@@ -25,7 +25,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
       }}
     >
       <div style={{ textAlign: "center", maxWidth: "600px" }}>
-        {/* Valley & Canal Emblem */}
+        {/* Hill Station & Mountain Mist Emblem */}
         <div style={{ marginBottom: "1.8rem" }}>
           <svg
             width="58"
@@ -37,12 +37,12 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
             strokeLinecap="round"
             strokeLinejoin="round"
           >
-            {/* Sun above valley */}
-            <circle cx="32" cy="18" r="6" stroke="var(--amber)" fill="rgba(165,88,45,0.18)" />
-            {/* Rolling valley hills */}
-            <path d="M8 48L24 26L36 38L48 24L56 48H8Z" />
-            {/* Winding canal in the center */}
-            <path d="M30 40C26 44 38 48 34 54" strokeWidth="2.2" />
+            {/* Sunrise over mountains */}
+            <circle cx="32" cy="16" r="5" stroke="var(--amber)" fill="rgba(165,88,45,0.18)" />
+            {/* Ananthagiri Mountain Peaks */}
+            <path d="M6 50L22 22L36 38L48 20L58 50H6Z" />
+            {/* Forest mist / waves */}
+            <path d="M12 54C22 51 32 57 42 53C48 51 52 54 56 53" strokeWidth="2" />
           </svg>
         </div>
 
@@ -58,7 +58,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.15s",
             } as React.CSSProperties}
           >
-            Beside Canal · Mallampally, Warangal
+            Telangana Tourism · Ananthagiri Hills, Vikarabad
           </span>
         </span>
 
@@ -74,7 +74,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.35s",
             } as React.CSSProperties}
           >
-            Chamundi Resorts & Valley
+            Haritha Resort Ananthagiri
           </span>
         </h2>
 
@@ -89,7 +89,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.55s",
             } as React.CSSProperties}
           >
-            "Valley Serenity, Canal Breezes & Rustic Luxury Under Open Skies."
+            "Misty Valley Heights, Sacred Hills & Pine Breezes Just 75 km from Hyderabad."
           </span>
         </p>
       </div>

@@ -37,7 +37,7 @@ export const ReviewsSection: React.FC = () => {
                 <Star key={i} size={15} fill="var(--amber)" stroke="none" />
               ))}
             </div>
-            <span>4.0 / 5.0 Rated on Google Reviews (200+ Ratings)</span>
+            <span>3.6 / 5.0 Rated on Google Reviews (3,500+ Ratings)</span>
           </div>
         </div>
 

@@ -43,23 +43,23 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 strokeLinecap="round"
                 strokeLinejoin="round"
               >
-                <path d="M6 46L24 16L38 34L48 20L58 46H6Z" />
-                <path d="M6 52C20 48 34 56 58 52" />
-                <circle cx="48" cy="14" r="3.5" stroke="var(--amber)" fill="rgba(165,88,45,0.2)" />
+                <circle cx="32" cy="16" r="5" stroke="var(--amber)" fill="rgba(165,88,45,0.18)" />
+                <path d="M6 50L22 22L36 38L48 20L58 50H6Z" />
+                <path d="M12 54C22 51 32 57 42 53C48 51 52 54 56 53" strokeWidth="2" />
               </svg>
               <div>
                 <h3 style={{ fontSize: "1.45rem", letterSpacing: "0.15em", textTransform: "uppercase" }}>
-                  Chamundi
+                  Haritha
                 </h3>
                 <span style={{ fontSize: "0.68rem", letterSpacing: "0.3em", textTransform: "uppercase", color: "var(--muted)" }}>
-                  Resorts & Valley
+                  Resort Ananthagiri
                 </span>
               </div>
             </div>
 
             <p style={{ fontSize: "0.95rem", lineHeight: 1.65, maxWidth: "340px", marginBottom: "1.5rem" }}>
-              A serene valley & canalside retreat located in Mallampally along Mulugu Road, Warangal.
-              Featuring rustic timber chalets, outdoor swimming pool, Chamundi Valley Restaurant, campfire nights, and 400+ guest celebration lawns.
+              A scenic hilltop forest getaway operated by Telangana Tourism atop Ananthagiri Hills, Vikarabad.
+              Featuring panoramic valley view suites, cool mountain breezes, Haritha restaurant, ancient cave temples, and forest trekking.
             </p>
 
             {/* Atmosphere Mood Switcher in Footer */}
@@ -93,32 +93,32 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 marginBottom: "1.5rem",
               }}
             >
-              The Valley Sanctuary
+              The Hill Sanctuary
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.85rem", fontSize: "0.95rem" }}>
               <li>
                 <a href="#suites" className="footer-link">
-                  Valley Chalets & Suites
+                  Hill Suites & Cottages
                 </a>
               </li>
               <li>
                 <a href="#hotspots" className="footer-link">
-                  Interactive Grounds & Canal
+                  Panoramic Viewpoints
                 </a>
               </li>
               <li>
                 <a href="#experiences" className="footer-link">
-                  Swimming Pool & Deck
+                  Resort Amenities & Lawns
                 </a>
               </li>
               <li>
                 <a href="#banquets" className="footer-link">
-                  Celebration Lawns (400+)
+                  Hilltop Lawns (300+)
                 </a>
               </li>
               <li>
                 <a href="#dining" className="footer-link">
-                  Chamundi Valley Restaurant
+                  Haritha Valley Restaurant
                 </a>
               </li>
             </ul>
@@ -136,14 +136,14 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 marginBottom: "1.5rem",
               }}
             >
-              Warangal & Heritage
+              Ananthagiri & Vikarabad
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.85rem", fontSize: "0.92rem", color: "var(--ink)" }}>
-              <li>• UNESCO Ramappa Temple, Palampet (~25 km)</li>
-              <li>• Laknavaram Lake & Suspension Bridge (~35 km)</li>
-              <li>• Warangal Fort & Thousand Pillar (~38 km)</li>
-              <li>• Pakhal Lake & Wildlife Sanctuary (~45 km)</li>
-              <li>• Medaram Sammakka Sarakka Shrine (~55 km)</li>
+              <li>• Sri Anantha Padmanabha Swamy Temple (1.5 km)</li>
+              <li>• Ananthagiri Sunset Viewpoint (1 km)</li>
+              <li>• Sacred River Musi Origin Point (1.5 km)</li>
+              <li>• Kotepally Reservoir & Kayaking (14 km)</li>
+              <li>• Vikarabad Reserve Forest Trekking (Direct)</li>
             </ul>
           </div>
 
@@ -207,7 +207,7 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
           }}
         >
           <div>
-            © {new Date().getFullYear()} Chamundi Resorts & Valley. All rights reserved.
+            © {new Date().getFullYear()} Haritha Resort Ananthagiri, Vikarabad. Telangana Tourism.
           </div>
 
           <button

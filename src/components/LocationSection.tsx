@@ -19,8 +19,8 @@ export const LocationSection: React.FC = () => {
             Location & Getting Here
           </h2>
           <p style={{ maxWidth: "620px", margin: "0.8rem auto 0" }}>
-            Situated beside the canal in Mallampally along Mulugu Road —
-            just 38 km from Warangal and 185 km from Hyderabad along NH 163.
+            Perched atop Ananthagiri Hills on Tandur Road, Vikarabad —
+            just 75 km from Hyderabad (1.5 to 2 hours drive) and 6 km from Vikarabad Railway Station.
           </p>
         </div>
 
@@ -59,11 +59,11 @@ export const LocationSection: React.FC = () => {
                 }}
               >
                 <Compass size={16} />
-                <span>Mulugu Road & Canalside Country</span>
+                <span>Ananthagiri Hills & Forest Belt</span>
               </div>
 
               <h3 style={{ fontSize: "1.9rem", color: "var(--ink)", marginBottom: "1rem" }}>
-                Chamundi Resorts & Valley
+                Haritha Resort Ananthagiri
               </h3>
 
               <div
@@ -95,28 +95,28 @@ export const LocationSection: React.FC = () => {
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Car size={18} style={{ color: "var(--amber)" }} />
                   <span style={{ fontSize: "0.92rem" }}>
-                    <strong>From Hyderabad (185 km):</strong> Smooth drive via NH 163 (Warangal Highway) → Warangal → Mallampally (~3 - 3.5 hrs).
+                    <strong>From Hyderabad (75 km):</strong> Effortless 1.5 - 2 hour scenic drive via Chevella → Manneguda → Vikarabad uphill to Ananthagiri.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Car size={18} style={{ color: "var(--amber)" }} />
                   <span style={{ fontSize: "0.92rem" }}>
-                    <strong>From Warangal (38 km):</strong> Convenient 45-minute drive along Mulugu Road directly to Mallampally canal.
+                    <strong>From Vikarabad Station (6 km):</strong> Quick 10-minute drive through winding teak forest roads directly to the resort.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Clock size={18} style={{ color: "var(--amber)" }} />
                   <span style={{ fontSize: "0.92rem" }}>
-                    <strong>Operating Hours:</strong> Check-in: 12:00 PM | Check-out: 11:00 AM (24/7 Caretaker & Front Desk).
+                    <strong>Operating Hours:</strong> Check-in: 12:00 PM | Check-out: 11:00 AM (24/7 Front Desk & Parking).
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Phone size={18} style={{ color: "var(--amber)" }} />
                   <span style={{ fontSize: "0.92rem" }}>
-                    <strong>Direct Contact:</strong> {RESORT_CONTACT.phone} / {RESORT_CONTACT.phoneAlt}
+                    <strong>Direct Contact:</strong> {RESORT_CONTACT.phone} / {RESORT_CONTACT.phoneAlt} ({RESORT_CONTACT.landline})
                   </span>
                 </div>
               </div>
@@ -157,7 +157,7 @@ export const LocationSection: React.FC = () => {
             }}
           >
             <iframe
-              title="Chamundi Resorts & Valley Google Map"
+              title="Haritha Resort Ananthagiri Vikarabad Google Map"
               src={RESORT_CONTACT.googleMapsEmbed}
               width="100%"
               height="100%"

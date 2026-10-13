@@ -20,15 +20,15 @@ export const HotspotExplorer: React.FC = () => {
           Explore the Architecture & Landscapes
         </h2>
         <p style={{ maxWidth: "680px", margin: "0 auto" }}>
-          Touch the pulsing points across the property to discover our wooden chalets, outdoor swimming pool,
-          canalside promenade, and valley dining.
+          Touch the pulsing points across the property to discover our panoramic valley viewpoints, ancient 400-year cave temple,
+          hilltop restaurant, and scenic trekking trails.
         </p>
       </div>
 
       <div className="hotspot-stage">
         <img
-          src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1800&q=88"
-          alt="Chamundi Resorts & Valley Grounds, Swimming Pool and Canal Vista"
+          src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1800&q=88"
+          alt="Haritha Resort Ananthagiri Hills Vikarabad Valley Viewpoint and Forest Ridge"
         />
 
         {/* Hotspot Pins */}

@@ -32,27 +32,27 @@ export const SearchModal: React.FC<SearchModalProps> = ({
       target: "experiences",
     })),
     {
-      title: "Celebration Lawns & Gatherings",
+      title: "Hilltop Lawns & Offsites",
       category: "Events",
-      description: "Host up to 400+ guests for family reunions, birthdays, or corporate get-togethers.",
+      description: "Host up to 300+ guests for corporate retreats, family pilgrimages, and bonfire gatherings.",
       target: "banquets",
     },
     {
-      title: "Chamundi Valley Restaurant & Grills",
+      title: "Haritha Valley Restaurant & Dining",
       category: "Dining",
-      description: "Authentic Telangana country chicken, tandoor delicacies, and evening barbecues by the campfire.",
+      description: "Piping hot South Indian breakfast, traditional Telangana curries, biryani, and evening campfires.",
       target: "dining",
     },
     {
-      title: "Route from Hyderabad & Warangal",
+      title: "Route from Hyderabad & Vikarabad",
       category: "Location",
-      description: "185 km from Hyderabad via NH 163 Warangal Highway; 38 km from Warangal to Mallampally Canal.",
+      description: "75 km from Hyderabad via Chevella Highway (1.5 - 2 hrs); 6 km from Vikarabad Railway Station.",
       target: "location",
     },
     {
       title: "Verified Guest Reviews & Ratings",
       category: "Reviews",
-      description: "4.0-star guest feedback on Google Reviews (200+ ratings).",
+      description: "3.6-star guest feedback on Google Reviews (3,500+ ratings).",
       target: "reviews",
     },
   ];
@@ -83,7 +83,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
           <Search size={22} style={{ color: "var(--amber)" }} />
           <input
             type="text"
-            placeholder="Search suites, pool, banquets, location, dining…"
+            placeholder="Search suites, viewpoints, temple, location, dining…"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             autoFocus
