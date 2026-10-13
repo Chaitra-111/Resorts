@@ -43,27 +43,23 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 strokeLinecap="round"
                 strokeLinejoin="round"
               >
-                <path d="M12 54V22H18V54" />
-                <path d="M46 54V22H52V54" />
-                <path d="M8 22H56" />
-                <path d="M10 16H54" />
-                <path d="M16 16C20 10 44 10 48 16" />
-                <circle cx="32" cy="13" r="3" stroke="var(--amber)" fill="rgba(165,88,45,0.2)" />
-                <path d="M16 48C22 46 26 50 32 48C38 46 42 50 48 48" />
+                <path d="M6 46L24 16L38 34L48 20L58 46H6Z" />
+                <path d="M6 52C20 48 34 56 58 52" />
+                <circle cx="48" cy="14" r="3.5" stroke="var(--amber)" fill="rgba(165,88,45,0.2)" />
               </svg>
               <div>
                 <h3 style={{ fontSize: "1.45rem", letterSpacing: "0.15em", textTransform: "uppercase" }}>
-                  Kakatiya
+                  Chamundi
                 </h3>
                 <span style={{ fontSize: "0.68rem", letterSpacing: "0.3em", textTransform: "uppercase", color: "var(--muted)" }}>
-                  Resorts Laknavaram
+                  Resorts & Valley
                 </span>
               </div>
             </div>
 
             <p style={{ fontSize: "0.95rem", lineHeight: 1.65, maxWidth: "340px", marginBottom: "1.5rem" }}>
-              A serene lakeside nature retreat located near Laknavaram Lake in Bussapur, Mulugu.
-              Featuring lakeview cottages, swimming pool with water slides, Orugallu traditional dining, and campfire nights.
+              A serene valley & canalside retreat located in Mallampally along Mulugu Road, Warangal.
+              Featuring rustic timber chalets, outdoor swimming pool, Chamundi Valley Restaurant, campfire nights, and 400+ guest celebration lawns.
             </p>
 
             {/* Atmosphere Mood Switcher in Footer */}
@@ -97,32 +93,32 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 marginBottom: "1.5rem",
               }}
             >
-              The Sanctuary
+              The Valley Sanctuary
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.85rem", fontSize: "0.95rem" }}>
               <li>
                 <a href="#suites" className="footer-link">
-                  Lakeview Cottages & Suites
+                  Valley Chalets & Suites
                 </a>
               </li>
               <li>
                 <a href="#hotspots" className="footer-link">
-                  Interactive Grounds & Lake
+                  Interactive Grounds & Canal
                 </a>
               </li>
               <li>
                 <a href="#experiences" className="footer-link">
-                  Swimming Pool & Slides
+                  Swimming Pool & Deck
                 </a>
               </li>
               <li>
                 <a href="#banquets" className="footer-link">
-                  Celebration Lawns (500+)
+                  Celebration Lawns (400+)
                 </a>
               </li>
               <li>
                 <a href="#dining" className="footer-link">
-                  Orugallu Kitchen & Barbecue
+                  Chamundi Valley Restaurant
                 </a>
               </li>
             </ul>
@@ -140,14 +136,14 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 marginBottom: "1.5rem",
               }}
             >
-              Laknavaram & Heritage
+              Warangal & Heritage
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.85rem", fontSize: "0.92rem", color: "var(--ink)" }}>
-              <li>• Laknavaram Lake & Suspension Bridge (1.5 km)</li>
-              <li>• UNESCO Ramappa Temple, Palampet (28 km)</li>
-              <li>• Medaram Sammakka Sarakka Shrine (42 km)</li>
-              <li>• Eturnagaram Wildlife Sanctuary (50 km)</li>
-              <li>• Historic Warangal Fort & Thousand Pillar (72 km)</li>
+              <li>• UNESCO Ramappa Temple, Palampet (~25 km)</li>
+              <li>• Laknavaram Lake & Suspension Bridge (~35 km)</li>
+              <li>• Warangal Fort & Thousand Pillar (~38 km)</li>
+              <li>• Pakhal Lake & Wildlife Sanctuary (~45 km)</li>
+              <li>• Medaram Sammakka Sarakka Shrine (~55 km)</li>
             </ul>
           </div>
 
@@ -211,7 +207,7 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
           }}
         >
           <div>
-            © {new Date().getFullYear()} Kakatiya Resorts Laknavaram. All rights reserved.
+            © {new Date().getFullYear()} Chamundi Resorts & Valley. All rights reserved.
           </div>
 
           <button

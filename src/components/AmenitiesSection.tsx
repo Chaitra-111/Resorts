@@ -52,8 +52,8 @@ export const AmenitiesSection: React.FC = () => {
             Curated for Recharging & Reconnecting
           </h2>
           <p style={{ maxWidth: "620px", margin: "0.8rem auto 0" }}>
-            Every corner of Kakatiya Resorts is crafted to balance outdoor lake adventures across
-            Laknavaram with restorative forest cottage peace.
+            Every corner of Chamundi Resorts & Valley is crafted to balance outdoor countryside
+            leisure with peaceful canalside cottage relaxation.
           </p>
         </div>
 

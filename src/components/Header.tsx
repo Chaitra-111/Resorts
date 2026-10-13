@@ -30,7 +30,7 @@ export const Header: React.FC<HeaderProps> = ({
   return (
     <header className={`site-header ${scrolled ? "is-scrolled" : ""}`}>
       {/* Brand Crest */}
-      <a href="#" className="brand-mark" data-cursor="Kakatiya Resorts">
+      <a href="#" className="brand-mark" data-cursor="Chamundi Resorts">
         <svg
           className="brand-crest"
           viewBox="0 0 64 64"
@@ -40,16 +40,12 @@ export const Header: React.FC<HeaderProps> = ({
           strokeLinecap="round"
           strokeLinejoin="round"
         >
-          <path d="M12 54V22H18V54" />
-          <path d="M46 54V22H52V54" />
-          <path d="M8 22H56" />
-          <path d="M10 16H54" />
-          <path d="M16 16C20 10 44 10 48 16" />
-          <circle cx="32" cy="13" r="3" stroke="var(--amber)" fill="rgba(165,88,45,0.2)" />
-          <path d="M16 48C22 46 26 50 32 48C38 46 42 50 48 48" />
+          <circle cx="32" cy="18" r="6" stroke="var(--amber)" fill="rgba(165,88,45,0.18)" />
+          <path d="M8 48L24 26L36 38L48 24L56 48H8Z" />
+          <path d="M30 40C26 44 38 48 34 54" strokeWidth="2.2" />
         </svg>
-        <span className="brand-word">Kakatiya</span>
-        <span className="brand-sub">Resorts Laknavaram</span>
+        <span className="brand-word">Chamundi</span>
+        <span className="brand-sub">Resorts & Valley</span>
       </a>
 
       {/* Navigation Links */}

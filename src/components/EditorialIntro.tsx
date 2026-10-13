@@ -4,20 +4,20 @@ import { Trees, Compass, Heart } from "lucide-react";
 export const EditorialIntro: React.FC = () => {
   return (
     <section className="editorial-section" id="story">
-      <span className="section-label">The Cradle of Kakatiya Heritage & Nature</span>
+      <span className="section-label">Canalside Serenity in Mallampally</span>
 
       <h2 className="statement-heading">
-        A peaceful lakeside haven tucked beside the <br />
+        A rustic countryside retreat tucked along the <br />
         <em style={{ fontFamily: "var(--serif)", fontStyle: "italic", color: "var(--amber)" }}>
-          10,000-acre waters of Laknavaram.
+          breezy canal valley of Mallampally.
         </em>
       </h2>
 
       <p className="statement-body">
-        Constructed in the 13th century by visionary Kakatiya rulers, Laknavaram Lake cradles 13
-        enchanting green islands enveloped by the dense deciduous forests of Mulugu. Kakatiya Resorts
-        was curated as your ultimate nature sanctuary — where cool water ripples, canopy birdsong,
-        welcoming cottages, and swimming pool fun invite you to slow down and unwind.
+        Located along the scenic Warangal-Mulugu highway, Chamundi Resorts & Valley was envisioned
+        as a tranquil countryside escape. Featuring soothing canal views, rustic wooden chalets,
+        sparkling swimming pool waters, and leafy coconut groves, it serves as the perfect weekend
+        pause for families and travelers exploring Warangal, Ramappa Temple, and Laknavaram Lake.
       </p>
 
       {/* Feature Pillars */}
@@ -39,10 +39,10 @@ export const EditorialIntro: React.FC = () => {
           }}
         >
           <Trees size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>13-Island Lake Basin</h3>
+          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Canalside Greenery</h3>
           <p style={{ fontSize: "0.94rem" }}>
-            Moments away from the iconic 160-meter suspension hanging bridge, speed boating,
-            and pristine hill panoramas of Laknavaram.
+            Wake up to refreshing canal breezes, rustling palms, and morning birdsong
+            far removed from urban congestion.
           </p>
         </div>
 
@@ -55,10 +55,10 @@ export const EditorialIntro: React.FC = () => {
           }}
         >
           <Compass size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Pool & Water Fun</h3>
+          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Poolside Leisure</h3>
           <p style={{ fontSize: "0.94rem" }}>
-            An inviting outdoor swimming pool equipped with water slides and kids splash areas,
-            surrounded by lush green coconut palms.
+            Enjoy refreshing daytime swims in our outdoor pool, complete with comfortable
+            deck loungers and garden walkways.
           </p>
         </div>
 
@@ -71,10 +71,10 @@ export const EditorialIntro: React.FC = () => {
           }}
         >
           <Heart size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Campfires & Orugallu Feasts</h3>
+          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Campfires & Barbecue</h3>
           <p style={{ fontSize: "0.94rem" }}>
-            Savor authentic Telangana country chicken, fresh lake fish fry, and gather around
-            warm twilight bonfires under starlit forest skies.
+            Gather around crackling evening bonfires with hot tandoor skewers, local Telangana
+            feasts, and open-air stargazing.
           </p>
         </div>
       </div>
@@ -82,20 +82,20 @@ export const EditorialIntro: React.FC = () => {
       {/* Key Stats Counter */}
       <div className="statement-stats">
         <div className="stat-item">
-          <h3>10,000 Ac</h3>
-          <p>Historic Lake Area</p>
+          <h3>38 km</h3>
+          <p>From Warangal City</p>
         </div>
         <div className="stat-item">
-          <h3>13</h3>
-          <p>Natural Islands</p>
+          <h3>400+</h3>
+          <p>Lawn Guest Capacity</p>
         </div>
         <div className="stat-item">
-          <h3>160m</h3>
-          <p>Suspension Bridge</p>
+          <h3>100%</h3>
+          <p>Canalside Nature</p>
         </div>
         <div className="stat-item">
-          <h3>4.2 ★</h3>
-          <p>Google Guest Rating</p>
+          <h3>4.0 ★</h3>
+          <p>Guest Rating</p>
         </div>
       </div>
     </section>

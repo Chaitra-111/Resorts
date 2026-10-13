@@ -34,25 +34,25 @@ export const SearchModal: React.FC<SearchModalProps> = ({
     {
       title: "Celebration Lawns & Gatherings",
       category: "Events",
-      description: "Host up to 500+ guests for family reunions, birthdays, or group get-togethers.",
+      description: "Host up to 400+ guests for family reunions, birthdays, or corporate get-togethers.",
       target: "banquets",
     },
     {
-      title: "Orugallu Kitchen & Campfire Grills",
+      title: "Chamundi Valley Restaurant & Grills",
       category: "Dining",
-      description: "Authentic Telangana country chicken, fresh lake fish, and evening grills by the bonfire.",
+      description: "Authentic Telangana country chicken, tandoor delicacies, and evening barbecues by the campfire.",
       target: "dining",
     },
     {
       title: "Route from Hyderabad & Warangal",
       category: "Location",
-      description: "210 km from Hyderabad via NH 163 Warangal Highway; 70 km from Warangal to Bussapur.",
+      description: "185 km from Hyderabad via NH 163 Warangal Highway; 38 km from Warangal to Mallampally Canal.",
       target: "location",
     },
     {
       title: "Verified Guest Reviews & Ratings",
       category: "Reviews",
-      description: "4.2-star guest feedback on Google Reviews and travel portals.",
+      description: "4.0-star guest feedback on Google Reviews (200+ ratings).",
       target: "reviews",
     },
   ];

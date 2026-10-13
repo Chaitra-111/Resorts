@@ -25,7 +25,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
       }}
     >
       <div style={{ textAlign: "center", maxWidth: "600px" }}>
-        {/* Kakatiya Kala Thoranam Arch Emblem */}
+        {/* Valley & Canal Emblem */}
         <div style={{ marginBottom: "1.8rem" }}>
           <svg
             width="58"
@@ -37,15 +37,12 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
             strokeLinecap="round"
             strokeLinejoin="round"
           >
-            {/* Kakatiya Arch / Gateway representation */}
-            <path d="M12 54V22H18V54" />
-            <path d="M46 54V22H52V54" />
-            <path d="M8 22H56" />
-            <path d="M10 16H54" />
-            <path d="M16 16C20 10 44 10 48 16" />
-            <circle cx="32" cy="13" r="3" stroke="var(--amber)" fill="rgba(165,88,45,0.2)" />
-            {/* Lake water waves beneath */}
-            <path d="M16 48C22 46 26 50 32 48C38 46 42 50 48 48" />
+            {/* Sun above valley */}
+            <circle cx="32" cy="18" r="6" stroke="var(--amber)" fill="rgba(165,88,45,0.18)" />
+            {/* Rolling valley hills */}
+            <path d="M8 48L24 26L36 38L48 24L56 48H8Z" />
+            {/* Winding canal in the center */}
+            <path d="M30 40C26 44 38 48 34 54" strokeWidth="2.2" />
           </svg>
         </div>
 
@@ -61,7 +58,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.15s",
             } as React.CSSProperties}
           >
-            Laknavaram Lake · Bussapur, Telangana
+            Beside Canal · Mallampally, Warangal
           </span>
         </span>
 
@@ -77,7 +74,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.35s",
             } as React.CSSProperties}
           >
-            Kakatiya Resorts
+            Chamundi Resorts & Valley
           </span>
         </h2>
 
@@ -92,7 +89,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.55s",
             } as React.CSSProperties}
           >
-            "Lakeside Serenity, Heritage Cottages & Nature Under the Open Stars."
+            "Valley Serenity, Canal Breezes & Rustic Luxury Under Open Skies."
           </span>
         </p>
       </div>

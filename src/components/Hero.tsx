@@ -20,8 +20,8 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
       {/* Background container with parallax */}
       <div className="hero-bg-container">
         <img
-          src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=2400&q=88"
-          alt="Kakatiya Resorts Laknavaram Lake Cottages and Nature Landscape"
+          src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=2400&q=88"
+          alt="Chamundi Resorts and Valley Mallampally Warangal Cottages and Pool"
           className="hero-image"
         />
         <div className="hero-overlay" />
@@ -31,16 +31,16 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
       <div className="hero-content">
         <div className="hero-eyebrow">
           <MapPin size={13} style={{ color: "var(--peach-light)" }} />
-          <span>Bussapur · Near Laknavaram Lake & Hanging Bridge, Telangana</span>
+          <span>Beside Canal · Mallampally, Mulugu Road, Warangal</span>
         </div>
 
         <h1 className="hero-title">
-          Lakeside Serenity & <em>Heritage Forest Cottages.</em>
+          Valley Serenity & <em>Rustic Luxury Cottages.</em>
         </h1>
 
         <p className="hero-desc">
-          Surrounded by whispering teak trees and the historic 10,000-acre Laknavaram Lake.
-          Swimming pool with water slides, lake boating cruises, traditional Orugallu dining, and starry campfire nights.
+          Tucked beside the tranquil canal on the scenic Warangal-Mulugu highway.
+          Outdoor swimming pool, green garden chalets, authentic village-style dining, and crackling campfire nights.
         </p>
 
         <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap", alignItems: "center" }}>
@@ -49,7 +49,7 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
             <ArrowRight size={15} />
           </a>
           <a
-            href={`https://wa.me/919398316500?text=${encodeURIComponent("Hello Kakatiya Resorts Laknavaram, I would like to inquire about booking a cottage / weekend stay.")}`}
+            href={`https://wa.me/919490088889?text=${encodeURIComponent("Hello Chamundi Resorts & Valley, I would like to inquire about booking a cottage / weekend stay.")}`}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-outline"
@@ -103,18 +103,18 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
             onChange={(e) => setGuests(Number(e.target.value))}
           >
             <option value={1}>1 Guest (Solo Traveler)</option>
-            <option value={2}>2 Guests (Rudrama Lakeview Cottage)</option>
-            <option value={3}>3 Guests (Ganapati Deluxe Suite)</option>
-            <option value={6}>4-6 Guests (Prataparudra Family Cottage)</option>
-            <option value={10}>8-12 Guests (Kakatiya Imperial Villa)</option>
-            <option value={25}>25+ Guests (Lawn Celebrations & Outing)</option>
+            <option value={2}>2 Guests (Valley View Timber Chalet)</option>
+            <option value={3}>3 Guests (Chamundi Deluxe Suite)</option>
+            <option value={6}>4-6 Guests (Canalside Family Villa)</option>
+            <option value={10}>8-12 Guests (Royal Valley Grand Estate)</option>
+            <option value={25}>25+ Guests (Lawn Celebrations & Day Outing)</option>
           </select>
         </div>
 
         <div className="booking-field">
           <label className="booking-label">Destination</label>
           <div style={{ fontSize: "0.95rem", fontWeight: 600, color: "var(--ink)" }}>
-            Laknavaram Lake, Mulugu
+            Mallampally, Warangal
           </div>
         </div>
 

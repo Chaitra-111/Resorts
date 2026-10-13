@@ -20,15 +20,15 @@ export const HotspotExplorer: React.FC = () => {
           Explore the Architecture & Landscapes
         </h2>
         <p style={{ maxWidth: "680px", margin: "0 auto" }}>
-          Touch the pulsing points across the property to discover our lakeside cottages, swimming pool
-          with water slides, and nearby Laknavaram Lake attractions.
+          Touch the pulsing points across the property to discover our wooden chalets, outdoor swimming pool,
+          canalside promenade, and valley dining.
         </p>
       </div>
 
       <div className="hotspot-stage">
         <img
           src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1800&q=88"
-          alt="Kakatiya Resorts Grounds, Swimming Pool and Lake Vista"
+          alt="Chamundi Resorts & Valley Grounds, Swimming Pool and Canal Vista"
         />
 
         {/* Hotspot Pins */}

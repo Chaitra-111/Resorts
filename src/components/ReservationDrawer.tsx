@@ -35,17 +35,17 @@ export const ReservationDrawer: React.FC<ReservationDrawerProps> = ({
 
   // WhatsApp Dispatch Message
   const suiteNames = selectedSuites.map((s) => s.name).join(", ");
-  const waMessage = `*KAKATIYA RESORTS LAKNAVARAM RESERVATION INQUIRY*
+  const waMessage = `*CHAMUNDI RESORTS & VALLEY RESERVATION INQUIRY*
 ----------------------------------------
 Guest Name: ${guestName || "Guest"}
 Phone: ${guestPhone || "Not provided"}
 Check-in: ${checkIn}
 Check-out: ${checkOut} (${nights} night${nights > 1 ? "s" : ""})
 Guests: ${guestCount}
-Cottages Selected: ${suiteNames || "General Lakeview Cottage Inquiry"}
+Chalets/Suites Selected: ${suiteNames || "General Valley Chalet Inquiry"}
 Estimated Total: ₹${baseTotal.toLocaleString()}
 ----------------------------------------
-Please confirm cottage availability and tariff.`;
+Please confirm chalet availability and tariff.`;
 
   return (
     <div className="drawer-backdrop" onClick={onClose}>
@@ -297,7 +297,7 @@ Please confirm cottage availability and tariff.`;
           {/* Action CTAs */}
           <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}>
             <a
-              href={`https://wa.me/916302919296?text=${encodeURIComponent(waMessage)}`}
+              href={`https://wa.me/${RESORT_CONTACT.phoneRaw}?text=${encodeURIComponent(waMessage)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-luxury"

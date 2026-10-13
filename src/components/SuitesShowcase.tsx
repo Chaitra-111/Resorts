@@ -64,14 +64,14 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
           }}
         >
           <div>
-            <span className="section-label">Lake & Forest Accommodations</span>
+            <span className="section-label">Valley & Canalside Accommodations</span>
             <h2 style={{ fontSize: "clamp(2.4rem, 4.2vw, 3.8rem)", color: "var(--ink)" }}>
-              The Cottages & Suites
+              The Chalets & Suites
             </h2>
           </div>
           <p style={{ maxWidth: "520px", fontSize: "1.05rem" }}>
-            Thoughtfully crafted for families, couples, and group reunions visiting Laknavaram Lake.
-            Every cottage features air conditioning, scenic veranda sit-outs, and direct access to the pool.
+            Thoughtfully designed for families, couples, and road-trippers on the Warangal-Mulugu highway.
+            Every cottage features air conditioning, scenic veranda sit-outs, and easy pool access.
           </p>
         </div>
 
@@ -263,7 +263,7 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                     </button>
                     <a
                       href={`https://wa.me/${RESORT_CONTACT.phoneRaw}?text=${encodeURIComponent(
-                        `Hi Kakatiya Resorts Laknavaram, I would like details about ${suite.name} (₹${suite.pricePerNight}/night).`
+                        `Hi Chamundi Resorts & Valley, I would like details about ${suite.name} (₹${suite.pricePerNight}/night).`
                       )}`}
                       target="_blank"
                       rel="noopener noreferrer"

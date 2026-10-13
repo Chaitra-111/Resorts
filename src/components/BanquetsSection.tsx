@@ -33,7 +33,7 @@ export const BanquetsSection: React.FC = () => {
             >
               <img
                 src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1400&q=85"
-                alt="Kakatiya Resorts Celebration Lawns & Event Grounds"
+                alt="Chamundi Resorts & Valley Celebration Grounds & Event Lawns"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -65,7 +65,7 @@ export const BanquetsSection: React.FC = () => {
                 Event Capacity
               </span>
               <h4 style={{ fontSize: "1.8rem", color: "var(--ink)", margin: "0.2rem 0" }}>
-                Up to 500+
+                Up to 400+
               </h4>
               <p style={{ fontSize: "0.85rem", color: "var(--muted)" }}>
                 Guests across open celebration lawns & poolside pavilion.
@@ -84,13 +84,13 @@ export const BanquetsSection: React.FC = () => {
                 marginBottom: "1.5rem",
               }}
             >
-              Celebrations Under Open Skies by Laknavaram.
+              Celebrations Under Open Skies by the Canal.
             </h2>
 
             <p style={{ fontSize: "1.05rem", lineHeight: 1.7, marginBottom: "2.2rem" }}>
-              Whether you are organizing a lakeside destination celebration, family reunion,
-              college reunion, or a corporate leadership retreat away from city chaos, our lush
-              green celebration lawns and poolside grounds offer the ultimate refreshing open-air canvas.
+              Whether you are organizing a valley-side destination celebration, family reunion,
+              birthday bash, or corporate leadership retreat away from city chaos, our lush
+              green celebration lawns and poolside grounds in Mallampally offer the ultimate refreshing open-air canvas.
             </p>
 
             <div
@@ -105,23 +105,23 @@ export const BanquetsSection: React.FC = () => {
                 <Sparkles size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "3px" }} />
                 <div>
                   <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Destination Celebrations</h4>
-                  <p style={{ fontSize: "0.88rem" }}>Natural forest backdrop with fairy lighting & stage setups.</p>
+                  <p style={{ fontSize: "0.88rem" }}>Rustic valley & canal backdrop with fairy lighting & stage setups.</p>
                 </div>
               </div>
 
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Users size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "3px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Family Cottages</h4>
-                  <p style={{ fontSize: "0.88rem" }}>Spacious cottages and villas to host entire families together.</p>
+                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Family Chalets</h4>
+                  <p style={{ fontSize: "0.88rem" }}>Wooden chalets and spacious villas to host entire families together.</p>
                 </div>
               </div>
 
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Music size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "3px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Campfire & DJ Nights</h4>
-                  <p style={{ fontSize: "0.88rem" }}>Poolside deck parties, sound systems, and crackling bonfires.</p>
+                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Campfire & Barbecue</h4>
+                  <p style={{ fontSize: "0.88rem" }}>Poolside deck parties, music systems, and live barbecue under the stars.</p>
                 </div>
               </div>
 
@@ -129,7 +129,7 @@ export const BanquetsSection: React.FC = () => {
                 <HeartHandshake size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "3px" }} />
                 <div>
                   <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Corporate Retreats</h4>
-                  <p style={{ fontSize: "0.88rem" }}>Team bonding, cricket tournaments, and lake boating activities.</p>
+                  <p style={{ fontSize: "0.88rem" }}>Team bonding, lawn activities, and day outings just 38 km from Warangal.</p>
                 </div>
               </div>
             </div>
@@ -145,7 +145,7 @@ export const BanquetsSection: React.FC = () => {
               </a>
               <a
                 href={`https://wa.me/${RESORT_CONTACT.phoneRaw}?text=${encodeURIComponent(
-                  "Hello, I am interested in booking Kakatiya Resorts Laknavaram lawns for a celebration event."
+                  "Hello, I am interested in booking Chamundi Resorts & Valley lawns for a celebration event."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
