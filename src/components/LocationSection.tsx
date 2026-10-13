@@ -19,8 +19,8 @@ export const LocationSection: React.FC = () => {
             Location & Getting Here
           </h2>
           <p style={{ maxWidth: "620px", margin: "0.8rem auto 0" }}>
-            Perched atop Ananthagiri Hills on Tandur Road, Vikarabad —
-            just 75 km from Hyderabad (1.5 to 2 hours drive) and 6 km from Vikarabad Railway Station.
+            Secluded in the peaceful forest belt near Pargi, Vikarabad District —
+            just 68 km from Hyderabad (approx. 1 hr 20 mins drive via Chevella Highway).
           </p>
         </div>
 
@@ -59,11 +59,11 @@ export const LocationSection: React.FC = () => {
                 }}
               >
                 <Compass size={16} />
-                <span>Ananthagiri Hills & Forest Belt</span>
+                <span>Private Forest Belt, Pargi</span>
               </div>
 
               <h3 style={{ fontSize: "1.9rem", color: "var(--ink)", marginBottom: "1rem" }}>
-                Haritha Resort Ananthagiri
+                The Ranch by MagoStays
               </h3>
 
               <div
@@ -95,28 +95,35 @@ export const LocationSection: React.FC = () => {
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Car size={18} style={{ color: "var(--amber)" }} />
                   <span style={{ fontSize: "0.92rem" }}>
-                    <strong>From Hyderabad (75 km):</strong> Effortless 1.5 - 2 hour scenic drive via Chevella → Manneguda → Vikarabad uphill to Ananthagiri.
+                    <strong>From Hyderabad / Gachibowli (68 km):</strong> Smooth 1 hour 20-minute drive via Chevella → Manneguda → Pargi road.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Car size={18} style={{ color: "var(--amber)" }} />
                   <span style={{ fontSize: "0.92rem" }}>
-                    <strong>From Vikarabad Station (6 km):</strong> Quick 10-minute drive through winding teak forest roads directly to the resort.
+                    <strong>From Hyderabad Airport (65 km):</strong> Fast 70-minute drive via Outer Ring Road (ORR Exit 7) onto Chevella highway.
+                  </span>
+                </div>
+
+                <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
+                  <Car size={18} style={{ color: "var(--amber)" }} />
+                  <span style={{ fontSize: "0.92rem" }}>
+                    <strong>From Ananthagiri Hills (25 km):</strong> Scenic 30-minute countryside drive connecting Vikarabad with Pargi.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Clock size={18} style={{ color: "var(--amber)" }} />
                   <span style={{ fontSize: "0.92rem" }}>
-                    <strong>Operating Hours:</strong> Check-in: 12:00 PM | Check-out: 11:00 AM (24/7 Front Desk & Parking).
+                    <strong>Stay Schedule:</strong> Check-in: 02:00 PM | Check-out: 11:00 AM (24/7 Resident Caretaker).
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Phone size={18} style={{ color: "var(--amber)" }} />
                   <span style={{ fontSize: "0.92rem" }}>
-                    <strong>Direct Contact:</strong> {RESORT_CONTACT.phone} / {RESORT_CONTACT.phoneAlt} ({RESORT_CONTACT.landline})
+                    <strong>Direct Host Contact:</strong> {RESORT_CONTACT.phone} / {RESORT_CONTACT.phoneAlt}
                   </span>
                 </div>
               </div>
@@ -138,10 +145,10 @@ export const LocationSection: React.FC = () => {
               <a
                 href={`tel:${RESORT_CONTACT.phoneRaw}`}
                 className="btn-outline"
-                data-cursor="Call Resort"
+                data-cursor="Call Host"
               >
                 <Phone size={15} />
-                <span>Call for Directions</span>
+                <span>Call Host for Directions</span>
               </a>
             </div>
           </div>
@@ -157,7 +164,7 @@ export const LocationSection: React.FC = () => {
             }}
           >
             <iframe
-              title="Haritha Resort Ananthagiri Vikarabad Google Map"
+              title="The Ranch by MagoStays Pargi Google Map"
               src={RESORT_CONTACT.googleMapsEmbed}
               width="100%"
               height="100%"

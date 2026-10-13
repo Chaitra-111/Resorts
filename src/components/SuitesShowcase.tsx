@@ -64,14 +64,14 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
           }}
         >
           <div>
-            <span className="section-label">Hillside Forest Accommodations</span>
+            <span className="section-label">Luxury 6BR Farmstay Accommodations</span>
             <h2 style={{ fontSize: "clamp(2.4rem, 4.2vw, 3.8rem)", color: "var(--ink)" }}>
-              Hill Suites & Cottages
+              The Ranch Villa & Suites
             </h2>
           </div>
           <p style={{ maxWidth: "520px", fontSize: "1.05rem" }}>
-            Perched on the crest of Ananthagiri Hills, Vikarabad.
-            Every suite features sweeping valley views, refreshing mountain breezes, and quiet forest seclusion.
+            Book the entire private 6-bedroom estate with exclusive pool buyout, or select individual
+            executive master suites for a secluded forest getaway.
           </p>
         </div>
 
@@ -259,11 +259,11 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                       data-cursor="Select"
                     >
                       <Calendar size={14} />
-                      <span>{isSelected ? "Selected in Plan" : "Select Suite"}</span>
+                      <span>{isSelected ? "Selected in Plan" : "Select Option"}</span>
                     </button>
                     <a
                       href={`https://wa.me/${RESORT_CONTACT.phoneRaw}?text=${encodeURIComponent(
-                        `Hi Haritha Resort Ananthagiri, I would like details about ${suite.name} (₹${suite.pricePerNight}/night).`
+                        `Hi MagoStays, I would like details about ${suite.name} (₹${suite.pricePerNight}/night) at The Ranch Pargi.`
                       )}`}
                       target="_blank"
                       rel="noopener noreferrer"

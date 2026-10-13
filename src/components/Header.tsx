@@ -30,7 +30,7 @@ export const Header: React.FC<HeaderProps> = ({
   return (
     <header className={`site-header ${scrolled ? "is-scrolled" : ""}`}>
       {/* Brand Crest */}
-      <a href="#" className="brand-mark" data-cursor="Haritha Resort">
+      <a href="#" className="brand-mark" data-cursor="The Ranch MagoStays">
         <svg
           className="brand-crest"
           viewBox="0 0 64 64"
@@ -40,12 +40,14 @@ export const Header: React.FC<HeaderProps> = ({
           strokeLinecap="round"
           strokeLinejoin="round"
         >
-          <circle cx="32" cy="16" r="5" stroke="var(--amber)" fill="rgba(165,88,45,0.18)" />
-          <path d="M6 50L22 22L36 38L48 20L58 50H6Z" />
-          <path d="M12 54C22 51 32 57 42 53C48 51 52 54 56 53" strokeWidth="2" />
+          <path d="M8 32L32 14L56 32" />
+          <path d="M14 28V50H50V28" />
+          <path d="M26 50V38C26 35 38 35 38 38V50" />
+          <path d="M10 56C20 53 28 59 38 56C44 54 50 58 54 56" strokeWidth="2" />
+          <circle cx="32" cy="24" r="3" stroke="var(--amber)" fill="rgba(165,88,45,0.25)" />
         </svg>
-        <span className="brand-word">Haritha</span>
-        <span className="brand-sub">Resort Ananthagiri</span>
+        <span className="brand-word">The Ranch</span>
+        <span className="brand-sub">by MagoStays</span>
       </a>
 
       {/* Navigation Links */}
@@ -53,12 +55,12 @@ export const Header: React.FC<HeaderProps> = ({
         <ul className="nav-links">
           <li>
             <a href="#suites" className="nav-link">
-              Cottages
+              Farmstay
             </a>
           </li>
           <li>
             <a href="#hotspots" className="nav-link">
-              Sanctuary
+              The Estate
             </a>
           </li>
           <li>
@@ -68,12 +70,12 @@ export const Header: React.FC<HeaderProps> = ({
           </li>
           <li>
             <a href="#banquets" className="nav-link">
-              Celebrations
+              Gatherings
             </a>
           </li>
           <li>
             <a href="#dining" className="nav-link">
-              Dining
+              Kitchen & BBQ
             </a>
           </li>
           <li>

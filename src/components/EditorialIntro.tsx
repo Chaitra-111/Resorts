@@ -4,19 +4,20 @@ import { Trees, Compass, Heart } from "lucide-react";
 export const EditorialIntro: React.FC = () => {
   return (
     <section className="editorial-section" id="story">
-      <span className="section-label">Telangana's Premier Hill Station Escape</span>
+      <span className="section-label">Exclusive Forest Farmstay Experience</span>
 
       <h2 className="statement-heading">
-        A misty forest hill retreat perched atop the <br />
+        A private 6BR pool sanctuary nestled along the <br />
         <em style={{ fontFamily: "var(--serif)", fontStyle: "italic", color: "var(--amber)" }}>
-          panoramic mountain crest of Ananthagiri Hills.
+          peaceful woodland edge of Pargi.
         </em>
       </h2>
 
       <p className="statement-body">
-        At 700 meters above sea level and enveloped by dense medicinal teak forests, Haritha Resort Ananthagiri
-        offers crisp mountain breezes, sunrise valley views, and direct access to ancient cave temples and forest trekking routes.
-        Located just 75 km from Hyderabad, it is the premier weekend destination for families, trekkers, and peace seekers.
+        Tucked into the lush green countryside near Pargi just 68 km from Hyderabad, The Ranch by MagoStays
+        is crafted for total seclusion and unforgettable group celebrations. Featuring 6 spacious air-conditioned
+        bedrooms, an exclusive outdoor swimming pool, smart projector home theater, self-cooking kitchens, and
+        starlit barbecue lawns, it provides the ultimate private farmstay retreat.
       </p>
 
       {/* Feature Pillars */}
@@ -38,10 +39,10 @@ export const EditorialIntro: React.FC = () => {
           }}
         >
           <Trees size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Misty Hilltop Climate</h3>
+          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Private Pool & Sun Deck</h3>
           <p style={{ fontSize: "0.94rem" }}>
-            Wake up to rolling morning fog, pure oxygen-rich air, and chirping mountain birds
-            at 700m elevation far above the city heat.
+            Enjoy refreshing daytime swims in your exclusive outdoor pool surrounded by wooden decks,
+            sun loungers, and forest greenery.
           </p>
         </div>
 
@@ -54,10 +55,10 @@ export const EditorialIntro: React.FC = () => {
           }}
         >
           <Compass size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Ancient Sacred Shrine</h3>
+          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Projector Home Theater</h3>
           <p style={{ fontSize: "0.94rem" }}>
-            Just 1.5 km from the historic Sri Anantha Padmanabha Swamy Temple in natural rock caves,
-            revered as the sacred origin of River Musi.
+            Gather the entire group in the expansive living hall for movies, gaming, and IPL match
+            screenings on the HD smart projector.
           </p>
         </div>
 
@@ -70,10 +71,10 @@ export const EditorialIntro: React.FC = () => {
           }}
         >
           <Heart size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Kotepally Boating & Treks</h3>
+          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Barbecue & Bonfire Nights</h3>
           <p style={{ fontSize: "0.94rem" }}>
-            Enjoy kayaking and pedal boating at Kotepally Reservoir (14 km), or hike along forest trails
-            winding through medicinal plant reserves.
+            Sizzle fresh skewers on the outdoor charcoal grill, share stories by the crackling bonfire,
+            and enjoy open-air stargazing.
           </p>
         </div>
       </div>
@@ -81,20 +82,20 @@ export const EditorialIntro: React.FC = () => {
       {/* Key Stats Counter */}
       <div className="statement-stats">
         <div className="stat-item">
-          <h3>75 km</h3>
+          <h3>68 km</h3>
           <p>From Hyderabad</p>
         </div>
         <div className="stat-item">
-          <h3>700 m</h3>
-          <p>Hill Elevation</p>
+          <h3>6 BR</h3>
+          <p>AC Master Bedrooms</p>
         </div>
         <div className="stat-item">
-          <h3>1.5 km</h3>
-          <p>To Ancient Temple</p>
+          <h3>30 Guests</h3>
+          <p>Stay Capacity</p>
         </div>
         <div className="stat-item">
-          <h3>3.6 ★</h3>
-          <p>Google Rating (3,500+)</p>
+          <h3>4.8 ★</h3>
+          <p>Guest Rating (Superhost)</p>
         </div>
       </div>
     </section>

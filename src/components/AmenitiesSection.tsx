@@ -56,13 +56,13 @@ export const AmenitiesSection: React.FC = () => {
     >
       <div style={{ maxWidth: "1300px", margin: "0 auto" }}>
         <div style={{ textAlign: "center", marginBottom: "4rem" }}>
-          <span className="section-label">Resort Amenities & Comfort</span>
+          <span className="section-label">Farmstay Amenities & Comfort</span>
           <h2 style={{ fontSize: "clamp(2.4rem, 4vw, 3.8rem)", color: "var(--ink)" }}>
             Curated for Recharging & Reconnecting
           </h2>
           <p style={{ maxWidth: "620px", margin: "0.8rem auto 0" }}>
-            Every aspect of Haritha Resort Ananthagiri is tailored to balance refreshing hill station climate
-            with tranquil forest trekking, ancient cave temples, and peaceful mountain relaxation.
+            Every corner of The Ranch by MagoStays is crafted to provide absolute privacy, luxurious comfort,
+            and immersive nature experiences for family reunions, celebrations, and group retreats.
           </p>
         </div>
 
@@ -136,15 +136,16 @@ export const AmenitiesSection: React.FC = () => {
               }}
             >
               <CheckCircle2 size={16} />
-              <span>Residential Stay Guidelines & Tips</span>
+              <span>Private Farmstay Stay Guidelines</span>
             </div>
             <h4 style={{ fontSize: "1.45rem", marginBottom: "0.6rem", color: "var(--ink)" }}>
-              A Truly Refreshing Hilltop Stay
+              Seamless Private Group Hosting
             </h4>
             <p style={{ fontSize: "0.95rem", maxWidth: "800px" }}>
-              For the best experience in Ananthagiri, we recommend booking suites well in advance for weekends.
-              Bring light woolens for cool foggy mornings and evenings, comfortable walking shoes for forest trails,
-              and don't miss early morning sunrise viewpoints and kayaking at Kotepally Reservoir.
+              As an exclusive private farmstay, we provide fully functional indoor and outdoor kitchens with
+              refrigeration, gas stoves, and cookware. Guests are encouraged to bring their preferred groceries and
+              barbecue marinades. Our dedicated resident caretaker is available 24/7 to assist with swimming pool maintenance,
+              setting up the live charcoal barbecue, lighting evening bonfires, and guiding forest walks.
             </p>
           </div>
 
@@ -152,9 +153,9 @@ export const AmenitiesSection: React.FC = () => {
             href={`tel:${RESORT_CONTACT.phoneRaw}`}
             className="btn-luxury"
             style={{ whiteSpace: "nowrap" }}
-            data-cursor="Call Concierge"
+            data-cursor="Call Host"
           >
-            <span>Ask Front Desk</span>
+            <span>Call MagoStays Host</span>
           </a>
         </div>
       </div>

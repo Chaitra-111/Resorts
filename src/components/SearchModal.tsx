@@ -21,7 +21,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
   const items = [
     ...RESORT_SUITES.map((s) => ({
       title: s.name,
-      category: "Suite",
+      category: "Sanctuary",
       description: s.description,
       target: "suites",
     })),
@@ -32,27 +32,27 @@ export const SearchModal: React.FC<SearchModalProps> = ({
       target: "experiences",
     })),
     {
-      title: "Hilltop Lawns & Offsites",
+      title: "Poolside Lawns & Private Celebrations",
       category: "Events",
-      description: "Host up to 300+ guests for corporate retreats, family pilgrimages, and bonfire gatherings.",
+      description: "Host intimate celebrations, birthdays, sundowners, and team retreats for up to 50 guests.",
       target: "banquets",
     },
     {
-      title: "Haritha Valley Restaurant & Dining",
+      title: "Dual Kitchens, BBQ & Bonfire Gathering",
       category: "Dining",
-      description: "Piping hot South Indian breakfast, traditional Telangana curries, biryani, and evening campfires.",
+      description: "Fully equipped indoor & outdoor kitchen for self-cooking, live charcoal barbecue grill, and star-lit bonfire pit.",
       target: "dining",
     },
     {
-      title: "Route from Hyderabad & Vikarabad",
+      title: "Drive from Hyderabad & Airport",
       category: "Location",
-      description: "75 km from Hyderabad via Chevella Highway (1.5 - 2 hrs); 6 km from Vikarabad Railway Station.",
+      description: "68 km from Hyderabad / Gachibowli (~1 hr 20 mins via Chevella Hwy); 65 km from Rajiv Gandhi Intl Airport (ORR Exit 7).",
       target: "location",
     },
     {
-      title: "Verified Guest Reviews & Ratings",
+      title: "Superhost Verified Reviews & Ratings",
       category: "Reviews",
-      description: "3.6-star guest feedback on Google Reviews (3,500+ ratings).",
+      description: "4.8-star guest feedback across Airbnb Superhost portfolio and Google Reviews.",
       target: "reviews",
     },
   ];
@@ -83,7 +83,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
           <Search size={22} style={{ color: "var(--amber)" }} />
           <input
             type="text"
-            placeholder="Search suites, viewpoints, temple, location, dining…"
+            placeholder="Search 6BR villa, private pool, BBQ, home theater, route…"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             autoFocus

@@ -33,7 +33,7 @@ export const BanquetsSection: React.FC = () => {
             >
               <img
                 src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1400&q=85"
-                alt="Haritha Resort Ananthagiri Hilltop Lawns & Gathering Grounds"
+                alt="The Ranch by MagoStays Private Celebrations and Lawn Events"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -65,17 +65,17 @@ export const BanquetsSection: React.FC = () => {
                 Event Capacity
               </span>
               <h4 style={{ fontSize: "1.8rem", color: "var(--ink)", margin: "0.2rem 0" }}>
-                Up to 300+
+                Up to 50+
               </h4>
               <p style={{ fontSize: "0.85rem", color: "var(--muted)" }}>
-                Guests across open hilltop lawns, conference hall & garden pavilion.
+                Guests across private poolside deck, open lawns & terrace.
               </p>
             </div>
           </div>
 
           {/* Editorial Content */}
           <div>
-            <span className="section-label">Gatherings & Offsites</span>
+            <span className="section-label">Private Gatherings & Offsites</span>
             <h2
               style={{
                 fontSize: "clamp(2.4rem, 4vw, 3.8rem)",
@@ -84,13 +84,13 @@ export const BanquetsSection: React.FC = () => {
                 marginBottom: "1.5rem",
               }}
             >
-              Celebrations & Offsites in the Cool Hills.
+              Private Celebrations, Reunions & Farmstay Offsites.
             </h2>
 
             <p style={{ fontSize: "1.05rem", lineHeight: 1.7, marginBottom: "2.2rem" }}>
-              Whether you are organizing a corporate leadership offsite from Hyderabad, a family pilgrimage
-              reunion near the sacred temple, or an energetic college retreat with bonfires, our panoramic
-              hilltop grounds and fresh mountain air offer the most refreshing natural canvas.
+              Whether you are organizing an intimate birthday pool party, family anniversary, college reunion,
+              or an executive leadership retreat from Hyderabad, The Ranch offers an entirely private estate
+              where your group has complete freedom over music, schedule, barbecue, and relaxation.
             </p>
 
             <div
@@ -104,32 +104,32 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Sparkles size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "3px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Corporate Retreats</h4>
-                  <p style={{ fontSize: "0.88rem" }}>Team bonding and leadership workshops only 75 km from Hitech City.</p>
+                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Poolside Parties</h4>
+                  <p style={{ fontSize: "0.88rem" }}>Exclusive pool deck for daytime swims, music, and sunset hangouts.</p>
                 </div>
               </div>
 
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Users size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "3px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Family Pilgrimages</h4>
-                  <p style={{ fontSize: "0.88rem" }}>Group cottages located 3 mins from Sri Anantha Padmanabha Swamy Temple.</p>
+                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Family Reunions</h4>
+                  <p style={{ fontSize: "0.88rem" }}>6 spacious AC bedrooms accommodating up to 30 guests comfortably.</p>
                 </div>
               </div>
 
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Music size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "3px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Hilltop Campfires</h4>
-                  <p style={{ fontSize: "0.88rem" }}>Crisp evening air, live barbecue, music, and starry night skies.</p>
+                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Barbecue & Bonfire</h4>
+                  <p style={{ fontSize: "0.88rem" }}>Live charcoal grill with skewers and evening bonfire pit under the stars.</p>
                 </div>
               </div>
 
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <HeartHandshake size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "3px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Kayaking & Treks</h4>
-                  <p style={{ fontSize: "0.88rem" }}>Group kayaking at Kotepally Reservoir and guided forest hikes.</p>
+                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Projector Theater</h4>
+                  <p style={{ fontSize: "0.88rem" }}>Smart HD projector and surround audio in the hall for group screenings.</p>
                 </div>
               </div>
             </div>
@@ -138,14 +138,14 @@ export const BanquetsSection: React.FC = () => {
               <a
                 href={`tel:${RESORT_CONTACT.phoneRaw}`}
                 className="btn-luxury"
-                data-cursor="Call Manager"
+                data-cursor="Call Host"
               >
                 <PhoneCall size={15} />
-                <span>Call Event Coordinator</span>
+                <span>Call Farmstay Host</span>
               </a>
               <a
                 href={`https://wa.me/${RESORT_CONTACT.phoneRaw}?text=${encodeURIComponent(
-                  "Hello, I am interested in booking Haritha Resort Ananthagiri for an offsite / group event."
+                  "Hello MagoStays, I am interested in booking The Ranch 6BR Pool Farmstay for a private celebration / group stay."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"

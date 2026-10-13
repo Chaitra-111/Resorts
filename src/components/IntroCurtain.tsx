@@ -25,7 +25,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
       }}
     >
       <div style={{ textAlign: "center", maxWidth: "600px" }}>
-        {/* Hill Station & Mountain Mist Emblem */}
+        {/* Luxury Ranch & Pool Villa Emblem */}
         <div style={{ marginBottom: "1.8rem" }}>
           <svg
             width="58"
@@ -37,12 +37,15 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
             strokeLinecap="round"
             strokeLinejoin="round"
           >
-            {/* Sunrise over mountains */}
-            <circle cx="32" cy="16" r="5" stroke="var(--amber)" fill="rgba(165,88,45,0.18)" />
-            {/* Ananthagiri Mountain Peaks */}
-            <path d="M6 50L22 22L36 38L48 20L58 50H6Z" />
-            {/* Forest mist / waves */}
-            <path d="M12 54C22 51 32 57 42 53C48 51 52 54 56 53" strokeWidth="2" />
+            {/* Ranch Villa Gable Roof */}
+            <path d="M8 32L32 14L56 32" />
+            <path d="M14 28V50H50V28" />
+            {/* Arched entrance doorway */}
+            <path d="M26 50V38C26 35 38 35 38 38V50" />
+            {/* Pool water ripple below */}
+            <path d="M10 56C20 53 28 59 38 56C44 54 50 58 54 56" strokeWidth="2" />
+            {/* Star accent */}
+            <circle cx="32" cy="24" r="3" stroke="var(--amber)" fill="rgba(165,88,45,0.25)" />
           </svg>
         </div>
 
@@ -58,7 +61,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.15s",
             } as React.CSSProperties}
           >
-            Telangana Tourism · Ananthagiri Hills, Vikarabad
+            MagoStays Luxury Farmstays · Pargi, Vikarabad
           </span>
         </span>
 
@@ -74,7 +77,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.35s",
             } as React.CSSProperties}
           >
-            Haritha Resort Ananthagiri
+            The Ranch by MagoStays
           </span>
         </h2>
 
@@ -89,7 +92,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.55s",
             } as React.CSSProperties}
           >
-            "Misty Valley Heights, Sacred Hills & Pine Breezes Just 75 km from Hyderabad."
+            "Exclusive 6BR Pool Farmstay & Forest Seclusion Just 68 km from Hyderabad."
           </span>
         </p>
       </div>

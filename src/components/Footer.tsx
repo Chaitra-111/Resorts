@@ -43,23 +43,24 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 strokeLinecap="round"
                 strokeLinejoin="round"
               >
-                <circle cx="32" cy="16" r="5" stroke="var(--amber)" fill="rgba(165,88,45,0.18)" />
-                <path d="M6 50L22 22L36 38L48 20L58 50H6Z" />
-                <path d="M12 54C22 51 32 57 42 53C48 51 52 54 56 53" strokeWidth="2" />
+                <path d="M8 34L32 14L56 34" strokeWidth="2.2" />
+                <path d="M14 30V50H50V30" />
+                <rect x="22" y="32" width="20" height="18" rx="2" fill="rgba(197,143,62,0.12)" />
+                <path d="M8 56C18 53 28 58 38 55C48 52 54 55 58 54" strokeWidth="2" />
               </svg>
               <div>
-                <h3 style={{ fontSize: "1.45rem", letterSpacing: "0.15em", textTransform: "uppercase" }}>
-                  Haritha
+                <h3 style={{ fontSize: "1.35rem", letterSpacing: "0.15em", textTransform: "uppercase" }}>
+                  The Ranch
                 </h3>
-                <span style={{ fontSize: "0.68rem", letterSpacing: "0.3em", textTransform: "uppercase", color: "var(--muted)" }}>
-                  Resort Ananthagiri
+                <span style={{ fontSize: "0.68rem", letterSpacing: "0.3em", textTransform: "uppercase", color: "var(--amber)" }}>
+                  By MagoStays · Pargi
                 </span>
               </div>
             </div>
 
             <p style={{ fontSize: "0.95rem", lineHeight: 1.65, maxWidth: "340px", marginBottom: "1.5rem" }}>
-              A scenic hilltop forest getaway operated by Telangana Tourism atop Ananthagiri Hills, Vikarabad.
-              Featuring panoramic valley view suites, cool mountain breezes, Haritha restaurant, ancient cave temples, and forest trekking.
+              An exclusive 6-Bedroom private pool farmstay nestled in the serene forest belt near Pargi, Vikarabad.
+              Managed by MagoStays with full estate buyout, crystal-clear private pool, home theater projector, dual kitchens, BBQ, and attentive caretaker hospitality.
             </p>
 
             {/* Atmosphere Mood Switcher in Footer */}
@@ -93,32 +94,32 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 marginBottom: "1.5rem",
               }}
             >
-              The Hill Sanctuary
+              The Ranch Estate
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.85rem", fontSize: "0.95rem" }}>
               <li>
                 <a href="#suites" className="footer-link">
-                  Hill Suites & Cottages
+                  6BR Villa & Suites
                 </a>
               </li>
               <li>
                 <a href="#hotspots" className="footer-link">
-                  Panoramic Viewpoints
+                  Private Pool & Theater
                 </a>
               </li>
               <li>
                 <a href="#experiences" className="footer-link">
-                  Resort Amenities & Lawns
+                  Farmstay Amenities & Lawn
                 </a>
               </li>
               <li>
                 <a href="#banquets" className="footer-link">
-                  Hilltop Lawns (300+)
+                  Private Celebrations (50 Guests)
                 </a>
               </li>
               <li>
                 <a href="#dining" className="footer-link">
-                  Haritha Valley Restaurant
+                  Self-Cooking & Live BBQ
                 </a>
               </li>
             </ul>
@@ -136,14 +137,14 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 marginBottom: "1.5rem",
               }}
             >
-              Ananthagiri & Vikarabad
+              Pargi & Vicinity
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.85rem", fontSize: "0.92rem", color: "var(--ink)" }}>
-              <li>• Sri Anantha Padmanabha Swamy Temple (1.5 km)</li>
-              <li>• Ananthagiri Sunset Viewpoint (1 km)</li>
-              <li>• Sacred River Musi Origin Point (1.5 km)</li>
-              <li>• Kotepally Reservoir & Kayaking (14 km)</li>
-              <li>• Vikarabad Reserve Forest Trekking (Direct)</li>
+              <li>• Pargi Town & Local Market (4 km)</li>
+              <li>• Ananthagiri Forest Hills (25 km)</li>
+              <li>• Kotepally Kayaking Lake (38 km)</li>
+              <li>• Hyderabad Financial District (68 km)</li>
+              <li>• Rajiv Gandhi Intl Airport (65 km)</li>
             </ul>
           </div>
 
@@ -207,7 +208,7 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
           }}
         >
           <div>
-            © {new Date().getFullYear()} Haritha Resort Ananthagiri, Vikarabad. Telangana Tourism.
+            © {new Date().getFullYear()} The Ranch by MagoStays. All rights reserved. Managed by MagoStays Hospitality.
           </div>
 
           <button
