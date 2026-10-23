@@ -9,7 +9,6 @@ export const MomentsCarousel: React.FC = () => {
 
   const maxIndex = RESORT_MOMENTS.length - 1;
 
-  // Calculate exact slide step including gap based on actual rendered card size
   useEffect(() => {
     const updateOffset = () => {
       if (containerRef.current) {
@@ -38,62 +37,51 @@ export const MomentsCarousel: React.FC = () => {
   return (
     <section
       id="moments"
+      className="section-pad"
       style={{
-        padding: "6rem 0",
-        maxWidth: "1400px",
-        margin: "0 auto",
+        background: "var(--cream)",
         overflow: "hidden",
       }}
     >
-      <div
-        className="section-pad"
-        style={{
-          paddingTop: 0,
-          paddingBottom: "2.5rem",
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "flex-end",
-          flexWrap: "wrap",
-          gap: "2rem",
-        }}
-      >
-        <div>
-          <span className="section-label">A Day at Hotel Nikhil Sai</span>
-          <h2 style={{ fontSize: "clamp(2.4rem, 4.2vw, 3.8rem)", color: "var(--ink)" }}>
-            Moments in Golden Hospitality
-          </h2>
-          <p style={{ maxWidth: "580px", marginTop: "0.5rem" }}>
-            From morning breakfast spreads at Chaskah to starlit wedding celebrations on the Upper Deck
-            and lively evenings at Inswinger sports lounge.
-          </p>
-        </div>
+      <div className="content-container">
+        {/* Section Header */}
+        <div className="section-header-split">
+          <div className="left">
+            <span className="section-label">A Day at Hotel Nikhil Sai</span>
+            <h2 className="section-title">Moments in Golden Hospitality</h2>
+            <p className="section-desc">
+              From morning breakfast spreads at Chaskah to starlit wedding celebrations on the Upper Deck
+              and lively evenings at Inswinger sports lounge.
+            </p>
+          </div>
 
-        {/* Navigation Controls */}
-        <div style={{ display: "flex", gap: "0.8rem" }}>
-          <button
-            onClick={handlePrev}
-            disabled={currentIndex === 0}
-            className="btn-icon"
-            style={{
-              opacity: currentIndex === 0 ? 0.35 : 1,
-              cursor: currentIndex === 0 ? "not-allowed" : "pointer",
-            }}
-            data-cursor="Prev"
-          >
-            <ArrowLeft size={18} />
-          </button>
-          <button
-            onClick={handleNext}
-            disabled={currentIndex === maxIndex}
-            className="btn-icon"
-            style={{
-              opacity: currentIndex === maxIndex ? 0.35 : 1,
-              cursor: currentIndex === maxIndex ? "not-allowed" : "pointer",
-            }}
-            data-cursor="Next"
-          >
-            <ArrowRight size={18} />
-          </button>
+          {/* Navigation Controls */}
+          <div style={{ display: "flex", gap: "0.8rem", alignSelf: "flex-end" }}>
+            <button
+              onClick={handlePrev}
+              disabled={currentIndex === 0}
+              className="btn-icon"
+              style={{
+                opacity: currentIndex === 0 ? 0.35 : 1,
+                cursor: currentIndex === 0 ? "not-allowed" : "pointer",
+              }}
+              data-cursor="Prev"
+            >
+              <ArrowLeft size={18} />
+            </button>
+            <button
+              onClick={handleNext}
+              disabled={currentIndex === maxIndex}
+              className="btn-icon"
+              style={{
+                opacity: currentIndex === maxIndex ? 0.35 : 1,
+                cursor: currentIndex === maxIndex ? "not-allowed" : "pointer",
+              }}
+              data-cursor="Next"
+            >
+              <ArrowRight size={18} />
+            </button>
+          </div>
         </div>
       </div>
 
@@ -101,8 +89,11 @@ export const MomentsCarousel: React.FC = () => {
       <div
         ref={containerRef}
         style={{
-          paddingLeft: "clamp(1.5rem, 4vw, 4rem)",
-          position: "relative",
+          maxWidth: "var(--container-max)",
+          margin: "0 auto",
+          paddingLeft: "2rem",
+          paddingRight: "2rem",
+          overflow: "visible",
         }}
       >
         <div
@@ -120,7 +111,6 @@ export const MomentsCarousel: React.FC = () => {
                   width: "100%",
                   height: "100%",
                   objectFit: "cover",
-                  transition: "transform 0.6s ease",
                 }}
               />
               <div
@@ -128,7 +118,7 @@ export const MomentsCarousel: React.FC = () => {
                   position: "absolute",
                   inset: 0,
                   background:
-                    "linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(15, 12, 11, 0.85) 100%)",
+                    "linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(18, 12, 8, 0.85) 100%)",
                 }}
               />
 
@@ -140,13 +130,13 @@ export const MomentsCarousel: React.FC = () => {
                   display: "flex",
                   alignItems: "center",
                   gap: "0.4rem",
-                  background: "rgba(255,255,255,0.2)",
+                  background: "rgba(255,255,255,0.22)",
                   backdropFilter: "blur(8px)",
                   padding: "0.3rem 0.75rem",
                   borderRadius: "9999px",
                   color: "#fff",
-                  fontSize: "0.75rem",
-                  fontWeight: 600,
+                  fontSize: "0.72rem",
+                  fontWeight: 700,
                 }}
               >
                 <Clock size={12} />
@@ -175,10 +165,10 @@ export const MomentsCarousel: React.FC = () => {
                   <MapPin size={12} />
                   <span>{moment.location}</span>
                 </div>
-                <h4 style={{ fontSize: "1.35rem", marginBottom: "0.4rem", color: "#fff" }}>
+                <h4 style={{ fontSize: "1.3rem", marginBottom: "0.35rem", color: "#fff" }}>
                   {moment.title}
                 </h4>
-                <p style={{ fontSize: "0.85rem", opacity: 0.88, lineHeight: 1.5 }}>
+                <p style={{ fontSize: "0.85rem", opacity: 0.9, lineHeight: 1.5, color: "#fff" }}>
                   {moment.caption}
                 </p>
               </div>

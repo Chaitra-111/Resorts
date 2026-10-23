@@ -15,56 +15,56 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
   return (
     <footer
       style={{
-        background: "var(--cream-soft)",
+        background: "var(--cream)",
         borderTop: "1px solid var(--card-border)",
-        padding: "6rem 3.5rem 3rem",
+        padding: "5rem 0 2.5rem",
       }}
     >
-      <div style={{ maxWidth: "1300px", margin: "0 auto" }}>
+      <div className="content-container">
         {/* Main Footer Row */}
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
-            gap: "3.5rem",
-            marginBottom: "5rem",
+            gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
+            gap: "3rem",
+            marginBottom: "4rem",
           }}
         >
           {/* Brand Column */}
           <div>
             <div style={{ display: "flex", alignItems: "center", gap: "0.8rem", marginBottom: "1.2rem" }}>
               <svg
-                width="36"
-                height="36"
+                width="34"
+                height="34"
                 viewBox="0 0 64 64"
                 fill="none"
                 stroke="var(--amber)"
-                strokeWidth="1.8"
+                strokeWidth="2"
               >
-                <circle cx="32" cy="18" r="6" stroke="var(--amber)" fill="rgba(165,88,45,0.12)" />
-                <path d="M12 48L20 24L32 34L44 24L52 48H12Z" />
-                <path d="M20 24L32 34L44 24" />
-                <path d="M12 48H52" />
+                <circle cx="32" cy="18" r="6" fill="rgba(165,88,45,0.18)" />
+                <path d="M14 48L22 24L32 34L42 24L50 48H14Z" />
+                <path d="M22 24L32 34L42 24" />
+                <path d="M14 48H50" />
               </svg>
               <div>
-                <h3 style={{ fontSize: "1.2rem", letterSpacing: "0.1em", textTransform: "uppercase" }}>
+                <h3 style={{ fontSize: "1.2rem", letterSpacing: "0.08em", textTransform: "uppercase" }}>
                   {RESORT_CONTACT.name}
                 </h3>
-                <span style={{ fontSize: "0.68rem", letterSpacing: "0.25em", textTransform: "uppercase", color: "var(--muted)" }}>
+                <span style={{ fontSize: "0.68rem", letterSpacing: "0.18em", textTransform: "uppercase", color: "var(--muted)" }}>
                   {RESORT_CONTACT.subTitle}
                 </span>
               </div>
             </div>
 
-            <p style={{ fontSize: "0.95rem", lineHeight: 1.65, maxWidth: "340px", marginBottom: "1.5rem" }}>
+            <p style={{ fontSize: "0.92rem", lineHeight: 1.65, maxWidth: "340px", marginBottom: "1.5rem" }}>
               Nizamabad's landmark hospitality address. Executive suites, Chaskah multi-cuisine restaurant,
               Baithak & Upper Deck grand celebration banquets, and vibrant sports lounges.
             </p>
 
             {/* Atmosphere Mood Switcher in Footer */}
             <div>
-              <span style={{ fontSize: "0.72rem", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--muted)", display: "block", marginBottom: "0.5rem" }}>
-                Set Property Atmosphere:
+              <span style={{ fontSize: "0.7rem", fontWeight: 700, letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--muted)", display: "block", marginBottom: "0.5rem" }}>
+                Property Atmosphere:
               </span>
               <div className="mood-bar">
                 {AMBIENT_MOODS.map((m) => (
@@ -84,17 +84,17 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
           <div>
             <h4
               style={{
-                fontSize: "0.82rem",
+                fontSize: "0.8rem",
                 fontWeight: 700,
-                letterSpacing: "0.2em",
+                letterSpacing: "0.18em",
                 textTransform: "uppercase",
                 color: "var(--amber)",
-                marginBottom: "1.5rem",
+                marginBottom: "1.2rem",
               }}
             >
               The Hotel
             </h4>
-            <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.85rem", fontSize: "0.95rem" }}>
+            <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.92rem" }}>
               <li>
                 <a href="#suites" className="footer-link">
                   Rooms & Executive Suites
@@ -127,17 +127,17 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
           <div>
             <h4
               style={{
-                fontSize: "0.82rem",
+                fontSize: "0.8rem",
                 fontWeight: 700,
-                letterSpacing: "0.2em",
+                letterSpacing: "0.18em",
                 textTransform: "uppercase",
                 color: "var(--amber)",
-                marginBottom: "1.5rem",
+                marginBottom: "1.2rem",
               }}
             >
               Nizamabad Landmarks
             </h4>
-            <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.85rem", fontSize: "0.92rem", color: "var(--ink)" }}>
+            <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.9rem", color: "var(--ink)" }}>
               <li>• Venu Mall & Multiplex (130 meters)</li>
               <li>• Nizamabad Railway Junction (2.0 km)</li>
               <li>• Nizamabad TSRTC Central Bus Stand (1.5 km)</li>
@@ -151,21 +151,21 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
           <div>
             <h4
               style={{
-                fontSize: "0.82rem",
+                fontSize: "0.8rem",
                 fontWeight: 700,
-                letterSpacing: "0.2em",
+                letterSpacing: "0.18em",
                 textTransform: "uppercase",
                 color: "var(--amber)",
-                marginBottom: "1.5rem",
+                marginBottom: "1.2rem",
               }}
             >
               Direct Concierge
             </h4>
-            <div style={{ display: "flex", flexDirection: "column", gap: "1rem", fontSize: "0.94rem" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.9rem", fontSize: "0.92rem" }}>
               <div style={{ display: "flex", gap: "0.6rem", alignItems: "flex-start" }}>
                 <Phone size={18} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <a href={`tel:${RESORT_CONTACT.phoneRaw}`} style={{ fontWeight: 600 }}>
+                  <a href={`tel:${RESORT_CONTACT.phoneRaw}`} style={{ fontWeight: 700, color: "var(--ink)" }}>
                     {RESORT_CONTACT.phone}
                   </a>
                   <div style={{ fontSize: "0.8rem", color: "var(--muted)" }}>Desk: {RESORT_CONTACT.phoneAlt}</div>
@@ -190,7 +190,7 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                   href={RESORT_CONTACT.googleMapsUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  style={{ color: "var(--amber)", textDecoration: "underline" }}
+                  style={{ color: "var(--amber)", textDecoration: "underline", fontWeight: 600 }}
                 >
                   Google Maps Official Profile
                 </a>
@@ -202,7 +202,7 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
         {/* Bottom Bar */}
         <div
           style={{
-            paddingTop: "2.5rem",
+            paddingTop: "2rem",
             borderTop: "1px solid var(--card-border)",
             display: "flex",
             justifyContent: "space-between",
@@ -220,7 +220,7 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
           <button
             onClick={scrollToTop}
             className="btn-outline"
-            style={{ fontSize: "0.78rem", padding: "0.5rem 1.2rem" }}
+            style={{ fontSize: "0.75rem", padding: "0.45rem 1.1rem" }}
             data-cursor="Top"
           >
             <span>Back to Beginning</span>

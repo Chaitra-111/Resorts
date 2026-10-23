@@ -11,8 +11,8 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLifted(true);
-      setTimeout(onComplete, 900);
-    }, 2000);
+      setTimeout(onComplete, 600);
+    }, 700);
 
     return () => clearTimeout(timer);
   }, [onComplete]);
@@ -22,55 +22,56 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
       className={`intro-curtain ${lifted ? "lifted" : ""}`}
       onClick={() => {
         setLifted(true);
-        setTimeout(onComplete, 800);
+        setTimeout(onComplete, 300);
       }}
+      title="Click to skip"
     >
       <div style={{ textAlign: "center", maxWidth: "600px" }}>
         {/* Luxury Hotel Crest Emblem */}
-        <div style={{ marginBottom: "1.8rem" }}>
+        <div style={{ marginBottom: "1.5rem" }}>
           <svg
-            width="54"
-            height="54"
+            width="48"
+            height="48"
             viewBox="0 0 64 64"
             fill="none"
             stroke="var(--amber)"
-            strokeWidth="1.6"
+            strokeWidth="1.8"
             strokeLinecap="round"
             strokeLinejoin="round"
           >
-            <circle cx="32" cy="18" r="6" stroke="var(--amber)" fill="rgba(165,88,45,0.12)" />
-            <path d="M12 48L20 24L32 34L44 24L52 48H12Z" />
-            <path d="M20 24L32 34L44 24" />
-            <path d="M12 48H52" />
+            <circle cx="32" cy="18" r="6" fill="rgba(165,88,45,0.18)" />
+            <path d="M14 48L22 24L32 34L42 24L50 48H14Z" />
+            <path d="M22 24L32 34L42 24" />
+            <path d="M14 48H50" />
           </svg>
         </div>
 
-        <span className="rise-mask" style={{ marginBottom: "0.5rem" }}>
+        <span className="rise-mask" style={{ marginBottom: "0.4rem" }}>
           <span
             className="rise"
             style={{
-              fontSize: "0.8rem",
-              letterSpacing: "0.32em",
+              fontSize: "0.76rem",
+              letterSpacing: "0.28em",
               textTransform: "uppercase",
               color: "var(--amber)",
-              fontWeight: 600,
-              "--d": "0.15s",
+              fontWeight: 700,
+              "--d": "0.1s",
             } as React.CSSProperties}
           >
             Nizamabad · Telangana
           </span>
         </span>
 
-        <h2 className="rise-mask" style={{ margin: "0.8rem 0 1.2rem" }}>
+        <h2 className="rise-mask" style={{ margin: "0.6rem 0 1rem" }}>
           <span
             className="rise"
             style={{
               fontFamily: "var(--serif)",
-              fontSize: "clamp(2rem, 4.5vw, 3.2rem)",
-              fontWeight: 400,
+              fontSize: "clamp(2rem, 4.5vw, 3rem)",
+              fontWeight: 600,
               color: "var(--ink)",
               lineHeight: 1.2,
-              "--d": "0.35s",
+              "--d": "0.2s",
             } as React.CSSProperties}
           >
             {RESORT_CONTACT.name}
@@ -81,11 +82,11 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
           <span
             className="rise"
             style={{
-              fontSize: "1.05rem",
+              fontSize: "1rem",
               fontStyle: "italic",
               fontFamily: "var(--serif)",
               color: "var(--muted)",
-              "--d": "0.55s",
+              "--d": "0.35s",
             } as React.CSSProperties}
           >
             "Where timeless hospitality meets modern refinement."

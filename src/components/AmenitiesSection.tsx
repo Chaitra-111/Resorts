@@ -15,23 +15,23 @@ export const AmenitiesSection: React.FC = () => {
   const getIcon = (iconName: string) => {
     switch (iconName) {
       case "Waves":
-        return <Waves size={26} />;
+        return <Waves size={24} />;
       case "Sparkles":
-        return <Sparkles size={26} />;
+        return <Sparkles size={24} />;
       case "Flame":
-        return <Flame size={26} />;
+        return <Flame size={24} />;
       case "UtensilsCrossed":
-        return <UtensilsCrossed size={26} />;
+        return <UtensilsCrossed size={24} />;
       case "Mountain":
-        return <Mountain size={26} />;
+        return <Mountain size={24} />;
       case "Gamepad2":
-        return <Gamepad2 size={26} />;
+        return <Gamepad2 size={24} />;
       case "ShieldCheck":
-        return <ShieldCheck size={26} />;
+        return <ShieldCheck size={24} />;
       case "Coffee":
-        return <Coffee size={26} />;
+        return <Coffee size={24} />;
       default:
-        return <Sparkles size={26} />;
+        return <Sparkles size={24} />;
     }
   };
 
@@ -40,61 +40,53 @@ export const AmenitiesSection: React.FC = () => {
       id="experiences"
       className="section-pad"
       style={{
-        background: "var(--cream)",
+        background: "var(--cream-soft)",
         borderTop: "1px solid var(--card-border)",
       }}
     >
-      <div style={{ maxWidth: "1300px", margin: "0 auto" }}>
-        <div style={{ textAlign: "center", marginBottom: "4rem" }}>
+      <div className="content-container">
+        <div className="section-header-center">
           <span className="section-label">Hotel Amenities & Comfort</span>
-          <h2 style={{ fontSize: "clamp(2.4rem, 4vw, 3.8rem)", color: "var(--ink)" }}>
-            Curated for Business & Celebratory Leisure
-          </h2>
-          <p style={{ maxWidth: "620px", margin: "0.8rem auto 0" }}>
+          <h2 className="section-title">Designed for Business & Celebratory Leisure</h2>
+          <p className="section-desc">
             Every facility at Hotel Nikhil Sai International is designed to deliver effortless comfort,
             premier connectivity, and refined regional hospitality.
           </p>
         </div>
 
-        {/* Grid of Amenities */}
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 280px), 1fr))",
-            gap: "2rem",
-            marginBottom: "4.5rem",
-          }}
-        >
+        {/* Grid of 8 Amenities (4x2 symmetrical) */}
+        <div className="amenities-grid">
           {RESORT_AMENITIES.map((item, idx) => (
             <div
               key={idx}
               style={{
-                padding: "2.2rem",
+                padding: "2rem",
                 background: "var(--card-bg)",
-                borderRadius: "20px",
+                borderRadius: "18px",
                 border: "1px solid var(--card-border)",
                 display: "flex",
                 flexDirection: "column",
-                gap: "1rem",
-                transition: "transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease",
+                gap: "0.85rem",
+                boxShadow: "0 4px 16px rgba(0,0,0,0.02)",
+                transition: "transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease",
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.transform = "translateY(-4px)";
                 e.currentTarget.style.borderColor = "var(--amber)";
-                e.currentTarget.style.boxShadow = "0 12px 30px rgba(66, 44, 32, 0.08)";
+                e.currentTarget.style.boxShadow = "0 8px 24px rgba(0,0,0,0.06)";
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.transform = "translateY(0)";
                 e.currentTarget.style.borderColor = "var(--card-border)";
-                e.currentTarget.style.boxShadow = "none";
+                e.currentTarget.style.boxShadow = "0 4px 16px rgba(0,0,0,0.02)";
               }}
             >
               <div
                 style={{
-                  width: "56px",
-                  height: "56px",
-                  borderRadius: "16px",
-                  background: "rgba(165, 88, 45, 0.1)",
+                  width: "50px",
+                  height: "50px",
+                  borderRadius: "14px",
+                  background: "var(--amber-soft)",
                   color: "var(--amber)",
                   display: "flex",
                   alignItems: "center",
@@ -103,10 +95,10 @@ export const AmenitiesSection: React.FC = () => {
               >
                 {getIcon(item.icon)}
               </div>
-              <h3 style={{ fontSize: "1.35rem", color: "var(--ink)", marginTop: "0.2rem" }}>
+              <h3 style={{ fontSize: "1.2rem", color: "var(--ink)", marginTop: "0.2rem" }}>
                 {item.title}
               </h3>
-              <p style={{ fontSize: "0.92rem", lineHeight: 1.6, color: "var(--muted)" }}>
+              <p style={{ fontSize: "0.9rem", lineHeight: 1.6, color: "var(--muted)" }}>
                 {item.description}
               </p>
             </div>

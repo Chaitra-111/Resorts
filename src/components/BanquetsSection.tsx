@@ -12,11 +12,11 @@ export const BanquetsSection: React.FC = () => {
         borderTop: "1px solid var(--card-border)",
       }}
     >
-      <div style={{ maxWidth: "1300px", margin: "0 auto" }}>
+      <div className="content-container">
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 340px), 1fr))",
+            gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 460px), 1fr))",
             gap: "4rem",
             alignItems: "center",
           }}
@@ -27,8 +27,8 @@ export const BanquetsSection: React.FC = () => {
               style={{
                 borderRadius: "24px",
                 overflow: "hidden",
-                boxShadow: "0 20px 50px rgba(66, 44, 32, 0.15)",
-                height: "520px",
+                boxShadow: "0 18px 45px rgba(0, 0, 0, 0.1)",
+                height: "500px",
               }}
             >
               <img
@@ -42,20 +42,20 @@ export const BanquetsSection: React.FC = () => {
             <div
               style={{
                 position: "absolute",
-                bottom: "-25px",
-                right: "25px",
+                bottom: "-20px",
+                right: "20px",
                 background: "var(--glass-bg)",
                 backdropFilter: "blur(14px)",
                 border: "1px solid var(--card-border)",
-                padding: "1.5rem 2rem",
+                padding: "1.25rem 1.8rem",
                 borderRadius: "18px",
-                boxShadow: "0 12px 35px rgba(0,0,0,0.12)",
-                maxWidth: "280px",
+                boxShadow: "0 12px 30px rgba(0,0,0,0.12)",
+                maxWidth: "260px",
               }}
             >
               <span
                 style={{
-                  fontSize: "0.72rem",
+                  fontSize: "0.7rem",
                   fontWeight: 700,
                   letterSpacing: "0.15em",
                   color: "var(--amber)",
@@ -64,10 +64,10 @@ export const BanquetsSection: React.FC = () => {
               >
                 Event Capacity
               </span>
-              <h4 style={{ fontSize: "1.8rem", color: "var(--ink)", margin: "0.2rem 0" }}>
+              <h4 style={{ fontSize: "1.7rem", color: "var(--ink)", margin: "0.2rem 0" }}>
                 50 to 600+
               </h4>
-              <p style={{ fontSize: "0.85rem", color: "var(--muted)" }}>
+              <p style={{ fontSize: "0.82rem", color: "var(--muted)" }}>
                 Guests across Baithak Banquet Hall & Upper Deck Rooftop.
               </p>
             </div>
@@ -77,17 +77,13 @@ export const BanquetsSection: React.FC = () => {
           <div>
             <span className="section-label">Weddings, Receptions & Banquets</span>
             <h2
-              style={{
-                fontSize: "clamp(2.4rem, 4vw, 3.8rem)",
-                color: "var(--ink)",
-                lineHeight: 1.15,
-                marginBottom: "1.5rem",
-              }}
+              className="section-title"
+              style={{ marginBottom: "1.25rem" }}
             >
               Celebrate Grand Milestones with Unmatched Splendor.
             </h2>
 
-            <p style={{ fontSize: "1.05rem", lineHeight: 1.7, marginBottom: "2.2rem" }}>
+            <p style={{ fontSize: "1.05rem", lineHeight: 1.7, marginBottom: "2rem", color: "var(--muted)" }}>
               Whether you are hosting a traditional wedding reception, a lively Sangeet, a high-profile
               corporate summit, or an intimate birthday gathering, Hotel Nikhil Sai International offers
               versatile indoor banquet halls and romantic open-air rooftop settings complete with gourmet catering.
@@ -102,17 +98,17 @@ export const BanquetsSection: React.FC = () => {
               }}
             >
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
-                <Sparkles size={20} style={{ color: "var(--amber)", flexShrink: 0 }} />
+                <Sparkles size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
                   <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Baithak Banquet</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Elegant indoor hall for 250–300 guests with crystal lighting & stage.
+                    Indoor AC hall for 250–300 guests with crystal lighting & stage.
                   </p>
                 </div>
               </div>
 
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
-                <Users size={20} style={{ color: "var(--amber)", flexShrink: 0 }} />
+                <Users size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
                   <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Upper Deck Terrace</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
@@ -122,21 +118,21 @@ export const BanquetsSection: React.FC = () => {
               </div>
 
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
-                <Music size={20} style={{ color: "var(--amber)", flexShrink: 0 }} />
+                <Music size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Corporate Boardroom</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Executive Boardroom</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    HD projector, conferencing microphones & executive business seating.
+                    HD projector, conferencing microphones & business seating.
                   </p>
                 </div>
               </div>
 
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
-                <HeartHandshake size={20} style={{ color: "var(--amber)", flexShrink: 0 }} />
+                <HeartHandshake size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
                   <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Chaskah Catering</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Customized live counters, Hyderabadi Dum Biryani & multi-cuisine feasts.
+                    Customized live counters, Hyderabadi Dum Biryani & multi-cuisine spreads.
                   </p>
                 </div>
               </div>

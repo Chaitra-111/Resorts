@@ -12,7 +12,6 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
   onSelectSuite,
   selectedSuiteIds,
 }) => {
-  // 3D Pointer Tilt with Specular Sheen (matching velora-code)
   const handlePointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
     if (e.pointerType !== "mouse") return;
     const el = e.currentTarget;
@@ -20,14 +19,11 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
     const px = (e.clientX - r.left) / r.width;
     const py = (e.clientY - r.top) / r.height;
 
-    el.style.setProperty("--gx", `${px * 100}%`);
-    el.style.setProperty("--gy", `${py * 100}%`);
-
     gsap.to(el, {
-      rotateY: (px - 0.5) * 8,
-      rotateX: (0.5 - py) * 8,
+      rotateY: (px - 0.5) * 6,
+      rotateX: (0.5 - py) * 6,
       transformPerspective: 1000,
-      duration: 0.5,
+      duration: 0.4,
       ease: "power2.out",
     });
   };
@@ -36,7 +32,7 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
     gsap.to(e.currentTarget, {
       rotateX: 0,
       rotateY: 0,
-      duration: 0.8,
+      duration: 0.6,
       ease: "power3.out",
     });
   };
@@ -51,38 +47,23 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
         borderBottom: "1px solid var(--card-border)",
       }}
     >
-      <div style={{ maxWidth: "1350px", margin: "0 auto" }}>
+      <div className="content-container">
         {/* Section Header */}
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "flex-end",
-            flexWrap: "wrap",
-            gap: "2rem",
-            marginBottom: "3.5rem",
-          }}
-        >
-          <div>
+        <div className="section-header-split">
+          <div className="left">
             <span className="section-label">Boutique Accommodations</span>
-            <h2 style={{ fontSize: "clamp(2.4rem, 4.2vw, 3.8rem)", color: "var(--ink)" }}>
-              Rooms & Executive Suites
-            </h2>
+            <h2 className="section-title">Rooms & Executive Suites</h2>
           </div>
-          <p style={{ maxWidth: "520px", fontSize: "1.05rem" }}>
-            Thoughtfully tailored for corporate travelers, wedding entourages, and family weekend
-            visits. Enjoy central air conditioning, high-speed fiber Wi-Fi, and 24/7 room service.
-          </p>
+          <div className="right">
+            <p className="section-desc">
+              Thoughtfully tailored for corporate travelers, wedding entourages, and family weekend
+              visits. Enjoy central air conditioning, high-speed fiber Wi-Fi, and 24/7 room service.
+            </p>
+          </div>
         </div>
 
-        {/* Suites Grid with 3D Tilt */}
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 350px), 1fr))",
-            gap: "2.5rem",
-          }}
-        >
+        {/* Suites Grid (2 x 2 Balanced) */}
+        <div className="suites-grid">
           {RESORT_SUITES.map((suite) => {
             const isSelected = selectedSuiteIds.includes(suite.id);
 
@@ -94,18 +75,16 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                 onPointerLeave={handlePointerLeave}
                 data-cursor="Suite Details"
                 style={{
-                  display: "flex",
-                  flexDirection: "column",
                   borderColor: isSelected ? "var(--amber)" : "var(--card-border)",
                 }}
               >
-                {/* Image Gallery Header with Badge */}
+                {/* Image Header with Category & Price */}
                 <div
                   style={{
                     position: "relative",
-                    height: "270px",
+                    height: "260px",
                     overflow: "hidden",
-                    borderRadius: "16px 16px 0 0",
+                    borderRadius: "20px 20px 0 0",
                   }}
                 >
                   <img
@@ -115,22 +94,20 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                       width: "100%",
                       height: "100%",
                       objectFit: "cover",
-                      transition: "transform 0.7s cubic-bezier(0.16, 1, 0.3, 1)",
                     }}
-                    className="suite-img"
                   />
                   <div
                     style={{
                       position: "absolute",
                       top: "1rem",
                       left: "1rem",
-                      background: "rgba(23, 20, 18, 0.75)",
+                      background: "rgba(18, 12, 8, 0.78)",
                       backdropFilter: "blur(8px)",
                       color: "#fff",
                       padding: "0.35rem 0.85rem",
                       borderRadius: "9999px",
-                      fontSize: "0.75rem",
-                      fontWeight: 600,
+                      fontSize: "0.72rem",
+                      fontWeight: 700,
                       letterSpacing: "0.08em",
                       textTransform: "uppercase",
                     }}
@@ -149,7 +126,7 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                       borderRadius: "10px",
                       fontWeight: 700,
                       fontSize: "1.05rem",
-                      boxShadow: "0 4px 15px rgba(0,0,0,0.2)",
+                      boxShadow: "0 4px 15px rgba(0,0,0,0.25)",
                     }}
                   >
                     ₹{suite.pricePerNight.toLocaleString()}
@@ -170,9 +147,9 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                 >
                   <h3
                     style={{
-                      fontSize: "1.7rem",
+                      fontSize: "1.6rem",
                       color: "var(--ink)",
-                      marginBottom: "0.4rem",
+                      marginBottom: "0.35rem",
                     }}
                   >
                     {suite.name}
@@ -180,10 +157,10 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
 
                   <p
                     style={{
-                      fontSize: "0.92rem",
+                      fontSize: "0.9rem",
                       fontStyle: "italic",
                       color: "var(--amber)",
-                      marginBottom: "1.2rem",
+                      marginBottom: "1rem",
                     }}
                   >
                     "{suite.tagline}"
@@ -193,7 +170,7 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                     style={{
                       fontSize: "0.94rem",
                       lineHeight: 1.6,
-                      color: "var(--ink)",
+                      color: "var(--muted)",
                       marginBottom: "1.5rem",
                     }}
                   >
@@ -206,7 +183,7 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                       display: "grid",
                       gridTemplateColumns: "1fr 1fr",
                       gap: "0.75rem",
-                      padding: "1rem 0",
+                      padding: "0.9rem 0",
                       borderTop: "1px solid var(--card-border)",
                       borderBottom: "1px solid var(--card-border)",
                       marginBottom: "1.5rem",
@@ -256,17 +233,17 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                           color: "var(--muted)",
                         }}
                       >
-                        <Check size={14} style={{ color: "var(--amber)", flexShrink: 0 }} />
+                        <Check size={14} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                         <span>{feat}</span>
                       </li>
                     ))}
                   </ul>
 
-                  {/* Actions */}
+                  {/* Actions (pushed to bottom) */}
                   <div style={{ display: "flex", gap: "0.8rem", marginTop: "auto" }}>
                     <button
                       onClick={() => onSelectSuite(suite)}
-                      className={`btn-luxury`}
+                      className="btn-luxury"
                       style={{
                         flex: 1,
                         background: isSelected ? "var(--ink)" : "var(--amber)",
@@ -285,7 +262,7 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                       className="btn-outline"
                       title="WhatsApp direct inquiry"
                       data-cursor="Inquire"
-                      style={{ padding: "0.82rem 1.1rem" }}
+                      style={{ padding: "0.75rem 1.1rem" }}
                     >
                       <ArrowRight size={15} />
                     </a>

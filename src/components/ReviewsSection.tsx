@@ -8,25 +8,23 @@ export const ReviewsSection: React.FC = () => {
       id="reviews"
       className="section-pad"
       style={{
-        background: "var(--cream-soft)",
+        background: "var(--cream)",
         borderTop: "1px solid var(--card-border)",
       }}
     >
-      <div style={{ maxWidth: "1280px", margin: "0 auto" }}>
-        <div style={{ textAlign: "center", marginBottom: "4rem" }}>
+      <div className="content-container">
+        <div className="section-header-center">
           <span className="section-label">Guest Impressions</span>
-          <h2 style={{ fontSize: "clamp(2.4rem, 4vw, 3.8rem)", color: "var(--ink)" }}>
-            Loved by Travelers, Families & Event Hosts
-          </h2>
+          <h2 className="section-title">Loved by Travelers, Families & Event Hosts</h2>
           <div
             style={{
               display: "inline-flex",
               alignItems: "center",
               gap: "0.5rem",
-              background: "rgba(165,88,45,0.1)",
+              background: "var(--amber-soft)",
               padding: "0.45rem 1.2rem",
               borderRadius: "9999px",
-              marginTop: "1rem",
+              marginTop: "1.2rem",
               color: "var(--amber)",
               fontWeight: 700,
               fontSize: "0.85rem",
@@ -41,15 +39,8 @@ export const ReviewsSection: React.FC = () => {
           </div>
         </div>
 
-        {/* Reviews Grid */}
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 280px), 1fr))",
-            gap: "2.2rem",
-            marginBottom: "3.5rem",
-          }}
-        >
+        {/* Reviews Grid (2x2 Balanced) */}
+        <div className="reviews-grid" style={{ marginBottom: "3rem" }}>
           {RESORT_REVIEWS.map((rev) => (
             <div
               key={rev.id}
@@ -61,7 +52,7 @@ export const ReviewsSection: React.FC = () => {
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "space-between",
-                boxShadow: "0 4px 20px rgba(0,0,0,0.03)",
+                boxShadow: "0 4px 18px rgba(0,0,0,0.03)",
               }}
             >
               <div>
@@ -88,16 +79,16 @@ export const ReviewsSection: React.FC = () => {
                   <h4 style={{ fontSize: "1rem", color: "var(--ink)", fontWeight: 700 }}>{rev.author}</h4>
                   <span style={{ fontSize: "0.8rem", color: "var(--muted)" }}>{rev.location}</span>
                 </div>
-                <div style={{ display: "flex", alignItems: "center", gap: "0.3rem", color: "var(--amber)", fontSize: "0.75rem", fontWeight: 600 }}>
+                <div style={{ display: "flex", alignItems: "center", gap: "0.3rem", color: "var(--amber)", fontSize: "0.75rem", fontWeight: 700 }}>
                   <ShieldCheck size={14} />
-                  <span>Verified</span>
+                  <span>Verified Stay</span>
                 </div>
               </div>
             </div>
           ))}
         </div>
 
-        {/* Direct Link to Google Maps & Justdial Reviews */}
+        {/* Direct Link to Google Maps */}
         <div style={{ textAlign: "center" }}>
           <a
             href={RESORT_CONTACT.googleMapsUrl}
