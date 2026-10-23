@@ -86,10 +86,10 @@ export const Header: React.FC<HeaderProps> = ({
 
           {/* Header Actions */}
           <div className="header-actions">
-            {/* Atmosphere Mood Switcher Button */}
+            {/* Atmosphere Mood Switcher Button (hidden on mobile) */}
             <button
               onClick={onCycleMood}
-              className="btn-icon"
+              className="btn-icon btn-mood-switch"
               title={`Atmosphere: ${currentMood} (Click to switch)`}
               data-cursor="Atmosphere"
             >

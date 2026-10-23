@@ -82,7 +82,7 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                 <div
                   style={{
                     position: "relative",
-                    height: "260px",
+                    height: "250px",
                     overflow: "hidden",
                     borderRadius: "20px 20px 0 0",
                   }}
@@ -99,14 +99,14 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                   <div
                     style={{
                       position: "absolute",
-                      top: "1rem",
-                      left: "1rem",
+                      top: "0.85rem",
+                      left: "0.85rem",
                       background: "rgba(18, 12, 8, 0.78)",
                       backdropFilter: "blur(8px)",
                       color: "#fff",
-                      padding: "0.35rem 0.85rem",
+                      padding: "0.3rem 0.75rem",
                       borderRadius: "9999px",
-                      fontSize: "0.72rem",
+                      fontSize: "0.7rem",
                       fontWeight: 700,
                       letterSpacing: "0.08em",
                       textTransform: "uppercase",
@@ -118,19 +118,19 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                   <div
                     style={{
                       position: "absolute",
-                      bottom: "1rem",
-                      right: "1rem",
+                      bottom: "0.85rem",
+                      right: "0.85rem",
                       background: "var(--amber)",
                       color: "#fff",
-                      padding: "0.4rem 0.95rem",
+                      padding: "0.35rem 0.85rem",
                       borderRadius: "10px",
                       fontWeight: 700,
-                      fontSize: "1.05rem",
+                      fontSize: "1rem",
                       boxShadow: "0 4px 15px rgba(0,0,0,0.25)",
                     }}
                   >
                     ₹{suite.pricePerNight.toLocaleString()}
-                    <span style={{ fontSize: "0.72rem", fontWeight: 400, marginLeft: "3px" }}>
+                    <span style={{ fontSize: "0.7rem", fontWeight: 400, marginLeft: "3px" }}>
                       /night
                     </span>
                   </div>
@@ -138,6 +138,7 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
 
                 {/* Content Body */}
                 <div
+                  className="suite-card-body"
                   style={{
                     padding: "2rem",
                     display: "flex",
@@ -147,9 +148,9 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                 >
                   <h3
                     style={{
-                      fontSize: "1.6rem",
+                      fontSize: "1.55rem",
                       color: "var(--ink)",
-                      marginBottom: "0.35rem",
+                      marginBottom: "0.3rem",
                     }}
                   >
                     {suite.name}
@@ -157,10 +158,10 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
 
                   <p
                     style={{
-                      fontSize: "0.9rem",
+                      fontSize: "0.88rem",
                       fontStyle: "italic",
                       color: "var(--amber)",
-                      marginBottom: "1rem",
+                      marginBottom: "0.9rem",
                     }}
                   >
                     "{suite.tagline}"
@@ -168,10 +169,10 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
 
                   <p
                     style={{
-                      fontSize: "0.94rem",
+                      fontSize: "0.92rem",
                       lineHeight: 1.6,
                       color: "var(--muted)",
-                      marginBottom: "1.5rem",
+                      marginBottom: "1.2rem",
                     }}
                   >
                     {suite.description}
@@ -183,10 +184,10 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                       display: "grid",
                       gridTemplateColumns: "1fr 1fr",
                       gap: "0.75rem",
-                      padding: "0.9rem 0",
+                      padding: "0.85rem 0",
                       borderTop: "1px solid var(--card-border)",
                       borderBottom: "1px solid var(--card-border)",
-                      marginBottom: "1.5rem",
+                      marginBottom: "1.2rem",
                       fontSize: "0.85rem",
                       color: "var(--ink)",
                     }}
@@ -218,9 +219,9 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                       listStyle: "none",
                       display: "flex",
                       flexDirection: "column",
-                      gap: "0.55rem",
-                      marginBottom: "2rem",
-                      fontSize: "0.86rem",
+                      gap: "0.5rem",
+                      marginBottom: "1.8rem",
+                      fontSize: "0.85rem",
                     }}
                   >
                     {suite.features.map((feat, idx) => (
@@ -240,7 +241,7 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                   </ul>
 
                   {/* Actions (pushed to bottom) */}
-                  <div style={{ display: "flex", gap: "0.8rem", marginTop: "auto" }}>
+                  <div style={{ display: "flex", gap: "0.75rem", marginTop: "auto" }}>
                     <button
                       onClick={() => onSelectSuite(suite)}
                       className="btn-luxury"
@@ -251,7 +252,7 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                       data-cursor="Select"
                     >
                       <Calendar size={14} />
-                      <span>{isSelected ? "Selected in Plan" : "Select Suite"}</span>
+                      <span>{isSelected ? "Selected" : "Select Suite"}</span>
                     </button>
                     <a
                       href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent(
@@ -262,7 +263,7 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                       className="btn-outline"
                       title="WhatsApp direct inquiry"
                       data-cursor="Inquire"
-                      style={{ padding: "0.75rem 1.1rem" }}
+                      style={{ padding: "0.72rem 1rem" }}
                     >
                       <ArrowRight size={15} />
                     </a>

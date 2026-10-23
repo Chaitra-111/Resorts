@@ -201,6 +201,7 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
 
         {/* Bottom Bar */}
         <div
+          className="footer-bottom"
           style={{
             paddingTop: "2rem",
             borderTop: "1px solid var(--card-border)",

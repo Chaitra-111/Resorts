@@ -32,7 +32,7 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
         {/* Hero content */}
         <div className="hero-content">
           <div className="hero-eyebrow">
-            <MapPin size={13} style={{ color: "var(--peach-light)" }} />
+            <MapPin size={13} style={{ color: "var(--peach-light)", flexShrink: 0 }} />
             <span>Devi Theatre 'X' Road · Hyderabad Road, Nizamabad</span>
           </div>
 
@@ -45,7 +45,7 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
             Luxurious executive suites, iconic Chaskah fine dining, and grand Baithak & Upper Deck celebration banquets.
           </p>
 
-          <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap", alignItems: "center" }}>
+          <div className="hero-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap", alignItems: "center" }}>
             <a href="#suites" className="btn-luxury" data-cursor="View Rooms">
               <span>Explore Rooms & Suites</span>
               <ArrowRight size={15} />

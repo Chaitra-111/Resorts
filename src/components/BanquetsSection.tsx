@@ -17,13 +17,14 @@ export const BanquetsSection: React.FC = () => {
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 460px), 1fr))",
-            gap: "4rem",
+            gap: "3.5rem",
             alignItems: "center",
           }}
         >
           {/* Visual Showcase Collage */}
           <div style={{ position: "relative" }}>
             <div
+              className="banquet-visual-wrap"
               style={{
                 borderRadius: "24px",
                 overflow: "hidden",
@@ -40,6 +41,7 @@ export const BanquetsSection: React.FC = () => {
 
             {/* Floating Badge */}
             <div
+              className="banquet-floating-badge"
               style={{
                 position: "absolute",
                 bottom: "-20px",
@@ -90,6 +92,7 @@ export const BanquetsSection: React.FC = () => {
             </p>
 
             <div
+              className="banquet-specs-grid"
               style={{
                 display: "grid",
                 gridTemplateColumns: "1fr 1fr",
@@ -138,7 +141,7 @@ export const BanquetsSection: React.FC = () => {
               </div>
             </div>
 
-            <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
+            <div className="banquets-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <a
                 href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent(
                   "Hello Hotel Nikhil Sai International, I am interested in booking your banquet hall / Upper Deck for an event."

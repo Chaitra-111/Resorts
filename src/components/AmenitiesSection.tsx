@@ -59,6 +59,7 @@ export const AmenitiesSection: React.FC = () => {
           {RESORT_AMENITIES.map((item, idx) => (
             <div
               key={idx}
+              className="amenity-card-item"
               style={{
                 padding: "2rem",
                 background: "var(--card-bg)",
@@ -83,22 +84,23 @@ export const AmenitiesSection: React.FC = () => {
             >
               <div
                 style={{
-                  width: "50px",
-                  height: "50px",
+                  width: "48px",
+                  height: "48px",
                   borderRadius: "14px",
                   background: "var(--amber-soft)",
                   color: "var(--amber)",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
+                  flexShrink: 0,
                 }}
               >
                 {getIcon(item.icon)}
               </div>
-              <h3 style={{ fontSize: "1.2rem", color: "var(--ink)", marginTop: "0.2rem" }}>
+              <h3 style={{ fontSize: "1.18rem", color: "var(--ink)", marginTop: "0.2rem" }}>
                 {item.title}
               </h3>
-              <p style={{ fontSize: "0.9rem", lineHeight: 1.6, color: "var(--muted)" }}>
+              <p style={{ fontSize: "0.88rem", lineHeight: 1.6, color: "var(--muted)" }}>
                 {item.description}
               </p>
             </div>

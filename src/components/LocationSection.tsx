@@ -22,6 +22,7 @@ export const LocationSection: React.FC = () => {
         </div>
 
         <div
+          className="location-grid"
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 460px), 1fr))",
@@ -31,6 +32,7 @@ export const LocationSection: React.FC = () => {
         >
           {/* Location Details & Directions */}
           <div
+            className="location-card"
             style={{
               background: "var(--card-bg)",
               border: "1px solid var(--card-border)",
@@ -129,7 +131,7 @@ export const LocationSection: React.FC = () => {
             </div>
 
             {/* Action Buttons */}
-            <div style={{ display: "flex", gap: "0.9rem", flexWrap: "wrap" }}>
+            <div className="location-actions-group" style={{ display: "flex", gap: "0.9rem", flexWrap: "wrap" }}>
               <a
                 href={RESORT_CONTACT.googleMapsUrl}
                 target="_blank"
@@ -154,6 +156,7 @@ export const LocationSection: React.FC = () => {
 
           {/* Embedded Google Maps Container */}
           <div
+            className="location-map-wrap"
             style={{
               borderRadius: "20px",
               overflow: "hidden",
