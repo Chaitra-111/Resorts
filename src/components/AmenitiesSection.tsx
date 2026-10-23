@@ -9,7 +9,6 @@ import {
   Gamepad2,
   ShieldCheck,
   Coffee,
-  CheckCircle2,
 } from "lucide-react";
 
 export const AmenitiesSection: React.FC = () => {
@@ -47,13 +46,13 @@ export const AmenitiesSection: React.FC = () => {
     >
       <div style={{ maxWidth: "1300px", margin: "0 auto" }}>
         <div style={{ textAlign: "center", marginBottom: "4rem" }}>
-          <span className="section-label">Resort Amenities & Comfort</span>
+          <span className="section-label">Hotel Amenities & Comfort</span>
           <h2 style={{ fontSize: "clamp(2.4rem, 4vw, 3.8rem)", color: "var(--ink)" }}>
-            Curated for Recharging & Reconnecting
+            Curated for Business & Celebratory Leisure
           </h2>
           <p style={{ maxWidth: "620px", margin: "0.8rem auto 0" }}>
-            Every corner of Hills View is crafted to balance outdoor adventure across Ananthagiri with
-            restorative residential peace.
+            Every facility at Hotel Nikhil Sai International is designed to deliver effortless comfort,
+            premier connectivity, and refined regional hospitality.
           </p>
         </div>
 
@@ -104,50 +103,14 @@ export const AmenitiesSection: React.FC = () => {
               >
                 {getIcon(item.icon)}
               </div>
-              <h3 style={{ fontSize: "1.35rem", color: "var(--ink)" }}>{item.title}</h3>
-              <p style={{ fontSize: "0.94rem", lineHeight: 1.6 }}>{item.description}</p>
+              <h3 style={{ fontSize: "1.35rem", color: "var(--ink)", marginTop: "0.2rem" }}>
+                {item.title}
+              </h3>
+              <p style={{ fontSize: "0.92rem", lineHeight: 1.6, color: "var(--muted)" }}>
+                {item.description}
+              </p>
             </div>
           ))}
-        </div>
-
-        {/* Helpful Guest Guidance Banner (reflecting Justdial & Google Maps real residential notes) */}
-        <div className="guidelines-banner">
-          <div>
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                gap: "0.6rem",
-                marginBottom: "0.5rem",
-                color: "var(--amber)",
-                fontWeight: 700,
-                fontSize: "0.85rem",
-                letterSpacing: "0.15em",
-                textTransform: "uppercase",
-              }}
-            >
-              <CheckCircle2 size={16} />
-              <span>Residential Stay Guidelines & Tips</span>
-            </div>
-            <h4 style={{ fontSize: "1.45rem", marginBottom: "0.6rem", color: "var(--ink)" }}>
-              A Truly Tailored Holiday Experience
-            </h4>
-            <p style={{ fontSize: "0.95rem", maxWidth: "800px" }}>
-              As a dedicated residential getaway, we encourage guests to bring their preferred personal
-              toiletries, swim attire for the pool, and specialty foods or snacks if self-catering.
-              Our on-site caretaking crew is on standby 24/7 to arrange campfires, barbecue setups, and
-              hot beverages.
-            </p>
-          </div>
-
-          <a
-            href="tel:+916302919296"
-            className="btn-luxury"
-            style={{ whiteSpace: "nowrap" }}
-            data-cursor="Call Concierge"
-          >
-            <span>Ask Concierge</span>
-          </a>
         </div>
       </div>
     </section>

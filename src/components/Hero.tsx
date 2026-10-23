@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import { ArrowRight, MapPin, Sparkles, Calendar, Users } from "lucide-react";
+import { RESORT_CONTACT } from "../data/resortData";
 
 interface HeroProps {
   onCheckAvailability: (checkIn: string, checkOut: string, guests: number) => void;
 }
 
 export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
-  const [checkIn, setCheckIn] = useState("2026-10-18");
-  const [checkOut, setCheckOut] = useState("2026-10-20");
+  const [checkIn, setCheckIn] = useState("2026-10-25");
+  const [checkOut, setCheckOut] = useState("2026-10-27");
   const [guests, setGuests] = useState(2);
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -21,7 +22,7 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
       <div className="hero-bg-container">
         <img
           src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=2400&q=88"
-          alt="Hills View Luxury Residential Resort in Ananthagiri Hills Vikarabad"
+          alt="Hotel Nikhil Sai International Boutique Luxury Hotel in Nizamabad"
           className="hero-image"
         />
         <div className="hero-overlay" />
@@ -31,25 +32,25 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
       <div className="hero-content">
         <div className="hero-eyebrow">
           <MapPin size={13} style={{ color: "var(--peach-light)" }} />
-          <span>Ananthagiri Hills · Mudallagadda, Vikarabad</span>
+          <span>Devi Theatre 'X' Road · Hyderabad Road, Nizamabad</span>
         </div>
 
         <h1 className="hero-title">
-          Where Misty Ridges Meet <em>Residential Elegance.</em>
+          Where Regal Comfort Meets <em>Modern Elegance.</em>
         </h1>
 
         <p className="hero-desc">
-          Escape the city pulse into the crisp, forest-scented heights of Ananthagiri.
-          Expansive private balcony suites, azure pool waters, and lush celebration lawns.
+          Experience premier boutique hospitality in the vibrant heart of Nizamabad.
+          Luxurious executive suites, iconic Chaskah fine dining, and grand Baithak & Upper Deck celebration banquets.
         </p>
 
         <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap", alignItems: "center" }}>
-          <a href="#suites" className="btn-luxury" data-cursor="View Suites">
-            <span>Explore The Suites</span>
+          <a href="#suites" className="btn-luxury" data-cursor="View Rooms">
+            <span>Explore Rooms & Suites</span>
             <ArrowRight size={15} />
           </a>
           <a
-            href={`https://wa.me/916302919296?text=${encodeURIComponent("Hello Hills View Resort, I would like to inquire about booking a stay.")}`}
+            href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent("Hello Hotel Nikhil Sai International, I would like to inquire about booking a stay/event.")}`}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-outline"
@@ -102,23 +103,24 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
             value={guests}
             onChange={(e) => setGuests(Number(e.target.value))}
           >
-            <option value={1}>1 Guest (Solo)</option>
-            <option value={2}>2 Guests (Couple)</option>
+            <option value={1}>1 Guest (Corporate)</option>
+            <option value={2}>2 Guests (Executive / Couple)</option>
             <option value={4}>4 Guests (Family Suite)</option>
-            <option value={6}>6+ Guests (Full Villa / Group)</option>
-            <option value={15}>15+ Guests (Celebration / Banquet)</option>
+            <option value={6}>6+ Guests (Presidential Group)</option>
+            <option value={50}>50+ Guests (Baithak Banquet)</option>
+            <option value={200}>200+ Guests (Upper Deck Grand Event)</option>
           </select>
         </div>
 
         <div className="booking-field">
-          <label className="booking-label">Resort Destination</label>
+          <label className="booking-label">Location / Landmark</label>
           <div style={{ fontSize: "0.95rem", fontWeight: 600, color: "var(--ink)" }}>
-            Ananthagiri Hills, TS
+            Dwaraka Nagar, Nizamabad
           </div>
         </div>
 
         <button type="submit" className="btn-luxury" data-cursor="Check">
-          <span>Check Dates</span>
+          <span>Check Tariff & Dates</span>
           <ArrowRight size={15} />
         </button>
       </form>

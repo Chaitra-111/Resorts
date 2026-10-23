@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { RESORT_HOTSPOTS, type Hotspot } from "../data/resortData";
-import { Info, X } from "lucide-react";
+import { X } from "lucide-react";
 
 export const HotspotExplorer: React.FC = () => {
   const [activeSpot, setActiveSpot] = useState<Hotspot | null>(RESORT_HOTSPOTS[0]);
@@ -15,20 +15,20 @@ export const HotspotExplorer: React.FC = () => {
       }}
     >
       <div style={{ textAlign: "center", marginBottom: "3rem" }}>
-        <span className="section-label">Interactive Sanctuary</span>
+        <span className="section-label">Interactive Property Showcase</span>
         <h2 style={{ fontSize: "clamp(2.2rem, 3.8vw, 3.6rem)", marginBottom: "1rem" }}>
-          Explore the Architecture & Landscapes
+          Explore Signature Spaces & Venues
         </h2>
         <p style={{ maxWidth: "680px", margin: "0 auto" }}>
-          Touch the pulsing points across the property to discover how our suites, viewing decks,
-          and natural hill features harmonize.
+          Touch the pulsing points across the property to discover how our suites, Chaskah dining restaurant,
+          and grand celebration banquet halls come together.
         </p>
       </div>
 
       <div className="hotspot-stage">
         <img
-          src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1800&q=88"
-          alt="Hills View Sanctuary Architecture and Pool Deck"
+          src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1800&q=88"
+          alt="Hotel Nikhil Sai International Nizamabad Venues and Architecture"
         />
 
         {/* Hotspot Pins */}
@@ -102,17 +102,16 @@ export const HotspotExplorer: React.FC = () => {
           <button
             key={spot.id}
             onClick={() => setActiveSpot(spot)}
-            className={`btn-outline ${activeSpot?.id === spot.id ? "active" : ""}`}
+            className={`btn-outline ${activeSpot?.id === spot.id ? "is-active" : ""}`}
             style={{
-              fontSize: "0.78rem",
-              padding: "0.55rem 1.2rem",
-              borderColor: activeSpot?.id === spot.id ? "var(--amber)" : "var(--card-border)",
+              padding: "0.5rem 1.2rem",
+              fontSize: "0.85rem",
               background: activeSpot?.id === spot.id ? "var(--amber)" : "transparent",
               color: activeSpot?.id === spot.id ? "#fff" : "var(--ink)",
+              borderColor: activeSpot?.id === spot.id ? "var(--amber)" : "var(--card-border)",
             }}
           >
-            <Info size={13} />
-            <span>{spot.title}</span>
+            {spot.title}
           </button>
         ))}
       </div>

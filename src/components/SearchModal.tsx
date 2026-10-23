@@ -21,7 +21,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
   const items = [
     ...RESORT_SUITES.map((s) => ({
       title: s.name,
-      category: "Suite",
+      category: "Room / Suite",
       description: s.description,
       target: "suites",
     })),
@@ -32,27 +32,27 @@ export const SearchModal: React.FC<SearchModalProps> = ({
       target: "experiences",
     })),
     {
-      title: "Grand Banquet Lawns & Weddings",
+      title: "Baithak & Upper Deck Banquets",
       category: "Events",
-      description: "Host up to 250+ guests for sangeet, weddings, or family get-togethers.",
+      description: "Host up to 600+ guests for weddings, sangeet receptions, and corporate conferences.",
       target: "banquets",
     },
     {
-      title: "Hillside Dining & Live Barbecue",
+      title: "Chaskah Restaurant & Inswinger Lounge",
       category: "Dining",
-      description: "Authentic Telangana specialties and evening grills around the campfire.",
+      description: "Authentic Hyderabadi Dum Biryanis, tandoori platters, and vibrant sports bar lounge.",
       target: "dining",
     },
     {
-      title: "Driving Route from Hyderabad",
+      title: "Location & Transit in Nizamabad",
       category: "Location",
-      description: "75 km from Financial District / Gachibowli via Shankarpalli Road.",
+      description: "130m from Venu Mall, 1.5 km from Bus Depot, 2 km from Nizamabad Railway Station.",
       target: "location",
     },
     {
       title: "Verified Guest Reviews & Ratings",
       category: "Reviews",
-      description: "5.0-star guest feedback on Justdial and Google Reviews.",
+      description: "4.5+ star guest ratings on Google Maps and Justdial.",
       target: "reviews",
     },
   ];
@@ -64,17 +64,28 @@ export const SearchModal: React.FC<SearchModalProps> = ({
           item.description.toLowerCase().includes(query.toLowerCase()) ||
           item.category.toLowerCase().includes(query.toLowerCase())
       )
-    : items.slice(0, 4);
+    : items;
 
   return (
-    <div className="modal-backdrop" onClick={onClose}>
-      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+    <div className="drawer-backdrop" onClick={onClose} style={{ alignItems: "flex-start", paddingTop: "10vh" }}>
+      <div
+        className="card-tilt"
+        onClick={(e) => e.stopPropagation()}
+        style={{
+          width: "100%",
+          maxWidth: "680px",
+          background: "var(--cream)",
+          padding: "2rem",
+          borderRadius: "24px",
+          boxShadow: "0 25px 60px rgba(0,0,0,0.25)",
+        }}
+      >
         {/* Search Input Bar */}
         <div
           style={{
             display: "flex",
             alignItems: "center",
-            gap: "1rem",
+            gap: "0.8rem",
             paddingBottom: "1.2rem",
             borderBottom: "1px solid var(--card-border)",
             marginBottom: "1.5rem",
@@ -83,18 +94,18 @@ export const SearchModal: React.FC<SearchModalProps> = ({
           <Search size={22} style={{ color: "var(--amber)" }} />
           <input
             type="text"
-            placeholder="Search suites, pool, banquets, location, dining…"
+            placeholder="Search rooms, dining, banquets, location..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             autoFocus
             style={{
               flex: 1,
-              background: "transparent",
               border: "none",
+              background: "transparent",
               fontSize: "1.2rem",
-              fontFamily: "var(--sans)",
               color: "var(--ink)",
               outline: "none",
+              fontFamily: "var(--sans)",
             }}
           />
           <button onClick={onClose} className="btn-icon">
@@ -103,23 +114,13 @@ export const SearchModal: React.FC<SearchModalProps> = ({
         </div>
 
         {/* Results List */}
-        <div>
-          <span
-            style={{
-              fontSize: "0.72rem",
-              fontWeight: 700,
-              letterSpacing: "0.15em",
-              textTransform: "uppercase",
-              color: "var(--muted)",
-              display: "block",
-              marginBottom: "1rem",
-            }}
-          >
-            {query.trim() ? `Search Results (${filtered.length})` : "Suggested Highlights"}
-          </span>
-
-          <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem", maxHeight: "380px", overflowY: "auto" }}>
-            {filtered.map((item, idx) => (
+        <div style={{ maxHeight: "380px", overflowY: "auto", display: "flex", flexDirection: "column", gap: "0.8rem" }}>
+          {filtered.length === 0 ? (
+            <div style={{ textAlign: "center", padding: "2rem", color: "var(--muted)" }}>
+              No facilities found matching "{query}"
+            </div>
+          ) : (
+            filtered.map((item, idx) => (
               <div
                 key={idx}
                 onClick={() => {
@@ -127,48 +128,46 @@ export const SearchModal: React.FC<SearchModalProps> = ({
                   onClose();
                 }}
                 style={{
-                  padding: "1rem 1.25rem",
-                  background: "var(--card-bg)",
-                  border: "1px solid var(--card-border)",
-                  borderRadius: "14px",
                   display: "flex",
                   justifyContent: "space-between",
                   alignItems: "center",
+                  padding: "1rem 1.2rem",
+                  background: "var(--card-bg)",
+                  borderRadius: "14px",
+                  border: "1px solid var(--card-border)",
                   cursor: "pointer",
-                  transition: "border-color 0.2s, transform 0.2s",
+                  transition: "background 0.2s ease, border-color 0.2s ease",
                 }}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.borderColor = "var(--amber)";
-                  e.currentTarget.style.transform = "translateX(4px)";
+                  e.currentTarget.style.background = "var(--cream-soft)";
                 }}
                 onMouseLeave={(e) => {
                   e.currentTarget.style.borderColor = "var(--card-border)";
-                  e.currentTarget.style.transform = "translateX(0)";
+                  e.currentTarget.style.background = "var(--card-bg)";
                 }}
               >
                 <div>
-                  <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginBottom: "0.2rem" }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: "0.6rem", marginBottom: "0.2rem" }}>
                     <span
                       style={{
-                        fontSize: "0.68rem",
+                        fontSize: "0.7rem",
                         fontWeight: 700,
+                        letterSpacing: "0.1em",
                         textTransform: "uppercase",
                         color: "var(--amber)",
                       }}
                     >
                       {item.category}
                     </span>
-                    <span style={{ color: "var(--card-border)" }}>·</span>
-                    <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>{item.title}</h4>
+                    <h5 style={{ fontSize: "1.05rem", color: "var(--ink)", margin: 0 }}>{item.title}</h5>
                   </div>
-                  <p style={{ fontSize: "0.85rem", color: "var(--muted)", maxWidth: "480px" }}>
-                    {item.description}
-                  </p>
+                  <p style={{ fontSize: "0.84rem", color: "var(--muted)", margin: 0 }}>{item.description}</p>
                 </div>
-                <ArrowRight size={16} style={{ color: "var(--amber)" }} />
+                <ArrowRight size={16} style={{ color: "var(--amber)", flexShrink: 0 }} />
               </div>
-            ))}
-          </div>
+            ))
+          )}
         </div>
       </div>
     </div>

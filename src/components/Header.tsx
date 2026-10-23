@@ -30,7 +30,7 @@ export const Header: React.FC<HeaderProps> = ({
   return (
     <header className={`site-header ${scrolled ? "is-scrolled" : ""}`}>
       {/* Brand Crest */}
-      <a href="#" className="brand-mark" data-cursor="Hills View">
+      <a href="#" className="brand-mark" data-cursor={RESORT_CONTACT.shortName}>
         <svg
           className="brand-crest"
           viewBox="0 0 64 64"
@@ -40,13 +40,14 @@ export const Header: React.FC<HeaderProps> = ({
           strokeLinecap="round"
           strokeLinejoin="round"
         >
-          <circle cx="32" cy="18" r="7" stroke="var(--amber)" fill="rgba(165,88,45,0.12)" />
-          <path d="M8 52L26 26L36 38L46 24L58 52H8Z" />
-          <path d="M26 26L34 38" />
-          <path d="M46 24L40 38" />
+          {/* Emblem: Luxury Hotel Crown & Star */}
+          <circle cx="32" cy="18" r="6" stroke="var(--amber)" fill="rgba(165,88,45,0.12)" />
+          <path d="M12 48L20 24L32 34L44 24L52 48H12Z" />
+          <path d="M20 24L32 34L44 24" />
+          <path d="M12 48H52" />
         </svg>
-        <span className="brand-word">Hills View</span>
-        <span className="brand-sub">Residential Resort</span>
+        <span className="brand-word">{RESORT_CONTACT.name}</span>
+        <span className="brand-sub">{RESORT_CONTACT.subTitle}</span>
       </a>
 
       {/* Navigation Links */}
@@ -54,27 +55,32 @@ export const Header: React.FC<HeaderProps> = ({
         <ul className="nav-links">
           <li>
             <a href="#suites" className="nav-link">
-              Suites
+              Rooms & Suites
             </a>
           </li>
           <li>
             <a href="#hotspots" className="nav-link">
-              Sanctuary
-            </a>
-          </li>
-          <li>
-            <a href="#experiences" className="nav-link">
-              Experiences
-            </a>
-          </li>
-          <li>
-            <a href="#banquets" className="nav-link">
-              Celebrations
+              Highlights
             </a>
           </li>
           <li>
             <a href="#dining" className="nav-link">
-              Dining
+              Chaskah Dining
+            </a>
+          </li>
+          <li>
+            <a href="#banquets" className="nav-link">
+              Banquets & Events
+            </a>
+          </li>
+          <li>
+            <a href="#experiences" className="nav-link">
+              Amenities
+            </a>
+          </li>
+          <li>
+            <a href="#reviews" className="nav-link">
+              Reviews
             </a>
           </li>
           <li>
@@ -101,7 +107,7 @@ export const Header: React.FC<HeaderProps> = ({
         <button
           onClick={onOpenSearch}
           className="btn-icon"
-          title="Search resort details"
+          title="Search hotel facilities"
           data-cursor="Search"
         >
           <Search size={18} />
@@ -111,7 +117,7 @@ export const Header: React.FC<HeaderProps> = ({
         <a
           href={`tel:${RESORT_CONTACT.phoneRaw}`}
           className="btn-icon"
-          title="Call Resort Manager directly"
+          title="Call Hotel Nikhil Sai front desk directly"
           data-cursor="Call"
         >
           <Phone size={18} />
@@ -125,7 +131,7 @@ export const Header: React.FC<HeaderProps> = ({
           style={{ position: "relative" }}
         >
           <Calendar size={15} />
-          <span>Plan Your Stay</span>
+          <span>Book Your Stay</span>
           {selectedSuitesCount > 0 && (
             <span
               style={{

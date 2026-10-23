@@ -33,7 +33,7 @@ export const BanquetsSection: React.FC = () => {
             >
               <img
                 src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1400&q=85"
-                alt="Banquets & Celebrations at Hills View Luxury Resort"
+                alt="Banquets & Celebrations at Hotel Nikhil Sai International Nizamabad"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -65,17 +65,17 @@ export const BanquetsSection: React.FC = () => {
                 Event Capacity
               </span>
               <h4 style={{ fontSize: "1.8rem", color: "var(--ink)", margin: "0.2rem 0" }}>
-                Up to 250+
+                50 to 600+
               </h4>
               <p style={{ fontSize: "0.85rem", color: "var(--muted)" }}>
-                Guests across open celebration lawns & poolside pavilion.
+                Guests across Baithak Banquet Hall & Upper Deck Rooftop.
               </p>
             </div>
           </div>
 
           {/* Editorial Content */}
           <div>
-            <span className="section-label">Weddings & Grand Gatherings</span>
+            <span className="section-label">Weddings, Receptions & Banquets</span>
             <h2
               style={{
                 fontSize: "clamp(2.4rem, 4vw, 3.8rem)",
@@ -84,13 +84,13 @@ export const BanquetsSection: React.FC = () => {
                 marginBottom: "1.5rem",
               }}
             >
-              Celebrate Life's Milestones Under the Open Stars.
+              Celebrate Grand Milestones with Unmatched Splendor.
             </h2>
 
             <p style={{ fontSize: "1.05rem", lineHeight: 1.7, marginBottom: "2.2rem" }}>
-              Whether you are planning a picturesque destination sangeet, an intimate wedding ceremony,
-              a milestone birthday, or a corporate leadership retreat away from the city, our manicured
-              emerald lawns provide the ultimate natural open-air canvas.
+              Whether you are hosting a traditional wedding reception, a lively Sangeet, a high-profile
+              corporate summit, or an intimate birthday gathering, Hotel Nikhil Sai International offers
+              versatile indoor banquet halls and romantic open-air rooftop settings complete with gourmet catering.
             </p>
 
             <div
@@ -102,57 +102,67 @@ export const BanquetsSection: React.FC = () => {
               }}
             >
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
-                <Sparkles size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "3px" }} />
+                <Sparkles size={20} style={{ color: "var(--amber)", flexShrink: 0 }} />
                 <div>
-                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Destination Weddings</h4>
-                  <p style={{ fontSize: "0.88rem" }}>Natural hillside backdrop with fairy lighting & stage setups.</p>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Baithak Banquet</h4>
+                  <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
+                    Elegant indoor hall for 250–300 guests with crystal lighting & stage.
+                  </p>
                 </div>
               </div>
 
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
-                <Users size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "3px" }} />
+                <Users size={20} style={{ color: "var(--amber)", flexShrink: 0 }} />
                 <div>
-                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Family Reunions</h4>
-                  <p style={{ fontSize: "0.88rem" }}>Spacious 2-BHK residential villas to host entire families together.</p>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Upper Deck Terrace</h4>
+                  <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
+                    Rooftop open-air celebration venue accommodating up to 600 guests.
+                  </p>
                 </div>
               </div>
 
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
-                <Music size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "3px" }} />
+                <Music size={20} style={{ color: "var(--amber)", flexShrink: 0 }} />
                 <div>
-                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Sangeet & Parties</h4>
-                  <p style={{ fontSize: "0.88rem" }}>Outdoor audio acoustics, DJ spaces, and pool party zones.</p>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Corporate Boardroom</h4>
+                  <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
+                    HD projector, conferencing microphones & executive business seating.
+                  </p>
                 </div>
               </div>
 
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
-                <HeartHandshake size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "3px" }} />
+                <HeartHandshake size={20} style={{ color: "var(--amber)", flexShrink: 0 }} />
                 <div>
-                  <h4 style={{ fontSize: "1.1rem", marginBottom: "0.2rem" }}>Corporate Retreats</h4>
-                  <p style={{ fontSize: "0.88rem" }}>Strategy sessions, team bonding, and open-air leadership dinners.</p>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Chaskah Catering</h4>
+                  <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
+                    Customized live counters, Hyderabadi Dum Biryani & multi-cuisine feasts.
+                  </p>
                 </div>
               </div>
             </div>
 
             <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <a
-                href={`tel:${RESORT_CONTACT.phoneRaw}`}
-                className="btn-luxury"
-                data-cursor="Call Manager"
-              >
-                <PhoneCall size={15} />
-                <span>Call Banquet Manager</span>
-              </a>
-              <a
-                href={`https://wa.me/916302919296?text=${encodeURIComponent(
-                  "Hello, I am interested in booking Hills View Resort lawn/banquet for a celebration event."
+                href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent(
+                  "Hello Hotel Nikhil Sai International, I am interested in booking your banquet hall / Upper Deck for an event."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-outline"
-                data-cursor="WhatsApp"
+                className="btn-luxury"
+                data-cursor="Plan Event"
               >
-                <span>WhatsApp Event Inquiry</span>
+                <span>Plan Your Event</span>
+                <Sparkles size={15} />
+              </a>
+
+              <a
+                href={`tel:${RESORT_CONTACT.phoneRaw}`}
+                className="btn-outline"
+                data-cursor="Call Sales"
+              >
+                <PhoneCall size={15} />
+                <span>Call Banquet Desk</span>
               </a>
             </div>
           </div>

@@ -16,7 +16,6 @@ export const MomentsCarousel: React.FC = () => {
         const firstCard = containerRef.current.querySelector(".moment-card") as HTMLElement;
         if (firstCard) {
           const width = firstCard.offsetWidth;
-          // Gap is 1.8rem (~28.8px)
           const computedGap = parseFloat(getComputedStyle(containerRef.current.querySelector(".moments-track")!).gap) || 28;
           setCardOffset(width + computedGap);
         }
@@ -59,105 +58,132 @@ export const MomentsCarousel: React.FC = () => {
         }}
       >
         <div>
-          <span className="section-label">A Day at Hills View</span>
+          <span className="section-label">A Day at Hotel Nikhil Sai</span>
           <h2 style={{ fontSize: "clamp(2.4rem, 4.2vw, 3.8rem)", color: "var(--ink)" }}>
-            Moments in Golden Light
+            Moments in Golden Hospitality
           </h2>
           <p style={{ maxWidth: "580px", marginTop: "0.5rem" }}>
-            From the crisp dawn mist rolling over the ridges to the warmth of evening campfires
-            beneath open constellations.
+            From morning breakfast spreads at Chaskah to starlit wedding celebrations on the Upper Deck
+            and lively evenings at Inswinger sports lounge.
           </p>
         </div>
 
-        {/* Carousel Navigation Buttons & Indicators */}
-        <div style={{ display: "flex", gap: "1.2rem", alignItems: "center" }}>
-          <div style={{ display: "flex", gap: "6px" }}>
-            {RESORT_MOMENTS.map((_, i) => (
-              <button
-                key={i}
-                onClick={() => setCurrentIndex(i)}
-                style={{
-                  width: currentIndex === i ? "24px" : "8px",
-                  height: "8px",
-                  borderRadius: "4px",
-                  background: currentIndex === i ? "var(--amber)" : "var(--card-border)",
-                  transition: "all 0.3s ease",
-                  cursor: "pointer",
-                }}
-                aria-label={`Go to slide ${i + 1}`}
-              />
-            ))}
-          </div>
-
-          <div style={{ display: "flex", gap: "0.6rem", alignItems: "center" }}>
-            <button
-              onClick={handlePrev}
-              disabled={currentIndex === 0}
-              className="btn-icon"
-              style={{ opacity: currentIndex === 0 ? 0.35 : 1 }}
-              data-cursor="Previous"
-              aria-label="Previous slide"
-            >
-              <ArrowLeft size={18} />
-            </button>
-            <span style={{ fontSize: "0.88rem", fontWeight: 600, color: "var(--muted)", minWidth: "45px", textAlign: "center" }}>
-              {currentIndex + 1} / {RESORT_MOMENTS.length}
-            </span>
-            <button
-              onClick={handleNext}
-              disabled={currentIndex === maxIndex}
-              className="btn-icon"
-              style={{ opacity: currentIndex === maxIndex ? 0.35 : 1 }}
-              data-cursor="Next"
-              aria-label="Next slide"
-            >
-              <ArrowRight size={18} />
-            </button>
-          </div>
+        {/* Navigation Controls */}
+        <div style={{ display: "flex", gap: "0.8rem" }}>
+          <button
+            onClick={handlePrev}
+            disabled={currentIndex === 0}
+            className="btn-icon"
+            style={{
+              opacity: currentIndex === 0 ? 0.35 : 1,
+              cursor: currentIndex === 0 ? "not-allowed" : "pointer",
+            }}
+            data-cursor="Prev"
+          >
+            <ArrowLeft size={18} />
+          </button>
+          <button
+            onClick={handleNext}
+            disabled={currentIndex === maxIndex}
+            className="btn-icon"
+            style={{
+              opacity: currentIndex === maxIndex ? 0.35 : 1,
+              cursor: currentIndex === maxIndex ? "not-allowed" : "pointer",
+            }}
+            data-cursor="Next"
+          >
+            <ArrowRight size={18} />
+          </button>
         </div>
       </div>
 
-      {/* Carousel Track */}
-      <div className="section-pad" style={{ paddingTop: 0, paddingBottom: 0 }} ref={containerRef}>
-        <div className="moments-container">
-          <div
-            className="moments-track"
-            style={{
-              transform: `translateX(-${currentIndex * cardOffset}px)`,
-            }}
-          >
-            {RESORT_MOMENTS.map((moment) => (
-              <div key={moment.id} className="moment-card" data-cursor="Expand Moment">
-                <img src={moment.image} alt={moment.title} />
-                <div className="moment-overlay">
-                  <div
-                    style={{
-                      display: "flex",
-                      gap: "0.8rem",
-                      alignItems: "center",
-                      fontSize: "0.78rem",
-                      fontWeight: 600,
-                      color: "var(--peach-light)",
-                      marginBottom: "0.6rem",
-                      textTransform: "uppercase",
-                      letterSpacing: "0.1em",
-                    }}
-                  >
-                    <span style={{ display: "inline-flex", alignItems: "center", gap: "0.3rem" }}>
-                      <Clock size={12} /> {moment.timeTag}
-                    </span>
-                    <span>·</span>
-                    <span style={{ display: "inline-flex", alignItems: "center", gap: "0.3rem" }}>
-                      <MapPin size={12} /> {moment.location}
-                    </span>
-                  </div>
+      {/* Sliding Carousel Track */}
+      <div
+        ref={containerRef}
+        style={{
+          paddingLeft: "clamp(1.5rem, 4vw, 4rem)",
+          position: "relative",
+        }}
+      >
+        <div
+          className="moments-track"
+          style={{
+            transform: `translateX(-${currentIndex * cardOffset}px)`,
+          }}
+        >
+          {RESORT_MOMENTS.map((moment) => (
+            <div key={moment.id} className="moment-card" data-cursor="Expand">
+              <img
+                src={moment.image}
+                alt={moment.title}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  transition: "transform 0.6s ease",
+                }}
+              />
+              <div
+                style={{
+                  position: "absolute",
+                  inset: 0,
+                  background:
+                    "linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(15, 12, 11, 0.85) 100%)",
+                }}
+              />
 
-                  <h3>{moment.title}</h3>
-                  <p>{moment.caption}</p>
-                </div>
+              <div
+                style={{
+                  position: "absolute",
+                  top: "1.2rem",
+                  left: "1.2rem",
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "0.4rem",
+                  background: "rgba(255,255,255,0.2)",
+                  backdropFilter: "blur(8px)",
+                  padding: "0.3rem 0.75rem",
+                  borderRadius: "9999px",
+                  color: "#fff",
+                  fontSize: "0.75rem",
+                  fontWeight: 600,
+                }}
+              >
+                <Clock size={12} />
+                <span>{moment.timeTag}</span>
               </div>
-            ))}
-          </div>
+
+              <div
+                style={{
+                  position: "absolute",
+                  bottom: "1.5rem",
+                  left: "1.5rem",
+                  right: "1.5rem",
+                  color: "#fff",
+                }}
+              >
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "0.3rem",
+                    fontSize: "0.75rem",
+                    color: "var(--peach-light)",
+                    marginBottom: "0.3rem",
+                  }}
+                >
+                  <MapPin size={12} />
+                  <span>{moment.location}</span>
+                </div>
+                <h4 style={{ fontSize: "1.35rem", marginBottom: "0.4rem", color: "#fff" }}>
+                  {moment.title}
+                </h4>
+                <p style={{ fontSize: "0.85rem", opacity: 0.88, lineHeight: 1.5 }}>
+                  {moment.caption}
+                </p>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

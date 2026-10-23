@@ -1,5 +1,5 @@
 import React from "react";
-import { RESORT_SUITES, type Suite } from "../data/resortData";
+import { RESORT_SUITES, RESORT_CONTACT, type Suite } from "../data/resortData";
 import { Users, Maximize2, Bed, Check, Calendar, ArrowRight } from "lucide-react";
 import gsap from "gsap";
 
@@ -64,14 +64,14 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
           }}
         >
           <div>
-            <span className="section-label">Residential Accommodations</span>
+            <span className="section-label">Boutique Accommodations</span>
             <h2 style={{ fontSize: "clamp(2.4rem, 4.2vw, 3.8rem)", color: "var(--ink)" }}>
-              The Suites & Residencies
+              Rooms & Executive Suites
             </h2>
           </div>
           <p style={{ maxWidth: "520px", fontSize: "1.05rem" }}>
-            Thoughtfully engineered for extended family vacations, intimate staycations, and weekend
-            reunions. Every residence features spacious open layouts and scenic nature balconies.
+            Thoughtfully tailored for corporate travelers, wedding entourages, and family weekend
+            visits. Enjoy central air conditioning, high-speed fiber Wi-Fi, and 24/7 room service.
           </p>
         </div>
 
@@ -99,8 +99,15 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                   borderColor: isSelected ? "var(--amber)" : "var(--card-border)",
                 }}
               >
-                {/* Image & Category Tag */}
-                <div style={{ position: "relative", height: "280px", overflow: "hidden" }}>
+                {/* Image Gallery Header with Badge */}
+                <div
+                  style={{
+                    position: "relative",
+                    height: "270px",
+                    overflow: "hidden",
+                    borderRadius: "16px 16px 0 0",
+                  }}
+                >
                   <img
                     src={suite.image}
                     alt={suite.name}
@@ -108,23 +115,24 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                       width: "100%",
                       height: "100%",
                       objectFit: "cover",
-                      transition: "transform 0.6s var(--ease-luxury)",
+                      transition: "transform 0.7s cubic-bezier(0.16, 1, 0.3, 1)",
                     }}
+                    className="suite-img"
                   />
                   <div
                     style={{
                       position: "absolute",
-                      top: "1.2rem",
-                      left: "1.2rem",
-                      background: "rgba(20, 14, 10, 0.72)",
-                      backdropFilter: "blur(6px)",
+                      top: "1rem",
+                      left: "1rem",
+                      background: "rgba(23, 20, 18, 0.75)",
+                      backdropFilter: "blur(8px)",
                       color: "#fff",
-                      padding: "0.35rem 0.9rem",
+                      padding: "0.35rem 0.85rem",
                       borderRadius: "9999px",
-                      fontSize: "0.72rem",
-                      letterSpacing: "0.14em",
-                      textTransform: "uppercase",
+                      fontSize: "0.75rem",
                       fontWeight: 600,
+                      letterSpacing: "0.08em",
+                      textTransform: "uppercase",
                     }}
                   >
                     {suite.category}
@@ -133,26 +141,25 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                   <div
                     style={{
                       position: "absolute",
-                      bottom: "1.2rem",
-                      right: "1.2rem",
-                      background: "var(--glass-bg)",
-                      backdropFilter: "blur(8px)",
-                      color: "var(--ink)",
-                      padding: "0.45rem 1rem",
-                      borderRadius: "12px",
-                      fontSize: "0.95rem",
+                      bottom: "1rem",
+                      right: "1rem",
+                      background: "var(--amber)",
+                      color: "#fff",
+                      padding: "0.4rem 0.95rem",
+                      borderRadius: "10px",
                       fontWeight: 700,
-                      boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
+                      fontSize: "1.05rem",
+                      boxShadow: "0 4px 15px rgba(0,0,0,0.2)",
                     }}
                   >
-                    ₹{suite.pricePerNight.toLocaleString()}{" "}
-                    <span style={{ fontSize: "0.72rem", fontWeight: 400, color: "var(--muted)" }}>
-                      / night
+                    ₹{suite.pricePerNight.toLocaleString()}
+                    <span style={{ fontSize: "0.72rem", fontWeight: 400, marginLeft: "3px" }}>
+                      /night
                     </span>
                   </div>
                 </div>
 
-                {/* Content Details */}
+                {/* Content Body */}
                 <div
                   style={{
                     padding: "2rem",
@@ -163,80 +170,88 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                 >
                   <h3
                     style={{
-                      fontSize: "1.65rem",
-                      marginBottom: "0.4rem",
+                      fontSize: "1.7rem",
                       color: "var(--ink)",
+                      marginBottom: "0.4rem",
                     }}
                   >
                     {suite.name}
                   </h3>
+
                   <p
                     style={{
                       fontSize: "0.92rem",
+                      fontStyle: "italic",
                       color: "var(--amber)",
-                      fontWeight: 600,
-                      marginBottom: "1rem",
+                      marginBottom: "1.2rem",
                     }}
                   >
-                    {suite.tagline}
+                    "{suite.tagline}"
                   </p>
 
                   <p
                     style={{
                       fontSize: "0.94rem",
                       lineHeight: 1.6,
+                      color: "var(--ink)",
                       marginBottom: "1.5rem",
-                      flex: 1,
                     }}
                   >
                     {suite.description}
                   </p>
 
-                  {/* Room Specs */}
+                  {/* Room Meta Specs */}
                   <div
                     style={{
-                      display: "flex",
-                      gap: "1.2rem",
+                      display: "grid",
+                      gridTemplateColumns: "1fr 1fr",
+                      gap: "0.75rem",
                       padding: "1rem 0",
                       borderTop: "1px solid var(--card-border)",
                       borderBottom: "1px solid var(--card-border)",
                       marginBottom: "1.5rem",
-                      fontSize: "0.84rem",
+                      fontSize: "0.85rem",
                       color: "var(--ink)",
-                      flexWrap: "wrap",
                     }}
                   >
-                    <span style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem" }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
                       <Users size={15} style={{ color: "var(--amber)" }} />
-                      {suite.capacity}
-                    </span>
-                    <span style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem" }}>
+                      <span>{suite.capacity}</span>
+                    </div>
+                    <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
                       <Maximize2 size={15} style={{ color: "var(--amber)" }} />
-                      {suite.sizeSqFt} sq. ft.
-                    </span>
-                    <span style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem" }}>
+                      <span>{suite.sizeSqFt} sq.ft</span>
+                    </div>
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "0.5rem",
+                        gridColumn: "span 2",
+                      }}
+                    >
                       <Bed size={15} style={{ color: "var(--amber)" }} />
-                      {suite.bedType}
-                    </span>
+                      <span>{suite.bedType}</span>
+                    </div>
                   </div>
 
-                  {/* Key Features Bullet List */}
+                  {/* Features List */}
                   <ul
                     style={{
                       listStyle: "none",
-                      marginBottom: "1.8rem",
                       display: "flex",
                       flexDirection: "column",
-                      gap: "0.5rem",
+                      gap: "0.55rem",
+                      marginBottom: "2rem",
+                      fontSize: "0.86rem",
                     }}
                   >
-                    {suite.features.slice(0, 3).map((feat, i) => (
+                    {suite.features.map((feat, idx) => (
                       <li
-                        key={i}
+                        key={idx}
                         style={{
-                          fontSize: "0.85rem",
                           display: "flex",
-                          alignItems: "center",
+                          alignItems: "flex-start",
                           gap: "0.5rem",
                           color: "var(--muted)",
                         }}
@@ -262,8 +277,8 @@ export const SuitesShowcase: React.FC<SuitesShowcaseProps> = ({
                       <span>{isSelected ? "Selected in Plan" : "Select Suite"}</span>
                     </button>
                     <a
-                      href={`https://wa.me/916302919296?text=${encodeURIComponent(
-                        `Hi Hills View Resort, I would like details about ${suite.name} (₹${suite.pricePerNight}/night).`
+                      href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent(
+                        `Hi ${RESORT_CONTACT.name}, I would like details about ${suite.name} (₹${suite.pricePerNight}/night).`
                       )}`}
                       target="_blank"
                       rel="noopener noreferrer"

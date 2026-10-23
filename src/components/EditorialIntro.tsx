@@ -1,23 +1,24 @@
 import React from "react";
-import { Trees, Compass, Heart } from "lucide-react";
+import { Building2, Compass, Heart } from "lucide-react";
 
 export const EditorialIntro: React.FC = () => {
   return (
     <section className="editorial-section" id="story">
-      <span className="section-label">The Art of Peaceful Stays</span>
+      <span className="section-label">The Standard of Nizamabad Hospitality</span>
 
       <h2 className="statement-heading">
-        A private residential retreat tucked in the <br />
+        Premier boutique luxury & grand banquets at the <br />
         <em style={{ fontFamily: "var(--serif)", fontStyle: "italic", color: "var(--amber)" }}>
-          green lungs of Telangana.
+          heart of Telangana's commercial hub.
         </em>
       </h2>
 
       <p className="statement-body">
-        Just 75 kilometers from the bustling tech corridors of Hyderabad lies Vikarabad's
-        celebrated Ananthagiri Hills. Hills View Luxury Holidays Residential Resort was curated as
-        an antidote to urban rush — a sanctuary where towering teak canopies, cool hilltop breezes,
-        and spacious residential suites invite you to unwind completely.
+        Strategically positioned along the Hyderabad Road corridor near Devi Theatre 'X' Road,
+        Hotel Nikhil Sai International has established itself as Nizamabad’s landmark address for
+        distinguished corporate travelers, wedding celebrations, and family staycations. Offering
+        over 60 contemporary rooms and suites, celebrated fine dining at Chaskah, and flexible
+        banquet spaces designed to elevate every occasion.
       </p>
 
       {/* Feature Pillars */}
@@ -38,11 +39,11 @@ export const EditorialIntro: React.FC = () => {
             border: "1px solid var(--card-border)",
           }}
         >
-          <Trees size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Forest Oxygen Belt</h3>
+          <Compass size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
+          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Prime City Center</h3>
           <p style={{ fontSize: "0.94rem" }}>
-            Surrounded by historic medicinal flora and dense teak trees, offering refreshing
-            microclimates significantly cooler than Hyderabad city year-round.
+            Located right on Hyderabad Road in Dwaraka Nagar, merely 130 meters from Venu Mall,
+            1.5 km from the main bus stand, and 2 km from Nizamabad Railway Station.
           </p>
         </div>
 
@@ -54,11 +55,11 @@ export const EditorialIntro: React.FC = () => {
             border: "1px solid var(--card-border)",
           }}
         >
-          <Compass size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Effortless Getaway</h3>
+          <Building2 size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
+          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Grand Celebrations</h3>
           <p style={{ fontSize: "0.94rem" }}>
-            A smooth 90-minute scenic drive from Financial District / Gachibowli through rural
-            countryside roads, making it the perfect weekend escape.
+            Host unforgettable destination weddings, receptions, and business summits across our
+            Baithak Banquet Hall, Executive Boardroom, and scenic Upper Deck rooftop venue.
           </p>
         </div>
 
@@ -71,10 +72,10 @@ export const EditorialIntro: React.FC = () => {
           }}
         >
           <Heart size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Residential Privacy</h3>
+          <h3 style={{ fontSize: "1.35rem", marginBottom: "0.5rem" }}>Iconic Dining & Lounges</h3>
           <p style={{ fontSize: "0.94rem" }}>
-            Large family-first residential suites and private villas designed with home-like
-            warmth, private balconies, and dedicated event grounds.
+            Experience gourmet Hyderabadi Dum Biryanis and tandoor flavors at Chaskah Restaurant,
+            paired with evening relaxation at Inswinger sports bar and Outswinger lounge.
           </p>
         </div>
       </div>
@@ -82,19 +83,19 @@ export const EditorialIntro: React.FC = () => {
       {/* Key Stats Counter */}
       <div className="statement-stats">
         <div className="stat-item">
-          <h3>680m</h3>
-          <p>Hill Elevation</p>
+          <h3>60+</h3>
+          <p>Rooms & Suites</p>
         </div>
         <div className="stat-item">
-          <h3>90m</h3>
-          <p>From Hyderabad</p>
+          <h3>600+</h3>
+          <p>Banquet Capacity</p>
         </div>
         <div className="stat-item">
           <h3>24/7</h3>
-          <p>Residential Care</p>
+          <p>Concierge & Dining</p>
         </div>
         <div className="stat-item">
-          <h3>5.0 ★</h3>
+          <h3>4.5 ★</h3>
           <p>Guest Rating</p>
         </div>
       </div>

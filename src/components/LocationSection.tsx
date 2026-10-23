@@ -1,6 +1,6 @@
 import React from "react";
 import { RESORT_CONTACT } from "../data/resortData";
-import { MapPin, Navigation, Phone, Clock, Compass, Car } from "lucide-react";
+import { MapPin, Navigation, Phone, Clock, Compass, Car, Train, Building } from "lucide-react";
 
 export const LocationSection: React.FC = () => {
   return (
@@ -14,13 +14,12 @@ export const LocationSection: React.FC = () => {
     >
       <div style={{ maxWidth: "1300px", margin: "0 auto" }}>
         <div style={{ textAlign: "center", marginBottom: "4rem" }}>
-          <span className="section-label">Find Your Way to Serenity</span>
+          <span className="section-label">Prime Central Location</span>
           <h2 style={{ fontSize: "clamp(2.4rem, 4vw, 3.8rem)", color: "var(--ink)" }}>
             Location & Getting Here
           </h2>
           <p style={{ maxWidth: "620px", margin: "0.8rem auto 0" }}>
-            Tucked alongside the verdant hills of Vikarabad, an easy drive from Hyderabad's outer ring
-            road.
+            Centrally situated on Hyderabad Road in Dwaraka Nagar, Nizamabad — right near Devi Theatre 'X' Road and Venu Mall.
           </p>
         </div>
 
@@ -59,11 +58,11 @@ export const LocationSection: React.FC = () => {
                 }}
               >
                 <Compass size={16} />
-                <span>Ananthagiri Hills Belt</span>
+                <span>Nizamabad City Center</span>
               </div>
 
               <h3 style={{ fontSize: "1.9rem", color: "var(--ink)", marginBottom: "1rem" }}>
-                Hills View Luxury Holidays Residential Resort
+                {RESORT_CONTACT.name}
               </h3>
 
               <div
@@ -93,16 +92,30 @@ export const LocationSection: React.FC = () => {
                 }}
               >
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
+                  <Building size={18} style={{ color: "var(--amber)" }} />
+                  <span style={{ fontSize: "0.92rem" }}>
+                    <strong>130m from Venu Mall:</strong> Premier shopping, cinema & retail hub (1 min walk).
+                  </span>
+                </div>
+
+                <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
+                  <Train size={18} style={{ color: "var(--amber)" }} />
+                  <span style={{ fontSize: "0.92rem" }}>
+                    <strong>2.0 km from Railway Station:</strong> Nizamabad Junction (approx. 7 mins drive).
+                  </span>
+                </div>
+
+                <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Car size={18} style={{ color: "var(--amber)" }} />
                   <span style={{ fontSize: "0.92rem" }}>
-                    <strong>75 km from Hyderabad:</strong> Via Gachibowli → Shankarpalli → Vikarabad (approx. 90 mins).
+                    <strong>1.5 km from Bus Stand:</strong> Nizamabad Central TSRTC Depot (approx. 5 mins).
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Clock size={18} style={{ color: "var(--amber)" }} />
                   <span style={{ fontSize: "0.92rem" }}>
-                    <strong>Operating Hours:</strong> Open 24/7 with round-the-clock security and guest support.
+                    <strong>Operating Hours:</strong> 24/7 Front Desk, Concierge & In-Room Dining.
                   </span>
                 </div>
 
@@ -118,7 +131,7 @@ export const LocationSection: React.FC = () => {
             {/* Action Buttons */}
             <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <a
-                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(RESORT_CONTACT.name + " " + RESORT_CONTACT.address)}`}
+                href={RESORT_CONTACT.googleMapsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-luxury"
@@ -131,10 +144,10 @@ export const LocationSection: React.FC = () => {
               <a
                 href={`tel:${RESORT_CONTACT.phoneRaw}`}
                 className="btn-outline"
-                data-cursor="Call Resort"
+                data-cursor="Call Hotel"
               >
                 <Phone size={15} />
-                <span>Call for Directions</span>
+                <span>Call Front Desk</span>
               </a>
             </div>
           </div>
@@ -150,7 +163,7 @@ export const LocationSection: React.FC = () => {
             }}
           >
             <iframe
-              title="Hills View Luxury Residential Resort Vikarabad Map"
+              title="Hotel Nikhil Sai International Nizamabad Map"
               src={RESORT_CONTACT.googleMapsEmbed}
               width="100%"
               height="100%"

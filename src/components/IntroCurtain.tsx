@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { RESORT_CONTACT } from "../data/resortData";
 
 interface IntroCurtainProps {
   onComplete: () => void;
@@ -25,7 +26,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
       }}
     >
       <div style={{ textAlign: "center", maxWidth: "600px" }}>
-        {/* Luxury Hill Crest Emblem */}
+        {/* Luxury Hotel Crest Emblem */}
         <div style={{ marginBottom: "1.8rem" }}>
           <svg
             width="54"
@@ -37,12 +38,10 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
             strokeLinecap="round"
             strokeLinejoin="round"
           >
-            {/* Majestic Mountain Ridges and Sun */}
-            <circle cx="32" cy="18" r="7" stroke="var(--amber)" fill="rgba(165,88,45,0.12)" />
-            <path d="M8 52L26 26L36 38L46 24L58 52H8Z" />
-            <path d="M26 26L34 38" />
-            <path d="M46 24L40 38" />
-            <path d="M14 52C22 50 42 50 50 52" />
+            <circle cx="32" cy="18" r="6" stroke="var(--amber)" fill="rgba(165,88,45,0.12)" />
+            <path d="M12 48L20 24L32 34L44 24L52 48H12Z" />
+            <path d="M20 24L32 34L44 24" />
+            <path d="M12 48H52" />
           </svg>
         </div>
 
@@ -58,7 +57,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.15s",
             } as React.CSSProperties}
           >
-            Ananthagiri Hills · Vikarabad
+            Nizamabad · Telangana
           </span>
         </span>
 
@@ -74,7 +73,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.35s",
             } as React.CSSProperties}
           >
-            Hills View Residential Resort
+            {RESORT_CONTACT.name}
           </span>
         </h2>
 
@@ -89,7 +88,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.55s",
             } as React.CSSProperties}
           >
-            "Where the hills whisper peace, and time slows down."
+            "Where timeless hospitality meets modern refinement."
           </span>
         </p>
       </div>
