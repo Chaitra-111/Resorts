@@ -5,49 +5,48 @@ export const EditorialIntro: React.FC = () => {
   return (
     <section className="editorial-section" id="story">
       <div className="content-container">
-        <span className="section-label">The Standard of Nizamabad Hospitality</span>
+        <span className="section-label">Central Transit & Budget Hospitality</span>
 
         <h2 className="statement-heading">
-          Premier boutique luxury & grand banquets at the <br />
+          Dependable comfort, spotless rooms & transit convenience <br />
           <em style={{ fontFamily: "var(--serif)", fontStyle: "italic", color: "var(--amber)" }}>
-            heart of Telangana's commercial hub.
+            in the heart of Khaleelwadi, Nizamabad.
           </em>
         </h2>
 
         <p className="statement-body">
-          Strategically positioned along the Hyderabad Road corridor near Devi Theatre 'X' Road,
-          Hotel Nikhil Sai International has established itself as Nizamabad’s landmark address for
-          distinguished corporate travelers, wedding celebrations, and family staycations. Offering
-          over 60 contemporary rooms and suites, celebrated fine dining at Chaskah, and flexible
-          banquet spaces designed to elevate every occasion.
+          Strategically located on Jawahar Road beside the Fire Station in Khaleelwadi,
+          Citylite Lodge is Nizamabad's trusted address for budget-conscious business travelers,
+          pilgrims, and railway transit passengers. Offering clean air-conditioned and non-AC rooms,
+          attached bathrooms with 24-hour hot water, high-speed Wi-Fi, and generous group accommodations.
         </p>
 
         {/* Feature Pillars */}
         <div className="statement-pillars">
           <div className="pillar-card">
             <Compass size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Prime City Center</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Station-Side Hub</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Located right on Hyderabad Road in Dwaraka Nagar, merely 130 meters from Venu Mall,
-              1.5 km from the main bus stand, and 2 km from Nizamabad Railway Station.
+              Located just 600 meters (7 minutes walk) from Nizamabad Railway Station and
+              1.2 km from TSRTC Bus Depot, offering hassle-free transit for travelers arriving at any hour.
             </p>
           </div>
 
           <div className="pillar-card">
             <Building2 size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Grand Celebrations</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Affordable Group Stays</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Host unforgettable destination weddings, receptions, and business summits across our
-              Baithak Banquet Hall, Executive Boardroom, and scenic Upper Deck rooftop venue.
+              Multi-bed family rooms and triple sharing layouts suited for wedding entourages,
+              pilgrim groups, and corporate teams visiting Nizamabad at pocket-friendly tariffs.
             </p>
           </div>
 
           <div className="pillar-card">
             <Heart size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Iconic Dining & Lounges</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Khaleelwadi Food Trails</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Experience gourmet Hyderabadi Dum Biryanis and tandoor flavors at Chaskah Restaurant,
-              paired with evening relaxation at Inswinger sports bar and Outswinger lounge.
+              Surrounded by authentic Hyderabadi biryani centers, Andhra meals, and bakeries
+              along Jawahar Road, with round-the-clock room delivery assistance from the front desk.
             </p>
           </div>
         </div>
@@ -55,20 +54,20 @@ export const EditorialIntro: React.FC = () => {
         {/* Key Stats Counter */}
         <div className="statement-stats">
           <div className="stat-item">
-            <h3>60+</h3>
-            <p>Rooms & Suites</p>
-          </div>
-          <div className="stat-item">
-            <h3>600+</h3>
-            <p>Banquet Capacity</p>
+            <h3>600m</h3>
+            <p>To Railway Junction</p>
           </div>
           <div className="stat-item">
             <h3>24/7</h3>
-            <p>Concierge & Dining</p>
+            <p>Front Desk & Hot Water</p>
           </div>
           <div className="stat-item">
-            <h3>4.5 ★</h3>
-            <p>Guest Rating</p>
+            <h3>₹900+</h3>
+            <p>Budget Starting Tariff</p>
+          </div>
+          <div className="stat-item">
+            <h3>4.2 ★</h3>
+            <p>Google Guest Rating</p>
           </div>
         </div>
       </div>

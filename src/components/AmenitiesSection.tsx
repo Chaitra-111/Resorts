@@ -46,11 +46,11 @@ export const AmenitiesSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Hotel Amenities & Comfort</span>
-          <h2 className="section-title">Designed for Business & Celebratory Leisure</h2>
+          <span className="section-label">Lodge Amenities & Guest Services</span>
+          <h2 className="section-title">Designed for Essential Comfort & Station Convenience</h2>
           <p className="section-desc">
-            Every facility at Hotel Nikhil Sai International is designed to deliver effortless comfort,
-            premier connectivity, and refined regional hospitality.
+            Every facility at Citylite Lodge is tailored to provide clean, restful overnight stays,
+            uninterrupted hot water, fast Wi-Fi, and 24/7 caretaking support.
           </p>
         </div>
 

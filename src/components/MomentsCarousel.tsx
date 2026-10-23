@@ -47,11 +47,11 @@ export const MomentsCarousel: React.FC = () => {
         {/* Section Header */}
         <div className="section-header-split">
           <div className="left">
-            <span className="section-label">A Day at Hotel Nikhil Sai</span>
-            <h2 className="section-title">Moments in Golden Hospitality</h2>
+            <span className="section-label">A Day at Citylite Lodge</span>
+            <h2 className="section-title">Comfortable Transit & City Moments</h2>
             <p className="section-desc">
-              From morning breakfast spreads at Chaskah to starlit wedding celebrations on the Upper Deck
-              and lively evenings at Inswinger sports lounge.
+              From seamless morning train arrivals to restful air-conditioned rooms,
+              hot showers, and authentic Khaleelwadi food trails.
             </p>
           </div>
 

@@ -14,10 +14,10 @@ export const LocationSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Prime Central Location</span>
+          <span className="section-label">Prime Transit Location</span>
           <h2 className="section-title">Location & Getting Here</h2>
           <p className="section-desc">
-            Centrally situated on Hyderabad Road in Dwaraka Nagar, Nizamabad — right near Devi Theatre 'X' Road and Venu Mall.
+            Centrally situated on Jawahar Road / Tilak Garden Road in Khaleelwadi, Nizamabad — right beside the Fire Station and just 600 meters from Nizamabad Junction.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export const LocationSection: React.FC = () => {
                 }}
               >
                 <Compass size={16} />
-                <span>Nizamabad City Center</span>
+                <span>Station & Khaleelwadi Hub</span>
               </div>
 
               <h3 style={{ fontSize: "1.8rem", color: "var(--ink)", marginBottom: "0.8rem" }}>
@@ -94,30 +94,30 @@ export const LocationSection: React.FC = () => {
                 }}
               >
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
-                  <Building size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
+                  <Train size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>130m from Venu Mall:</strong> Shopping, dining & multiplex (1 min walk).
+                    <strong>600m from Nizamabad Railway Station:</strong> Easy 7-minute walk or 2-minute auto ride.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
-                  <Train size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
+                  <Building size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>2.0 km from Railway Station:</strong> Nizamabad Junction (~7 mins).
+                    <strong>Beside Fire Station & Tilak Garden:</strong> Direct access to Jawahar Road commercial market.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Car size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>1.5 km from Bus Depot:</strong> TSRTC Central Station (~5 mins).
+                    <strong>1.2 km from TSRTC Bus Depot:</strong> Quick connection to intercity bus terminals.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Clock size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Operating Hours:</strong> 24/7 Front Desk, Concierge & Room Service.
+                    <strong>Operating Hours:</strong> 24/7 Front Desk, Round-the-clock check-in support.
                   </span>
                 </div>
 
@@ -166,7 +166,7 @@ export const LocationSection: React.FC = () => {
             }}
           >
             <iframe
-              title="Hotel Nikhil Sai International Nizamabad Map"
+              title="Citylite Lodge Nizamabad Map"
               src={RESORT_CONTACT.googleMapsEmbed}
               width="100%"
               height="100%"

@@ -51,8 +51,8 @@ export const Header: React.FC<HeaderProps> = ({
               <path d="M14 48H50" />
             </svg>
             <div className="brand-text">
-              <span className="brand-word">NIKHIL SAI</span>
-              <span className="brand-sub">Boutique Hotel & Banquets</span>
+              <span className="brand-word">CITYLITE</span>
+              <span className="brand-sub">Lodge & Transit Stays</span>
             </div>
           </a>
 
@@ -61,17 +61,17 @@ export const Header: React.FC<HeaderProps> = ({
             <ul className="nav-links">
               <li>
                 <a href="#suites" className="nav-link">
-                  Rooms & Suites
+                  Rooms & Rates
                 </a>
               </li>
               <li>
                 <a href="#dining" className="nav-link">
-                  Chaskah Dining
+                  Food & Dining
                 </a>
               </li>
               <li>
                 <a href="#banquets" className="nav-link">
-                  Banquets & Events
+                  Group Bookings
                 </a>
               </li>
               <li>
@@ -156,23 +156,23 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="content-container">
             <nav className="mobile-nav-menu">
               <a href="#suites" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Rooms & Executive Suites</span>
+                <span>Rooms & Rates</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#hotspots" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Explore Spaces & Venues</span>
+                <span>Explore Spaces & Transit</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#dining" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Chaskah Restaurant & Lounge</span>
+                <span>Food & Dining Trails</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#banquets" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Baithak & Upper Deck Banquets</span>
+                <span>Group & Transit Stays</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#experiences" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Hotel Amenities</span>
+                <span>Lodge Amenities</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#location" onClick={closeMobileMenu} className="mobile-nav-item">

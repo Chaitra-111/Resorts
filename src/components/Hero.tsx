@@ -21,8 +21,8 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
       {/* Background container */}
       <div className="hero-bg-container">
         <img
-          src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=2400&q=88"
-          alt="Hotel Nikhil Sai International Boutique Luxury Hotel in Nizamabad"
+          src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=2400&q=88"
+          alt="Citylite Lodge Budget & Transit Accommodation in Nizamabad"
           className="hero-image"
         />
         <div className="hero-overlay" />
@@ -33,25 +33,25 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
         <div className="hero-content">
           <div className="hero-eyebrow">
             <MapPin size={13} style={{ color: "var(--peach-light)", flexShrink: 0 }} />
-            <span>Devi Theatre 'X' Road · Hyderabad Road, Nizamabad</span>
+            <span>Jawahar Road · Beside Fire Station, Khaleelwadi, Nizamabad</span>
           </div>
 
           <h1 className="hero-title">
-            Where Regal Comfort Meets <em>Modern Elegance.</em>
+            Affordable Comfort in the <em>Heart of Nizamabad.</em>
           </h1>
 
           <p className="hero-desc">
-            Experience premier boutique hospitality in the vibrant heart of Nizamabad.
-            Luxurious executive suites, iconic Chaskah fine dining, and grand Baithak & Upper Deck celebration banquets.
+            Clean, air-conditioned rooms and dependable lodging just 600 meters from Nizamabad Railway Station.
+            Designed for transit passengers, business travelers, pilgrim tours, and visiting families.
           </p>
 
           <div className="hero-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap", alignItems: "center" }}>
             <a href="#suites" className="btn-luxury" data-cursor="View Rooms">
-              <span>Explore Rooms & Suites</span>
+              <span>Explore Rooms & Rates</span>
               <ArrowRight size={15} />
             </a>
             <a
-              href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent("Hello Hotel Nikhil Sai International, I would like to inquire about booking a stay/event.")}`}
+              href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent("Hello Citylite Lodge, I would like to inquire about room availability and tariffs.")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline"
@@ -104,12 +104,11 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               value={guests}
               onChange={(e) => setGuests(Number(e.target.value))}
             >
-              <option value={1}>1 Guest (Corporate)</option>
-              <option value={2}>2 Guests (Executive / Couple)</option>
-              <option value={4}>4 Guests (Family Suite)</option>
-              <option value={6}>6+ Guests (Presidential Group)</option>
-              <option value={50}>50+ Guests (Baithak Banquet)</option>
-              <option value={200}>200+ Guests (Upper Deck Grand Event)</option>
+              <option value={1}>1 Guest (Solo / Transit)</option>
+              <option value={2}>2 Guests (Deluxe AC / Standard)</option>
+              <option value={3}>3 Guests (Triple Sharing)</option>
+              <option value={4}>4 Guests (Executive Family Room)</option>
+              <option value={10}>10+ Guests (Group & Wedding Booking)</option>
             </select>
           </div>
 
@@ -119,7 +118,7 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               Destination
             </label>
             <div style={{ fontSize: "0.95rem", fontWeight: 700, color: "var(--ink)", padding: "2px 0" }}>
-              Dwaraka Nagar, Nizamabad
+              Khaleelwadi, Nizamabad
             </div>
           </div>
 

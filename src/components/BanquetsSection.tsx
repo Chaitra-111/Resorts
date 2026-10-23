@@ -33,8 +33,8 @@ export const BanquetsSection: React.FC = () => {
               }}
             >
               <img
-                src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1400&q=85"
-                alt="Banquets & Celebrations at Hotel Nikhil Sai International Nizamabad"
+                src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1400&q=85"
+                alt="Group Bookings and Accommodations at Citylite Lodge Nizamabad"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -64,31 +64,31 @@ export const BanquetsSection: React.FC = () => {
                   textTransform: "uppercase",
                 }}
               >
-                Event Capacity
+                Group Capacity
               </span>
               <h4 style={{ fontSize: "1.7rem", color: "var(--ink)", margin: "0.2rem 0" }}>
-                50 to 600+
+                10 to 80+
               </h4>
               <p style={{ fontSize: "0.82rem", color: "var(--muted)" }}>
-                Guests across Baithak Banquet Hall & Upper Deck Rooftop.
+                Guests across Deluxe AC, Family Suites & Triple Sharing Rooms.
               </p>
             </div>
           </div>
 
           {/* Editorial Content */}
           <div>
-            <span className="section-label">Weddings, Receptions & Banquets</span>
+            <span className="section-label">Group Bookings & Transit Accommodation</span>
             <h2
               className="section-title"
               style={{ marginBottom: "1.25rem" }}
             >
-              Celebrate Grand Milestones with Unmatched Splendor.
+              Comfortable Group Stays for Weddings, Pilgrims & Teams.
             </h2>
 
             <p style={{ fontSize: "1.05rem", lineHeight: 1.7, marginBottom: "2rem", color: "var(--muted)" }}>
-              Whether you are hosting a traditional wedding reception, a lively Sangeet, a high-profile
-              corporate summit, or an intimate birthday gathering, Hotel Nikhil Sai International offers
-              versatile indoor banquet halls and romantic open-air rooftop settings complete with gourmet catering.
+              Hosting an upcoming family wedding, organizing a pilgrim tour to Basar Saraswati Temple,
+              or accommodating a business team in Nizamabad? Citylite Lodge offers multi-room group
+              packages with special discounted tariffs, round-the-clock front desk help, and easy station access.
             </p>
 
             <div
@@ -103,9 +103,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Sparkles size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Baithak Banquet</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Wedding Party Stays</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Indoor AC hall for 250–300 guests with crystal lighting & stage.
+                    Block multiple adjacent AC rooms for visiting relatives and marriage entourages.
                   </p>
                 </div>
               </div>
@@ -113,9 +113,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Users size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Upper Deck Terrace</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Pilgrim & Tour Groups</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Rooftop open-air celebration venue accommodating up to 600 guests.
+                    Spacious triple and family rooms offering unbeatable value for group itineraries.
                   </p>
                 </div>
               </div>
@@ -123,9 +123,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Music size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Executive Boardroom</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Flexible Check-in/Out</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    HD projector, conferencing microphones & business seating.
+                    Flexible 24-hour cycles accommodating odd-hour train arrivals and departures.
                   </p>
                 </div>
               </div>
@@ -133,9 +133,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <HeartHandshake size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Chaskah Catering</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Baggage & Caretaker Care</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Customized live counters, Hyderabadi Dum Biryani & multi-cuisine spreads.
+                    Secure luggage hold, CCTV monitoring, and prompt in-room assistance.
                   </p>
                 </div>
               </div>
@@ -144,14 +144,14 @@ export const BanquetsSection: React.FC = () => {
             <div className="banquets-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <a
                 href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent(
-                  "Hello Hotel Nikhil Sai International, I am interested in booking your banquet hall / Upper Deck for an event."
+                  "Hello Citylite Lodge, I am interested in inquiring about group room bookings / family wedding accommodation."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-luxury"
                 data-cursor="Plan Event"
               >
-                <span>Plan Your Event</span>
+                <span>Inquire Group Rates</span>
                 <Sparkles size={15} />
               </a>
 

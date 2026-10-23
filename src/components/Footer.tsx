@@ -57,8 +57,8 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
             </div>
 
             <p style={{ fontSize: "0.92rem", lineHeight: 1.65, maxWidth: "340px", marginBottom: "1.5rem" }}>
-              Nizamabad's landmark hospitality address. Executive suites, Chaskah multi-cuisine restaurant,
-              Baithak & Upper Deck grand celebration banquets, and vibrant sports lounges.
+              Nizamabad's trusted budget lodging address in Khaleelwadi. Air-conditioned rooms,
+              24-hour hot water, high-speed Wi-Fi, and 600m station proximity.
             </p>
 
             {/* Atmosphere Mood Switcher in Footer */}
@@ -92,32 +92,32 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 marginBottom: "1.2rem",
               }}
             >
-              The Hotel
+              The Lodge
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.92rem" }}>
               <li>
                 <a href="#suites" className="footer-link">
-                  Rooms & Executive Suites
+                  Rooms & Rates
                 </a>
               </li>
               <li>
                 <a href="#hotspots" className="footer-link">
-                  Signature Spaces
+                  Transit & Spaces
                 </a>
               </li>
               <li>
                 <a href="#dining" className="footer-link">
-                  Chaskah Restaurant
+                  Khaleelwadi Food Trails
                 </a>
               </li>
               <li>
                 <a href="#banquets" className="footer-link">
-                  Baithak & Upper Deck Banquets
+                  Group & Transit Stays
                 </a>
               </li>
               <li>
                 <a href="#experiences" className="footer-link">
-                  Inswinger Lounge & Amenities
+                  Lodge Amenities
                 </a>
               </li>
             </ul>
@@ -138,12 +138,12 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
               Nizamabad Landmarks
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.9rem", color: "var(--ink)" }}>
-              <li>• Venu Mall & Multiplex (130 meters)</li>
-              <li>• Nizamabad Railway Junction (2.0 km)</li>
-              <li>• Nizamabad TSRTC Central Bus Stand (1.5 km)</li>
-              <li>• Historic Nizamabad Fort (3.5 km)</li>
-              <li>• Ashok Sagar Lake & Rock Garden (7 km)</li>
-              <li>• Alisagar Deer Park (13 km)</li>
+              <li>• Nizamabad Railway Junction (600 meters)</li>
+              <li>• Tilak Garden & Grounds (Beside Lodge)</li>
+              <li>• TSRTC Central Bus Depot (1.2 km)</li>
+              <li>• Khaleelwadi Commercial Hub (On-site)</li>
+              <li>• Historic Nizamabad Fort (3.0 km)</li>
+              <li>• Ashok Sagar Lake & Garden (7 km)</li>
             </ul>
           </div>
 

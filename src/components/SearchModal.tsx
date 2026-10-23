@@ -32,21 +32,21 @@ export const SearchModal: React.FC<SearchModalProps> = ({
       target: "experiences",
     })),
     {
-      title: "Baithak & Upper Deck Banquets",
-      category: "Events",
-      description: "Host up to 600+ guests for weddings, sangeet receptions, and corporate conferences.",
+      title: "Group Stays & Transit Bookings",
+      category: "Group Stays",
+      description: "Host up to 80+ guests for wedding parties, pilgrims, and transit travel.",
       target: "banquets",
     },
     {
-      title: "Chaskah Restaurant & Inswinger Lounge",
+      title: "Dining & Khaleelwadi Food Trails",
       category: "Dining",
-      description: "Authentic Hyderabadi Dum Biryanis, tandoori platters, and vibrant sports bar lounge.",
+      description: "Authentic Hyderabadi Dum Biryanis, Andhra meals, and doorstep food delivery.",
       target: "dining",
     },
     {
-      title: "Location & Transit in Nizamabad",
+      title: "Location & Transit in Khaleelwadi",
       category: "Location",
-      description: "130m from Venu Mall, 1.5 km from Bus Depot, 2 km from Nizamabad Railway Station.",
+      description: "600m from Nizamabad Railway Station, Beside Fire Station, Tilak Garden Road.",
       target: "location",
     },
     {
