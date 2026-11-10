@@ -46,11 +46,11 @@ export const AmenitiesSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Guest House Amenities & Services</span>
-          <h2 className="section-title">Designed for Peaceful Stays & Seamless Airport Transit</h2>
+          <span className="section-label">Estate Amenities & Concierge Services</span>
+          <h2 className="section-title">Curated for Unrivaled Privacy & Coastal Luxury</h2>
           <p className="section-desc">
-            Every facility at Noel Guest House is tailored to ensure restful comfort, spotless cleanliness,
-            cooling air-conditioned rooms, warm family hospitality, and prompt 5-minute transit to Dabolim Airport.
+            Every amenity at Coco Aavya - Luxury Villas is tailored to provide supreme comfort, private swimming pools,
+            personalized butler assistance, and effortless access to North Goa's most desirable destinations.
           </p>
         </div>
 

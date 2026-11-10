@@ -57,8 +57,8 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
             </div>
 
             <p style={{ fontSize: "0.92rem", lineHeight: 1.65, maxWidth: "340px", marginBottom: "1.5rem" }}>
-              Bogmalo's peaceful village retreat and trusted airport transit accommodation. Spotless air-conditioned rooms,
-              warm family hosting by Cajetan Rodrigues & family, 50m to Bogmalo Church, 5-min walk to Bogmalo Beach, and 4 km to Goa Dabolim Airport.
+              North Goa's premier private pool villa estate in Reis Magos. Palatial 3BHK & 4BHK estates overlooking the Nerul River,
+              dedicated butler service, private chef on call, 5 mins to Coco Beach, and 8 mins to Candolim Beach.
             </p>
 
             {/* Atmosphere Mood Switcher in Footer */}
@@ -92,32 +92,32 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 marginBottom: "1.2rem",
               }}
             >
-              The Guest House
+              The Estate
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.92rem" }}>
               <li>
                 <a href="#suites" className="footer-link">
-                  Rooms & Rates
+                  Villas & Rates
                 </a>
               </li>
               <li>
                 <a href="#hotspots" className="footer-link">
-                  Spaces & Hotspots
+                  Estate Hotspots
                 </a>
               </li>
               <li>
                 <a href="#dining" className="footer-link">
-                  Dining & Shacks
+                  Private Dining & Chef
                 </a>
               </li>
               <li>
                 <a href="#banquets" className="footer-link">
-                  Group & Transit Stays
+                  Villa Estate Buyouts
                 </a>
               </li>
               <li>
                 <a href="#experiences" className="footer-link">
-                  Guest Amenities
+                  Estate Amenities
                 </a>
               </li>
             </ul>
@@ -135,15 +135,15 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 marginBottom: "1.2rem",
               }}
             >
-              Bogmalo & South Goa Landmarks
+              Reis Magos & North Goa Landmarks
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.9rem", color: "var(--ink)" }}>
-              <li>• Bogmalo Church (50 meters)</li>
-              <li>• Bogmalo Beach & Shacks (~400 meters)</li>
-              <li>• Heart-Shaped Lake (~1.5 km)</li>
-              <li>• Indian Naval Aviation Museum (~2.0 km)</li>
-              <li>• Goa Dabolim Airport GOI (~4.0 km / 5-7 mins)</li>
-              <li>• Vasco da Gama Railway Station (~7.5 km)</li>
+              <li>• Nerul River Promenade (Immediate)</li>
+              <li>• Coco Beach (~1.5 km / 5 mins)</li>
+              <li>• Historic Reis Magos Fort (~2.0 km / 6 mins)</li>
+              <li>• Candolim Beach Strip (~3.5 km / 8 mins)</li>
+              <li>• Taj Fort Aguada & Sinquerim (~5.0 km / 10 mins)</li>
+              <li>• Panaji City & Mandovi River (~9.0 km / 15 mins)</li>
             </ul>
           </div>
 

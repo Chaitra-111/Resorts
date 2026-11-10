@@ -21,8 +21,8 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
       {/* Background container */}
       <div className="hero-bg-container">
         <img
-          src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=2400&q=88"
-          alt="Noel Guest House Bogmalo Goa Peaceful Stays and Airport Transit"
+          src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=2400&q=88"
+          alt="Coco Aavya Ultra-Luxury Private Pool Villas in Reis Magos North Goa"
           className="hero-image"
         />
         <div className="hero-overlay" />
@@ -33,26 +33,26 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
         <div className="hero-content">
           <div className="hero-eyebrow">
             <MapPin size={13} style={{ color: "var(--peach-light)", flexShrink: 0 }} />
-            <span>House No. 94, Bogmalo Road · Near Bogmalo Church, South Goa (4 km to Dabolim Airport)</span>
+            <span>Nerul - Reis Magos Road · Opposite Sinamon Villa, North Goa (Near Candolim & Coco Beach)</span>
           </div>
 
           <h1 className="hero-title">
-            Quiet Coastal Charm & Warm Hospitality in <em>Bogmalo.</em>
+            Ultra-Luxury Private Pool Villas in <em>Reis Magos, Goa.</em>
           </h1>
 
           <p className="hero-desc">
-            Spotless, peaceful guest house accommodation nestled in a quiet coconut tree-lined village setting.
-            Located just 50 meters from Bogmalo Church, a relaxed 5-minute walk to Bogmalo Beach sands,
-            and only 5–7 minutes from Goa Dabolim International Airport.
+            Discover palatial 3BHK & 4BHK private pool villas overlooking the tranquil waters of the Nerul River.
+            Featuring dedicated butler service, gourmet private chef dining, bespoke European interiors,
+            and effortless proximity to Candolim Beach and coastal nightlife.
           </p>
 
           <div className="hero-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap", alignItems: "center" }}>
             <a href="#suites" className="btn-luxury" data-cursor="View Rooms">
-              <span>Explore Rooms & Rates</span>
+              <span>Explore Villas & Rates</span>
               <ArrowRight size={15} />
             </a>
             <a
-              href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent("Hello Noel Guest House, I would like to inquire about room availability and tariffs.")}`}
+              href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent("Hello Coco Aavya, I would like to inquire about luxury villa availability and tariffs.")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline"
@@ -105,11 +105,11 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               value={guests}
               onChange={(e) => setGuests(Number(e.target.value))}
             >
-              <option value={1}>1 Guest (Airport Transit / Solo)</option>
-              <option value={2}>2 Guests (Deluxe A/C Double Room)</option>
-              <option value={3}>3 Guests (Comfort Standard Room)</option>
-              <option value={4}>4 Guests (Garden Family Suite Room)</option>
-              <option value={10}>10+ Guests (Group & Extended Stay)</option>
+              <option value={2}>2 Guests (Deluxe Poolside Master Suite)</option>
+              <option value={4}>4 Guests (Presidential Riverview Penthouse)</option>
+              <option value={6}>6 Guests (3BHK Luxury Haven Villa)</option>
+              <option value={8}>8–10 Guests (4BHK Grand Royal Pool Villa)</option>
+              <option value={15}>15+ Guests (Full Estate Buyout & Events)</option>
             </select>
           </div>
 
@@ -119,7 +119,7 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               Destination
             </label>
             <div style={{ fontSize: "0.95rem", fontWeight: 700, color: "var(--ink)", padding: "2px 0" }}>
-              Bogmalo, Goa
+              Reis Magos · Candolim, Goa
             </div>
           </div>
 

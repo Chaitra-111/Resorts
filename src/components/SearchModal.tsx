@@ -32,21 +32,21 @@ export const SearchModal: React.FC<SearchModalProps> = ({
       target: "experiences",
     })),
     {
-      title: "Group Stays & Flight Transit Packages",
+      title: "Private Villa Buyouts & Estate Celebrations",
       category: "Group Stays",
-      description: "Accommodate up to 30+ guests for flight transit, family holidays, and group stays.",
+      description: "Accommodate up to 25+ guests across 4BHK and 3BHK private pool luxury villas.",
       target: "banquets",
     },
     {
-      title: "Dining & Bogmalo Beach Shacks",
+      title: "Private Chef & In-Villa Dining",
       category: "Dining",
-      description: "Fresh Goan seafood, beach shacks 400m away, morning tea, and doorstep food delivery.",
+      description: "Gourmet private chef dining, live poolside barbecues, and Candolim fine-dining trails.",
       target: "dining",
     },
     {
-      title: "Location near Bogmalo Church & Beach",
+      title: "Location in Reis Magos & Candolim",
       category: "Location",
-      description: "House No. 94, 50m from Bogmalo Church, 5-min walk to beach, 4 km from Dabolim Airport.",
+      description: "Opposite Sinamon Villa, Nerul River waterfront, 5 mins to Coco Beach, 8 mins to Candolim.",
       target: "location",
     },
     {

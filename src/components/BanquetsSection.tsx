@@ -33,8 +33,8 @@ export const BanquetsSection: React.FC = () => {
               }}
             >
               <img
-                src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1400&q=85"
-                alt="Group Bookings and Accommodations at Noel Guest House Bogmalo"
+                src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1400&q=85"
+                alt="Exclusive Private Villa Estate Buyouts at Coco Aavya North Goa"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -64,31 +64,31 @@ export const BanquetsSection: React.FC = () => {
                   textTransform: "uppercase",
                 }}
               >
-                Group Capacity
+                Estate Capacity
               </span>
               <h4 style={{ fontSize: "1.7rem", color: "var(--ink)", margin: "0.2rem 0" }}>
-                10 to 30+
+                Up to 25+
               </h4>
               <p style={{ fontSize: "0.82rem", color: "var(--muted)" }}>
-                Guests across Deluxe AC Rooms, Comfort Standard, and Family Suites.
+                Guests across Grand 4BHK & 3BHK Private Pool Estates.
               </p>
             </div>
           </div>
 
           {/* Editorial Content */}
           <div>
-            <span className="section-label">Group Stays & Transit Packages</span>
+            <span className="section-label">Private Villa Buyouts & Celebrations</span>
             <h2
               className="section-title"
               style={{ marginBottom: "1.25rem" }}
             >
-              Comfortable Group Stays for Flight Layover & Beach Holidays.
+              Exclusive Estate Buyouts, Anniversaries & Private Soirées.
             </h2>
 
             <p style={{ fontSize: "1.05rem", lineHeight: 1.7, marginBottom: "2rem", color: "var(--muted)" }}>
-              Traveling with an extended family, wedding guests, or a tour group transiting via Dabolim Airport?
-              Noel Guest House offers multi-room bookings with special discounted rates, flexible 24/7 check-in,
-              spacious on-site parking, and a peaceful village ambiance just 5 minutes from Bogmalo Beach.
+              Celebrating a milestone birthday, hosting an intimate pre-wedding celebration, or gathering with close
+              friends and family in North Goa? Coco Aavya offers exclusive private pool villa buyouts with dedicated
+              butler service, personalized private chef dining, and absolute waterfront seclusion.
             </p>
 
             <div
@@ -103,9 +103,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Sparkles size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Flight Transit Groups</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Private Pool Soirées</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Swift 5 to 7 minute transfers to Dabolim Airport with round-the-clock taxi help.
+                    Exclusive poolside sundecks for sunset cocktails, ambient lighting, and celebrations.
                   </p>
                 </div>
               </div>
@@ -113,9 +113,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Users size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Family & Friend Groups</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Full Estate Buyouts</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Adjacent clean AC rooms and family suites with quiet balconies and green views.
+                    Combine adjacent 4BHK and 3BHK luxury villas for multi-generational group privacy.
                   </p>
                 </div>
               </div>
@@ -123,9 +123,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Music size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Scooter & Beach Outings</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Chef & Live Barbecue</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    On-site bike rentals and easy 5-minute walk to Bogmalo water sports and cafes.
+                    Customized multi-course menus, live seafood grills, and curated bar setups.
                   </p>
                 </div>
               </div>
@@ -133,9 +133,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <HeartHandshake size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Host Care & Luggage</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Concierge & Yacht Charters</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Safe luggage storage, warm personal hospitality, and peaceful residential security.
+                    Airport luxury transfers, chauffeur coordination, and private Mandovi yacht sails.
                   </p>
                 </div>
               </div>
@@ -144,14 +144,14 @@ export const BanquetsSection: React.FC = () => {
             <div className="banquets-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <a
                 href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent(
-                  "Hello Noel Guest House, I am interested in inquiring about group room bookings and transit packages."
+                  "Hello Coco Aavya, I am interested in inquiring about private villa estate bookings and celebrations."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-luxury"
                 data-cursor="Plan Event"
               >
-                <span>Inquire Group Rates</span>
+                <span>Inquire Villa Rates</span>
                 <Sparkles size={15} />
               </a>
 

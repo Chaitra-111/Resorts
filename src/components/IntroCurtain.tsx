@@ -58,7 +58,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.1s",
             } as React.CSSProperties}
           >
-            Bogmalo Beach · South Goa
+            Reis Magos · North Goa
           </span>
         </span>
 
@@ -89,7 +89,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.35s",
             } as React.CSSProperties}
           >
-            "Peaceful village serenity, warm Goan hospitality & 5-minute airport transit."
+            "Ultra-luxury private pool villas, Nerul River horizons & bespoke butler care."
           </span>
         </p>
       </div>

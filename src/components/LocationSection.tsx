@@ -14,10 +14,10 @@ export const LocationSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Prime Village & Airport Location</span>
+          <span className="section-label">Prime North Goa Waterfront Location</span>
           <h2 className="section-title">Location & Getting Here</h2>
           <p className="section-desc">
-            Situated on Bogmalo Road (50m from Bogmalo Church), South Goa — a relaxed 5-minute walk to Bogmalo Beach and only 5–7 minutes from Goa Dabolim International Airport.
+            Located along Nerul - Reis Magos Road (opposite Sinamon Villa), North Goa — just 5 minutes from Coco Beach, 8 minutes to Candolim Beach, and 15 minutes to Panaji.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export const LocationSection: React.FC = () => {
                 }}
               >
                 <Compass size={16} />
-                <span>Village Haven & Airport Hub</span>
+                <span>Reis Magos · Candolim Luxury Enclave</span>
               </div>
 
               <h3 style={{ fontSize: "1.8rem", color: "var(--ink)", marginBottom: "0.8rem" }}>
@@ -96,35 +96,35 @@ export const LocationSection: React.FC = () => {
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Waves size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>5-Min Walk to Bogmalo Beach (~400m):</strong> Pleasant village stroll directly to the shoreline and sea shacks.
+                    <strong>Nerul River Waterfront:</strong> Peaceful riverfront setting overlooking the Mandovi estuary and hills.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Landmark size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>50m from Bogmalo Church:</strong> Peaceful residential village lane surrounded by lush coconut trees.
+                    <strong>Opposite Sinamon Villa:</strong> Exclusive private enclave along Nerul Dandadi with total privacy.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Car size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>4 km to Goa Dabolim Airport (GOI):</strong> Swift 5 to 7 minute drive with 24/7 taxi booking support.
+                    <strong>8 Mins to Candolim Beach & Aguada:</strong> Effortless drive to top beach clubs, restaurants, and water sports.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Clock size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Operating Hours:</strong> 24/7 Front Desk · Flexible Check-In for late-night flights.
+                    <strong>Concierge & Host Hours:</strong> 24/7 Gated Security · Dedicated Butler & Private Chef on Call.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Phone size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Direct Contacts:</strong> {RESORT_CONTACT.phone} / {RESORT_CONTACT.phoneAlt}
+                    <strong>Direct Concierge:</strong> {RESORT_CONTACT.phone} / {RESORT_CONTACT.phoneAlt}
                   </span>
                 </div>
               </div>
@@ -149,7 +149,7 @@ export const LocationSection: React.FC = () => {
                 data-cursor="Call Hotel"
               >
                 <Phone size={15} />
-                <span>Call Front Desk</span>
+                <span>Call Concierge</span>
               </a>
             </div>
           </div>
@@ -166,7 +166,7 @@ export const LocationSection: React.FC = () => {
             }}
           >
             <iframe
-              title="Noel Guest House Bogmalo Goa Map"
+              title="Coco Aavya Luxury Villas Reis Magos Goa Map"
               src={RESORT_CONTACT.googleMapsEmbed}
               width="100%"
               height="100%"
