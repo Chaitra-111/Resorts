@@ -5,48 +5,48 @@ export const EditorialIntro: React.FC = () => {
   return (
     <section className="editorial-section" id="story">
       <div className="content-container">
-        <span className="section-label">Central Transit & Budget Hospitality</span>
+        <span className="section-label">Premier Luxury Rooms & Suites</span>
 
         <h2 className="statement-heading">
-          Dependable comfort, spotless rooms & transit convenience <br />
+          Contemporary luxury, executive comfort & serene living <br />
           <em style={{ fontFamily: "var(--serif)", fontStyle: "italic", color: "var(--amber)" }}>
-            in the heart of Khaleelwadi, Nizamabad.
+            in the heart of Pragathi Nagar, Mubaraknagar.
           </em>
         </h2>
 
         <p className="statement-body">
-          Strategically located on Jawahar Road beside the Fire Station in Khaleelwadi,
-          Citylite Lodge is Nizamabad's trusted address for budget-conscious business travelers,
-          pilgrims, and railway transit passengers. Offering clean air-conditioned and non-AC rooms,
-          attached bathrooms with 24-hour hot water, high-speed Wi-Fi, and generous group accommodations.
+          Located along Kakatiya Girls College Road in Pragathi Nagar, Mubaraknagar,
+          S P GRAND Luxury Rooms is Nizamabad's premier destination for corporate professionals,
+          wedding guests, visiting families, and leisure travelers. Offering thoughtfully designed
+          air-conditioned luxury rooms, high-speed fiber Wi-Fi, 24/7 front desk concierge, and secure on-site parking.
         </p>
 
         {/* Feature Pillars */}
         <div className="statement-pillars">
           <div className="pillar-card">
             <Compass size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Station-Side Hub</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Prime Pragathi Nagar</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Located just 600 meters (7 minutes walk) from Nizamabad Railway Station and
-              1.2 km from TSRTC Bus Depot, offering hassle-free transit for travelers arriving at any hour.
+              Situated in the calm, serene neighborhood of Mubaraknagar near Kakatiya Girls College,
+              with quick transit to Nizamabad Junction Railway Station, hospitals, and central retail hubs.
             </p>
           </div>
 
           <div className="pillar-card">
             <Building2 size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Affordable Group Stays</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Executive & Family Suites</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Multi-bed family rooms and triple sharing layouts suited for wedding entourages,
-              pilgrim groups, and corporate teams visiting Nizamabad at pocket-friendly tariffs.
+              From ergonomic executive workspaces for business guests to expansive multi-bed suites
+              for wedding entourages and visiting families, enjoy refined comfort tailored to every stay.
             </p>
           </div>
 
           <div className="pillar-card">
             <Heart size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Khaleelwadi Food Trails</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Dining & Concierge Care</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Surrounded by authentic Hyderabadi biryani centers, Andhra meals, and bakeries
-              along Jawahar Road, with round-the-clock room delivery assistance from the front desk.
+              Enjoy seamless room service, doorstep delivery from Nizamabad's top culinary dining spots,
+              complimentary morning tea/coffee support, and 24-hour hot water showers.
             </p>
           </div>
         </div>
@@ -54,20 +54,20 @@ export const EditorialIntro: React.FC = () => {
         {/* Key Stats Counter */}
         <div className="statement-stats">
           <div className="stat-item">
-            <h3>600m</h3>
-            <p>To Railway Junction</p>
+            <h3>4.0 ★</h3>
+            <p>120+ Verified Reviews</p>
           </div>
           <div className="stat-item">
             <h3>24/7</h3>
-            <p>Front Desk & Hot Water</p>
+            <p>Front Desk & Concierge</p>
           </div>
           <div className="stat-item">
-            <h3>₹900+</h3>
-            <p>Budget Starting Tariff</p>
+            <h3>100%</h3>
+            <p>Air-Conditioned Comfort</p>
           </div>
           <div className="stat-item">
-            <h3>4.2 ★</h3>
-            <p>Google Guest Rating</p>
+            <h3>₹1,200+</h3>
+            <p>Starting Room Tariff</p>
           </div>
         </div>
       </div>

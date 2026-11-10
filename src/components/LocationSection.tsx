@@ -14,10 +14,10 @@ export const LocationSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Prime Transit Location</span>
+          <span className="section-label">Prime Pragathi Nagar Location</span>
           <h2 className="section-title">Location & Getting Here</h2>
           <p className="section-desc">
-            Centrally situated on Jawahar Road / Tilak Garden Road in Khaleelwadi, Nizamabad — right beside the Fire Station and just 600 meters from Nizamabad Junction.
+            Conveniently situated along Kakatiya Girls College Road in Pragathi Nagar, Mubaraknagar, Nizamabad — close to central transit, dining, and colleges.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export const LocationSection: React.FC = () => {
                 }}
               >
                 <Compass size={16} />
-                <span>Station & Khaleelwadi Hub</span>
+                <span>Pragathi Nagar & Mubaraknagar</span>
               </div>
 
               <h3 style={{ fontSize: "1.8rem", color: "var(--ink)", marginBottom: "0.8rem" }}>
@@ -94,30 +94,30 @@ export const LocationSection: React.FC = () => {
                 }}
               >
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
-                  <Train size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
+                  <Building size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>600m from Nizamabad Railway Station:</strong> Easy 7-minute walk or 2-minute auto ride.
+                    <strong>Near Kakatiya Girls College:</strong> Landmark educational hub with peaceful surroundings.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
-                  <Building size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
+                  <Train size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Beside Fire Station & Tilak Garden:</strong> Direct access to Jawahar Road commercial market.
+                    <strong>Nizamabad Railway Junction:</strong> ~1.5 to 2.5 km (quick 5–8 min drive / auto).
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Car size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>1.2 km from TSRTC Bus Depot:</strong> Quick connection to intercity bus terminals.
+                    <strong>TSRTC Bus Station:</strong> ~2.0 km with seamless auto and cab connections.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Clock size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Operating Hours:</strong> 24/7 Front Desk, Round-the-clock check-in support.
+                    <strong>Operating Hours:</strong> 24/7 Front Desk, Express check-in & round-the-clock service.
                   </span>
                 </div>
 
@@ -166,7 +166,7 @@ export const LocationSection: React.FC = () => {
             }}
           >
             <iframe
-              title="Citylite Lodge Nizamabad Map"
+              title="S P GRAND Luxury Rooms Nizamabad Map"
               src={RESORT_CONTACT.googleMapsEmbed}
               width="100%"
               height="100%"

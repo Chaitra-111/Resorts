@@ -14,35 +14,35 @@ export const DiningSection: React.FC = () => {
       <div className="content-container">
         <div className="section-header-center">
           <span className="section-label">Culinary Convenience & Local Flavors</span>
-          <h2 className="section-title">Dining & Khaleelwadi Food Trails</h2>
+          <h2 className="section-title">Dining & Pragathi Nagar Food Trails</h2>
           <p className="section-desc">
-            Enjoy seamless culinary choices during your stay — from iconic regional Hyderabadi biryanis
-            and Andhra tiffin centers on Jawahar Road to quick doorstep room delivery.
+            Enjoy diverse culinary options during your stay — from authentic Hyderabadi biryani hubs
+            and Andhra tiffin centers around Mubaraknagar to convenient doorstep room delivery.
           </p>
         </div>
 
         <div className="dining-grid">
-          {/* Card 1: Khaleelwadi Food Strip */}
+          {/* Card 1: Pragathi Nagar Food Hub */}
           <div className="card-tilt" style={{ padding: "2.2rem" }}>
             <div style={{ position: "relative", height: "210px", borderRadius: "14px", overflow: "hidden", marginBottom: "1.5rem" }}>
               <img
                 src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80"
-                alt="Khaleelwadi and Jawahar Road Dining Spots"
+                alt="Pragathi Nagar and Mubaraknagar Dining Hub"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", color: "var(--amber)", marginBottom: "0.5rem" }}>
               <Utensils size={18} />
               <span style={{ fontSize: "0.76rem", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase" }}>
-                Steps From Lodge
+                Neighborhood Dining
               </span>
             </div>
             <h3 style={{ fontSize: "1.5rem", marginBottom: "0.8rem", color: "var(--ink)" }}>
-              Jawahar Road Food Hub
+              Pragathi Nagar Food Hub
             </h3>
             <p style={{ fontSize: "0.94rem", lineHeight: 1.65, color: "var(--muted)" }}>
-              Steps from the lodge, find top Nizamabad restaurants serving authentic Hyderabadi Dum Biryani,
-              spicy Andhra meals, tandoori specialties, and North Indian curries.
+              Steps from the hotel, explore Nizamabad's renowned restaurants serving authentic Dum Biryanis,
+              flavorful Andhra thalis, crispy butter dosas, and North Indian curries.
             </p>
           </div>
 
@@ -58,15 +58,15 @@ export const DiningSection: React.FC = () => {
             <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", color: "var(--amber)", marginBottom: "0.5rem" }}>
               <Coffee size={18} />
               <span style={{ fontSize: "0.76rem", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase" }}>
-                Early Morning Breakfast
+                Breakfast & Beverages
               </span>
             </div>
             <h3 style={{ fontSize: "1.5rem", marginBottom: "0.8rem", color: "var(--ink)" }}>
-              Tiffins & Irani Chai
+              Morning Tiffins & Chai
             </h3>
             <p style={{ fontSize: "0.94rem", lineHeight: 1.65, color: "var(--muted)" }}>
-              Start your day early with steaming idlis, crispy vadas, dosas, and authentic Irani chai
-              from neighborhood vendors and popular breakfast outlets near Tilak Garden.
+              Kickstart your mornings with piping hot idlis, crispy medu vadas, fresh dosas, and fragrant filter coffee
+              from popular neighborhood cafes along Kakatiya College Road.
             </p>
           </div>
 
@@ -82,15 +82,15 @@ export const DiningSection: React.FC = () => {
             <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", color: "var(--amber)", marginBottom: "0.5rem" }}>
               <Truck size={18} />
               <span style={{ fontSize: "0.76rem", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase" }}>
-                In-Room Convenience
+                In-Room Dining
               </span>
             </div>
             <h3 style={{ fontSize: "1.5rem", marginBottom: "0.8rem", color: "var(--ink)" }}>
               Doorstep Food Delivery
             </h3>
             <p style={{ fontSize: "0.94rem", lineHeight: 1.65, color: "var(--muted)" }}>
-              Relax comfortably in your room. Enjoy convenient Swiggy and Zomato deliveries right to
-              our reception, with front desk staff readily helping serve hot beverages and packaged drinking water.
+              Relax comfortably in your luxury room. Enjoy quick Swiggy and Zomato order assistance
+              delivered directly to your door, supported 24/7 by our concierge staff.
             </p>
           </div>
         </div>

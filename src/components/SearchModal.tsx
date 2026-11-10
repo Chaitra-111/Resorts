@@ -32,21 +32,21 @@ export const SearchModal: React.FC<SearchModalProps> = ({
       target: "experiences",
     })),
     {
-      title: "Group Stays & Transit Bookings",
+      title: "Group & Family Luxury Stays",
       category: "Group Stays",
-      description: "Host up to 80+ guests for wedding parties, pilgrims, and transit travel.",
+      description: "Accommodate up to 60+ guests for wedding parties, delegations, and family gatherings.",
       target: "banquets",
     },
     {
-      title: "Dining & Khaleelwadi Food Trails",
+      title: "Dining & Pragathi Nagar Food Trails",
       category: "Dining",
       description: "Authentic Hyderabadi Dum Biryanis, Andhra meals, and doorstep food delivery.",
       target: "dining",
     },
     {
-      title: "Location & Transit in Khaleelwadi",
+      title: "Location & Transit in Pragathi Nagar",
       category: "Location",
-      description: "600m from Nizamabad Railway Station, Beside Fire Station, Tilak Garden Road.",
+      description: "Kakatiya Girls College Road, Mubaraknagar, Nizamabad with quick railway station connectivity.",
       target: "location",
     },
     {
