@@ -34,7 +34,7 @@ export const BanquetsSection: React.FC = () => {
             >
               <img
                 src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1400&q=85"
-                alt="Group Vacations and Poolside Stays at ATHI RESORTS Bogmalo Goa"
+                alt="Group Vacations and Balcony Stays at Sea View Resort Bogmalo Goa"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -67,10 +67,10 @@ export const BanquetsSection: React.FC = () => {
                 Group Capacity
               </span>
               <h4 style={{ fontSize: "1.7rem", color: "var(--ink)", margin: "0.2rem 0" }}>
-                10 to 50+
+                10 to 40+
               </h4>
               <p style={{ fontSize: "0.82rem", color: "var(--muted)" }}>
-                Guests across Pool View, Garden Deluxe & Family Coastal Suites.
+                Guests across Balcony Deluxe, Executive King & Family Suites.
               </p>
             </div>
           </div>
@@ -87,8 +87,8 @@ export const BanquetsSection: React.FC = () => {
 
             <p style={{ fontSize: "1.05rem", lineHeight: 1.7, marginBottom: "2rem", color: "var(--muted)" }}>
               Planning an annual Goa getaway with friends, hosting a pre-wedding celebration near Bogmalo Beach,
-              or organizing a family reunion in South Goa? ATHI RESORTS offers comfortable multi-room group stays,
-              exclusive poolside lounging, scooter rentals, and airport pick-up packages at unbeatable tariffs.
+              or organizing a family reunion in South Goa? Sea View Resort offers comfortable multi-room group stays,
+              private balcony rooms, scooter rentals, and airport pick-up packages at unbeatable tariffs.
             </p>
 
             <div
@@ -105,7 +105,7 @@ export const BanquetsSection: React.FC = () => {
                 <div>
                   <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Friend & Family Trips</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Multi-bed coastal suites opening towards the swimming pool and gardens.
+                    Multi-bed coastal suites with private balconies overlooking palm groves.
                   </p>
                 </div>
               </div>
@@ -123,9 +123,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Music size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Poolside Sundowners</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Balcony Sundowners</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Private terrace and sun deck area ideal for relaxing tropical evenings.
+                    Private terrace and balcony seating ideal for relaxing tropical evenings.
                   </p>
                 </div>
               </div>
@@ -144,7 +144,7 @@ export const BanquetsSection: React.FC = () => {
             <div className="banquets-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <a
                 href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent(
-                  "Hello ATHI RESORTS, I am interested in inquiring about group vacation packages / poolside room bookings."
+                  "Hello Sea View Resort, I am interested in inquiring about group vacation packages / room bookings."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"

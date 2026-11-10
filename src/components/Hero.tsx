@@ -21,8 +21,8 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
       {/* Background container */}
       <div className="hero-bg-container">
         <img
-          src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=2400&q=88"
-          alt="ATHI RESORTS Boutique Beach & Poolside Resort in Bogmalo Goa"
+          src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=2400&q=88"
+          alt="Sea View Resort Coastal Balcony Stays in Bogmalo Goa"
           className="hero-image"
         />
         <div className="hero-overlay" />
@@ -33,16 +33,16 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
         <div className="hero-content">
           <div className="hero-eyebrow">
             <MapPin size={13} style={{ color: "var(--peach-light)", flexShrink: 0 }} />
-            <span>Bogmalo Beach Road · Opp. Naval Aviation Museum, Alto Bogmalo, Goa</span>
+            <span>Near Naval Aviation Museum · 145 Bogmalo Beach Road, Goa</span>
           </div>
 
           <h1 className="hero-title">
-            Coastal Serenity & Poolside Bliss in <em>Bogmalo, Goa.</em>
+            Coastal Breezes & Balcony Views in <em>Bogmalo, Goa.</em>
           </h1>
 
           <p className="hero-desc">
-            Discover a tropical retreat minutes from Bogmalo Beach and Goa Dabolim Airport.
-            Featuring an outdoor swimming pool, lush gardens, air-conditioned deluxe rooms, and relaxed coastal hospitality.
+            Discover a serene, budget-friendly coastal sanctuary minutes from Bogmalo Beach and Goa Dabolim Airport.
+            Enjoy air-conditioned rooms with private balconies, peaceful garden surroundings, and warm Goan hospitality.
           </p>
 
           <div className="hero-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap", alignItems: "center" }}>
@@ -51,7 +51,7 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               <ArrowRight size={15} />
             </a>
             <a
-              href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent("Hello ATHI RESORTS, I would like to inquire about room availability and vacation tariffs.")}`}
+              href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent("Hello Sea View Resort, I would like to inquire about room availability and vacation tariffs.")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline"
@@ -105,9 +105,9 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               onChange={(e) => setGuests(Number(e.target.value))}
             >
               <option value={1}>1 Guest (Airport Transit / Solo)</option>
-              <option value={2}>2 Guests (Deluxe Pool View / Garden)</option>
-              <option value={3}>3 Guests (King Room + Extra Bed)</option>
-              <option value={4}>4 Guests (Executive Family Coastal Suite)</option>
+              <option value={2}>2 Guests (Deluxe Balcony Sea Breeze)</option>
+              <option value={3}>3 Guests (Executive King Room)</option>
+              <option value={4}>4 Guests (Coastal Family Balcony Suite)</option>
               <option value={10}>10+ Guests (Group Vacation / Event)</option>
             </select>
           </div>

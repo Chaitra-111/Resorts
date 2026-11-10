@@ -47,10 +47,10 @@ export const AmenitiesSection: React.FC = () => {
       <div className="content-container">
         <div className="section-header-center">
           <span className="section-label">Resort Amenities & Coastal Comforts</span>
-          <h2 className="section-title">Designed for Poolside Relaxation & Goan Charm</h2>
+          <h2 className="section-title">Designed for Balcony Relaxation & Goan Charm</h2>
           <p className="section-desc">
-            Every facility at ATHI RESORTS is curated to deliver laid-back coastal enjoyment — from
-            crystal-clear pool swims and sun loungers to beach proximity and airport transfers.
+            Every facility at Sea View Resort is curated to deliver laid-back coastal enjoyment — from
+            private sit-out balconies and garden relaxation to beach proximity and airport transfers.
           </p>
         </div>
 

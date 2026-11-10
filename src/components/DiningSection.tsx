@@ -41,7 +41,7 @@ export const DiningSection: React.FC = () => {
               Bogmalo Beach Shacks
             </h3>
             <p style={{ fontSize: "0.94rem", lineHeight: 1.65, color: "var(--muted)" }}>
-              A short stroll from Athi Resorts, indulge in world-famous Goan fish curry rice, butter garlic prawns,
+              A short stroll from Sea View Resort, indulge in world-famous Goan fish curry rice, butter garlic prawns,
               calamari fry, and wood-fired pizzas right on the soft sands.
             </p>
           </div>

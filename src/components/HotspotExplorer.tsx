@@ -18,7 +18,7 @@ export const HotspotExplorer: React.FC = () => {
           <span className="section-label">Interactive Property Showcase</span>
           <h2 className="section-title">Explore Spaces & Coastal Highlights</h2>
           <p className="section-desc">
-            Touch the pulsing points across the resort to explore our outdoor swimming pool, Bogmalo Beach connectivity,
+            Touch the pulsing points across the resort to explore our private balcony rooms, Bogmalo Beach connectivity,
             and convenient Dabolim Airport corridor.
           </p>
         </div>
@@ -26,8 +26,8 @@ export const HotspotExplorer: React.FC = () => {
         {/* Visual Stage with Pulsing Hotspots */}
         <div className="hotspot-stage">
           <img
-            src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1800&q=88"
-            alt="ATHI RESORTS Bogmalo Goa Poolside Spaces and Tropical Ambiance"
+            src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1800&q=88"
+            alt="Sea View Resort Bogmalo Goa Coastal Balcony Spaces"
           />
 
           {/* Hotspot Pins */}

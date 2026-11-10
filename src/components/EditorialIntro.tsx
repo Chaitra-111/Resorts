@@ -5,20 +5,21 @@ export const EditorialIntro: React.FC = () => {
   return (
     <section className="editorial-section" id="story">
       <div className="content-container">
-        <span className="section-label">Boutique Goa Beach & Poolside Stays</span>
+        <span className="section-label">Boutique Goa Beach & Balcony Stays</span>
 
         <h2 className="statement-heading">
-          Sun-drenched palms, refreshing poolside swims & coastal calm <br />
+          Gentle sea breezes, private balconies & tranquil coastal living <br />
           <em style={{ fontFamily: "var(--serif)", fontStyle: "italic", color: "var(--amber)" }}>
             in the scenic enclave of Bogmalo, South Goa.
           </em>
         </h2>
 
         <p className="statement-body">
-          Nestled on Bogmalo Beach Road directly opposite the iconic Naval Aviation Museum,
-          ATHI RESORTS offers travelers a serene tropical haven in South Goa. Unwind in spacious
-          air-conditioned pool view and garden rooms, take refreshing dips in our outdoor swimming pool,
-          savor local seafood, and enjoy seamless 10-minute connectivity to Goa Dabolim International Airport.
+          Situated on Bogmalo Beach Road near the celebrated Naval Aviation Museum,
+          Sea View Resort provides a peaceful and economical coastal refuge for travelers.
+          Relax in air-conditioned rooms featuring private sit-out balconies, stroll through our
+          peaceful garden, savor fresh Goan seafood at nearby beach shacks, and enjoy seamless
+          10-minute transit to Goa Dabolim International Airport.
         </p>
 
         {/* Feature Pillars */}
@@ -34,10 +35,10 @@ export const EditorialIntro: React.FC = () => {
 
           <div className="pillar-card">
             <Building2 size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Outdoor Pool & Gardens</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Private Balcony Comfort</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Spend sunlit afternoons lounging by the open-air swimming pool, encircled by
-              lush tropical landscaping, sunbeds, and tranquil palm-shaded courtyards.
+              Every morning begins with fresh sea air and palm-lined views from your private sit-out
+              balcony, complete with comfortable seating and quiet surroundings.
             </p>
           </div>
 
@@ -62,8 +63,8 @@ export const EditorialIntro: React.FC = () => {
             <p>To Dabolim Airport</p>
           </div>
           <div className="stat-item">
-            <h3>Pool</h3>
-            <p>Outdoor Swimming Deck</p>
+            <h3>100%</h3>
+            <p>Balcony & AC Rooms</p>
           </div>
           <div className="stat-item">
             <h3>24/7</h3>

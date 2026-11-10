@@ -57,8 +57,8 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
             </div>
 
             <p style={{ fontSize: "0.92rem", lineHeight: 1.65, maxWidth: "340px", marginBottom: "1.5rem" }}>
-              Goa's serene boutique beach resort in Alto Bogmalo. Air-conditioned pool view rooms,
-              outdoor swimming pool, tropical garden, and 4 km proximity to Dabolim Airport.
+              Goa's peaceful coastal resort in Bogmalo. Air-conditioned balcony rooms with sea breezes,
+              lush tropical garden, 1 km to Bogmalo Beach, and 4 km to Dabolim Airport.
             </p>
 
             {/* Atmosphere Mood Switcher in Footer */}

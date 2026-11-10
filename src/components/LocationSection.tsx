@@ -166,7 +166,7 @@ export const LocationSection: React.FC = () => {
             }}
           >
             <iframe
-              title="ATHI RESORTS Bogmalo Goa Map"
+              title="Sea View Resort Bogmalo Goa Map"
               src={RESORT_CONTACT.googleMapsEmbed}
               width="100%"
               height="100%"
