@@ -33,8 +33,8 @@ export const BanquetsSection: React.FC = () => {
               }}
             >
               <img
-                src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1400&q=85"
-                alt="Group Bookings and Accommodations at TELES Westend Hotel Vasco da Gama"
+                src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1400&q=85"
+                alt="Beachfront Group Stays and Sunset Gatherings at Sarita Guest House Bogmalo"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -64,31 +64,31 @@ export const BanquetsSection: React.FC = () => {
                   textTransform: "uppercase",
                 }}
               >
-                Group Capacity
+                Group & Vacation Stays
               </span>
               <h4 style={{ fontSize: "1.7rem", color: "var(--ink)", margin: "0.2rem 0" }}>
-                10 to 60+
+                10 to 40+
               </h4>
               <p style={{ fontSize: "0.82rem", color: "var(--muted)" }}>
-                Guests across Deluxe AC, Executive Rooms & Family Suites.
+                Guests across Sea View Balcony Rooms, Deluxe Beach AC, and Family Suites.
               </p>
             </div>
           </div>
 
           {/* Editorial Content */}
           <div>
-            <span className="section-label">Group Bookings & Transit Packages</span>
+            <span className="section-label">Beach Stays & Gatherings</span>
             <h2
               className="section-title"
               style={{ marginBottom: "1.25rem" }}
             >
-              Comfortable Group Stays for Corporate, Pilgrims & Families.
+              Beachfront Holidays, Family Reunions & Sundowner Parties.
             </h2>
 
             <p style={{ fontSize: "1.05rem", lineHeight: 1.7, marginBottom: "2rem", color: "var(--muted)" }}>
-              Hosting an upcoming family wedding entourage, organizing a tour group passing through Vasco,
-              or accommodating a corporate team for work in Mormugao port? TELES Westend Hotel offers multi-room group
-              packages with special discounted tariffs, 24/7 check-in assistance, and quick railway station proximity.
+              Planning an unforgettable beach getaway with friends, a family coastal vacation, or a celebration
+              by the Arabian Sea waves? Sarita Guest House Bar & Restaurant offers flexible group room allocations,
+              seafood banquet dinners right on the sand, and doorstep access to Bogmalo water sports.
             </p>
 
             <div
@@ -103,9 +103,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Sparkles size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Wedding Party Stays</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Sundowner Beach Parties</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Block multiple adjacent AC rooms for visiting relatives and marriage entourages.
+                    Reserved beachside tables, sunset music, fresh catches, and bar service.
                   </p>
                 </div>
               </div>
@@ -113,9 +113,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Users size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Corporate & Port Teams</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Family & Friend Groups</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Executive rooms with work desks, fiber Wi-Fi, and convenient GST billing.
+                    Interconnecting & adjacent sea view rooms with king beds and balcony views.
                   </p>
                 </div>
               </div>
@@ -123,9 +123,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Music size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Flexible 24-Hr Cycles</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Beach Vibes & Water Sports</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Flexible check-in accommodating odd-hour train arrivals and flight layovers.
+                    Assistance with jet-skiing, dolphin boat trips, and scuba diving at Bogmalo.
                   </p>
                 </div>
               </div>
@@ -133,9 +133,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <HeartHandshake size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Baggage & Caretaker Care</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Airport Group Transfers</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Secure luggage hold, CCTV monitoring, and prompt in-room assistance.
+                    Convenient cab and taxi arrangement to and from Dabolim Airport (just 4 km away).
                   </p>
                 </div>
               </div>
@@ -144,7 +144,7 @@ export const BanquetsSection: React.FC = () => {
             <div className="banquets-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <a
                 href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent(
-                  "Hello TELES Westend Hotel, I am interested in inquiring about group room bookings / transit accommodation."
+                  "Hello Sarita Guest House, I am interested in inquiring about group beach room bookings and packages."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"

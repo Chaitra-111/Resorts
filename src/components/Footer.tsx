@@ -57,8 +57,8 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
             </div>
 
             <p style={{ fontSize: "0.92rem", lineHeight: 1.65, maxWidth: "340px", marginBottom: "1.5rem" }}>
-              Vasco da Gama's trusted city transit hotel. Air-conditioned rooms, 24-hour hot water,
-              high-speed Wi-Fi, 400m from Vasco Railway Station, and 5 km to Dabolim Airport.
+              Bogmalo Beach's cherished beachfront guest house and sea shack restaurant. Air-conditioned rooms with sea view balconies,
+              direct sand access (0m), on-site seafood dining, beside John's Seagull, and 4 km to Goa Dabolim Airport.
             </p>
 
             {/* Atmosphere Mood Switcher in Footer */}
@@ -92,7 +92,7 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 marginBottom: "1.2rem",
               }}
             >
-              The Hotel
+              The Guest House
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.92rem" }}>
               <li>
@@ -102,22 +102,22 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
               </li>
               <li>
                 <a href="#hotspots" className="footer-link">
-                  Transit & Spaces
+                  Beachfront Spaces
                 </a>
               </li>
               <li>
                 <a href="#dining" className="footer-link">
-                  Vasco Food Trails
+                  Beach Bar & Seafood
                 </a>
               </li>
               <li>
                 <a href="#banquets" className="footer-link">
-                  Group & Transit Stays
+                  Group Beach Stays
                 </a>
               </li>
               <li>
                 <a href="#experiences" className="footer-link">
-                  Hotel Amenities
+                  Beach Amenities
                 </a>
               </li>
             </ul>
@@ -135,15 +135,15 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 marginBottom: "1.2rem",
               }}
             >
-              Vasco & Goa Landmarks
+              Bogmalo & South Goa Landmarks
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.9rem", color: "var(--ink)" }}>
-              <li>• Vasco Railway Station (400 meters)</li>
-              <li>• Kadamba Central Bus Stand (~600 meters)</li>
-              <li>• Baina Beach & Promenade (~1.5 km)</li>
-              <li>• Goa Dabolim Airport GOI (~5.0 km)</li>
-              <li>• Mormugao Port Trust MPT (~3.0 km)</li>
-              <li>• Bogmalo Beach (~6.5 km)</li>
+              <li>• Bogmalo Beach Sand (0 meters / Direct)</li>
+              <li>• John's Seagull Restaurant (Immediate Neighbor)</li>
+              <li>• Indian Naval Aviation Museum (~2.0 km)</li>
+              <li>• Goa Dabolim Airport GOI (~4.0 km)</li>
+              <li>• Hollant Beach & Heart Shape Lake (~4.5 km)</li>
+              <li>• Vasco da Gama Railway Station (~7.5 km)</li>
             </ul>
           </div>
 

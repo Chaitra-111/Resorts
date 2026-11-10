@@ -16,18 +16,18 @@ export const HotspotExplorer: React.FC = () => {
       <div className="content-container">
         <div className="section-header-center">
           <span className="section-label">Interactive Property Showcase</span>
-          <h2 className="section-title">Explore Spaces & Transit Highlights</h2>
+          <h2 className="section-title">Explore Sarita Guest House & Bogmalo Beach</h2>
           <p className="section-desc">
-            Touch the pulsing points across the property to discover our guest rooms, Vasco railway station hub,
-            and town market conveniences.
+            Touch the pulsing points across the property to discover our sea view balcony rooms, on-site beach bar & restaurant,
+            and quick 4 km transit corridor to Goa Dabolim Airport.
           </p>
         </div>
 
         {/* Visual Stage with Pulsing Hotspots */}
         <div className="hotspot-stage">
           <img
-            src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1800&q=88"
-            alt="TELES Westend Hotel Vasco da Gama Spaces and Transit"
+            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=88"
+            alt="Sarita Guest House Bar & Restaurant Bogmalo Beachfront Spaces"
           />
 
           {/* Hotspot Pins */}

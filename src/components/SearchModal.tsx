@@ -32,21 +32,21 @@ export const SearchModal: React.FC<SearchModalProps> = ({
       target: "experiences",
     })),
     {
-      title: "Group Stays & Transit Bookings",
+      title: "Beach Stays & Group Holidays",
       category: "Group Stays",
-      description: "Accommodate up to 60+ guests for wedding parties, corporate teams, and transit travel.",
+      description: "Accommodate up to 40+ guests for beach vacations, family reunions, and sundowner parties.",
       target: "banquets",
     },
     {
-      title: "Dining & Vasco Food Trails",
+      title: "Sarita Beach Bar & Restaurant",
       category: "Dining",
-      description: "Authentic Goan fish thalis, F.L. Gomes Road eateries, and doorstep food delivery.",
+      description: "Fresh Arabian Sea seafood, Goan fish curry, chilled beers, and seaside sunset cocktails.",
       target: "dining",
     },
     {
-      title: "Location & Transit in Vasco da Gama",
+      title: "Location on Bogmalo Beach Sands",
       category: "Location",
-      description: "400m from Vasco Railway Station, F.L. Gomes Road above YES Bank, 5 km from Dabolim Airport.",
+      description: "Direct beachfront access (0m to sand), beside John's Seagull, 4 km from Goa Dabolim Airport.",
       target: "location",
     },
     {

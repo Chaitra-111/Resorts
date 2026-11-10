@@ -46,11 +46,11 @@ export const AmenitiesSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Hotel Amenities & Transit Services</span>
-          <h2 className="section-title">Designed for Essential Comfort & Station Convenience</h2>
+          <span className="section-label">Beachfront Comforts & Services</span>
+          <h2 className="section-title">Designed for Beachside Relaxation & Airport Convenience</h2>
           <p className="section-desc">
-            Every facility at TELES Westend Hotel is tailored to provide clean, restful overnight stays,
-            uninterrupted 24/7 hot water, high-speed Wi-Fi, and courteous caretaking support.
+            Every facility at Sarita Guest House Bar & Restaurant is tailored to provide direct beach living,
+            cooling air-conditioned rooms, refreshing seafood dining, high-speed Wi-Fi, and 24/7 caretaking support.
           </p>
         </div>
 
