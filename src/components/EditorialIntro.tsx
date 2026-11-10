@@ -5,49 +5,48 @@ export const EditorialIntro: React.FC = () => {
   return (
     <section className="editorial-section" id="story">
       <div className="content-container">
-        <span className="section-label">Boutique Goa Beach & Balcony Stays</span>
+        <span className="section-label">Central Vasco Transit & City Hospitality</span>
 
         <h2 className="statement-heading">
-          Gentle sea breezes, private balconies & tranquil coastal living <br />
+          Dependable comfort, spotless rooms & prime transit convenience <br />
           <em style={{ fontFamily: "var(--serif)", fontStyle: "italic", color: "var(--amber)" }}>
-            in the scenic enclave of Bogmalo, South Goa.
+            in the heart of Vasco da Gama, South Goa.
           </em>
         </h2>
 
         <p className="statement-body">
-          Situated on Bogmalo Beach Road near the celebrated Naval Aviation Museum,
-          Sea View Resort provides a peaceful and economical coastal refuge for travelers.
-          Relax in air-conditioned rooms featuring private sit-out balconies, stroll through our
-          peaceful garden, savor fresh Goan seafood at nearby beach shacks, and enjoy seamless
-          10-minute transit to Goa Dabolim International Airport.
+          Strategically located in Mendes Mansion on F.L. Gomes Road (above YES Bank),
+          TELES Westend Hotel is Vasco da Gama's trusted address for railway passengers, flight transit travelers,
+          corporate professionals, and visiting families. Enjoy clean air-conditioned and standard rooms,
+          attached bathrooms with 24-hour hot water, high-speed Wi-Fi, and 24/7 caretaking support.
         </p>
 
         {/* Feature Pillars */}
         <div className="statement-pillars">
           <div className="pillar-card">
             <Compass size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Bogmalo Beach & Coast</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Station-Side Hub</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Just 1 km (12-minute walk) from the gentle golden sands of Bogmalo Beach,
-              water sports, sunset sea shacks, and panoramic views of the Arabian Sea.
+              Located just 400 meters (4 minutes walk) from Vasco da Gama Railway Station and
+              close to the Kadamba Bus Stand, offering effortless arrivals and departures at any hour.
             </p>
           </div>
 
           <div className="pillar-card">
             <Building2 size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Private Balcony Comfort</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Airport & Beach Access</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Every morning begins with fresh sea air and palm-lined views from your private sit-out
-              balcony, complete with comfortable seating and quiet surroundings.
+              Only 5 km (12 minutes drive) from Goa Dabolim Airport (GOI) and 1.5 km from Baina Beach,
+              making flight connections and evening coastal strolls completely stress-free.
             </p>
           </div>
 
           <div className="pillar-card">
             <Heart size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Dabolim Airport Corridor</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Vasco Food Trails</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Only 4 km (under 10 minutes) from Goa Dabolim International Airport (GOI),
-              making late arrivals, layovers, and early flight departures completely effortless.
+              Surrounded by authentic Goan fish thali restaurants, Irani cafes, bakeries, and markets
+              along F.L. Gomes Road, with round-the-clock room delivery assistance.
             </p>
           </div>
         </div>
@@ -55,20 +54,20 @@ export const EditorialIntro: React.FC = () => {
         {/* Key Stats Counter */}
         <div className="statement-stats">
           <div className="stat-item">
-            <h3>1 km</h3>
-            <p>To Bogmalo Beach</p>
+            <h3>400m</h3>
+            <p>To Vasco Railway Station</p>
           </div>
           <div className="stat-item">
-            <h3>4 km</h3>
+            <h3>5 km</h3>
             <p>To Dabolim Airport</p>
           </div>
           <div className="stat-item">
-            <h3>100%</h3>
-            <p>Balcony & AC Rooms</p>
+            <h3>24/7</h3>
+            <p>Front Desk & Hot Water</p>
           </div>
           <div className="stat-item">
-            <h3>24/7</h3>
-            <p>Front Desk & Cabs</p>
+            <h3>₹1,100+</h3>
+            <p>Budget Starting Tariff</p>
           </div>
         </div>
       </div>

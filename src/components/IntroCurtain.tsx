@@ -58,7 +58,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.1s",
             } as React.CSSProperties}
           >
-            Bogmalo · South Goa
+            Vasco da Gama · South Goa
           </span>
         </span>
 
@@ -89,7 +89,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.35s",
             } as React.CSSProperties}
           >
-            "Serene coastal breezes & private balcony relaxation near Bogmalo Beach."
+            "Comfort, cleanliness, and central transit convenience in Vasco da Gama."
           </span>
         </p>
       </div>

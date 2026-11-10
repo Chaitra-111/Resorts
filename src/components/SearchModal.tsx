@@ -32,21 +32,21 @@ export const SearchModal: React.FC<SearchModalProps> = ({
       target: "experiences",
     })),
     {
-      title: "Group Vacations & Poolside Stays",
+      title: "Group Stays & Transit Bookings",
       category: "Group Stays",
-      description: "Accommodate up to 50+ guests for holiday groups, family reunions, and beach getaways.",
+      description: "Accommodate up to 60+ guests for wedding parties, corporate teams, and transit travel.",
       target: "banquets",
     },
     {
-      title: "Dining & Bogmalo Beach Shacks",
+      title: "Dining & Vasco Food Trails",
       category: "Dining",
-      description: "Fresh Goan seafood, beach shacks, poolside cafe, and doorstep delivery.",
+      description: "Authentic Goan fish thalis, F.L. Gomes Road eateries, and doorstep food delivery.",
       target: "dining",
     },
     {
-      title: "Location & Transit in Bogmalo, Goa",
+      title: "Location & Transit in Vasco da Gama",
       category: "Location",
-      description: "Opposite Naval Aviation Museum, 1 km to Bogmalo Beach, 4 km to Goa Dabolim Airport.",
+      description: "400m from Vasco Railway Station, F.L. Gomes Road above YES Bank, 5 km from Dabolim Airport.",
       target: "location",
     },
     {

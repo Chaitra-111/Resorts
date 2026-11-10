@@ -51,8 +51,8 @@ export const Header: React.FC<HeaderProps> = ({
               <path d="M14 48H50" />
             </svg>
             <div className="brand-text">
-              <span className="brand-word">SEA VIEW</span>
-              <span className="brand-sub">Resort & Balcony Stays</span>
+              <span className="brand-word">TELES WESTEND</span>
+              <span className="brand-sub">Transit Hotel & City Rooms</span>
             </div>
           </a>
 
@@ -61,22 +61,22 @@ export const Header: React.FC<HeaderProps> = ({
             <ul className="nav-links">
               <li>
                 <a href="#suites" className="nav-link">
-                  Rooms & Suites
+                  Rooms & Rates
                 </a>
               </li>
               <li>
                 <a href="#dining" className="nav-link">
-                  Dining & Shacks
+                  Dining & Food
                 </a>
               </li>
               <li>
                 <a href="#banquets" className="nav-link">
-                  Vacation Groups
+                  Group Stays
                 </a>
               </li>
               <li>
                 <a href="#experiences" className="nav-link">
-                  Resort Amenities
+                  Amenities
                 </a>
               </li>
               <li>
@@ -156,23 +156,23 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="content-container">
             <nav className="mobile-nav-menu">
               <a href="#suites" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Rooms & Beach Suites</span>
+                <span>Rooms & City Suites</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#hotspots" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Explore Resort & Beach</span>
+                <span>Explore Spaces & Transit</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#dining" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Goan Dining & Shacks</span>
+                <span>Vasco Dining & Food Trails</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#banquets" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Group & Vacation Stays</span>
+                <span>Group & Transit Stays</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#experiences" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Resort Amenities</span>
+                <span>Hotel Amenities</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#location" onClick={closeMobileMenu} className="mobile-nav-item">

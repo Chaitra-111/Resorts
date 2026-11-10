@@ -46,11 +46,11 @@ export const AmenitiesSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Resort Amenities & Coastal Comforts</span>
-          <h2 className="section-title">Designed for Balcony Relaxation & Goan Charm</h2>
+          <span className="section-label">Hotel Amenities & Transit Services</span>
+          <h2 className="section-title">Designed for Essential Comfort & Station Convenience</h2>
           <p className="section-desc">
-            Every facility at Sea View Resort is curated to deliver laid-back coastal enjoyment — from
-            private sit-out balconies and garden relaxation to beach proximity and airport transfers.
+            Every facility at TELES Westend Hotel is tailored to provide clean, restful overnight stays,
+            uninterrupted 24/7 hot water, high-speed Wi-Fi, and courteous caretaking support.
           </p>
         </div>
 

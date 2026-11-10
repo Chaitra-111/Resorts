@@ -14,10 +14,10 @@ export const LocationSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Prime Bogmalo Beach Location</span>
+          <span className="section-label">Prime Central Vasco Location</span>
           <h2 className="section-title">Location & Getting Here</h2>
           <p className="section-desc">
-            Ideally situated on Bogmalo Beach Road directly opposite the Naval Aviation Museum, Alto Bogmalo, Goa — just 1 km from the beach and 4 km from Dabolim Airport.
+            Centrally situated in Mendes Mansion on F.L. Gomes Road (above YES Bank), Vasco da Gama, Goa — just 400 meters from Vasco Railway Station and 5 km from Dabolim Airport.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export const LocationSection: React.FC = () => {
                 }}
               >
                 <Compass size={16} />
-                <span>Bogmalo Beach & Airport Corridor</span>
+                <span>Station & City Center Hub</span>
               </div>
 
               <h3 style={{ fontSize: "1.8rem", color: "var(--ink)", marginBottom: "0.8rem" }}>
@@ -94,30 +94,30 @@ export const LocationSection: React.FC = () => {
                 }}
               >
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
-                  <Building size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
+                  <Train size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>1 km to Bogmalo Beach:</strong> 12-min walk or 2-min drive to water sports & seaside shacks.
+                    <strong>400m from Vasco Railway Station:</strong> Effortless 4-minute walk directly to the hotel.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
-                  <Train size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
+                  <Building size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>4 km to Goa Dabolim Airport (GOI):</strong> Swift 8–10 minute taxi ride for effortless flights.
+                    <strong>Above YES Bank / Radio Mundial:</strong> Landmark Mendes Mansion on bustling F.L. Gomes Road.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Car size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Opposite Naval Aviation Museum:</strong> Famous Goa landmark directly across the road.
+                    <strong>5 km from Goa Dabolim Airport (GOI):</strong> Swift 12-minute commute with round-the-clock cabs.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Clock size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Check-in / Out:</strong> 12:00 PM Check-in & 12:00 PM Check-out, with 24/7 reception desk.
+                    <strong>Operating Hours:</strong> 24/7 Front Desk, Round-the-clock check-in and late-night reception.
                   </span>
                 </div>
 
@@ -166,7 +166,7 @@ export const LocationSection: React.FC = () => {
             }}
           >
             <iframe
-              title="Sea View Resort Bogmalo Goa Map"
+              title="TELES Westend Hotel Vasco da Gama Goa Map"
               src={RESORT_CONTACT.googleMapsEmbed}
               width="100%"
               height="100%"

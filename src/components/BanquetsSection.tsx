@@ -33,8 +33,8 @@ export const BanquetsSection: React.FC = () => {
               }}
             >
               <img
-                src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1400&q=85"
-                alt="Group Vacations and Balcony Stays at Sea View Resort Bogmalo Goa"
+                src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1400&q=85"
+                alt="Group Bookings and Accommodations at TELES Westend Hotel Vasco da Gama"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -67,28 +67,28 @@ export const BanquetsSection: React.FC = () => {
                 Group Capacity
               </span>
               <h4 style={{ fontSize: "1.7rem", color: "var(--ink)", margin: "0.2rem 0" }}>
-                10 to 40+
+                10 to 60+
               </h4>
               <p style={{ fontSize: "0.82rem", color: "var(--muted)" }}>
-                Guests across Balcony Deluxe, Executive King & Family Suites.
+                Guests across Deluxe AC, Executive Rooms & Family Suites.
               </p>
             </div>
           </div>
 
           {/* Editorial Content */}
           <div>
-            <span className="section-label">Group Bookings & Vacation Packages</span>
+            <span className="section-label">Group Bookings & Transit Packages</span>
             <h2
               className="section-title"
               style={{ marginBottom: "1.25rem" }}
             >
-              Unforgettable Coastal Getaways for Families & Groups.
+              Comfortable Group Stays for Corporate, Pilgrims & Families.
             </h2>
 
             <p style={{ fontSize: "1.05rem", lineHeight: 1.7, marginBottom: "2rem", color: "var(--muted)" }}>
-              Planning an annual Goa getaway with friends, hosting a pre-wedding celebration near Bogmalo Beach,
-              or organizing a family reunion in South Goa? Sea View Resort offers comfortable multi-room group stays,
-              private balcony rooms, scooter rentals, and airport pick-up packages at unbeatable tariffs.
+              Hosting an upcoming family wedding entourage, organizing a tour group passing through Vasco,
+              or accommodating a corporate team for work in Mormugao port? TELES Westend Hotel offers multi-room group
+              packages with special discounted tariffs, 24/7 check-in assistance, and quick railway station proximity.
             </p>
 
             <div
@@ -103,9 +103,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Sparkles size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Friend & Family Trips</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Wedding Party Stays</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Multi-bed coastal suites with private balconies overlooking palm groves.
+                    Block multiple adjacent AC rooms for visiting relatives and marriage entourages.
                   </p>
                 </div>
               </div>
@@ -113,9 +113,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Users size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Airport Layover Groups</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Corporate & Port Teams</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Just 4 km from Dabolim Airport with seamless late-night check-in support.
+                    Executive rooms with work desks, fiber Wi-Fi, and convenient GST billing.
                   </p>
                 </div>
               </div>
@@ -123,9 +123,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Music size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Balcony Sundowners</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Flexible 24-Hr Cycles</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Private terrace and balcony seating ideal for relaxing tropical evenings.
+                    Flexible check-in accommodating odd-hour train arrivals and flight layovers.
                   </p>
                 </div>
               </div>
@@ -133,9 +133,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <HeartHandshake size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Scooter & Tour Desk</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Baggage & Caretaker Care</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Doorstep rental bikes, South Goa sightseeing cabs, and water sports advice.
+                    Secure luggage hold, CCTV monitoring, and prompt in-room assistance.
                   </p>
                 </div>
               </div>
@@ -144,7 +144,7 @@ export const BanquetsSection: React.FC = () => {
             <div className="banquets-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <a
                 href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent(
-                  "Hello Sea View Resort, I am interested in inquiring about group vacation packages / room bookings."
+                  "Hello TELES Westend Hotel, I am interested in inquiring about group room bookings / transit accommodation."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"

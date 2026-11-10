@@ -22,7 +22,7 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
       <div className="hero-bg-container">
         <img
           src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=2400&q=88"
-          alt="Sea View Resort Coastal Balcony Stays in Bogmalo Goa"
+          alt="TELES Westend Hotel Transit & City Accommodation in Vasco da Gama Goa"
           className="hero-image"
         />
         <div className="hero-overlay" />
@@ -33,16 +33,16 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
         <div className="hero-content">
           <div className="hero-eyebrow">
             <MapPin size={13} style={{ color: "var(--peach-light)", flexShrink: 0 }} />
-            <span>Near Naval Aviation Museum · 145 Bogmalo Beach Road, Goa</span>
+            <span>F.L. Gomes Road · Above YES Bank, Mendes Mansion, Vasco da Gama, Goa</span>
           </div>
 
           <h1 className="hero-title">
-            Coastal Breezes & Balcony Views in <em>Bogmalo, Goa.</em>
+            Comfort & Convenience in the <em>Heart of Vasco da Gama.</em>
           </h1>
 
           <p className="hero-desc">
-            Discover a serene, budget-friendly coastal sanctuary minutes from Bogmalo Beach and Goa Dabolim Airport.
-            Enjoy air-conditioned rooms with private balconies, peaceful garden surroundings, and warm Goan hospitality.
+            Clean, air-conditioned rooms and dependable city lodging located just 400 meters from Vasco da Gama Railway Station
+            and 5 km from Goa Dabolim International Airport. Designed for transit passengers, corporate travelers, and families.
           </p>
 
           <div className="hero-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap", alignItems: "center" }}>
@@ -51,7 +51,7 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               <ArrowRight size={15} />
             </a>
             <a
-              href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent("Hello Sea View Resort, I would like to inquire about room availability and vacation tariffs.")}`}
+              href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent("Hello TELES Westend Hotel, I would like to inquire about room availability and tariffs.")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline"
@@ -104,11 +104,11 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               value={guests}
               onChange={(e) => setGuests(Number(e.target.value))}
             >
-              <option value={1}>1 Guest (Airport Transit / Solo)</option>
-              <option value={2}>2 Guests (Deluxe Balcony Sea Breeze)</option>
-              <option value={3}>3 Guests (Executive King Room)</option>
-              <option value={4}>4 Guests (Coastal Family Balcony Suite)</option>
-              <option value={10}>10+ Guests (Group Vacation / Event)</option>
+              <option value={1}>1 Guest (Railway Transit / Solo)</option>
+              <option value={2}>2 Guests (Deluxe AC City Room)</option>
+              <option value={3}>3 Guests (Executive Deluxe Room)</option>
+              <option value={4}>4 Guests (Family Transit Suite)</option>
+              <option value={10}>10+ Guests (Group & Corporate Booking)</option>
             </select>
           </div>
 
@@ -118,7 +118,7 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               Destination
             </label>
             <div style={{ fontSize: "0.95rem", fontWeight: 700, color: "var(--ink)", padding: "2px 0" }}>
-              Bogmalo Beach, Goa
+              Vasco da Gama, Goa
             </div>
           </div>
 

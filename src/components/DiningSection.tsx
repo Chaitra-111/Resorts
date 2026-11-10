@@ -13,60 +13,60 @@ export const DiningSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Culinary Flavors & Coastal Delights</span>
-          <h2 className="section-title">Dining & Bogmalo Beach Shacks</h2>
+          <span className="section-label">Culinary Flavors & City Dining</span>
+          <h2 className="section-title">Dining & Vasco Food Trails</h2>
           <p className="section-desc">
-            Savor authentic coastal flavors — from on-site Goan curries and chilled beverages
-            to famous beachfront seafood shacks overlooking the sunset at Bogmalo Beach.
+            Savor authentic coastal flavors — from legendary Goan fish thali joints and bakeries
+            along F.L. Gomes Road to prompt doorstep delivery right to your room.
           </p>
         </div>
 
         <div className="dining-grid">
-          {/* Card 1: Bogmalo Beach Shacks */}
+          {/* Card 1: Vasco Food Strip */}
           <div className="card-tilt" style={{ padding: "2.2rem" }}>
             <div style={{ position: "relative", height: "210px", borderRadius: "14px", overflow: "hidden", marginBottom: "1.5rem" }}>
               <img
                 src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80"
-                alt="Bogmalo Beach Shacks and Fresh Goan Seafood"
+                alt="Vasco da Gama Local Goan Dining and Seafood Thalis"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", color: "var(--amber)", marginBottom: "0.5rem" }}>
               <Utensils size={18} />
               <span style={{ fontSize: "0.76rem", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase" }}>
-                1 km to Seafront Shacks
+                Steps From Hotel
               </span>
             </div>
             <h3 style={{ fontSize: "1.5rem", marginBottom: "0.8rem", color: "var(--ink)" }}>
-              Bogmalo Beach Shacks
+              F.L. Gomes Road Food Hub
             </h3>
             <p style={{ fontSize: "0.94rem", lineHeight: 1.65, color: "var(--muted)" }}>
-              A short stroll from Sea View Resort, indulge in world-famous Goan fish curry rice, butter garlic prawns,
-              calamari fry, and wood-fired pizzas right on the soft sands.
+              Steps from the hotel, indulge in famous Goan fish curry rice, prawn rava fry,
+              North & South Indian meals, and evening street food treats.
             </p>
           </div>
 
-          {/* Card 2: Poolside Bar & Breakfast */}
+          {/* Card 2: Morning Tiffin & Chai */}
           <div className="card-tilt" style={{ padding: "2.2rem" }}>
             <div style={{ position: "relative", height: "210px", borderRadius: "14px", overflow: "hidden", marginBottom: "1.5rem" }}>
               <img
                 src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80"
-                alt="Tropical Breakfast and Morning Coffee by the Pool"
+                alt="Morning Chai and Goan Pao Breakfast"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", color: "var(--amber)", marginBottom: "0.5rem" }}>
               <Coffee size={18} />
               <span style={{ fontSize: "0.76rem", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase" }}>
-                Resort Breakfast & Bar
+                Early Morning Breakfast
               </span>
             </div>
             <h3 style={{ fontSize: "1.5rem", marginBottom: "0.8rem", color: "var(--ink)" }}>
-              Poolside Cafe & Bar
+              Goan Pao, Bhaji & Chai
             </h3>
             <p style={{ fontSize: "0.94rem", lineHeight: 1.65, color: "var(--muted)" }}>
-              Enjoy freshly brewed morning coffee, tropical juice, warm omelettes, parathas,
-              and chilled evening beer lounged beside the swimming pool.
+              Kickstart your mornings with authentic Goan pao bhaji, piping hot idlis, puri sagu,
+              and aromatic filter coffee from neighborhood cafes near the station.
             </p>
           </div>
 
@@ -75,22 +75,22 @@ export const DiningSection: React.FC = () => {
             <div style={{ position: "relative", height: "210px", borderRadius: "14px", overflow: "hidden", marginBottom: "1.5rem" }}>
               <img
                 src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
-                alt="Room Service and Coastal Dining In-Room"
+                alt="In-Room Dining and Food Delivery"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", color: "var(--amber)", marginBottom: "0.5rem" }}>
               <Truck size={18} />
               <span style={{ fontSize: "0.76rem", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase" }}>
-                In-Room Dining
+                In-Room Convenience
               </span>
             </div>
             <h3 style={{ fontSize: "1.5rem", marginBottom: "0.8rem", color: "var(--ink)" }}>
-              In-Room Service & Delivery
+              Doorstep Food Delivery
             </h3>
             <p style={{ fontSize: "0.94rem", lineHeight: 1.65, color: "var(--muted)" }}>
-              Unwind in air-conditioned comfort. Order comfort food, hot tea, snacks, and late-night
-              beverages delivered straight to your room or private patio.
+              Relax comfortably in your room. Enjoy convenient Swiggy and Zomato food delivery
+              assisted 24/7 by our front desk staff, along with hot tea and packaged drinking water.
             </p>
           </div>
         </div>
