@@ -58,7 +58,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.1s",
             } as React.CSSProperties}
           >
-            Nizamabad · Telangana
+            Bogmalo · South Goa
           </span>
         </span>
 
@@ -89,7 +89,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.35s",
             } as React.CSSProperties}
           >
-            "Modern luxury, executive comfort, and premier hospitality in Nizamabad."
+            "Serene coastal getaway & poolside relaxation near Bogmalo Beach."
           </span>
         </p>
       </div>

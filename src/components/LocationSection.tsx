@@ -14,10 +14,10 @@ export const LocationSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Prime Pragathi Nagar Location</span>
+          <span className="section-label">Prime Bogmalo Beach Location</span>
           <h2 className="section-title">Location & Getting Here</h2>
           <p className="section-desc">
-            Conveniently situated along Kakatiya Girls College Road in Pragathi Nagar, Mubaraknagar, Nizamabad — close to central transit, dining, and colleges.
+            Ideally situated on Bogmalo Beach Road directly opposite the Naval Aviation Museum, Alto Bogmalo, Goa — just 1 km from the beach and 4 km from Dabolim Airport.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export const LocationSection: React.FC = () => {
                 }}
               >
                 <Compass size={16} />
-                <span>Pragathi Nagar & Mubaraknagar</span>
+                <span>Bogmalo Beach & Airport Corridor</span>
               </div>
 
               <h3 style={{ fontSize: "1.8rem", color: "var(--ink)", marginBottom: "0.8rem" }}>
@@ -96,28 +96,28 @@ export const LocationSection: React.FC = () => {
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Building size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Near Kakatiya Girls College:</strong> Landmark educational hub with peaceful surroundings.
+                    <strong>1 km to Bogmalo Beach:</strong> 12-min walk or 2-min drive to water sports & seaside shacks.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Train size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Nizamabad Railway Junction:</strong> ~1.5 to 2.5 km (quick 5–8 min drive / auto).
+                    <strong>4 km to Goa Dabolim Airport (GOI):</strong> Swift 8–10 minute taxi ride for effortless flights.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Car size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>TSRTC Bus Station:</strong> ~2.0 km with seamless auto and cab connections.
+                    <strong>Opposite Naval Aviation Museum:</strong> Famous Goa landmark directly across the road.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Clock size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Operating Hours:</strong> 24/7 Front Desk, Express check-in & round-the-clock service.
+                    <strong>Check-in / Out:</strong> 12:00 PM Check-in & 12:00 PM Check-out, with 24/7 reception desk.
                   </span>
                 </div>
 
@@ -166,7 +166,7 @@ export const LocationSection: React.FC = () => {
             }}
           >
             <iframe
-              title="S P GRAND Luxury Rooms Nizamabad Map"
+              title="ATHI RESORTS Bogmalo Goa Map"
               src={RESORT_CONTACT.googleMapsEmbed}
               width="100%"
               height="100%"

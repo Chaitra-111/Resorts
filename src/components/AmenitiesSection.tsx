@@ -46,11 +46,11 @@ export const AmenitiesSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Hotel Amenities & Guest Services</span>
-          <h2 className="section-title">Designed for Modern Comfort & Refined Living</h2>
+          <span className="section-label">Resort Amenities & Coastal Comforts</span>
+          <h2 className="section-title">Designed for Poolside Relaxation & Goan Charm</h2>
           <p className="section-desc">
-            Every facility at S P GRAND Luxury Rooms is tailored to provide spotless accommodations,
-            uninterrupted 24/7 hot water, high-speed fiber Wi-Fi, and courteous concierge support.
+            Every facility at ATHI RESORTS is curated to deliver laid-back coastal enjoyment — from
+            crystal-clear pool swims and sun loungers to beach proximity and airport transfers.
           </p>
         </div>
 

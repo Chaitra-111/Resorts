@@ -16,18 +16,18 @@ export const HotspotExplorer: React.FC = () => {
       <div className="content-container">
         <div className="section-header-center">
           <span className="section-label">Interactive Property Showcase</span>
-          <h2 className="section-title">Explore Spaces & Enclave Highlights</h2>
+          <h2 className="section-title">Explore Spaces & Coastal Highlights</h2>
           <p className="section-desc">
-            Touch the pulsing points across the property to discover our luxury guest suites, Pragathi Nagar connectivity,
-            and 24/7 guest services.
+            Touch the pulsing points across the resort to explore our outdoor swimming pool, Bogmalo Beach connectivity,
+            and convenient Dabolim Airport corridor.
           </p>
         </div>
 
         {/* Visual Stage with Pulsing Hotspots */}
         <div className="hotspot-stage">
           <img
-            src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1800&q=88"
-            alt="S P GRAND Luxury Rooms Nizamabad Spaces and Ambiance"
+            src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1800&q=88"
+            alt="ATHI RESORTS Bogmalo Goa Poolside Spaces and Tropical Ambiance"
           />
 
           {/* Hotspot Pins */}

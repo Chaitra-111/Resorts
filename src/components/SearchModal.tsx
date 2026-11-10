@@ -32,21 +32,21 @@ export const SearchModal: React.FC<SearchModalProps> = ({
       target: "experiences",
     })),
     {
-      title: "Group & Family Luxury Stays",
+      title: "Group Vacations & Poolside Stays",
       category: "Group Stays",
-      description: "Accommodate up to 60+ guests for wedding parties, delegations, and family gatherings.",
+      description: "Accommodate up to 50+ guests for holiday groups, family reunions, and beach getaways.",
       target: "banquets",
     },
     {
-      title: "Dining & Pragathi Nagar Food Trails",
+      title: "Dining & Bogmalo Beach Shacks",
       category: "Dining",
-      description: "Authentic Hyderabadi Dum Biryanis, Andhra meals, and doorstep food delivery.",
+      description: "Fresh Goan seafood, beach shacks, poolside cafe, and doorstep delivery.",
       target: "dining",
     },
     {
-      title: "Location & Transit in Pragathi Nagar",
+      title: "Location & Transit in Bogmalo, Goa",
       category: "Location",
-      description: "Kakatiya Girls College Road, Mubaraknagar, Nizamabad with quick railway station connectivity.",
+      description: "Opposite Naval Aviation Museum, 1 km to Bogmalo Beach, 4 km to Goa Dabolim Airport.",
       target: "location",
     },
     {

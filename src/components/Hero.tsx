@@ -21,8 +21,8 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
       {/* Background container */}
       <div className="hero-bg-container">
         <img
-          src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=2400&q=88"
-          alt="S P GRAND Luxury Rooms in Nizamabad"
+          src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=2400&q=88"
+          alt="ATHI RESORTS Boutique Beach & Poolside Resort in Bogmalo Goa"
           className="hero-image"
         />
         <div className="hero-overlay" />
@@ -33,25 +33,25 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
         <div className="hero-content">
           <div className="hero-eyebrow">
             <MapPin size={13} style={{ color: "var(--peach-light)", flexShrink: 0 }} />
-            <span>Kakatiya Girls College Road · Pragathi Nagar, Mubaraknagar, Nizamabad</span>
+            <span>Bogmalo Beach Road · Opp. Naval Aviation Museum, Alto Bogmalo, Goa</span>
           </div>
 
           <h1 className="hero-title">
-            Modern Luxury & Comfort in <em>Pragathi Nagar.</em>
+            Coastal Serenity & Poolside Bliss in <em>Bogmalo, Goa.</em>
           </h1>
 
           <p className="hero-desc">
-            Experience premier hospitality at S P GRAND Luxury Rooms. Featuring contemporary air-conditioned suites,
-            24/7 room service, fast fiber Wi-Fi, and tranquil accommodation in the heart of Mubaraknagar.
+            Discover a tropical retreat minutes from Bogmalo Beach and Goa Dabolim Airport.
+            Featuring an outdoor swimming pool, lush gardens, air-conditioned deluxe rooms, and relaxed coastal hospitality.
           </p>
 
           <div className="hero-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap", alignItems: "center" }}>
             <a href="#suites" className="btn-luxury" data-cursor="View Rooms">
-              <span>Explore Luxury Suites</span>
+              <span>Explore Rooms & Rates</span>
               <ArrowRight size={15} />
             </a>
             <a
-              href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent("Hello S P GRAND Luxury Rooms, I would like to inquire about room availability and tariffs.")}`}
+              href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent("Hello ATHI RESORTS, I would like to inquire about room availability and vacation tariffs.")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline"
@@ -104,11 +104,11 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               value={guests}
               onChange={(e) => setGuests(Number(e.target.value))}
             >
-              <option value={1}>1 Guest (Corporate Executive)</option>
-              <option value={2}>2 Guests (Deluxe Luxury AC)</option>
-              <option value={3}>3 Guests (Executive Grand Suite)</option>
-              <option value={4}>4 Guests (Royal Family Suite)</option>
-              <option value={10}>10+ Guests (Group & Wedding Booking)</option>
+              <option value={1}>1 Guest (Airport Transit / Solo)</option>
+              <option value={2}>2 Guests (Deluxe Pool View / Garden)</option>
+              <option value={3}>3 Guests (King Room + Extra Bed)</option>
+              <option value={4}>4 Guests (Executive Family Coastal Suite)</option>
+              <option value={10}>10+ Guests (Group Vacation / Event)</option>
             </select>
           </div>
 
@@ -118,7 +118,7 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               Destination
             </label>
             <div style={{ fontSize: "0.95rem", fontWeight: 700, color: "var(--ink)", padding: "2px 0" }}>
-              Pragathi Nagar, Nizamabad
+              Bogmalo Beach, Goa
             </div>
           </div>
 

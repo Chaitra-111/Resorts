@@ -5,48 +5,48 @@ export const EditorialIntro: React.FC = () => {
   return (
     <section className="editorial-section" id="story">
       <div className="content-container">
-        <span className="section-label">Premier Luxury Rooms & Suites</span>
+        <span className="section-label">Boutique Goa Beach & Poolside Stays</span>
 
         <h2 className="statement-heading">
-          Contemporary luxury, executive comfort & serene living <br />
+          Sun-drenched palms, refreshing poolside swims & coastal calm <br />
           <em style={{ fontFamily: "var(--serif)", fontStyle: "italic", color: "var(--amber)" }}>
-            in the heart of Pragathi Nagar, Mubaraknagar.
+            in the scenic enclave of Bogmalo, South Goa.
           </em>
         </h2>
 
         <p className="statement-body">
-          Located along Kakatiya Girls College Road in Pragathi Nagar, Mubaraknagar,
-          S P GRAND Luxury Rooms is Nizamabad's premier destination for corporate professionals,
-          wedding guests, visiting families, and leisure travelers. Offering thoughtfully designed
-          air-conditioned luxury rooms, high-speed fiber Wi-Fi, 24/7 front desk concierge, and secure on-site parking.
+          Nestled on Bogmalo Beach Road directly opposite the iconic Naval Aviation Museum,
+          ATHI RESORTS offers travelers a serene tropical haven in South Goa. Unwind in spacious
+          air-conditioned pool view and garden rooms, take refreshing dips in our outdoor swimming pool,
+          savor local seafood, and enjoy seamless 10-minute connectivity to Goa Dabolim International Airport.
         </p>
 
         {/* Feature Pillars */}
         <div className="statement-pillars">
           <div className="pillar-card">
             <Compass size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Prime Pragathi Nagar</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Bogmalo Beach & Coast</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Situated in the calm, serene neighborhood of Mubaraknagar near Kakatiya Girls College,
-              with quick transit to Nizamabad Junction Railway Station, hospitals, and central retail hubs.
+              Just 1 km (12-minute walk) from the gentle golden sands of Bogmalo Beach,
+              water sports, sunset sea shacks, and panoramic views of the Arabian Sea.
             </p>
           </div>
 
           <div className="pillar-card">
             <Building2 size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Executive & Family Suites</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Outdoor Pool & Gardens</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              From ergonomic executive workspaces for business guests to expansive multi-bed suites
-              for wedding entourages and visiting families, enjoy refined comfort tailored to every stay.
+              Spend sunlit afternoons lounging by the open-air swimming pool, encircled by
+              lush tropical landscaping, sunbeds, and tranquil palm-shaded courtyards.
             </p>
           </div>
 
           <div className="pillar-card">
             <Heart size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Dining & Concierge Care</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Dabolim Airport Corridor</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Enjoy seamless room service, doorstep delivery from Nizamabad's top culinary dining spots,
-              complimentary morning tea/coffee support, and 24-hour hot water showers.
+              Only 4 km (under 10 minutes) from Goa Dabolim International Airport (GOI),
+              making late arrivals, layovers, and early flight departures completely effortless.
             </p>
           </div>
         </div>
@@ -54,20 +54,20 @@ export const EditorialIntro: React.FC = () => {
         {/* Key Stats Counter */}
         <div className="statement-stats">
           <div className="stat-item">
-            <h3>4.0 ★</h3>
-            <p>120+ Verified Reviews</p>
+            <h3>1 km</h3>
+            <p>To Bogmalo Beach</p>
+          </div>
+          <div className="stat-item">
+            <h3>4 km</h3>
+            <p>To Dabolim Airport</p>
+          </div>
+          <div className="stat-item">
+            <h3>Pool</h3>
+            <p>Outdoor Swimming Deck</p>
           </div>
           <div className="stat-item">
             <h3>24/7</h3>
-            <p>Front Desk & Concierge</p>
-          </div>
-          <div className="stat-item">
-            <h3>100%</h3>
-            <p>Air-Conditioned Comfort</p>
-          </div>
-          <div className="stat-item">
-            <h3>₹1,200+</h3>
-            <p>Starting Room Tariff</p>
+            <p>Front Desk & Cabs</p>
           </div>
         </div>
       </div>

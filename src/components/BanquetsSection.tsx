@@ -33,8 +33,8 @@ export const BanquetsSection: React.FC = () => {
               }}
             >
               <img
-                src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1400&q=85"
-                alt="Group Bookings and Accommodations at S P GRAND Luxury Rooms Nizamabad"
+                src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1400&q=85"
+                alt="Group Vacations and Poolside Stays at ATHI RESORTS Bogmalo Goa"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -67,28 +67,28 @@ export const BanquetsSection: React.FC = () => {
                 Group Capacity
               </span>
               <h4 style={{ fontSize: "1.7rem", color: "var(--ink)", margin: "0.2rem 0" }}>
-                10 to 60+
+                10 to 50+
               </h4>
               <p style={{ fontSize: "0.82rem", color: "var(--muted)" }}>
-                Guests across Deluxe AC, Executive & Royal Family Suites.
+                Guests across Pool View, Garden Deluxe & Family Coastal Suites.
               </p>
             </div>
           </div>
 
           {/* Editorial Content */}
           <div>
-            <span className="section-label">Group Bookings & Family Accommodations</span>
+            <span className="section-label">Group Bookings & Vacation Packages</span>
             <h2
               className="section-title"
               style={{ marginBottom: "1.25rem" }}
             >
-              Comfortable Group Stays for Weddings, Delegations & Families.
+              Unforgettable Coastal Getaways for Families & Groups.
             </h2>
 
             <p style={{ fontSize: "1.05rem", lineHeight: 1.7, marginBottom: "2rem", color: "var(--muted)" }}>
-              Planning an upcoming family wedding celebration in Nizamabad, hosting an educational seminar
-              near Kakatiya College, or accommodating a corporate delegation in Mubaraknagar? S P GRAND Luxury Rooms
-              offers multi-room group packages with customized bulk pricing, 24/7 dedicated concierge, and secure car parking.
+              Planning an annual Goa getaway with friends, hosting a pre-wedding celebration near Bogmalo Beach,
+              or organizing a family reunion in South Goa? ATHI RESORTS offers comfortable multi-room group stays,
+              exclusive poolside lounging, scooter rentals, and airport pick-up packages at unbeatable tariffs.
             </p>
 
             <div
@@ -103,9 +103,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Sparkles size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Wedding Entourages</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Friend & Family Trips</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Block multiple interconnected luxury rooms for visiting marriage relatives.
+                    Multi-bed coastal suites opening towards the swimming pool and gardens.
                   </p>
                 </div>
               </div>
@@ -113,9 +113,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Users size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Corporate Delegations</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Airport Layover Groups</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Executive suites with ergonomic desks, fiber Wi-Fi, and GST invoicing.
+                    Just 4 km from Dabolim Airport with seamless late-night check-in support.
                   </p>
                 </div>
               </div>
@@ -123,9 +123,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Music size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Flexible Check-in / Out</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Poolside Sundowners</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Round-the-clock front desk welcoming late-night and early-morning arrivals.
+                    Private terrace and sun deck area ideal for relaxing tropical evenings.
                   </p>
                 </div>
               </div>
@@ -133,9 +133,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <HeartHandshake size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Secure Parking & Care</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Scooter & Tour Desk</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    On-site vehicle parking, CCTV security surveillance, and luggage assistance.
+                    Doorstep rental bikes, South Goa sightseeing cabs, and water sports advice.
                   </p>
                 </div>
               </div>
@@ -144,7 +144,7 @@ export const BanquetsSection: React.FC = () => {
             <div className="banquets-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <a
                 href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent(
-                  "Hello S P GRAND Luxury Rooms, I am interested in inquiring about group room bookings / family wedding accommodation."
+                  "Hello ATHI RESORTS, I am interested in inquiring about group vacation packages / poolside room bookings."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"

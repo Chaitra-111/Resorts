@@ -13,60 +13,60 @@ export const DiningSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Culinary Convenience & Local Flavors</span>
-          <h2 className="section-title">Dining & Pragathi Nagar Food Trails</h2>
+          <span className="section-label">Culinary Flavors & Coastal Delights</span>
+          <h2 className="section-title">Dining & Bogmalo Beach Shacks</h2>
           <p className="section-desc">
-            Enjoy diverse culinary options during your stay — from authentic Hyderabadi biryani hubs
-            and Andhra tiffin centers around Mubaraknagar to convenient doorstep room delivery.
+            Savor authentic coastal flavors — from on-site Goan curries and chilled beverages
+            to famous beachfront seafood shacks overlooking the sunset at Bogmalo Beach.
           </p>
         </div>
 
         <div className="dining-grid">
-          {/* Card 1: Pragathi Nagar Food Hub */}
+          {/* Card 1: Bogmalo Beach Shacks */}
           <div className="card-tilt" style={{ padding: "2.2rem" }}>
             <div style={{ position: "relative", height: "210px", borderRadius: "14px", overflow: "hidden", marginBottom: "1.5rem" }}>
               <img
                 src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80"
-                alt="Pragathi Nagar and Mubaraknagar Dining Hub"
+                alt="Bogmalo Beach Shacks and Fresh Goan Seafood"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", color: "var(--amber)", marginBottom: "0.5rem" }}>
               <Utensils size={18} />
               <span style={{ fontSize: "0.76rem", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase" }}>
-                Neighborhood Dining
+                1 km to Seafront Shacks
               </span>
             </div>
             <h3 style={{ fontSize: "1.5rem", marginBottom: "0.8rem", color: "var(--ink)" }}>
-              Pragathi Nagar Food Hub
+              Bogmalo Beach Shacks
             </h3>
             <p style={{ fontSize: "0.94rem", lineHeight: 1.65, color: "var(--muted)" }}>
-              Steps from the hotel, explore Nizamabad's renowned restaurants serving authentic Dum Biryanis,
-              flavorful Andhra thalis, crispy butter dosas, and North Indian curries.
+              A short stroll from Athi Resorts, indulge in world-famous Goan fish curry rice, butter garlic prawns,
+              calamari fry, and wood-fired pizzas right on the soft sands.
             </p>
           </div>
 
-          {/* Card 2: Morning Tiffin & Chai */}
+          {/* Card 2: Poolside Bar & Breakfast */}
           <div className="card-tilt" style={{ padding: "2.2rem" }}>
             <div style={{ position: "relative", height: "210px", borderRadius: "14px", overflow: "hidden", marginBottom: "1.5rem" }}>
               <img
                 src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80"
-                alt="Morning Tiffin and Hot Filter Coffee"
+                alt="Tropical Breakfast and Morning Coffee by the Pool"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", color: "var(--amber)", marginBottom: "0.5rem" }}>
               <Coffee size={18} />
               <span style={{ fontSize: "0.76rem", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase" }}>
-                Breakfast & Beverages
+                Resort Breakfast & Bar
               </span>
             </div>
             <h3 style={{ fontSize: "1.5rem", marginBottom: "0.8rem", color: "var(--ink)" }}>
-              Morning Tiffins & Chai
+              Poolside Cafe & Bar
             </h3>
             <p style={{ fontSize: "0.94rem", lineHeight: 1.65, color: "var(--muted)" }}>
-              Kickstart your mornings with piping hot idlis, crispy medu vadas, fresh dosas, and fragrant filter coffee
-              from popular neighborhood cafes along Kakatiya College Road.
+              Enjoy freshly brewed morning coffee, tropical juice, warm omelettes, parathas,
+              and chilled evening beer lounged beside the swimming pool.
             </p>
           </div>
 
@@ -75,7 +75,7 @@ export const DiningSection: React.FC = () => {
             <div style={{ position: "relative", height: "210px", borderRadius: "14px", overflow: "hidden", marginBottom: "1.5rem" }}>
               <img
                 src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
-                alt="Doorstep Food Delivery and In-Room Service"
+                alt="Room Service and Coastal Dining In-Room"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -86,11 +86,11 @@ export const DiningSection: React.FC = () => {
               </span>
             </div>
             <h3 style={{ fontSize: "1.5rem", marginBottom: "0.8rem", color: "var(--ink)" }}>
-              Doorstep Food Delivery
+              In-Room Service & Delivery
             </h3>
             <p style={{ fontSize: "0.94rem", lineHeight: 1.65, color: "var(--muted)" }}>
-              Relax comfortably in your luxury room. Enjoy quick Swiggy and Zomato order assistance
-              delivered directly to your door, supported 24/7 by our concierge staff.
+              Unwind in air-conditioned comfort. Order comfort food, hot tea, snacks, and late-night
+              beverages delivered straight to your room or private patio.
             </p>
           </div>
         </div>

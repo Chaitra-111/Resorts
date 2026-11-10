@@ -57,8 +57,8 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
             </div>
 
             <p style={{ fontSize: "0.92rem", lineHeight: 1.65, maxWidth: "340px", marginBottom: "1.5rem" }}>
-              Nizamabad's premier luxury address in Pragathi Nagar. Air-conditioned rooms & suites,
-              24-hour hot water, high-speed Wi-Fi, and personalized concierge care.
+              Goa's serene boutique beach resort in Alto Bogmalo. Air-conditioned pool view rooms,
+              outdoor swimming pool, tropical garden, and 4 km proximity to Dabolim Airport.
             </p>
 
             {/* Atmosphere Mood Switcher in Footer */}
@@ -92,32 +92,32 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 marginBottom: "1.2rem",
               }}
             >
-              The Hotel
+              The Resort
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.92rem" }}>
               <li>
                 <a href="#suites" className="footer-link">
-                  Luxury Rooms & Suites
+                  Rooms & Suites
                 </a>
               </li>
               <li>
                 <a href="#hotspots" className="footer-link">
-                  Spaces & Ambiance
+                  Pool & Spaces
                 </a>
               </li>
               <li>
                 <a href="#dining" className="footer-link">
-                  Pragathi Nagar Dining
+                  Goan Beach Shacks
                 </a>
               </li>
               <li>
                 <a href="#banquets" className="footer-link">
-                  Group & Family Stays
+                  Vacation Groups
                 </a>
               </li>
               <li>
                 <a href="#experiences" className="footer-link">
-                  Hotel Amenities
+                  Resort Amenities
                 </a>
               </li>
             </ul>
@@ -135,15 +135,15 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 marginBottom: "1.2rem",
               }}
             >
-              Nizamabad Landmarks
+              Goa Landmarks
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.9rem", color: "var(--ink)" }}>
-              <li>• Kakatiya Girls College (Steps Away)</li>
-              <li>• Pragathi Nagar & Mubaraknagar Hub</li>
-              <li>• Nizamabad Railway Junction (~1.8 km)</li>
-              <li>• TSRTC Central Bus Station (~2.0 km)</li>
-              <li>• Historic Nizamabad Fort (3.2 km)</li>
-              <li>• Ashok Sagar Lake & Garden (7.5 km)</li>
+              <li>• Bogmalo Beach (~1.0 km)</li>
+              <li>• Naval Aviation Museum (Opposite)</li>
+              <li>• Heart Shaped Lake (~1.8 km)</li>
+              <li>• Goa Dabolim Airport GOI (~4.0 km)</li>
+              <li>• Vasco da Gama Railway Station (~7 km)</li>
+              <li>• Hollant Beach (~5.5 km)</li>
             </ul>
           </div>
 
