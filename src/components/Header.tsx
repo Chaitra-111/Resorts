@@ -51,8 +51,8 @@ export const Header: React.FC<HeaderProps> = ({
               <path d="M14 48H50" />
             </svg>
             <div className="brand-text">
-              <span className="brand-word">SARITA GUEST HOUSE</span>
-              <span className="brand-sub">Beachfront Rooms & Dining</span>
+              <span className="brand-word">NOEL GUEST HOUSE</span>
+              <span className="brand-sub">Cozy Stays & Airport Transit</span>
             </div>
           </a>
 

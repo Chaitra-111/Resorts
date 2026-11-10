@@ -1,43 +1,43 @@
 import React from "react";
-import { Waves, Utensils, Plane } from "lucide-react";
+import { Compass, Heart, Plane } from "lucide-react";
 
 export const EditorialIntro: React.FC = () => {
   return (
     <section className="editorial-section" id="story">
       <div className="content-container">
-        <span className="section-label">Beachfront Living & Authentic Goan Hospitality</span>
+        <span className="section-label">Village Serenity & Genuine Goan Hospitality</span>
 
         <h2 className="statement-heading">
-          Direct sand access, panoramic sea view balconies & vibrant seaside dining <br />
+          Spotless rooms, tranquil palm groves & prompt airport transit <br />
           <em style={{ fontFamily: "var(--serif)", fontStyle: "italic", color: "var(--amber)" }}>
-            right on Bogmalo Beach, South Goa.
+            in picturesque Bogmalo, South Goa.
           </em>
         </h2>
 
         <p className="statement-body">
-          Perched directly on the shoreline of Bogmalo Beach (right beside John's Seagull),
-          Sarita Guest House Bar & Restaurant offers travelers a tranquil beachfront haven.
-          Listen to the rhythm of ocean waves from your private balcony, savor fresh Goan seafood
-          at our on-site sea shack restaurant, and reach Goa Dabolim International Airport in just 10 minutes.
+          Situated at House No. 94 along Bogmalo Road (just 50 meters from Bogmalo Church),
+          Noel Guest House offers travelers a quiet, restful retreat nestled in green village surroundings.
+          Take a gentle 5-minute stroll down to Bogmalo Beach, enjoy attentive personal hospitality from Cajetan Rodrigues and family,
+          and reach Goa Dabolim International Airport in just 5 to 7 minutes.
         </p>
 
         {/* Feature Pillars */}
         <div className="statement-pillars">
           <div className="pillar-card">
-            <Waves size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>0 Meters to the Beach</h3>
+            <Compass size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>5-Min Beach Walk</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Wake up and walk straight onto the golden sands of Bogmalo Beach. No road crossings,
-              no transit hassle — just pure coastal breeze and sunset waters right at your doorstep.
+              Just ~400 meters from the golden sands of Bogmalo Beach. Enjoy safe bay swimming,
+              watersports, and evening sunsets at seaside shacks without beachfront noise.
             </p>
           </div>
 
           <div className="pillar-card">
-            <Utensils size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Seafood Bar & Restaurant</h3>
+            <Heart size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Warm Family Hosting</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Our popular on-site beachfront restaurant and bar serves authentic Goan fish curry thali,
-              prawn balchão, butter garlic calamari, chilled beers, and tropical beach shack cocktails.
+              Hosted with genuine care by Cajetan Rodrigues and family. Enjoy spotless rooms,
+              dependable scooter rentals, and honest local dining suggestions.
             </p>
           </div>
 
@@ -45,8 +45,8 @@ export const EditorialIntro: React.FC = () => {
             <Plane size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
             <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Airport Transit Hub</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Located just 4 km (under 10 minutes) from Goa Dabolim Airport (GOI), making Sarita the ultimate
-              beach retreat for incoming flight arrivals, departing travelers, and weekend holidaymakers.
+              Located just 4 km (5 to 7 minutes drive) from Goa Dabolim Airport (GOI), with flexible
+              24/7 check-in assistance accommodating odd-hour flight arrivals and departures.
             </p>
           </div>
         </div>
@@ -54,8 +54,8 @@ export const EditorialIntro: React.FC = () => {
         {/* Key Stats Counter */}
         <div className="statement-stats">
           <div className="stat-item">
-            <h3>0 m</h3>
-            <p>To Bogmalo Beach Sand</p>
+            <h3>400m</h3>
+            <p>To Bogmalo Beach</p>
           </div>
           <div className="stat-item">
             <h3>4 km</h3>
@@ -66,8 +66,8 @@ export const EditorialIntro: React.FC = () => {
             <p>Front Desk & Hot Water</p>
           </div>
           <div className="stat-item">
-            <h3>₹1,400+</h3>
-            <p>Affordable Beach Tariff</p>
+            <h3>₹1,100+</h3>
+            <p>Budget Starting Tariff</p>
           </div>
         </div>
       </div>

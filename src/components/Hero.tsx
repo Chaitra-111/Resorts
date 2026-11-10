@@ -21,8 +21,8 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
       {/* Background container */}
       <div className="hero-bg-container">
         <img
-          src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2400&q=88"
-          alt="Sarita Guest House Bar & Restaurant Beachfront on Bogmalo Beach Goa"
+          src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=2400&q=88"
+          alt="Noel Guest House Bogmalo Goa Peaceful Stays and Airport Transit"
           className="hero-image"
         />
         <div className="hero-overlay" />
@@ -33,17 +33,17 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
         <div className="hero-content">
           <div className="hero-eyebrow">
             <MapPin size={13} style={{ color: "var(--peach-light)", flexShrink: 0 }} />
-            <span>Right on Bogmalo Beach · Beside John's Seagull, South Goa (4 km to Dabolim Airport)</span>
+            <span>House No. 94, Bogmalo Road · Near Bogmalo Church, South Goa (4 km to Dabolim Airport)</span>
           </div>
 
           <h1 className="hero-title">
-            Direct Beachfront Living on the <em>Sands of Bogmalo.</em>
+            Quiet Coastal Charm & Warm Hospitality in <em>Bogmalo.</em>
           </h1>
 
           <p className="hero-desc">
-            Step straight from your sea view balcony onto the golden sands of Bogmalo Beach.
-            Enjoy air-conditioned coastal rooms, chilled sea shack drinks, fresh Goan seafood,
-            and effortless 10-minute transit to Goa Dabolim International Airport.
+            Spotless, peaceful guest house accommodation nestled in a quiet coconut tree-lined village setting.
+            Located just 50 meters from Bogmalo Church, a relaxed 5-minute walk to Bogmalo Beach sands,
+            and only 5–7 minutes from Goa Dabolim International Airport.
           </p>
 
           <div className="hero-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap", alignItems: "center" }}>
@@ -52,7 +52,7 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               <ArrowRight size={15} />
             </a>
             <a
-              href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent("Hello Sarita Guest House, I would like to inquire about beachfront room availability and tariffs.")}`}
+              href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent("Hello Noel Guest House, I would like to inquire about room availability and tariffs.")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline"
@@ -105,11 +105,11 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               value={guests}
               onChange={(e) => setGuests(Number(e.target.value))}
             >
-              <option value={1}>1 Guest (Solo / Airport Transit)</option>
-              <option value={2}>2 Guests (Sea View Balcony Room)</option>
-              <option value={3}>3 Guests (Deluxe Beach A/C Room)</option>
-              <option value={4}>4 Guests (Coastal Family Beach Suite)</option>
-              <option value={10}>10+ Guests (Beach Holiday Group Stay)</option>
+              <option value={1}>1 Guest (Airport Transit / Solo)</option>
+              <option value={2}>2 Guests (Deluxe A/C Double Room)</option>
+              <option value={3}>3 Guests (Comfort Standard Room)</option>
+              <option value={4}>4 Guests (Garden Family Suite Room)</option>
+              <option value={10}>10+ Guests (Group & Extended Stay)</option>
             </select>
           </div>
 
@@ -119,7 +119,7 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               Destination
             </label>
             <div style={{ fontSize: "0.95rem", fontWeight: 700, color: "var(--ink)", padding: "2px 0" }}>
-              Bogmalo Beach, Goa
+              Bogmalo, Goa
             </div>
           </div>
 

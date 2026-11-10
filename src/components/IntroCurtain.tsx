@@ -89,7 +89,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.35s",
             } as React.CSSProperties}
           >
-            "Direct beachfront living, sea view balconies & authentic Goan seafood."
+            "Peaceful village serenity, warm Goan hospitality & 5-minute airport transit."
           </span>
         </p>
       </div>

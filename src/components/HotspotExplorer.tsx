@@ -16,18 +16,18 @@ export const HotspotExplorer: React.FC = () => {
       <div className="content-container">
         <div className="section-header-center">
           <span className="section-label">Interactive Property Showcase</span>
-          <h2 className="section-title">Explore Sarita Guest House & Bogmalo Beach</h2>
+          <h2 className="section-title">Explore Noel Guest House & Bogmalo</h2>
           <p className="section-desc">
-            Touch the pulsing points across the property to discover our sea view balcony rooms, on-site beach bar & restaurant,
-            and quick 4 km transit corridor to Goa Dabolim Airport.
+            Touch the pulsing points across the property to discover our guest rooms, peaceful Bogmalo Church surroundings,
+            5-minute beach walk, and prompt 5-minute transit corridor to Goa Dabolim Airport.
           </p>
         </div>
 
         {/* Visual Stage with Pulsing Hotspots */}
         <div className="hotspot-stage">
           <img
-            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=88"
-            alt="Sarita Guest House Bar & Restaurant Bogmalo Beachfront Spaces"
+            src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1800&q=88"
+            alt="Noel Guest House Bogmalo Goa Spaces and Surroundings"
           />
 
           {/* Hotspot Pins */}

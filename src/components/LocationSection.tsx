@@ -1,6 +1,6 @@
 import React from "react";
 import { RESORT_CONTACT } from "../data/resortData";
-import { MapPin, Navigation, Phone, Clock, Compass, Car, Waves, Utensils } from "lucide-react";
+import { MapPin, Navigation, Phone, Clock, Compass, Car, Waves, Landmark } from "lucide-react";
 
 export const LocationSection: React.FC = () => {
   return (
@@ -14,10 +14,10 @@ export const LocationSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Prime Beachfront Location</span>
+          <span className="section-label">Prime Village & Airport Location</span>
           <h2 className="section-title">Location & Getting Here</h2>
           <p className="section-desc">
-            Directly on the sands of Bogmalo Beach (beside John's Seagull), South Goa — just 4 km from Goa Dabolim International Airport.
+            Situated on Bogmalo Road (50m from Bogmalo Church), South Goa — a relaxed 5-minute walk to Bogmalo Beach and only 5–7 minutes from Goa Dabolim International Airport.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export const LocationSection: React.FC = () => {
                 }}
               >
                 <Compass size={16} />
-                <span>Beachfront & Airport Haven</span>
+                <span>Village Haven & Airport Hub</span>
               </div>
 
               <h3 style={{ fontSize: "1.8rem", color: "var(--ink)", marginBottom: "0.8rem" }}>
@@ -96,28 +96,28 @@ export const LocationSection: React.FC = () => {
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Waves size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>0 Meters to Bogmalo Beach:</strong> Step directly from your room onto the soft golden sands.
+                    <strong>5-Min Walk to Bogmalo Beach (~400m):</strong> Pleasant village stroll directly to the shoreline and sea shacks.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
-                  <Utensils size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
+                  <Landmark size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Beside John's Seagull:</strong> Iconic Bogmalo beach landmark with on-site sea shack bar & restaurant.
+                    <strong>50m from Bogmalo Church:</strong> Peaceful residential village lane surrounded by lush coconut trees.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Car size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>4 km to Goa Dabolim Airport (GOI):</strong> Quick 10-minute drive with readily available taxis and airport cabs.
+                    <strong>4 km to Goa Dabolim Airport (GOI):</strong> Swift 5 to 7 minute drive with 24/7 taxi booking support.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Clock size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Operating Hours:</strong> 24/7 Front Desk · Beach Restaurant & Bar 8:00 AM – 11:30 PM.
+                    <strong>Operating Hours:</strong> 24/7 Front Desk · Flexible Check-In for late-night flights.
                   </span>
                 </div>
 
@@ -166,7 +166,7 @@ export const LocationSection: React.FC = () => {
             }}
           >
             <iframe
-              title="Sarita Guest House Bar & Restaurant Bogmalo Beach Goa Map"
+              title="Noel Guest House Bogmalo Goa Map"
               src={RESORT_CONTACT.googleMapsEmbed}
               width="100%"
               height="100%"

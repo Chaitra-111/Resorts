@@ -32,21 +32,21 @@ export const SearchModal: React.FC<SearchModalProps> = ({
       target: "experiences",
     })),
     {
-      title: "Beach Stays & Group Holidays",
+      title: "Group Stays & Flight Transit Packages",
       category: "Group Stays",
-      description: "Accommodate up to 40+ guests for beach vacations, family reunions, and sundowner parties.",
+      description: "Accommodate up to 30+ guests for flight transit, family holidays, and group stays.",
       target: "banquets",
     },
     {
-      title: "Sarita Beach Bar & Restaurant",
+      title: "Dining & Bogmalo Beach Shacks",
       category: "Dining",
-      description: "Fresh Arabian Sea seafood, Goan fish curry, chilled beers, and seaside sunset cocktails.",
+      description: "Fresh Goan seafood, beach shacks 400m away, morning tea, and doorstep food delivery.",
       target: "dining",
     },
     {
-      title: "Location on Bogmalo Beach Sands",
+      title: "Location near Bogmalo Church & Beach",
       category: "Location",
-      description: "Direct beachfront access (0m to sand), beside John's Seagull, 4 km from Goa Dabolim Airport.",
+      description: "House No. 94, 50m from Bogmalo Church, 5-min walk to beach, 4 km from Dabolim Airport.",
       target: "location",
     },
     {

@@ -57,8 +57,8 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
             </div>
 
             <p style={{ fontSize: "0.92rem", lineHeight: 1.65, maxWidth: "340px", marginBottom: "1.5rem" }}>
-              Bogmalo Beach's cherished beachfront guest house and sea shack restaurant. Air-conditioned rooms with sea view balconies,
-              direct sand access (0m), on-site seafood dining, beside John's Seagull, and 4 km to Goa Dabolim Airport.
+              Bogmalo's peaceful village retreat and trusted airport transit accommodation. Spotless air-conditioned rooms,
+              warm family hosting by Cajetan Rodrigues & family, 50m to Bogmalo Church, 5-min walk to Bogmalo Beach, and 4 km to Goa Dabolim Airport.
             </p>
 
             {/* Atmosphere Mood Switcher in Footer */}
@@ -102,22 +102,22 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
               </li>
               <li>
                 <a href="#hotspots" className="footer-link">
-                  Beachfront Spaces
+                  Spaces & Hotspots
                 </a>
               </li>
               <li>
                 <a href="#dining" className="footer-link">
-                  Beach Bar & Seafood
+                  Dining & Shacks
                 </a>
               </li>
               <li>
                 <a href="#banquets" className="footer-link">
-                  Group Beach Stays
+                  Group & Transit Stays
                 </a>
               </li>
               <li>
                 <a href="#experiences" className="footer-link">
-                  Beach Amenities
+                  Guest Amenities
                 </a>
               </li>
             </ul>
@@ -138,11 +138,11 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
               Bogmalo & South Goa Landmarks
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.9rem", color: "var(--ink)" }}>
-              <li>• Bogmalo Beach Sand (0 meters / Direct)</li>
-              <li>• John's Seagull Restaurant (Immediate Neighbor)</li>
+              <li>• Bogmalo Church (50 meters)</li>
+              <li>• Bogmalo Beach & Shacks (~400 meters)</li>
+              <li>• Heart-Shaped Lake (~1.5 km)</li>
               <li>• Indian Naval Aviation Museum (~2.0 km)</li>
-              <li>• Goa Dabolim Airport GOI (~4.0 km)</li>
-              <li>• Hollant Beach & Heart Shape Lake (~4.5 km)</li>
+              <li>• Goa Dabolim Airport GOI (~4.0 km / 5-7 mins)</li>
               <li>• Vasco da Gama Railway Station (~7.5 km)</li>
             </ul>
           </div>

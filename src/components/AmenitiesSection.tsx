@@ -46,11 +46,11 @@ export const AmenitiesSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Beachfront Comforts & Services</span>
-          <h2 className="section-title">Designed for Beachside Relaxation & Airport Convenience</h2>
+          <span className="section-label">Guest House Amenities & Services</span>
+          <h2 className="section-title">Designed for Peaceful Stays & Seamless Airport Transit</h2>
           <p className="section-desc">
-            Every facility at Sarita Guest House Bar & Restaurant is tailored to provide direct beach living,
-            cooling air-conditioned rooms, refreshing seafood dining, high-speed Wi-Fi, and 24/7 caretaking support.
+            Every facility at Noel Guest House is tailored to ensure restful comfort, spotless cleanliness,
+            cooling air-conditioned rooms, warm family hospitality, and prompt 5-minute transit to Dabolim Airport.
           </p>
         </div>
 
