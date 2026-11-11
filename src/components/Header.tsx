@@ -51,8 +51,8 @@ export const Header: React.FC<HeaderProps> = ({
               <path d="M14 48H50" />
             </svg>
             <div className="brand-text">
-              <span className="brand-word">BAYWATCH PATNEM</span>
-              <span className="brand-sub">Beachfront Cottages & Dining</span>
+              <span className="brand-word">NEXT-TA-SEA RESORT</span>
+              <span className="brand-sub">Palolem Beach · Bungalows & Suites</span>
             </div>
           </a>
 
@@ -156,23 +156,23 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="content-container">
             <nav className="mobile-nav-menu">
               <a href="#suites" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Rooms & City Suites</span>
+                <span>Bungalows & Suites</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#hotspots" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Explore Spaces & Transit</span>
+                <span>Explore Palolem Shore</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#dining" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Vasco Dining & Food Trails</span>
+                <span>Candlelit Beach Dining</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#banquets" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Group & Transit Stays</span>
+                <span>Retreats & Group Stays</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#experiences" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Hotel Amenities</span>
+                <span>Resort Amenities</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#location" onClick={closeMobileMenu} className="mobile-nav-item">
@@ -196,7 +196,7 @@ export const Header: React.FC<HeaderProps> = ({
                 style={{ width: "100%", justifyContent: "center" }}
               >
                 <Search size={15} />
-                <span>Search Hotel Directory</span>
+                <span>Search Resort Directory</span>
               </button>
 
               <button

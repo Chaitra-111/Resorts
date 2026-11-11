@@ -47,11 +47,11 @@ export const MomentsCarousel: React.FC = () => {
         {/* Section Header */}
         <div className="section-header-split">
           <div className="left">
-            <span className="section-label">A Day at Baywatch Patnem</span>
-            <h2 className="section-title">Beachfront & Coastal Moments</h2>
+            <span className="section-label">A Day at Next-ta-Sea Palolem</span>
+            <h2 className="section-title">Wooden Bungalow & Crescent Bay Moments</h2>
             <p className="section-desc">
-              From peaceful morning swims at Patnem Beach to Colomb Bay kayaking, chilled sundowners during happy hour,
-              sea-breeze balcony mornings, and candlelit seafood feasts by the waves.
+              From sunrise yoga on Mohanbagh sands and kayaking to Butterfly Island, to relaxing in handcrafted sea-view cabins
+              and dining under lantern light along Palolem Beach.
             </p>
           </div>
 

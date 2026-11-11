@@ -47,10 +47,10 @@ export const AmenitiesSection: React.FC = () => {
       <div className="content-container">
         <div className="section-header-center">
           <span className="section-label">Resort Amenities & Coastal Comforts</span>
-          <h2 className="section-title">Crafted for Patnem Serenity & Seaside Comfort</h2>
+          <h2 className="section-title">Designed for Wooden Bungalow Comfort on Palolem Sand</h2>
           <p className="section-desc">
-            Every amenity at Baywatch Beach Resort and Restaurant Patnem is designed around effortless direct beach access,
-            open-air seaside dining, complimentary loungers, and South Goa coastal excursions.
+            Every amenity at Next-ta-Sea Resort balances handcrafted coastal charm with cool air-conditioning,
+            candlelit beach dining, sunrise yoga, and effortless Canacona boat & transfer services.
           </p>
         </div>
 

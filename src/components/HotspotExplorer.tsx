@@ -16,10 +16,10 @@ export const HotspotExplorer: React.FC = () => {
       <div className="content-container">
         <div className="section-header-center">
           <span className="section-label">Interactive Resort Showcase</span>
-          <h2 className="section-title">Explore Baywatch & Patnem Beach</h2>
+          <h2 className="section-title">Explore Next-ta-Sea & Palolem Bay</h2>
           <p className="section-desc">
-            Touch the pulsing points across the property to discover our seafront balcony cottages, Patnem restaurant & sunset bar,
-            and scenic shoreline leading toward Colomb Bay & Palolem.
+            Touch the pulsing points across the shoreline to discover our sea-facing wooden bungalows, candlelit shack restaurant,
+            and panoramic view toward Monkey Island.
           </p>
         </div>
 
@@ -27,7 +27,7 @@ export const HotspotExplorer: React.FC = () => {
         <div className="hotspot-stage">
           <img
             src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=88"
-            alt="Baywatch Beach Resort and Restaurant Patnem Beachfront Cottages"
+            alt="Next-ta-Sea Resort Sea-Facing Wooden Bungalows on Palolem Beach"
           />
 
           {/* Hotspot Pins */}

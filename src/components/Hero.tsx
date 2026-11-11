@@ -22,7 +22,7 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
       <div className="hero-bg-container">
         <img
           src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2400&q=88"
-          alt="Baywatch Beach Resort and Restaurant Patnem Beach Canacona South Goa"
+          alt="Next-ta-Sea Resort Handcrafted Sea-Facing Wooden Bungalows on Palolem Beach South Goa"
           className="hero-image"
         />
         <div className="hero-overlay" />
@@ -33,25 +33,25 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
         <div className="hero-content">
           <div className="hero-eyebrow">
             <MapPin size={13} style={{ color: "var(--peach-light)", flexShrink: 0 }} />
-            <span>H.No. 156/A, Patnem Beach · Palolem-Patnem Road, Canacona, South Goa</span>
+            <span>Rosy Wing, Ourem Road, Mohanbagh · Palolem Beach, South Goa</span>
           </div>
 
           <h1 className="hero-title">
-            Seafront Living & Sunset Vibes on <em>Patnem Beach.</em>
+            Handcrafted Wooden Bungalows on <em>Palolem Beach.</em>
           </h1>
 
           <p className="hero-desc">
-            Step directly out onto the calm golden sands of Patnem Beach in Canacona. Enjoy breezy oceanfront cottages,
-            multi-cuisine seafood dining right by the waves, sunset happy hours, and peaceful nights just minutes from Palolem.
+            Stay directly beside the calm golden crescent of Palolem Beach in Canacona. Choose first-floor panoramic sea-view suites,
+            step-out wooden bungalows, or kitchenette cabins with candlelit beachfront dining and complimentary loungers.
           </p>
 
           <div className="hero-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap", alignItems: "center" }}>
             <a href="#suites" className="btn-luxury" data-cursor="View Rooms">
-              <span>Explore Cottages & Rates</span>
+              <span>Explore Bungalows & Rates</span>
               <ArrowRight size={15} />
             </a>
             <a
-              href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent("Hello Baywatch Beach Resort Patnem, I would like to inquire about beachfront room availability and tariffs.")}`}
+              href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent("Hello Next-ta-Sea Resort Palolem, I would like to inquire about wooden bungalow availability and seasonal tariffs.")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline"
@@ -104,11 +104,11 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               value={guests}
               onChange={(e) => setGuests(Number(e.target.value))}
             >
-              <option value={1}>1 Guest (Standard Beachside Room)</option>
-              <option value={2}>2 Guests (Seafront Balcony Cottage)</option>
-              <option value={3}>3 Guests (Deluxe Sea-Breeze A/C Room)</option>
+              <option value={1}>1 Guest (The Mild Kitchenette Cabin)</option>
+              <option value={2}>2 Guests (First-Floor Sea-View Suite)</option>
+              <option value={3}>3 Guests (Ground Sea-Facing Bungalow)</option>
               <option value={4}>4 Guests (Family / Two Cottages)</option>
-              <option value={10}>10+ Guests (Group Beach Holiday)</option>
+              <option value={10}>10+ Guests (Group Coastal Retreat)</option>
             </select>
           </div>
 
@@ -118,7 +118,7 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               Destination
             </label>
             <div style={{ fontSize: "0.95rem", fontWeight: 700, color: "var(--ink)", padding: "2px 0" }}>
-              Patnem Beach, Goa
+              Palolem Beach, Goa
             </div>
           </div>
 

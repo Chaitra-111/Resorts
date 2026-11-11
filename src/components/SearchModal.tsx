@@ -32,21 +32,21 @@ export const SearchModal: React.FC<SearchModalProps> = ({
       target: "experiences",
     })),
     {
-      title: "Group Stays, Retreats & Beach Parties",
+      title: "Yoga Retreats, Group Stays & Long Cabins",
       category: "Group Stays",
-      description: "Accommodate 10 to 35+ guests for family coastal holidays, yoga retreats, and Patnem sunset dinners.",
+      description: "15 sea-facing wooden bungalows, sunrise yoga sessions, and The Mild kitchenette suites for extended stays.",
       target: "banquets",
     },
     {
-      title: "Baywatch Seaside Restaurant & Bar",
+      title: "Next-ta-Sea Beach Restaurant & Shack Bar",
       category: "Dining",
-      description: "Fresh seafood grill, Goan curries, multi-cuisine classics, sunset happy hour cocktails, and lounger service.",
+      description: "Candlelit tables on Palolem Beach, fresh grilled catch, Goan curries, continental breakfast & happy hour cocktails.",
       target: "dining",
     },
     {
-      title: "Location on Patnem Beach Sands",
+      title: "Location on Palolem Beach Sands",
       category: "Location",
-      description: "H.No. 156/A, Patnem Beach, Palolem-Patnem Road, Canacona — 0m to beach, 3 km to Canacona Railway Station.",
+      description: "Rosy Wing, Ourem Road, Mohanbagh, Palolem Beach, Canacona — 0m to sand, 2 km to Canacona Railway Station.",
       target: "location",
     },
     {

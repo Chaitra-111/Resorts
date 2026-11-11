@@ -14,10 +14,10 @@ export const LocationSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Prime Patnem Beachfront Location</span>
+          <span className="section-label">Prime Palolem Beachfront Location</span>
           <h2 className="section-title">Location & Getting Here</h2>
           <p className="section-desc">
-            Located at H.No. 156/A, Patnem Beach along Palolem–Patnem Road in Canacona, South Goa — steps onto the sand, 5 mins from Colomb Bay & Palolem Beach, and 3 km from Canacona Railway Station.
+            Located at Rosy Wing, Ourem Road, Mohanbagh on Palolem Beach, Canacona, South Goa — directly on the golden crescent sand and just 2 km from Canacona Railway Station.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export const LocationSection: React.FC = () => {
                 }}
               >
                 <Compass size={16} />
-                <span>Patnem Shoreline · Canacona Coast</span>
+                <span>Ourem & Mohanbagh · Palolem Crescent</span>
               </div>
 
               <h3 style={{ fontSize: "1.8rem", color: "var(--ink)", marginBottom: "0.8rem" }}>
@@ -96,35 +96,35 @@ export const LocationSection: React.FC = () => {
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Waves size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>0m Directly on Patnem Beach:</strong> Direct beachfront frontage facing calm Arabian Sea waters.
+                    <strong>0m Directly on Palolem Beach:</strong> Step-out coastal location facing calm sheltered Arabian Sea waters.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Landmark size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>5 Mins to Colomb Bay & Palolem:</strong> Scenic coastal walk or short scooter ride to neighboring coves and Rajbagh Beach.
+                    <strong>Close to Butterfly Island & Colomb:</strong> 5 mins to boat departures, Monkey Island & Patnem Beach trail.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Car size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>3 km to Canacona Railway Station:</strong> Easy taxi transfers to/from Madgaon Junction (~36 km) and Goa Dabolim Airport.
+                    <strong>2 km to Canacona Railway Station:</strong> Easy taxi transfers to/from Madgaon Junction (~37 km) & Dabolim Airport.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Clock size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Operating Hours:</strong> 24/7 Front Desk · Patnem Beach Restaurant & Bar 7:30 AM – 11:30 PM.
+                    <strong>Seasonal Operations:</strong> Open Oct–May · 24/7 Front Desk & Beachfront Restaurant.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Phone size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Direct Reception:</strong> {RESORT_CONTACT.phone} / {RESORT_CONTACT.phoneAlt}
+                    <strong>Direct Reception:</strong> {RESORT_CONTACT.phone} · {RESORT_CONTACT.email}
                   </span>
                 </div>
               </div>
@@ -166,7 +166,7 @@ export const LocationSection: React.FC = () => {
             }}
           >
             <iframe
-              title="Baywatch Beach Resort and Restaurant Patnem Goa Map"
+              title="Next-ta-Sea Resort Palolem Beach Goa Map"
               src={RESORT_CONTACT.googleMapsEmbed}
               width="100%"
               height="100%"
