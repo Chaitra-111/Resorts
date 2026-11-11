@@ -46,11 +46,11 @@ export const AmenitiesSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Resort Amenities & Coastal Comforts</span>
-          <h2 className="section-title">Designed for Wooden Bungalow Comfort on Palolem Sand</h2>
+          <span className="section-label">Resort Amenities & Modern Comforts</span>
+          <h2 className="section-title">Freeform Winding Pool Luxury, 1-Min Walk to Agonda Sands</h2>
           <p className="section-desc">
-            Every amenity at Next-ta-Sea Resort balances handcrafted coastal charm with cool air-conditioning,
-            candlelit beach dining, sunrise yoga, and effortless Canacona boat & transfer services.
+            Every amenity at Sapphire Sand Resort is crafted around boutique comfort—combining a meandering outdoor pool,
+            in-room kettles, TVs, reliable power backup, multi-cuisine dining, and instant Agonda Beach access.
           </p>
         </div>
 

@@ -16,18 +16,18 @@ export const HotspotExplorer: React.FC = () => {
       <div className="content-container">
         <div className="section-header-center">
           <span className="section-label">Interactive Resort Showcase</span>
-          <h2 className="section-title">Explore Next-ta-Sea & Palolem Bay</h2>
+          <h2 className="section-title">Explore Sapphire Sand & Dhavalkhazan Shore</h2>
           <p className="section-desc">
-            Touch the pulsing points across the shoreline to discover our sea-facing wooden bungalows, candlelit shack restaurant,
-            and panoramic view toward Monkey Island.
+            Touch the pulsing points across our boutique estate to discover the winding freeform swimming pool,
+            multi-cuisine poolside kitchen, and the 1-minute stroll onto Agonda Beach.
           </p>
         </div>
 
         {/* Visual Stage with Pulsing Hotspots */}
         <div className="hotspot-stage">
           <img
-            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=88"
-            alt="Next-ta-Sea Resort Sea-Facing Wooden Bungalows on Palolem Beach"
+            src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1800&q=88"
+            alt="Sapphire Sand Resort Winding Pool and Thatched Cabanas in Agonda"
           />
 
           {/* Hotspot Pins */}

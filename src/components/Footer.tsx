@@ -57,8 +57,8 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
             </div>
 
             <p style={{ fontSize: "0.92rem", lineHeight: 1.65, maxWidth: "340px", marginBottom: "1.5rem" }}>
-              Palolem's handcrafted beachfront resort offering sea-facing wooden bungalows, panoramic upper-floor suites,
-              The Mild kitchenette cabins & candlelit oceanfront dining in South Goa.
+              Northern Agonda's boutique 12-cabana sanctuary featuring a winding freeform swimming pool, 2-BHK coastal villa,
+              multi-cuisine dining, and a 1-minute walk to serene Agonda Beach in South Goa.
             </p>
 
             {/* Atmosphere Mood Switcher in Footer */}
@@ -97,22 +97,22 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.92rem" }}>
               <li>
                 <a href="#suites" className="footer-link">
-                  Bungalows & Suites
+                  Cabanas & 2-BHK Villa
                 </a>
               </li>
               <li>
                 <a href="#hotspots" className="footer-link">
-                  Palolem Hotspots
+                  Pool & Beach Hotspots
                 </a>
               </li>
               <li>
                 <a href="#dining" className="footer-link">
-                  Candlelit Restaurant & Bar
+                  Multi-Cuisine Restaurant
                 </a>
               </li>
               <li>
                 <a href="#banquets" className="footer-link">
-                  Yoga Retreats & Group Stays
+                  Family Villas & Group Buyouts
                 </a>
               </li>
               <li>
@@ -135,15 +135,15 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 marginBottom: "1.2rem",
               }}
             >
-              Palolem & Canacona Landmarks
+              Agonda & Canacona Landmarks
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.9rem", color: "var(--ink)" }}>
-              <li>• Palolem Beach Crescent (0 meters / Direct)</li>
-              <li>• Mohanbagh & Ourem Beach Walk (On Site)</li>
-              <li>• Butterfly & Honeymoon Beach (By Boat / Kayak)</li>
-              <li>• Canacona / Monkey Island (~1.5 km)</li>
-              <li>• Colomb Bay & Patnem Beach (~1.5–2 km)</li>
-              <li>• Canacona Railway Station (~2 km)</li>
+              <li>• Agonda Beach Sands (300m / 1-Min Walk)</li>
+              <li>• Olive Ridley Turtle Reserve (~1 km)</li>
+              <li>• Cola Emerald Lagoon (~4 km)</li>
+              <li>• Butterfly Beach Cove (Boat / Kayak)</li>
+              <li>• Palolem & Canacona Station (~9–10 km)</li>
+              <li>• Cabo de Rama Fort & Beach (~14 km)</li>
             </ul>
           </div>
 

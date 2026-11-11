@@ -5,47 +5,47 @@ export const EditorialIntro: React.FC = () => {
   return (
     <section className="editorial-section" id="story">
       <div className="content-container">
-        <span className="section-label">Handcrafted Palolem Beachfront Hospitality</span>
+        <span className="section-label">Boutique Poolside Sanctuary near Agonda Beach</span>
 
         <h2 className="statement-heading">
-          Sea-facing wooden bungalows, sunset balconies & candlelit sands <br />
+          Freeform winding pool, thatched cabanas & coastal serenity <br />
           <em style={{ fontFamily: "var(--serif)", fontStyle: "italic", color: "var(--amber)" }}>
-            right on Palolem Beach, South Goa.
+            1-minute walk from Agonda Beach, South Goa.
           </em>
         </h2>
 
         <p className="statement-body">
-          Located at Rosy Wing along Ourem Road in Mohanbagh, Palolem Beach, Next-ta-Sea Resort pairs South Goa's
-          iconic wooden beach-hut charm with split A/C comfort and warm oceanfront hospitality. Choose elevated
-          first-floor sea-view suites, step-out beachfront bungalows, or kitchenette cabins moments from calm bay waters.
+          Located at Building No. 312 along serene Beach Road in Dhavalkhazan, Agonda, Sapphire Sand Resort is a quiet
+          12-cabana boutique hideaway featuring a winding freeform swimming pool and an exclusive 2-BHK family villa.
+          Enjoy modern in-room comforts—split A/C, flat-screen TV, electric kettle, and inverter power backup—just 300m from the sand.
         </p>
 
         {/* Feature Pillars */}
         <div className="statement-pillars">
           <div className="pillar-card">
             <Waves size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>0m on Palolem Beach</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Winding Freeform Pool</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Direct beachfront position on Palolem's sheltered golden crescent.
-              Calm turquoise tides perfect for sunrise swims, kayaking, and evening shore walks.
+              Our signature meandering outdoor pool wraps past tropical gardens and shaded sunbeds—a tranquil alternative
+              before or after ocean swims 300m away at Agonda Beach.
             </p>
           </div>
 
           <div className="pillar-card">
             <Sparkles size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Wooden Bungalows & Mild Cabins</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>12 Cabanas & 2-BHK Villa</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Pick elevated first-floor panoramic sea-view suites, ground sand-level bungalows,
-              or long-stay kitchenette cabins along Ourem's palm-lined shores.
+              Choose thatched pool-view King cabanas or our spacious 2-BHK coastal villa—all complete with A/C,
+              flat-screen TV, electric kettle, hot water & reliable power backup.
             </p>
           </div>
 
           <div className="pillar-card">
             <Utensils size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Candlelit Beach Dining</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Multi-Cuisine Poolside Kitchen</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Enjoy multi-cuisine Indian, Goan seafood & continental favorites served under starlight
-              on Palolem sands alongside free resort sun loungers.
+              Feast at our on-site multi-cuisine restaurant or order effortless room service straight to your cabana porch
+              after exploring Cola Lagoon and Northern Agonda.
             </p>
           </div>
         </div>
@@ -53,20 +53,20 @@ export const EditorialIntro: React.FC = () => {
         {/* Key Stats Counter */}
         <div className="statement-stats">
           <div className="stat-item">
-            <h3>0 m</h3>
-            <p>To Palolem Beach Sand</p>
+            <h3>300 m</h3>
+            <p>1-Min Walk to Agonda Beach</p>
           </div>
           <div className="stat-item">
-            <h3>Oct–May</h3>
-            <p>Prime Coastal Season</p>
+            <h3>12 Cabanas</h3>
+            <p>Plus Exclusive 2-BHK Villa</p>
           </div>
           <div className="stat-item">
-            <h3>2 km</h3>
-            <p>To Canacona Station</p>
+            <h3>4 km</h3>
+            <p>To Cola Emerald Lagoon</p>
           </div>
           <div className="stat-item">
-            <h3>₹3,200+</h3>
-            <p>Wooden Bungalow Tariff</p>
+            <h3>₹3,500+</h3>
+            <p>Boutique Cabana Tariff</p>
           </div>
         </div>
       </div>

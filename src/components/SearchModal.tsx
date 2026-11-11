@@ -32,21 +32,21 @@ export const SearchModal: React.FC<SearchModalProps> = ({
       target: "experiences",
     })),
     {
-      title: "Yoga Retreats, Group Stays & Long Cabins",
+      title: "2-BHK Villa & 12-Cabana Resort Buyouts",
       category: "Group Stays",
-      description: "15 sea-facing wooden bungalows, sunrise yoga sessions, and The Mild kitchenette suites for extended stays.",
+      description: "Private 2-bedroom coastal villa and winding pool cabanas for families, retreats, and peaceful group getaways.",
       target: "banquets",
     },
     {
-      title: "Next-ta-Sea Beach Restaurant & Shack Bar",
+      title: "Sapphire Sand Multi-Cuisine Restaurant",
       category: "Dining",
-      description: "Candlelit tables on Palolem Beach, fresh grilled catch, Goan curries, continental breakfast & happy hour cocktails.",
+      description: "Goan seafood curries, Indian dishes, continental breakfast & cabana room service overlooking the winding pool.",
       target: "dining",
     },
     {
-      title: "Location on Palolem Beach Sands",
+      title: "Location in Dhavalkhazan, Agonda",
       category: "Location",
-      description: "Rosy Wing, Ourem Road, Mohanbagh, Palolem Beach, Canacona — 0m to sand, 2 km to Canacona Railway Station.",
+      description: "Bldg. No. 312, Beach Road, Dhavalkhazan — 300m (1-min walk) to Agonda Beach, 4 km to Cola Lagoon.",
       target: "location",
     },
     {

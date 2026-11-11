@@ -33,8 +33,8 @@ export const BanquetsSection: React.FC = () => {
               }}
             >
               <img
-                src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1400&q=85"
-                alt="Group Retreats, Yoga Holidays and Candlelit Palolem Beach Dinners at Next-ta-Sea Resort"
+                src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1400&q=85"
+                alt="2-BHK Villa, Group Cabana Holidays and Family Gatherings at Sapphire Sand Resort Agonda"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -64,31 +64,31 @@ export const BanquetsSection: React.FC = () => {
                   textTransform: "uppercase",
                 }}
               >
-                Group & Retreat Capacity
+                Boutique Property Capacity
               </span>
               <h4 style={{ fontSize: "1.7rem", color: "var(--ink)", margin: "0.2rem 0" }}>
-                15+ Bungalows
+                12 Cabanas + Villa
               </h4>
               <p style={{ fontSize: "0.82rem", color: "var(--muted)" }}>
-                Sea-Facing Wooden Bungalows, First-Floor Suites & The Mild Cabins.
+                Luxury Pool-View Cabanas & Exclusive 2-BHK Family Villa.
               </p>
             </div>
           </div>
 
           {/* Editorial Content */}
           <div>
-            <span className="section-label">Group Stays, Yoga Retreats & Extended Escapes</span>
+            <span className="section-label">2-BHK Villa, Family Holidays & Boutique Buyouts</span>
             <h2
               className="section-title"
               style={{ marginBottom: "1.25rem" }}
             >
-              Sunrise Yoga Retreats, Group Holidays & Palolem Candlelit Gatherings.
+              Private Poolside Buyouts, 2-BHK Villa Stays & Agonda Group Getaways.
             </h2>
 
             <p style={{ fontSize: "1.05rem", lineHeight: 1.7, marginBottom: "2rem", color: "var(--muted)" }}>
-              Gathering friends for a South Goa getaway, hosting a coastal sunrise yoga retreat, or planning a long seasonal stay
-              at Rosy Wing? Next-ta-Sea Resort offers 15 handcrafted seafront & garden bungalows alongside private candlelit sand
-              dining and flexible extended-stay kitchenette cabins.
+              Traveling as a family, planning a serene wellness retreat, or celebrating with friends in South Goa?
+              Sapphire Sand Resort offers an intimate 12-cabana winding pool courtyard plus a 2-BHK villa setup ideal for
+              exclusive coastal gatherings steps from northern Agonda Beach.
             </p>
 
             <div
@@ -103,9 +103,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Sparkles size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Candlelit Sand Tables</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>2-BHK Coastal Villa</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Private beachfront dining setups with lanterns, fresh seafood platters, and cocktails.
+                    Accommodates families or 4–6 friends together beside the winding pool courtyard.
                   </p>
                 </div>
               </div>
@@ -113,9 +113,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Users size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Multi-Bungalow Bookings</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>12-Cabana Resort Buyouts</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Block clusters of first-floor sea-view suites and ground cottages for group privacy.
+                    Reserve multiple thatched cabanas around the freeform pool for quiet private groups.
                   </p>
                 </div>
               </div>
@@ -123,9 +123,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Music size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Butterfly Island & Kayaks</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Cola Lagoon & Cabo Tours</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Direct Palolem cove kayaking, dolphin boat excursions, and Monkey Island visits.
+                    Coordinated scooter/car rentals, dolphin cruises, and secluded northern cove excursions.
                   </p>
                 </div>
               </div>
@@ -133,9 +133,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <HeartHandshake size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Sunrise Yoga & Extended Stays</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Poolside Group Dining</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Seasonal morning beach yoga plus equipped kitchenettes in our sister The Mild cabins.
+                    Multi-cuisine dinner buffets, fresh Goan fish grills, and cozy evenings around the pool.
                   </p>
                 </div>
               </div>
@@ -144,7 +144,7 @@ export const BanquetsSection: React.FC = () => {
             <div className="banquets-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <a
                 href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent(
-                  "Hello Next-ta-Sea Resort Palolem, I am interested in inquiring about group wooden bungalow bookings and coastal retreats."
+                  "Hello Sapphire Sand Resort Agonda, I am interested in inquiring about the 2-BHK Villa or group cabana bookings."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"

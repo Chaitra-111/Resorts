@@ -21,8 +21,8 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
       {/* Background container */}
       <div className="hero-bg-container">
         <img
-          src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2400&q=88"
-          alt="Next-ta-Sea Resort Handcrafted Sea-Facing Wooden Bungalows on Palolem Beach South Goa"
+          src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=2400&q=88"
+          alt="Sapphire Sand Resort Winding Pool Cabanas & Villa near Agonda Beach South Goa"
           className="hero-image"
         />
         <div className="hero-overlay" />
@@ -33,25 +33,25 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
         <div className="hero-content">
           <div className="hero-eyebrow">
             <MapPin size={13} style={{ color: "var(--peach-light)", flexShrink: 0 }} />
-            <span>Rosy Wing, Ourem Road, Mohanbagh · Palolem Beach, South Goa</span>
+            <span>Bldg. No. 312, Beach Road, Dhavalkhazan · Agonda, South Goa</span>
           </div>
 
           <h1 className="hero-title">
-            Handcrafted Wooden Bungalows on <em>Palolem Beach.</em>
+            Freeform Pool Cabanas & Calm Shores at <em>Agonda.</em>
           </h1>
 
           <p className="hero-desc">
-            Stay directly beside the calm golden crescent of Palolem Beach in Canacona. Choose first-floor panoramic sea-view suites,
-            step-out wooden bungalows, or kitchenette cabins with candlelit beachfront dining and complimentary loungers.
+            A boutique 12-cabana sanctuary & 2-BHK coastal villa with a signature winding swimming pool just a 1-minute walk (300m)
+            from quiet northern Agonda Beach. Enjoy crisp A/C, multi-cuisine dining, and full backup comfort.
           </p>
 
           <div className="hero-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap", alignItems: "center" }}>
             <a href="#suites" className="btn-luxury" data-cursor="View Rooms">
-              <span>Explore Bungalows & Rates</span>
+              <span>Explore Cabanas & Villa</span>
               <ArrowRight size={15} />
             </a>
             <a
-              href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent("Hello Next-ta-Sea Resort Palolem, I would like to inquire about wooden bungalow availability and seasonal tariffs.")}`}
+              href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent("Hello Sapphire Sand Resort Agonda, I would like to inquire about pool-view cabana and 2-BHK villa availability.")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline"
@@ -104,11 +104,11 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               value={guests}
               onChange={(e) => setGuests(Number(e.target.value))}
             >
-              <option value={1}>1 Guest (The Mild Kitchenette Cabin)</option>
-              <option value={2}>2 Guests (First-Floor Sea-View Suite)</option>
-              <option value={3}>3 Guests (Ground Sea-Facing Bungalow)</option>
-              <option value={4}>4 Guests (Family / Two Cottages)</option>
-              <option value={10}>10+ Guests (Group Coastal Retreat)</option>
+              <option value={1}>1 Guest (Garden Retreat Cabana)</option>
+              <option value={2}>2 Guests (Luxury Pool-View Cabana)</option>
+              <option value={3}>3 Guests (Deluxe Poolside Cabana)</option>
+              <option value={4}>4–6 Guests (2-BHK Poolside Villa)</option>
+              <option value={10}>10+ Guests (Group Cabana Buyout)</option>
             </select>
           </div>
 
@@ -118,7 +118,7 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               Destination
             </label>
             <div style={{ fontSize: "0.95rem", fontWeight: 700, color: "var(--ink)", padding: "2px 0" }}>
-              Palolem Beach, Goa
+              Agonda Beach, Goa
             </div>
           </div>
 

@@ -14,10 +14,10 @@ export const LocationSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Prime Palolem Beachfront Location</span>
+          <span className="section-label">Prime Northern Agonda Sanctuary</span>
           <h2 className="section-title">Location & Getting Here</h2>
           <p className="section-desc">
-            Located at Rosy Wing, Ourem Road, Mohanbagh on Palolem Beach, Canacona, South Goa — directly on the golden crescent sand and just 2 km from Canacona Railway Station.
+            Located at Building No. 312, Beach Road, Dhavalkhazan in Agonda, Canacona, South Goa — a serene 1-minute walk (300m) across Beach Road onto northern Agonda Beach and just 4 km from Cola Emerald Lagoon.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export const LocationSection: React.FC = () => {
                 }}
               >
                 <Compass size={16} />
-                <span>Ourem & Mohanbagh · Palolem Crescent</span>
+                <span>Dhavalkhazan · Northern Agonda</span>
               </div>
 
               <h3 style={{ fontSize: "1.8rem", color: "var(--ink)", marginBottom: "0.8rem" }}>
@@ -96,35 +96,35 @@ export const LocationSection: React.FC = () => {
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Waves size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>0m Directly on Palolem Beach:</strong> Step-out coastal location facing calm sheltered Arabian Sea waters.
+                    <strong>300m (1-Min Walk) to Agonda Beach:</strong> Cross Beach Road onto quiet northern Agonda sands.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Landmark size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Close to Butterfly Island & Colomb:</strong> 5 mins to boat departures, Monkey Island & Patnem Beach trail.
+                    <strong>Close to Cola Lagoon & Butterfly Beach:</strong> 4 km to emerald Cola Lagoon & northern cove boats.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Car size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>2 km to Canacona Railway Station:</strong> Easy taxi transfers to/from Madgaon Junction (~37 km) & Dabolim Airport.
+                    <strong>10 km to Canacona Railway Station:</strong> Easy scooter & cab access to Palolem (~9 km), Cabo de Rama (~14 km) & Goa airports.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Clock size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Seasonal Operations:</strong> Open Oct–May · 24/7 Front Desk & Beachfront Restaurant.
+                    <strong>Hospitality & Backup:</strong> 24/7 Reception & Power Backup · Restaurant 7:30 AM – 11:00 PM.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Phone size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Direct Reception:</strong> {RESORT_CONTACT.phone} · {RESORT_CONTACT.email}
+                    <strong>Direct Reception:</strong> {RESORT_CONTACT.phone} / {RESORT_CONTACT.phoneAlt}
                   </span>
                 </div>
               </div>
@@ -166,7 +166,7 @@ export const LocationSection: React.FC = () => {
             }}
           >
             <iframe
-              title="Next-ta-Sea Resort Palolem Beach Goa Map"
+              title="Sapphire Sand Resort Agonda Beach Goa Map"
               src={RESORT_CONTACT.googleMapsEmbed}
               width="100%"
               height="100%"

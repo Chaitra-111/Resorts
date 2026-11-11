@@ -47,11 +47,11 @@ export const MomentsCarousel: React.FC = () => {
         {/* Section Header */}
         <div className="section-header-split">
           <div className="left">
-            <span className="section-label">A Day at Next-ta-Sea Palolem</span>
-            <h2 className="section-title">Wooden Bungalow & Crescent Bay Moments</h2>
+            <span className="section-label">A Day at Sapphire Sand Agonda</span>
+            <h2 className="section-title">Poolside Cabana & Agonda Shore Moments</h2>
             <p className="section-desc">
-              From sunrise yoga on Mohanbagh sands and kayaking to Butterfly Island, to relaxing in handcrafted sea-view cabins
-              and dining under lantern light along Palolem Beach.
+              From morning tea brewed in your thatched cabana to poolside laps, 1-minute beach walks along Dhavalkhazan,
+              Cola Lagoon scooter trips, and peaceful multi-cuisine dinners.
             </p>
           </div>
 

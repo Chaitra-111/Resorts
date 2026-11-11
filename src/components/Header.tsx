@@ -51,8 +51,8 @@ export const Header: React.FC<HeaderProps> = ({
               <path d="M14 48H50" />
             </svg>
             <div className="brand-text">
-              <span className="brand-word">NEXT-TA-SEA RESORT</span>
-              <span className="brand-sub">Palolem Beach · Bungalows & Suites</span>
+              <span className="brand-word">SAPPHIRE SAND</span>
+              <span className="brand-sub">Agonda Cabanas & Poolside Villa</span>
             </div>
           </a>
 
@@ -61,7 +61,7 @@ export const Header: React.FC<HeaderProps> = ({
             <ul className="nav-links">
               <li>
                 <a href="#suites" className="nav-link">
-                  Cottages & Rates
+                  Cabanas & Villa
                 </a>
               </li>
               <li>
@@ -156,19 +156,19 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="content-container">
             <nav className="mobile-nav-menu">
               <a href="#suites" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Bungalows & Suites</span>
+                <span>Cabanas & 2-BHK Villa</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#hotspots" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Explore Palolem Shore</span>
+                <span>Explore Pool & Agonda Shore</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#dining" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Candlelit Beach Dining</span>
+                <span>Multi-Cuisine Dining</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#banquets" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Retreats & Group Stays</span>
+                <span>Family Villas & Retreats</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#experiences" onClick={closeMobileMenu} className="mobile-nav-item">
