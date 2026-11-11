@@ -22,7 +22,7 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
       <div className="hero-bg-container">
         <img
           src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2400&q=88"
-          alt="The Tito's Orange Sky Agonda Beach Resort Sunset Cottages and Jacuzzi in South Goa"
+          alt="Baywatch Beach Resort and Restaurant Patnem Beach Canacona South Goa"
           className="hero-image"
         />
         <div className="hero-overlay" />
@@ -33,16 +33,16 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
         <div className="hero-content">
           <div className="hero-eyebrow">
             <MapPin size={13} style={{ color: "var(--peach-light)", flexShrink: 0 }} />
-            <span>Agonda Beach Road · Plot No. 118/1, Near St. Anne's Church, South Goa</span>
+            <span>H.No. 156/A, Patnem Beach · Palolem-Patnem Road, Canacona, South Goa</span>
           </div>
 
           <h1 className="hero-title">
-            Private Jacuzzi Cottages & Sunset Magic on <em>Agonda Beach.</em>
+            Seafront Living & Sunset Vibes on <em>Patnem Beach.</em>
           </h1>
 
           <p className="hero-desc">
-            Stay steps from South Goa's most serene, unspoilt golden coastline. Experience handcrafted wooden cottages
-            with private outdoor jacuzzis, vibrant sunset beach dining, reserved seaside loungers, and peaceful ocean waves.
+            Step directly out onto the calm golden sands of Patnem Beach in Canacona. Enjoy breezy oceanfront cottages,
+            multi-cuisine seafood dining right by the waves, sunset happy hours, and peaceful nights just minutes from Palolem.
           </p>
 
           <div className="hero-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap", alignItems: "center" }}>
@@ -51,7 +51,7 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               <ArrowRight size={15} />
             </a>
             <a
-              href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent("Hello The Tito's Orange Sky Agonda, I would like to inquire about cottage availability and tariffs.")}`}
+              href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent("Hello Baywatch Beach Resort Patnem, I would like to inquire about beachfront room availability and tariffs.")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline"
@@ -104,9 +104,9 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               value={guests}
               onChange={(e) => setGuests(Number(e.target.value))}
             >
-              <option value={1}>1 Guest (Solo Beach Retreat)</option>
-              <option value={2}>2 Guests (Private Jacuzzi Beach Bungalow)</option>
-              <option value={3}>3 Guests (Garden Breeze Deluxe Cottage)</option>
+              <option value={1}>1 Guest (Standard Beachside Room)</option>
+              <option value={2}>2 Guests (Seafront Balcony Cottage)</option>
+              <option value={3}>3 Guests (Deluxe Sea-Breeze A/C Room)</option>
               <option value={4}>4 Guests (Family / Two Cottages)</option>
               <option value={10}>10+ Guests (Group Beach Holiday)</option>
             </select>
@@ -118,7 +118,7 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               Destination
             </label>
             <div style={{ fontSize: "0.95rem", fontWeight: 700, color: "var(--ink)", padding: "2px 0" }}>
-              Agonda Beach, Goa
+              Patnem Beach, Goa
             </div>
           </div>
 

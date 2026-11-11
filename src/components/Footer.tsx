@@ -57,8 +57,8 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
             </div>
 
             <p style={{ fontSize: "0.92rem", lineHeight: 1.65, maxWidth: "340px", marginBottom: "1.5rem" }}>
-              Agonda's cherished beachfront resort featuring private jacuzzi cottages, handcrafted seafront bungalows,
-              orange sky sunset dining on the sand, and serene hospitality in South Goa.
+              Patnem's welcoming beachfront resort featuring seafront balcony cottages, garden retreats,
+              oceanfront seafood dining & happy hour bar on serene Patnem Beach in South Goa.
             </p>
 
             {/* Atmosphere Mood Switcher in Footer */}
@@ -102,17 +102,17 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
               </li>
               <li>
                 <a href="#hotspots" className="footer-link">
-                  Resort Hotspots
+                  Patnem Hotspots
                 </a>
               </li>
               <li>
                 <a href="#dining" className="footer-link">
-                  Sunset Bar & Seafood
+                  Seaside Restaurant & Bar
                 </a>
               </li>
               <li>
                 <a href="#banquets" className="footer-link">
-                  Beach Weddings & Retreats
+                  Group Stays & Retreats
                 </a>
               </li>
               <li>
@@ -135,15 +135,15 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 marginBottom: "1.2rem",
               }}
             >
-              Agonda & South Goa Landmarks
+              Patnem & Canacona Landmarks
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.9rem", color: "var(--ink)" }}>
-              <li>• Agonda Beach Sands (0 meters / Direct)</li>
-              <li>• St. Anne's Church Agonda (~100 meters)</li>
-              <li>• Olive Ridley Turtle Sanctuary (~1.5 km)</li>
-              <li>• Cola Emerald Lagoon (~5.5 km)</li>
+              <li>• Patnem Beach Sands (0 meters / Direct)</li>
+              <li>• Colomb Bay Cove (~600 meters)</li>
+              <li>• Palolem Beach Crescent (~1.8 km)</li>
+              <li>• Rajbagh Beach & Galgibaga (~2.5 km)</li>
+              <li>• Canacona Railway Station (~3 km)</li>
               <li>• Butterfly Beach Cove (By Boat / Kayak)</li>
-              <li>• Palolem Beach & Canacona (~8–10 km)</li>
             </ul>
           </div>
 

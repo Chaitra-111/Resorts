@@ -32,21 +32,21 @@ export const SearchModal: React.FC<SearchModalProps> = ({
       target: "experiences",
     })),
     {
-      title: "Beach Weddings, Retreats & Group Stays",
+      title: "Group Stays, Retreats & Beach Parties",
       category: "Group Stays",
-      description: "Accommodate 10 to 40+ guests for intimate beach weddings, yoga retreats, and beach holidays.",
+      description: "Accommodate 10 to 35+ guests for family coastal holidays, yoga retreats, and Patnem sunset dinners.",
       target: "banquets",
     },
     {
-      title: "The Tito's Orange Sky Kitchen & Bar",
+      title: "Baywatch Seaside Restaurant & Bar",
       category: "Dining",
-      description: "Fresh seafood grill, Goan fish curries, sunset cocktails, and all-day sunbed dining on Agonda sands.",
+      description: "Fresh seafood grill, Goan curries, multi-cuisine classics, sunset happy hour cocktails, and lounger service.",
       target: "dining",
     },
     {
-      title: "Location on Agonda Beach Sands",
+      title: "Location on Patnem Beach Sands",
       category: "Location",
-      description: "Plot No. 118/1, Near St. Anne's Church, direct Agonda Beach frontage, 8 km to Palolem.",
+      description: "H.No. 156/A, Patnem Beach, Palolem-Patnem Road, Canacona — 0m to beach, 3 km to Canacona Railway Station.",
       target: "location",
     },
     {

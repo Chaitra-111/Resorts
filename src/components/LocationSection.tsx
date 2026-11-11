@@ -14,10 +14,10 @@ export const LocationSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Prime Agonda Beachfront Location</span>
+          <span className="section-label">Prime Patnem Beachfront Location</span>
           <h2 className="section-title">Location & Getting Here</h2>
           <p className="section-desc">
-            Located at Plot No. 118/1, Igarzwada (Near St. Anne's Church), Agonda Beach Road, South Goa — directly on the sand and just 8 km from Palolem Beach & Cola Lagoon.
+            Located at H.No. 156/A, Patnem Beach along Palolem–Patnem Road in Canacona, South Goa — steps onto the sand, 5 mins from Colomb Bay & Palolem Beach, and 3 km from Canacona Railway Station.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export const LocationSection: React.FC = () => {
                 }}
               >
                 <Compass size={16} />
-                <span>Agonda Shoreline · Canacona Haven</span>
+                <span>Patnem Shoreline · Canacona Coast</span>
               </div>
 
               <h3 style={{ fontSize: "1.8rem", color: "var(--ink)", marginBottom: "0.8rem" }}>
@@ -96,28 +96,28 @@ export const LocationSection: React.FC = () => {
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Waves size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>0m Directly on Agonda Beach:</strong> Unspoilt beach frontage steps away from calm golden sands.
+                    <strong>0m Directly on Patnem Beach:</strong> Direct beachfront frontage facing calm Arabian Sea waters.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Landmark size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Near St. Anne's Church:</strong> Iconic coastal landmark in peaceful Igarzwada, Agonda.
+                    <strong>5 Mins to Colomb Bay & Palolem:</strong> Scenic coastal walk or short scooter ride to neighboring coves and Rajbagh Beach.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Car size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>8 km to Palolem & Canacona (10 km):</strong> Swift taxi access to railway station, Cola Lagoon, and Cabo de Rama.
+                    <strong>3 km to Canacona Railway Station:</strong> Easy taxi transfers to/from Madgaon Junction (~36 km) and Goa Dabolim Airport.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Clock size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Operating Hours:</strong> 24/7 Front Desk · Seafront Restaurant & Bar 7:30 AM – 11:30 PM.
+                    <strong>Operating Hours:</strong> 24/7 Front Desk · Patnem Beach Restaurant & Bar 7:30 AM – 11:30 PM.
                   </span>
                 </div>
 
@@ -166,7 +166,7 @@ export const LocationSection: React.FC = () => {
             }}
           >
             <iframe
-              title="The Tito's Orange Sky Agonda Beach Resort South Goa Map"
+              title="Baywatch Beach Resort and Restaurant Patnem Goa Map"
               src={RESORT_CONTACT.googleMapsEmbed}
               width="100%"
               height="100%"

@@ -58,7 +58,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.1s",
             } as React.CSSProperties}
           >
-            Agonda Beach · South Goa
+            Patnem Beach · South Goa
           </span>
         </span>
 
@@ -89,7 +89,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.35s",
             } as React.CSSProperties}
           >
-            "Private jacuzzi cottages, golden sands & crimson sunsets on Agonda Beach."
+            "Direct Patnem beachfront living, sea view balconies & coastal serenity."
           </span>
         </p>
       </div>

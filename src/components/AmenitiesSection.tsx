@@ -47,10 +47,10 @@ export const AmenitiesSection: React.FC = () => {
       <div className="content-container">
         <div className="section-header-center">
           <span className="section-label">Resort Amenities & Coastal Comforts</span>
-          <h2 className="section-title">Crafted for Seaside Serenity & Sunset Indulgence</h2>
+          <h2 className="section-title">Crafted for Patnem Serenity & Seaside Comfort</h2>
           <p className="section-desc">
-            Every amenity at The Tito's Orange Sky Agonda Beach Resort is tailored to provide direct Agonda sand access,
-            relaxing private jacuzzis, open-air seafront dining, and seamless boat & kayak excursions.
+            Every amenity at Baywatch Beach Resort and Restaurant Patnem is designed around effortless direct beach access,
+            open-air seaside dining, complimentary loungers, and South Goa coastal excursions.
           </p>
         </div>
 

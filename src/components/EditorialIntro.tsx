@@ -5,47 +5,47 @@ export const EditorialIntro: React.FC = () => {
   return (
     <section className="editorial-section" id="story">
       <div className="content-container">
-        <span className="section-label">Unspoilt Beachfront Bliss in South Goa</span>
+        <span className="section-label">Direct Beachfront Serenity in South Goa</span>
 
         <h2 className="statement-heading">
-          Private jacuzzi beach bungalows, warm ocean breeze & crimson sunsets <br />
+          Seafront balcony cottages, swaying coconut palms & Arabian Sea sunsets <br />
           <em style={{ fontFamily: "var(--serif)", fontStyle: "italic", color: "var(--amber)" }}>
-            right on Agonda Beach, South Goa.
+            directly on Patnem Beach, South Goa.
           </em>
         </h2>
 
         <p className="statement-body">
-          Nestled at Plot No. 118/1 near St. Anne's Church along Agonda Beach Road, The Tito's Orange Sky Agonda Beach Resort
-          blends bohemian coastal charm with indulgent beachfront comforts. Wake up steps from tranquil golden sands,
-          unwind inside your private terrace jacuzzi, and dine beneath starlit skies at our seafront bar and restaurant.
+          Nestled at H.No. 156/A along serene Patnem Beach on the Palolem–Patnem Road in Canacona, Baywatch Beach Resort and Restaurant Patnem
+          blends laid-back coastal charm with modern seaside comforts. Step straight from your seafront cottage onto tranquil sands,
+          savor fresh coastal gastronomy, and unwind beneath twilight skies at our oceanfront restaurant and bar.
         </p>
 
         {/* Feature Pillars */}
         <div className="statement-pillars">
           <div className="pillar-card">
             <Waves size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>0m on Agonda Beach</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>0m on Patnem Beach</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Direct beach frontage along one of Asia's serene, uncrowded golden beaches.
-              Ideal for safe swimming, sunset walks, and peaceful sea-watching.
+              Direct beach frontage along one of South Goa's calmest, cleanest golden crescents.
+              Ideal for safe swimming, kayaking, sunset strolls, and peaceful sea-watching.
             </p>
           </div>
 
           <div className="pillar-card">
             <Sparkles size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Private Jacuzzi Bungalows</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Seafront Balcony Cottages</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Our signature wooden beach bungalows come equipped with private outdoor jacuzzis,
-              cushioned sun decks, and unobstructed views of the Arabian Sea twilight.
+              Choose from sea-view cottages with private sit-out balconies, deluxe A/C rooms,
+              or shaded garden retreats designed for relaxing coastal stays.
             </p>
           </div>
 
           <div className="pillar-card">
             <Utensils size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Orange Sky Bar & Kitchen</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Patnem Bar & Kitchen</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Feast right on the sands with freshly caught seafood, authentic Goan curries,
-              handcrafted cocktails, and complimentary sunbed service all day long.
+              Dine right beside the surf with fresh Goan seafood, international favorites,
+              sunset happy hour cocktails, and complimentary sunbed lounge service all day.
             </p>
           </div>
         </div>
@@ -54,19 +54,19 @@ export const EditorialIntro: React.FC = () => {
         <div className="statement-stats">
           <div className="stat-item">
             <h3>0 m</h3>
-            <p>To Agonda Beach Sand</p>
+            <p>To Patnem Beach Sand</p>
           </div>
           <div className="stat-item">
-            <h3>Private</h3>
-            <p>Jacuzzi Beach Cottages</p>
+            <h3>5 min</h3>
+            <p>To Colomb Bay & Palolem</p>
           </div>
           <div className="stat-item">
-            <h3>8 km</h3>
-            <p>To Palolem & Cola Lagoon</p>
+            <h3>3 km</h3>
+            <p>To Canacona Station</p>
           </div>
           <div className="stat-item">
-            <h3>₹4,200+</h3>
-            <p>Beachfront Cottage Tariff</p>
+            <h3>₹2,200+</h3>
+            <p>Beachside Room Tariff</p>
           </div>
         </div>
       </div>

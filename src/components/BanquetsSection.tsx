@@ -34,7 +34,7 @@ export const BanquetsSection: React.FC = () => {
             >
               <img
                 src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1400&q=85"
-                alt="Intimate Beach Weddings and Retreats at The Tito's Orange Sky Agonda"
+                alt="Group Beach Holidays, Wellness Retreats and Sunset Dinners at Baywatch Patnem"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -67,28 +67,28 @@ export const BanquetsSection: React.FC = () => {
                 Group & Retreat Capacity
               </span>
               <h4 style={{ fontSize: "1.7rem", color: "var(--ink)", margin: "0.2rem 0" }}>
-                10 to 40+
+                10 to 35+
               </h4>
               <p style={{ fontSize: "0.82rem", color: "var(--muted)" }}>
-                Guests across Jacuzzi Beach Bungalows, Seafront Cottages & Balcony Suites.
+                Guests across Seafront Balcony Cottages, Deluxe A/C & Garden Rooms.
               </p>
             </div>
           </div>
 
           {/* Editorial Content */}
           <div>
-            <span className="section-label">Beach Weddings, Retreats & Group Stays</span>
+            <span className="section-label">Group Stays, Retreats & Beach Parties</span>
             <h2
               className="section-title"
               style={{ marginBottom: "1.25rem" }}
             >
-              Intimate Beach Weddings, Yoga Retreats & Sunset Parties.
+              Group Beach Holidays, Yoga Retreats & Patnem Sunset Parties.
             </h2>
 
             <p style={{ fontSize: "1.05rem", lineHeight: 1.7, marginBottom: "2rem", color: "var(--muted)" }}>
-              Hosting a romantic Agonda beach ceremony, organizing a mindfulness yoga retreat, or gathering a group
-              of friends by the coast? The Tito's Orange Sky Agonda Beach Resort offers full resort cottage blocks,
-              candlelit beachfront banquet setups, and curated seaside dining packages.
+              Planning a coastal family gathering, organizing a mindfulness yoga retreat, or celebrating with friends on
+              Patnem sands? Baywatch Beach Resort and Restaurant Patnem offers multi-cottage blocks, candlelit beachfront
+              dinner setups, and curated seaside dining packages.
             </p>
 
             <div
@@ -105,7 +105,7 @@ export const BanquetsSection: React.FC = () => {
                 <div>
                   <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Sundowner Sand Dinners</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Decorated beach tables, fairy lights, fresh grilled seafood, and craft cocktails.
+                    Beachfront tables, ambient lights, freshly grilled seafood platters, and happy hour drinks.
                   </p>
                 </div>
               </div>
@@ -113,9 +113,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Users size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Resort Block Bookings</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Resort Cottage Blocks</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Reserve clusters of seafront bungalows and garden cottages for group exclusivity.
+                    Reserve clusters of seafront cottages and garden rooms together for seamless group comfort.
                   </p>
                 </div>
               </div>
@@ -123,9 +123,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Music size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Kayaks & Butterfly Island</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Kayaking & Butterfly Cove</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Coordinated sunrise kayak adventures, dolphin boat cruises, and Cola Lagoon trips.
+                    Arrange morning kayak rides across Colomb Bay, dolphin boat tours, and Honeymoon Beach trips.
                   </p>
                 </div>
               </div>
@@ -135,7 +135,7 @@ export const BanquetsSection: React.FC = () => {
                 <div>
                   <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Wellness & Yoga Space</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Serene garden decks and uncrowded morning sands ideal for yoga and meditation groups.
+                    Tranquil palm-shaded decks and peaceful early-morning Patnem sands ideal for yoga sessions.
                   </p>
                 </div>
               </div>
@@ -144,7 +144,7 @@ export const BanquetsSection: React.FC = () => {
             <div className="banquets-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <a
                 href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent(
-                  "Hello The Tito's Orange Sky Agonda, I am interested in inquiring about group cottage bookings and beach events."
+                  "Hello Baywatch Beach Resort Patnem, I am interested in inquiring about group cottage bookings and beach events."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
