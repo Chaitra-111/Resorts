@@ -15,19 +15,19 @@ export const HotspotExplorer: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Interactive Villa Showcase</span>
-          <h2 className="section-title">Explore Coco Aavya & Reis Magos</h2>
+          <span className="section-label">Interactive Resort Showcase</span>
+          <h2 className="section-title">Explore Orange Sky & Agonda Beach</h2>
           <p className="section-desc">
-            Touch the pulsing points across the property to discover our private infinity pools, scenic Nerul River horizons,
-            and quick 8-minute corridor to Candolim Beach and Fort Aguada.
+            Touch the pulsing points across the property to discover our private jacuzzi cottages, sunset seafront restaurant & bar,
+            and serene stretch of Agonda Beach shoreline.
           </p>
         </div>
 
         {/* Visual Stage with Pulsing Hotspots */}
         <div className="hotspot-stage">
           <img
-            src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1800&q=88"
-            alt="Coco Aavya Luxury Villas Private Pools and Spaces"
+            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=88"
+            alt="The Tito's Orange Sky Agonda Beachfront Cottages and Sunset Shore"
           />
 
           {/* Hotspot Pins */}

@@ -46,11 +46,11 @@ export const AmenitiesSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Estate Amenities & Concierge Services</span>
-          <h2 className="section-title">Curated for Unrivaled Privacy & Coastal Luxury</h2>
+          <span className="section-label">Resort Amenities & Coastal Comforts</span>
+          <h2 className="section-title">Crafted for Seaside Serenity & Sunset Indulgence</h2>
           <p className="section-desc">
-            Every amenity at Coco Aavya - Luxury Villas is tailored to provide supreme comfort, private swimming pools,
-            personalized butler assistance, and effortless access to North Goa's most desirable destinations.
+            Every amenity at The Tito's Orange Sky Agonda Beach Resort is tailored to provide direct Agonda sand access,
+            relaxing private jacuzzis, open-air seafront dining, and seamless boat & kayak excursions.
           </p>
         </div>
 

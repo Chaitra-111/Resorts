@@ -14,10 +14,10 @@ export const LocationSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Prime North Goa Waterfront Location</span>
+          <span className="section-label">Prime Agonda Beachfront Location</span>
           <h2 className="section-title">Location & Getting Here</h2>
           <p className="section-desc">
-            Located along Nerul - Reis Magos Road (opposite Sinamon Villa), North Goa — just 5 minutes from Coco Beach, 8 minutes to Candolim Beach, and 15 minutes to Panaji.
+            Located at Plot No. 118/1, Igarzwada (Near St. Anne's Church), Agonda Beach Road, South Goa — directly on the sand and just 8 km from Palolem Beach & Cola Lagoon.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export const LocationSection: React.FC = () => {
                 }}
               >
                 <Compass size={16} />
-                <span>Reis Magos · Candolim Luxury Enclave</span>
+                <span>Agonda Shoreline · Canacona Haven</span>
               </div>
 
               <h3 style={{ fontSize: "1.8rem", color: "var(--ink)", marginBottom: "0.8rem" }}>
@@ -96,35 +96,35 @@ export const LocationSection: React.FC = () => {
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Waves size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Nerul River Waterfront:</strong> Peaceful riverfront setting overlooking the Mandovi estuary and hills.
+                    <strong>0m Directly on Agonda Beach:</strong> Unspoilt beach frontage steps away from calm golden sands.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Landmark size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Opposite Sinamon Villa:</strong> Exclusive private enclave along Nerul Dandadi with total privacy.
+                    <strong>Near St. Anne's Church:</strong> Iconic coastal landmark in peaceful Igarzwada, Agonda.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Car size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>8 Mins to Candolim Beach & Aguada:</strong> Effortless drive to top beach clubs, restaurants, and water sports.
+                    <strong>8 km to Palolem & Canacona (10 km):</strong> Swift taxi access to railway station, Cola Lagoon, and Cabo de Rama.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Clock size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Concierge & Host Hours:</strong> 24/7 Gated Security · Dedicated Butler & Private Chef on Call.
+                    <strong>Operating Hours:</strong> 24/7 Front Desk · Seafront Restaurant & Bar 7:30 AM – 11:30 PM.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Phone size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Direct Concierge:</strong> {RESORT_CONTACT.phone} / {RESORT_CONTACT.phoneAlt}
+                    <strong>Direct Reception:</strong> {RESORT_CONTACT.phone} / {RESORT_CONTACT.phoneAlt}
                   </span>
                 </div>
               </div>
@@ -149,7 +149,7 @@ export const LocationSection: React.FC = () => {
                 data-cursor="Call Hotel"
               >
                 <Phone size={15} />
-                <span>Call Concierge</span>
+                <span>Call Front Desk</span>
               </a>
             </div>
           </div>
@@ -166,7 +166,7 @@ export const LocationSection: React.FC = () => {
             }}
           >
             <iframe
-              title="Coco Aavya Luxury Villas Reis Magos Goa Map"
+              title="The Tito's Orange Sky Agonda Beach Resort South Goa Map"
               src={RESORT_CONTACT.googleMapsEmbed}
               width="100%"
               height="100%"

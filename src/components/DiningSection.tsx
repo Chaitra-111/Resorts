@@ -1,5 +1,5 @@
 import React from "react";
-import { Utensils, Wine, Flame } from "lucide-react";
+import { Utensils, Wine, Sun } from "lucide-react";
 
 export const DiningSection: React.FC = () => {
   return (
@@ -13,84 +13,84 @@ export const DiningSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Gastronomic Experiences & In-Villa Dining</span>
-          <h2 className="section-title">Culinary Artistry & Private Chef</h2>
+          <span className="section-label">Beachfront Dining & Sunset Lounge</span>
+          <h2 className="section-title">The Tito's Orange Sky Kitchen & Bar</h2>
           <p className="section-desc">
-            Indulge in bespoke dining crafted exclusively for you — from sunrise poolside breakfasts and live seafood barbecues
-            prepared by your private chef to celebrated waterfront fine-dining along the Nerul and Candolim strip.
+            Feast right on the golden sands of Agonda Beach. From freshly grilled Arabian Sea catch and authentic
+            Goan fish curries to sunset beach bar cocktails and relaxed sunbed service.
           </p>
         </div>
 
         <div className="dining-grid">
-          {/* Card 1: Private Chef & Bespoke Menus */}
+          {/* Card 1: Fresh Catch Seafood Grill */}
           <div className="card-tilt" style={{ padding: "2.2rem" }}>
             <div style={{ position: "relative", height: "210px", borderRadius: "14px", overflow: "hidden", marginBottom: "1.5rem" }}>
               <img
                 src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80"
-                alt="Private Chef In-Villa Gourmet Dining at Coco Aavya"
+                alt="Fresh Seafood Grill and Goan Fish Curry at Agonda"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", color: "var(--amber)", marginBottom: "0.5rem" }}>
               <Utensils size={18} />
               <span style={{ fontSize: "0.76rem", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase" }}>
-                Chef on Call
+                Coastal Gastronomy
               </span>
             </div>
             <h3 style={{ fontSize: "1.5rem", marginBottom: "0.8rem", color: "var(--ink)" }}>
-              Bespoke In-Villa Dining
+              Fresh Agonda Seafood Grill
             </h3>
             <p style={{ fontSize: "0.94rem", lineHeight: 1.65, color: "var(--muted)" }}>
-              Enjoy customized gourmet menus crafted in your villa's modular kitchen. Savor fresh mud crab,
-              butter garlic jumbo prawns, authentic Goan fish curry, and continental delicacies served by your butler.
+              Choose your fresh catch of the day—tandoori red snapper, butter garlic jumbo prawns, crispy kingfish rava fry,
+              or fiery Goan prawn curry—cooked to perfection and served by candlelit oceanfront tables.
             </p>
           </div>
 
-          {/* Card 2: Poolside Barbecues & Cocktails */}
-          <div className="card-tilt" style={{ padding: "2.2rem" }}>
-            <div style={{ position: "relative", height: "210px", borderRadius: "14px", overflow: "hidden", marginBottom: "1.5rem" }}>
-              <img
-                src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80"
-                alt="Poolside Barbecue and Sunset Cocktails"
-                style={{ width: "100%", height: "100%", objectFit: "cover" }}
-              />
-            </div>
-            <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", color: "var(--amber)", marginBottom: "0.5rem" }}>
-              <Flame size={18} />
-              <span style={{ fontSize: "0.76rem", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase" }}>
-                Live Grill & Sundowners
-              </span>
-            </div>
-            <h3 style={{ fontSize: "1.5rem", marginBottom: "0.8rem", color: "var(--ink)" }}>
-              Poolside BBQ & Sundowners
-            </h3>
-            <p style={{ fontSize: "0.94rem", lineHeight: 1.65, color: "var(--muted)" }}>
-              Host enchanting evening soirées by the illuminated pool deck. Our culinary team sets up live barbecue grills,
-              artisanal cocktails, craft mocktails, and soft lounge music under the starlit Goan sky.
-            </p>
-          </div>
-
-          {/* Card 3: Candolim & Nerul Fine-Dining Trails */}
+          {/* Card 2: Tito's Sunset Bar */}
           <div className="card-tilt" style={{ padding: "2.2rem" }}>
             <div style={{ position: "relative", height: "210px", borderRadius: "14px", overflow: "hidden", marginBottom: "1.5rem" }}>
               <img
                 src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
-                alt="Candolim and Nerul Waterfront Fine Dining"
+                alt="Sunset Cocktails at The Tito's Orange Sky Beach Bar"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", color: "var(--amber)", marginBottom: "0.5rem" }}>
               <Wine size={18} />
               <span style={{ fontSize: "0.76rem", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase" }}>
-                Curated Restaurant Trail
+                Sundowners & Cocktails
               </span>
             </div>
             <h3 style={{ fontSize: "1.5rem", marginBottom: "0.8rem", color: "var(--ink)" }}>
-              Nerul & Candolim Dining Trail
+              Orange Sky Beach Bar
             </h3>
             <p style={{ fontSize: "0.94rem", lineHeight: 1.65, color: "var(--muted)" }}>
-              Minutes away from legendary waterfront dining like The Lazy Goose, Bhatti Village, and Candolim’s
-              premier beachfront clubs and cocktail bars, with VIP reservation assistance by our concierge.
+              Toast Agonda's famous tangerine sunsets with signature Tito's cocktails, local Feni infusions, chilled beers,
+              and tropical fruit mocktails while relaxing to chill acoustic music by the shoreline.
+            </p>
+          </div>
+
+          {/* Card 3: Morning Sunbed Breakfast */}
+          <div className="card-tilt" style={{ padding: "2.2rem" }}>
+            <div style={{ position: "relative", height: "210px", borderRadius: "14px", overflow: "hidden", marginBottom: "1.5rem" }}>
+              <img
+                src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80"
+                alt="Morning Sunbed Breakfast by Agonda Waves"
+                style={{ width: "100%", height: "100%", objectFit: "cover" }}
+              />
+            </div>
+            <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", color: "var(--amber)", marginBottom: "0.5rem" }}>
+              <Sun size={18} />
+              <span style={{ fontSize: "0.76rem", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase" }}>
+                Sunbed & Sand Service
+              </span>
+            </div>
+            <h3 style={{ fontSize: "1.5rem", marginBottom: "0.8rem", color: "var(--ink)" }}>
+              All-Day Sunbed Dining
+            </h3>
+            <p style={{ fontSize: "0.94rem", lineHeight: 1.65, color: "var(--muted)" }}>
+              Begin the day with acai smoothie bowls, eggs benedict, pancakes, and freshly brewed coffee served
+              directly to your shaded wooden cottage veranda or reserved beach lounger.
             </p>
           </div>
         </div>

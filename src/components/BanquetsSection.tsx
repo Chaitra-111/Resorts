@@ -33,8 +33,8 @@ export const BanquetsSection: React.FC = () => {
               }}
             >
               <img
-                src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1400&q=85"
-                alt="Exclusive Private Villa Estate Buyouts at Coco Aavya North Goa"
+                src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1400&q=85"
+                alt="Intimate Beach Weddings and Retreats at The Tito's Orange Sky Agonda"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -64,31 +64,31 @@ export const BanquetsSection: React.FC = () => {
                   textTransform: "uppercase",
                 }}
               >
-                Estate Capacity
+                Group & Retreat Capacity
               </span>
               <h4 style={{ fontSize: "1.7rem", color: "var(--ink)", margin: "0.2rem 0" }}>
-                Up to 25+
+                10 to 40+
               </h4>
               <p style={{ fontSize: "0.82rem", color: "var(--muted)" }}>
-                Guests across Grand 4BHK & 3BHK Private Pool Estates.
+                Guests across Jacuzzi Beach Bungalows, Seafront Cottages & Balcony Suites.
               </p>
             </div>
           </div>
 
           {/* Editorial Content */}
           <div>
-            <span className="section-label">Private Villa Buyouts & Celebrations</span>
+            <span className="section-label">Beach Weddings, Retreats & Group Stays</span>
             <h2
               className="section-title"
               style={{ marginBottom: "1.25rem" }}
             >
-              Exclusive Estate Buyouts, Anniversaries & Private Soirées.
+              Intimate Beach Weddings, Yoga Retreats & Sunset Parties.
             </h2>
 
             <p style={{ fontSize: "1.05rem", lineHeight: 1.7, marginBottom: "2rem", color: "var(--muted)" }}>
-              Celebrating a milestone birthday, hosting an intimate pre-wedding celebration, or gathering with close
-              friends and family in North Goa? Coco Aavya offers exclusive private pool villa buyouts with dedicated
-              butler service, personalized private chef dining, and absolute waterfront seclusion.
+              Hosting a romantic Agonda beach ceremony, organizing a mindfulness yoga retreat, or gathering a group
+              of friends by the coast? The Tito's Orange Sky Agonda Beach Resort offers full resort cottage blocks,
+              candlelit beachfront banquet setups, and curated seaside dining packages.
             </p>
 
             <div
@@ -103,9 +103,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Sparkles size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Private Pool Soirées</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Sundowner Sand Dinners</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Exclusive poolside sundecks for sunset cocktails, ambient lighting, and celebrations.
+                    Decorated beach tables, fairy lights, fresh grilled seafood, and craft cocktails.
                   </p>
                 </div>
               </div>
@@ -113,9 +113,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Users size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Full Estate Buyouts</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Resort Block Bookings</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Combine adjacent 4BHK and 3BHK luxury villas for multi-generational group privacy.
+                    Reserve clusters of seafront bungalows and garden cottages for group exclusivity.
                   </p>
                 </div>
               </div>
@@ -123,9 +123,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Music size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Chef & Live Barbecue</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Kayaks & Butterfly Island</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Customized multi-course menus, live seafood grills, and curated bar setups.
+                    Coordinated sunrise kayak adventures, dolphin boat cruises, and Cola Lagoon trips.
                   </p>
                 </div>
               </div>
@@ -133,9 +133,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <HeartHandshake size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Concierge & Yacht Charters</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Wellness & Yoga Space</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Airport luxury transfers, chauffeur coordination, and private Mandovi yacht sails.
+                    Serene garden decks and uncrowded morning sands ideal for yoga and meditation groups.
                   </p>
                 </div>
               </div>
@@ -144,14 +144,14 @@ export const BanquetsSection: React.FC = () => {
             <div className="banquets-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <a
                 href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent(
-                  "Hello Coco Aavya, I am interested in inquiring about private villa estate bookings and celebrations."
+                  "Hello The Tito's Orange Sky Agonda, I am interested in inquiring about group cottage bookings and beach events."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-luxury"
                 data-cursor="Plan Event"
               >
-                <span>Inquire Villa Rates</span>
+                <span>Inquire Group Rates</span>
                 <Sparkles size={15} />
               </a>
 

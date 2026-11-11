@@ -32,21 +32,21 @@ export const SearchModal: React.FC<SearchModalProps> = ({
       target: "experiences",
     })),
     {
-      title: "Private Villa Buyouts & Estate Celebrations",
+      title: "Beach Weddings, Retreats & Group Stays",
       category: "Group Stays",
-      description: "Accommodate up to 25+ guests across 4BHK and 3BHK private pool luxury villas.",
+      description: "Accommodate 10 to 40+ guests for intimate beach weddings, yoga retreats, and beach holidays.",
       target: "banquets",
     },
     {
-      title: "Private Chef & In-Villa Dining",
+      title: "The Tito's Orange Sky Kitchen & Bar",
       category: "Dining",
-      description: "Gourmet private chef dining, live poolside barbecues, and Candolim fine-dining trails.",
+      description: "Fresh seafood grill, Goan fish curries, sunset cocktails, and all-day sunbed dining on Agonda sands.",
       target: "dining",
     },
     {
-      title: "Location in Reis Magos & Candolim",
+      title: "Location on Agonda Beach Sands",
       category: "Location",
-      description: "Opposite Sinamon Villa, Nerul River waterfront, 5 mins to Coco Beach, 8 mins to Candolim.",
+      description: "Plot No. 118/1, Near St. Anne's Church, direct Agonda Beach frontage, 8 km to Palolem.",
       target: "location",
     },
     {

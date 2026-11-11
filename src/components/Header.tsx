@@ -51,8 +51,8 @@ export const Header: React.FC<HeaderProps> = ({
               <path d="M14 48H50" />
             </svg>
             <div className="brand-text">
-              <span className="brand-word">COCO AAVYA</span>
-              <span className="brand-sub">Luxury Villas & Private Pools</span>
+              <span className="brand-word">TITO'S ORANGE SKY</span>
+              <span className="brand-sub">Agonda Beach & Jacuzzi Resort</span>
             </div>
           </a>
 
@@ -61,7 +61,7 @@ export const Header: React.FC<HeaderProps> = ({
             <ul className="nav-links">
               <li>
                 <a href="#suites" className="nav-link">
-                  Villas & Rates
+                  Cottages & Rates
                 </a>
               </li>
               <li>

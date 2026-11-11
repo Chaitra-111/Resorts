@@ -1,51 +1,51 @@
 import React from "react";
-import { Waves, Sparkles, Compass } from "lucide-react";
+import { Waves, Sparkles, Utensils } from "lucide-react";
 
 export const EditorialIntro: React.FC = () => {
   return (
     <section className="editorial-section" id="story">
       <div className="content-container">
-        <span className="section-label">Exclusive North Goa Villa Living</span>
+        <span className="section-label">Unspoilt Beachfront Bliss in South Goa</span>
 
         <h2 className="statement-heading">
-          Private infinity pools, panoramic river horizons & bespoke butler care <br />
+          Private jacuzzi beach bungalows, warm ocean breeze & crimson sunsets <br />
           <em style={{ fontFamily: "var(--serif)", fontStyle: "italic", color: "var(--amber)" }}>
-            in picturesque Reis Magos, North Goa.
+            right on Agonda Beach, South Goa.
           </em>
         </h2>
 
         <p className="statement-body">
-          Set along the scenic Nerul-Reis Magos coastal corridor, Coco Aavya - Luxury Villas redefines bespoke vacationing in North Goa.
-          Surrounded by the serene backwaters of the Nerul River and lush tropical hillsides, our signature 3BHK and 4BHK private pool estates
-          provide uncompromised privacy, designer European aesthetics, dedicated butler service, and effortless access to Candolim Beach.
+          Nestled at Plot No. 118/1 near St. Anne's Church along Agonda Beach Road, The Tito's Orange Sky Agonda Beach Resort
+          blends bohemian coastal charm with indulgent beachfront comforts. Wake up steps from tranquil golden sands,
+          unwind inside your private terrace jacuzzi, and dine beneath starlit skies at our seafront bar and restaurant.
         </p>
 
         {/* Feature Pillars */}
         <div className="statement-pillars">
           <div className="pillar-card">
             <Waves size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Private Infinity Pools</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>0m on Agonda Beach</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Every villa features an exclusive private swimming pool, sun deck with loungers,
-              ambient mood illumination, and tranquil tropical palm backdrops.
+              Direct beach frontage along one of Asia's serene, uncrowded golden beaches.
+              Ideal for safe swimming, sunset walks, and peaceful sea-watching.
             </p>
           </div>
 
           <div className="pillar-card">
             <Sparkles size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Butler & Private Chef</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Private Jacuzzi Bungalows</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Experience high-end hospitality with dedicated villa attendants, daily gourmet breakfasts,
-              customized poolside barbecue dinners, and handcrafted cocktail service.
+              Our signature wooden beach bungalows come equipped with private outdoor jacuzzis,
+              cushioned sun decks, and unobstructed views of the Arabian Sea twilight.
             </p>
           </div>
 
           <div className="pillar-card">
-            <Compass size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Candolim Coastal Hub</h3>
+            <Utensils size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Orange Sky Bar & Kitchen</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Only 5 minutes to Coco Beach, 8 minutes to Candolim Beach sands and Fort Aguada,
-              and 15 minutes to Panaji’s Mandovi riverfront casino and dining scene.
+              Feast right on the sands with freshly caught seafood, authentic Goan curries,
+              handcrafted cocktails, and complimentary sunbed service all day long.
             </p>
           </div>
         </div>
@@ -53,20 +53,20 @@ export const EditorialIntro: React.FC = () => {
         {/* Key Stats Counter */}
         <div className="statement-stats">
           <div className="stat-item">
+            <h3>0 m</h3>
+            <p>To Agonda Beach Sand</p>
+          </div>
+          <div className="stat-item">
             <h3>Private</h3>
-            <p>Pools in Every Villa</p>
+            <p>Jacuzzi Beach Cottages</p>
           </div>
           <div className="stat-item">
-            <h3>4,800</h3>
-            <p>Sq.Ft. Grand Estates</p>
+            <h3>8 km</h3>
+            <p>To Palolem & Cola Lagoon</p>
           </div>
           <div className="stat-item">
-            <h3>24/7</h3>
-            <p>Butler & Concierge</p>
-          </div>
-          <div className="stat-item">
-            <h3>8 Mins</h3>
-            <p>To Candolim Beach</p>
+            <h3>₹4,200+</h3>
+            <p>Beachfront Cottage Tariff</p>
           </div>
         </div>
       </div>

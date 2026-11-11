@@ -47,11 +47,11 @@ export const MomentsCarousel: React.FC = () => {
         {/* Section Header */}
         <div className="section-header-split">
           <div className="left">
-            <span className="section-label">A Day at Coco Aavya</span>
-            <h2 className="section-title">Exclusive Villa & Riverfront Moments</h2>
+            <span className="section-label">A Day at Orange Sky Agonda</span>
+            <h2 className="section-title">Beachfront & Sunset Moments</h2>
             <p className="section-desc">
-              From sunrise coffee and artisanal breakfasts on the deck to private infinity pool dips,
-              champagne sunsets over the Nerul River, and starlit chef barbecues.
+              From peaceful morning yoga by the palms to Butterfly Beach kayak trips, soothing terrace jacuzzi soaks,
+              tangerine sunsets, and candlelit seafood feasts on Agonda sands.
             </p>
           </div>
 

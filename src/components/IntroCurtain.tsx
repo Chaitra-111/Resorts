@@ -58,7 +58,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.1s",
             } as React.CSSProperties}
           >
-            Reis Magos · North Goa
+            Agonda Beach · South Goa
           </span>
         </span>
 
@@ -89,7 +89,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.35s",
             } as React.CSSProperties}
           >
-            "Ultra-luxury private pool villas, Nerul River horizons & bespoke butler care."
+            "Private jacuzzi cottages, golden sands & crimson sunsets on Agonda Beach."
           </span>
         </p>
       </div>

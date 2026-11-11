@@ -57,8 +57,8 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
             </div>
 
             <p style={{ fontSize: "0.92rem", lineHeight: 1.65, maxWidth: "340px", marginBottom: "1.5rem" }}>
-              North Goa's premier private pool villa estate in Reis Magos. Palatial 3BHK & 4BHK estates overlooking the Nerul River,
-              dedicated butler service, private chef on call, 5 mins to Coco Beach, and 8 mins to Candolim Beach.
+              Agonda's cherished beachfront resort featuring private jacuzzi cottages, handcrafted seafront bungalows,
+              orange sky sunset dining on the sand, and serene hospitality in South Goa.
             </p>
 
             {/* Atmosphere Mood Switcher in Footer */}
@@ -92,32 +92,32 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 marginBottom: "1.2rem",
               }}
             >
-              The Estate
+              The Resort
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.92rem" }}>
               <li>
                 <a href="#suites" className="footer-link">
-                  Villas & Rates
+                  Cottages & Rates
                 </a>
               </li>
               <li>
                 <a href="#hotspots" className="footer-link">
-                  Estate Hotspots
+                  Resort Hotspots
                 </a>
               </li>
               <li>
                 <a href="#dining" className="footer-link">
-                  Private Dining & Chef
+                  Sunset Bar & Seafood
                 </a>
               </li>
               <li>
                 <a href="#banquets" className="footer-link">
-                  Villa Estate Buyouts
+                  Beach Weddings & Retreats
                 </a>
               </li>
               <li>
                 <a href="#experiences" className="footer-link">
-                  Estate Amenities
+                  Resort Amenities
                 </a>
               </li>
             </ul>
@@ -135,15 +135,15 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 marginBottom: "1.2rem",
               }}
             >
-              Reis Magos & North Goa Landmarks
+              Agonda & South Goa Landmarks
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.9rem", color: "var(--ink)" }}>
-              <li>• Nerul River Promenade (Immediate)</li>
-              <li>• Coco Beach (~1.5 km / 5 mins)</li>
-              <li>• Historic Reis Magos Fort (~2.0 km / 6 mins)</li>
-              <li>• Candolim Beach Strip (~3.5 km / 8 mins)</li>
-              <li>• Taj Fort Aguada & Sinquerim (~5.0 km / 10 mins)</li>
-              <li>• Panaji City & Mandovi River (~9.0 km / 15 mins)</li>
+              <li>• Agonda Beach Sands (0 meters / Direct)</li>
+              <li>• St. Anne's Church Agonda (~100 meters)</li>
+              <li>• Olive Ridley Turtle Sanctuary (~1.5 km)</li>
+              <li>• Cola Emerald Lagoon (~5.5 km)</li>
+              <li>• Butterfly Beach Cove (By Boat / Kayak)</li>
+              <li>• Palolem Beach & Canacona (~8–10 km)</li>
             </ul>
           </div>
 
