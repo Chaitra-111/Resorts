@@ -5,47 +5,47 @@ export const EditorialIntro: React.FC = () => {
   return (
     <section className="editorial-section" id="story">
       <div className="content-container">
-        <span className="section-label">Beachside Living in Palolem, South Goa</span>
+        <span className="section-label">Beachfront Living in Palolem, South Goa</span>
 
         <h2 className="statement-heading">
-          Sea-view balcony rooms, wooden beach cottages & sunset horizons <br />
+          Handcrafted wooden beach cottages, sea-facing verandas & ocean waves <br />
           <em style={{ fontFamily: "var(--serif)", fontStyle: "italic", color: "var(--amber)" }}>
-            just 50 meters from Palolem Beach, South Goa.
+            directly on the sand of Palolem Beach, South Goa.
           </em>
         </h2>
 
         <p className="statement-body">
-          Located on Palolem Street in Mohanbagh, ROYAL CASTLE RESORT Palolem offers comfortable coastal lodging
-          just a 1-minute walk from the turquoise crescent of Palolem Beach. Enjoy deluxe sea-view balcony rooms,
-          spacious wooden beach cottages, on-site multi-cuisine dining, split A/C, hot showers, and warm hospitality.
+          Situated on Ourem Road in Mohanbagh, Royal Woods Beach Resort offers the quintessential South Goa beach escape.
+          Wake up to the sound of rolling waves in authentic timber cottages, step straight from your private porch onto
+          the golden sand, and savor freshly caught seafood and chilled cocktails at our beach shack.
         </p>
 
         {/* Feature Pillars */}
         <div className="statement-pillars">
           <div className="pillar-card">
             <Waves size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>50m to Palolem Beach</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Direct Palolem Beachfront</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Steps away from Palolem's calm, protected golden crescent.
-              Ideal for safe morning swimming, paddleboarding, dolphin boat tours, and sunset walks.
+              Zero-meter step onto Palolem's famous golden sands.
+              Enjoy safe swimming in sheltered waters, morning dolphin spotting, and relaxed sunbathing.
             </p>
           </div>
 
           <div className="pillar-card">
             <Sparkles size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Sea-View Balconies & Cottages</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Handcrafted Wooden Cottages</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Choose deluxe upper-floor rooms with panoramic sea views, premium wooden beach cottages, or quiet
-              garden rooms—all fitted with modern attached bathrooms and split A/C.
+              Choose frontline sea-facing wooden cottages, elevated bay-view rooms, or palm grove cottages—all
+              fitted with modern attached bathrooms, 24/7 hot showers, and split A/C.
             </p>
           </div>
 
           <div className="pillar-card">
             <Utensils size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Multi-Cuisine Restaurant & Bar</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Beach Shack & Sunset Bar</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Feast on fresh Goan seafood, North Indian tandoori grills, Chinese dishes, and sunset drinks served
-              in our open-air dining pavilion and outdoor garden seating.
+              Dine with your toes in the sand on fresh Goan fish curry, grilled tandoori catch, wood-fired pizzas,
+              and tropical cocktails as the sun sets over the Arabian Sea.
             </p>
           </div>
         </div>
@@ -53,20 +53,20 @@ export const EditorialIntro: React.FC = () => {
         {/* Key Stats Counter */}
         <div className="statement-stats">
           <div className="stat-item">
-            <h3>50 m</h3>
-            <p>Walk to Palolem Beach Sand</p>
+            <h3>0 m</h3>
+            <p>Direct Beachfront on Sand</p>
           </div>
           <div className="stat-item">
             <h3>Sea View</h3>
-            <p>Private Balcony Rooms</p>
+            <p>Wooden Balconies & Porches</p>
           </div>
           <div className="stat-item">
-            <h3>2 km</h3>
+            <h3>2.5 km</h3>
             <p>To Canacona Railway Station</p>
           </div>
           <div className="stat-item">
             <h3>₹2,600+</h3>
-            <p>Resort Room Tariff</p>
+            <p>Beach Cottage Tariff</p>
           </div>
         </div>
       </div>

@@ -34,7 +34,7 @@ export const BanquetsSection: React.FC = () => {
             >
               <img
                 src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1400&q=85"
-                alt="Group Beach Vacations, Sea-View Rooms and Cottages at ROYAL CASTLE RESORT Palolem"
+                alt="Beachfront Group Stays and Wooden Cottages at Royal Woods Beach Resort Palolem"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -64,31 +64,31 @@ export const BanquetsSection: React.FC = () => {
                   textTransform: "uppercase",
                 }}
               >
-                Group & Vacation Capacity
+                Frontline Beach Living
               </span>
               <h4 style={{ fontSize: "1.7rem", color: "var(--ink)", margin: "0.2rem 0" }}>
-                Rooms & Cottages
+                Wooden Cottages
               </h4>
               <p style={{ fontSize: "0.82rem", color: "var(--muted)" }}>
-                Sea-View Balcony Rooms, Beach Cottages & Garden Units.
+                Sea-Facing Verandas, Palm Grove Cottages & Beach Shack.
               </p>
             </div>
           </div>
 
           {/* Editorial Content */}
           <div>
-            <span className="section-label">Family Vacations, Group Stays & Beach Escapes</span>
+            <span className="section-label">Family Vacations, Group Getaways & Beach Escapes</span>
             <h2
               className="section-title"
               style={{ marginBottom: "1.25rem" }}
             >
-              Sea-View Balconies, Group Cottage Blocks & Palolem Holidays.
+              Beachfront Cottages, Sea-View Verandas & Palolem Escapes.
             </h2>
 
             <p style={{ fontSize: "1.05rem", lineHeight: 1.7, marginBottom: "2rem", color: "var(--muted)" }}>
-              Planning a South Goa beach getaway with friends, a family coastal vacation, or a group exploration
-              of Canacona? ROYAL CASTLE RESORT Palolem offers multi-room cottage blocks, sea-view balconies, and
-              on-site dining just 50 meters from the water.
+              Planning a South Goa beach holiday with friends, a family reunion by the ocean, or a relaxed retreat?
+              Royal Woods Beach Resort offers multi-cottage bookings, beachfront porches, and on-site beach shack dining
+              directly on the sand in Palolem.
             </p>
 
             <div
@@ -103,9 +103,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Sparkles size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Sea-View Balconies</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Frontline Beach Access</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Upper-floor vantage point overlooking Palolem Beach crescent and sunsets.
+                    Step straight from your private wooden porch onto the golden sand of Palolem.
                   </p>
                 </div>
               </div>
@@ -115,7 +115,7 @@ export const BanquetsSection: React.FC = () => {
                 <div>
                   <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Group Cottage Blocks</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Reserve clusters of wooden beach cottages and garden rooms together.
+                    Reserve clusters of handcrafted wooden beach cottages and palm grove rooms together.
                   </p>
                 </div>
               </div>
@@ -123,9 +123,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Music size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Dolphin Cruises & Kayaks</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Dolphin Trips & Kayaks</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Direct coordination for morning boat tours, Butterfly Beach trips, and kayaks.
+                    Convenient departures directly from Ourem beach for boat safaris and Butterfly Beach.
                   </p>
                 </div>
               </div>
@@ -133,9 +133,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <HeartHandshake size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Restaurant Group Dining</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Beach Shack Group Dining</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Arranged group lunches and dinners with fresh seafood curries and tandoori grills.
+                    Feast together with candlelit sand tables, fresh seafood platters, and tandoori grills.
                   </p>
                 </div>
               </div>
@@ -144,7 +144,7 @@ export const BanquetsSection: React.FC = () => {
             <div className="banquets-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <a
                 href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent(
-                  "Hello ROYAL CASTLE RESORT Palolem, I am interested in inquiring about group room bookings and cottage rates."
+                  "Hello Royal Woods Beach Resort Palolem, I am interested in inquiring about group cottage bookings and rates."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -161,7 +161,7 @@ export const BanquetsSection: React.FC = () => {
                 data-cursor="Call Sales"
               >
                 <PhoneCall size={15} />
-                <span>Call Banquet Desk</span>
+                <span>Call Front Desk</span>
               </a>
             </div>
           </div>

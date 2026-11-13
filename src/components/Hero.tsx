@@ -22,7 +22,7 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
       <div className="hero-bg-container">
         <img
           src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2400&q=88"
-          alt="ROYAL CASTLE RESORT Palolem Beach Rooms and Cottages in South Goa"
+          alt="Royal Woods Beach Resort Palolem Wooden Beach Cottages in South Goa"
           className="hero-image"
         />
         <div className="hero-overlay" />
@@ -33,25 +33,25 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
         <div className="hero-content">
           <div className="hero-eyebrow">
             <MapPin size={13} style={{ color: "var(--peach-light)", flexShrink: 0 }} />
-            <span>Palolem Street, Mohanbagh · Palolem Beach, Canacona, South Goa</span>
+            <span>Ourem Road, Mohanbagh · Direct Palolem Beachfront, Canacona, South Goa</span>
           </div>
 
           <h1 className="hero-title">
-            Sea-View Rooms & Beach Cottages at <em>Palolem.</em>
+            Beachfront Wooden Cottages at <em>Palolem.</em>
           </h1>
 
           <p className="hero-desc">
-            Stay just 50 meters from the golden sands of Palolem Beach in Canacona. Featuring deluxe sea-view balcony rooms,
-            premium wooden beach cottages, on-site multi-cuisine dining, and easy access to Palolem Blue Lagoon.
+            Step directly onto the golden sands of Palolem Beach in South Goa. Featuring beachfront sea-facing wooden cottages,
+            elevated bay-view rooms, on-site beach shack dining, and chilled coastal living near Art Resort.
           </p>
 
           <div className="hero-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap", alignItems: "center" }}>
             <a href="#suites" className="btn-luxury" data-cursor="View Rooms">
-              <span>Explore Rooms & Rates</span>
+              <span>Explore Cottages & Rates</span>
               <ArrowRight size={15} />
             </a>
             <a
-              href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent("Hello ROYAL CASTLE RESORT Palolem, I would like to inquire about room and beach cottage availability.")}`}
+              href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent("Hello Royal Woods Beach Resort Palolem, I would like to inquire about beachfront cottage availability.")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline"
@@ -104,10 +104,10 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               value={guests}
               onChange={(e) => setGuests(Number(e.target.value))}
             >
-              <option value={1}>1 Guest (Standard Homestay Room)</option>
-              <option value={2}>2 Guests (Deluxe Sea-View Balcony Room)</option>
-              <option value={3}>3 Guests (Premium King Beach Cottage)</option>
-              <option value={4}>4 Guests (Deluxe Double Garden Cottage)</option>
+              <option value={1}>1 Guest (Standard Garden Beach Hut)</option>
+              <option value={2}>2 Guests (Beachfront Sea-Facing Cottage)</option>
+              <option value={3}>3 Guests (Premium Sea-View Upper Cottage)</option>
+              <option value={4}>4 Guests (Deluxe Wooden AC Cottage)</option>
               <option value={10}>10+ Guests (Group Vacation / Buyout)</option>
             </select>
           </div>

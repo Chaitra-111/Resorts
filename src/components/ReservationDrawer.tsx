@@ -35,17 +35,17 @@ export const ReservationDrawer: React.FC<ReservationDrawerProps> = ({
 
   // WhatsApp Dispatch Message
   const suiteNames = selectedSuites.map((s) => s.name).join(", ");
-  const waMessage = `*ROYAL CASTLE RESORT PALOLEM STAY INQUIRY*
+  const waMessage = `*ROYAL WOODS BEACH RESORT PALOLEM STAY INQUIRY*
 ----------------------------------------
 Guest Name: ${guestName || "Guest"}
 Phone: ${guestPhone || "Not provided"}
 Check-in: ${checkIn}
 Check-out: ${checkOut} (${nights} night${nights > 1 ? "s" : ""})
 Guests: ${guestCount}
-Rooms/Suites Selected: ${suiteNames || "General Stay Inquiry"}
+Cottages/Rooms Selected: ${suiteNames || "General Stay Inquiry"}
 Estimated Tariff: ₹${baseTotal.toLocaleString()}
 ----------------------------------------
-Please confirm room availability and booking tariff.`;
+Please confirm cottage availability and booking tariff.`;
 
   return (
     <div className="drawer-backdrop" onClick={onClose}>

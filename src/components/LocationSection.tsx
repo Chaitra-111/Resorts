@@ -14,10 +14,10 @@ export const LocationSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Prime Palolem Beach Location</span>
+          <span className="section-label">Direct Beachfront Palolem Location</span>
           <h2 className="section-title">Location & Getting Here</h2>
           <p className="section-desc">
-            Located on Palolem Street in Mohanbagh, Canacona, South Goa — just 50 meters (1-minute walk) to Palolem Beach sands, near the Blue Lagoon, and 2 km from Canacona Railway Station.
+            Situated on Ourem Road in Mohanbagh, Canacona, South Goa — directly on Palolem Beach sand (0m walk), near Art Resort and Ourem river estuary, just 2.5 km from Canacona Railway Station.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export const LocationSection: React.FC = () => {
                 }}
               >
                 <Compass size={16} />
-                <span>Palolem Street · Mohanbagh, Canacona</span>
+                <span>Ourem Road · Mohanbagh, Canacona</span>
               </div>
 
               <h3 style={{ fontSize: "1.8rem", color: "var(--ink)", marginBottom: "0.8rem" }}>
@@ -96,28 +96,28 @@ export const LocationSection: React.FC = () => {
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Waves size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>50m to Palolem Beach Sands:</strong> Walk 1 minute straight onto Palolem's famous golden crescent.
+                    <strong>Direct Palolem Beachfront (0m):</strong> Step right onto the soft sands of Palolem's famous golden crescent.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Landmark size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Near Blue Lagoon & Neptune Point:</strong> Scenic headlands, sunset spots, and boat excursion departure.
+                    <strong>Near Art Resort & Ourem Estuary:</strong> Peaceful southern beach stretch, scenic boat tours, and quiet cafes.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Car size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>2 km to Canacona Railway Station:</strong> Quick 5-minute auto or taxi ride; easy transfers to Goa airports.
+                    <strong>2.5 km to Canacona Railway Station:</strong> Quick 5 to 7-minute auto or taxi ride; convenient Goa airport links.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Clock size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Front Desk & Dining:</strong> 24/7 Reception · Multi-Cuisine Restaurant & Bar 7:30 AM – 11:30 PM.
+                    <strong>Front Desk & Beach Shack:</strong> 24/7 Reception · Shack Restaurant & Bar 7:30 AM – 11:30 PM.
                   </span>
                 </div>
 
@@ -166,7 +166,7 @@ export const LocationSection: React.FC = () => {
             }}
           >
             <iframe
-              title="ROYAL CASTLE RESORT Palolem Goa Map"
+              title="Royal Woods Beach Resort Palolem Goa Map"
               src={RESORT_CONTACT.googleMapsEmbed}
               width="100%"
               height="100%"

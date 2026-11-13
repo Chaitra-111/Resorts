@@ -32,21 +32,21 @@ export const SearchModal: React.FC<SearchModalProps> = ({
       target: "experiences",
     })),
     {
-      title: "Sea-View Rooms & Wooden Beach Cottages",
+      title: "Beachfront Wooden Cottages & Sea-View Verandas",
       category: "Group Stays",
-      description: "Deluxe upper-floor sea-view balcony rooms, beach cottages & garden units just 50m from Palolem Beach.",
+      description: "Frontline sea-facing wooden cottages, elevated bay-view rooms & palm grove cottages directly on Palolem sand.",
       target: "banquets",
     },
     {
-      title: "Royal Castle Multi-Cuisine Restaurant & Bar",
+      title: "Royal Woods Beach Shack & Bar",
       category: "Dining",
-      description: "Fresh Goan seafood curries, tandoori grills, Chinese dishes, morning breakfast & sunset drinks.",
+      description: "Fresh Goan seafood curries, tandoori catch, wood-fired pizzas, beach breakfast & sunset cocktails on the sand.",
       target: "dining",
     },
     {
-      title: "Location on Palolem Street",
+      title: "Location on Ourem Road, Palolem Beachfront",
       category: "Location",
-      description: "Palolem Street, Mohanbagh — 50m to Palolem Beach sand, near Blue Lagoon & 2 km to Canacona Station.",
+      description: "Ourem Road, Mohanbagh — direct beachfront on Palolem Beach sand, near Art Resort & 2.5 km to Canacona Station.",
       target: "location",
     },
     {

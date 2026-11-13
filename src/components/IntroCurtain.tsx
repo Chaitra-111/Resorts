@@ -89,7 +89,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.35s",
             } as React.CSSProperties}
           >
-            "Sea-view balcony rooms & wooden beach cottages 50m from Palolem Beach."
+            "Handcrafted wooden beach cottages & sea-facing verandas directly on Palolem Beach sand."
           </span>
         </p>
       </div>

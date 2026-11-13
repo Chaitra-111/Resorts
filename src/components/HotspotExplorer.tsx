@@ -16,10 +16,10 @@ export const HotspotExplorer: React.FC = () => {
       <div className="content-container">
         <div className="section-header-center">
           <span className="section-label">Interactive Resort Showcase</span>
-          <h2 className="section-title">Explore Royal Castle & Palolem Shore</h2>
+          <h2 className="section-title">Explore Royal Woods & Palolem Beachfront</h2>
           <p className="section-desc">
-            Touch the pulsing points across our property to discover the sea-view balcony rooms, multi-cuisine restaurant & bar,
-            and the 50-meter pathway to Palolem Beach and the Blue Lagoon.
+            Touch the pulsing points across our property to discover the frontline wooden cottages, beach shack & bar,
+            and direct access to Palolem's golden sands and the peaceful Ourem estuary.
           </p>
         </div>
 
@@ -27,7 +27,7 @@ export const HotspotExplorer: React.FC = () => {
         <div className="hotspot-stage">
           <img
             src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=88"
-            alt="ROYAL CASTLE RESORT Palolem Beach Shoreline and Cottages"
+            alt="Royal Woods Beach Resort Palolem Beachfront and Wooden Cottages"
           />
 
           {/* Hotspot Pins */}

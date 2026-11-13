@@ -57,8 +57,8 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
             </div>
 
             <p style={{ fontSize: "0.92rem", lineHeight: 1.65, maxWidth: "340px", marginBottom: "1.5rem" }}>
-              Palolem's inviting beachside resort offering deluxe sea-view balcony rooms, wooden cottages,
-              and on-site multi-cuisine dining just 50 meters from Palolem Beach in South Goa.
+              Palolem's authentic beachfront resort offering handcrafted wooden cottages, sea-facing verandas,
+              and on-site beach shack dining directly on the sands of Palolem Beach in South Goa.
             </p>
 
             {/* Atmosphere Mood Switcher in Footer */}
@@ -138,11 +138,11 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
               Palolem & Canacona Landmarks
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.9rem", color: "var(--ink)" }}>
-              <li>• Palolem Beach Sands (50m / 1-Min Walk)</li>
-              <li>• Palolem Blue Lagoon & Neptune Point (Nearby)</li>
-              <li>• Monkey Island & Butterfly Beach (By Boat)</li>
+              <li>• Direct Palolem Beachfront (0m / Step onto Sand)</li>
+              <li>• Art Resort & Ourem Estuary (Directly Adjacent)</li>
+              <li>• Butterfly Beach & Dolphin Boats (By Shore)</li>
               <li>• Colomb Bay & Patnem Beach (~1.5 km)</li>
-              <li>• Canacona Railway Station (~2 km)</li>
+              <li>• Canacona Railway Station (~2.5 km)</li>
               <li>• Agonda Beach & Turtle Sanctuary (~9 km)</li>
             </ul>
           </div>

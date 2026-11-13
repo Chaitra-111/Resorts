@@ -47,10 +47,10 @@ export const AmenitiesSection: React.FC = () => {
       <div className="content-container">
         <div className="section-header-center">
           <span className="section-label">Resort Amenities & Beachside Comfort</span>
-          <h2 className="section-title">Sea-View Balconies, Garden Cottages & 50m to Palolem Beach</h2>
+          <h2 className="section-title">Frontline Wooden Cottages, Beach Shack & Direct Palolem Sand</h2>
           <p className="section-desc">
-            Every amenity at ROYAL CASTLE RESORT Palolem is tailored for an effortless holiday—combining air-conditioned
-            comfort, scenic balconies, multi-cuisine dining, free Wi-Fi, and instant steps to Palolem Beach.
+            Every amenity at Royal Woods Beach Resort is tailored for an effortless holiday—combining air-conditioned
+            comfort, wooden sea-facing porches, on-site beach shack dining, sun loungers, free Wi-Fi, and direct steps onto Palolem Beach.
           </p>
         </div>
 
