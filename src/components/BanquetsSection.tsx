@@ -34,7 +34,7 @@ export const BanquetsSection: React.FC = () => {
             >
               <img
                 src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1400&q=85"
-                alt="Beachfront Group Stays and Wooden Cottages at Royal Woods Beach Resort Palolem"
+                alt="Beachfront Group Stays and Wooden Cottages at Mia's Beach Resort Patnem"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -64,13 +64,13 @@ export const BanquetsSection: React.FC = () => {
                   textTransform: "uppercase",
                 }}
               >
-                Frontline Beach Living
+                Patnem Beach Living
               </span>
               <h4 style={{ fontSize: "1.7rem", color: "var(--ink)", margin: "0.2rem 0" }}>
                 Wooden Cottages
               </h4>
               <p style={{ fontSize: "0.82rem", color: "var(--muted)" }}>
-                Sea-Facing Verandas, Palm Grove Cottages & Beach Shack.
+                Sea-Facing Verandas, Palm Grove Huts & Beach Shack.
               </p>
             </div>
           </div>
@@ -82,13 +82,13 @@ export const BanquetsSection: React.FC = () => {
               className="section-title"
               style={{ marginBottom: "1.25rem" }}
             >
-              Beachfront Cottages, Sea-View Verandas & Palolem Escapes.
+              Beachfront Cottages, Sea-Facing Verandas & Patnem Holidays.
             </h2>
 
             <p style={{ fontSize: "1.05rem", lineHeight: 1.7, marginBottom: "2rem", color: "var(--muted)" }}>
-              Planning a South Goa beach holiday with friends, a family reunion by the ocean, or a relaxed retreat?
-              Royal Woods Beach Resort offers multi-cottage bookings, beachfront porches, and on-site beach shack dining
-              directly on the sand in Palolem.
+              Planning a South Goa beach holiday with friends, a yoga getaway, or a peaceful family retreat?
+              Mia's Beach Resort offers multi-cottage bookings, private sea-facing verandas, and on-site beach shack dining
+              just 30 meters from the sand in Patnem.
             </p>
 
             <div
@@ -103,9 +103,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Sparkles size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Frontline Beach Access</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>30m Beach Access</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Step straight from your private wooden porch onto the golden sand of Palolem.
+                    Step directly from your private wooden porch onto the peaceful sands of Patnem Beach.
                   </p>
                 </div>
               </div>
@@ -123,9 +123,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Music size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Dolphin Trips & Kayaks</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Colomb Bay & Yoga</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Convenient departures directly from Ourem beach for boat safaris and Butterfly Beach.
+                    Close to scenic coastal walking paths, Colomb Bay viewpoints, and Patnem yoga studios.
                   </p>
                 </div>
               </div>
@@ -133,9 +133,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <HeartHandshake size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Beach Shack Group Dining</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Shack Group Dining</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Feast together with candlelit sand tables, fresh seafood platters, and tandoori grills.
+                    Feast together with candlelit sand tables, fresh seafood platters, and wood-fired pizzas.
                   </p>
                 </div>
               </div>
@@ -144,7 +144,7 @@ export const BanquetsSection: React.FC = () => {
             <div className="banquets-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <a
                 href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent(
-                  "Hello Royal Woods Beach Resort Palolem, I am interested in inquiring about group cottage bookings and rates."
+                  "Hello Mia's Beach Resort Patnem, I am interested in inquiring about group cottage bookings and rates."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"

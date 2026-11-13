@@ -32,21 +32,21 @@ export const SearchModal: React.FC<SearchModalProps> = ({
       target: "experiences",
     })),
     {
-      title: "Beachfront Wooden Cottages & Sea-View Verandas",
+      title: "Beachfront Wooden Cottages & Sea-Facing Verandas",
       category: "Group Stays",
-      description: "Frontline sea-facing wooden cottages, elevated bay-view rooms & palm grove cottages directly on Palolem sand.",
+      description: "Frontline sea-facing wooden cottages, palm grove cottages & beach huts directly on Patnem sand.",
       target: "banquets",
     },
     {
-      title: "Royal Woods Beach Shack & Bar",
+      title: "Mia's Beach Shack & Cafe",
       category: "Dining",
-      description: "Fresh Goan seafood curries, tandoori catch, wood-fired pizzas, beach breakfast & sunset cocktails on the sand.",
+      description: "Fresh Goan seafood curries, wood-fired pizzas, healthy smoothie bowls, beach breakfast & sunset cocktails on the sand.",
       target: "dining",
     },
     {
-      title: "Location on Ourem Road, Palolem Beachfront",
+      title: "Location near Home Patnem, Patnem Beach",
       category: "Location",
-      description: "Ourem Road, Mohanbagh — direct beachfront on Palolem Beach sand, near Art Resort & 2.5 km to Canacona Station.",
+      description: "Near Home Patnem, Patnem Beach — 30m to Patnem Beach sand, near Colomb Bay & 3 km to Canacona Station.",
       target: "location",
     },
     {

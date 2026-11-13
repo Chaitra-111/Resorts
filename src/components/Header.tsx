@@ -51,8 +51,8 @@ export const Header: React.FC<HeaderProps> = ({
               <path d="M14 48H50" />
             </svg>
             <div className="brand-text">
-              <span className="brand-word">ROYAL WOODS</span>
-              <span className="brand-sub">Palolem Beach · Beachfront Cottages</span>
+              <span className="brand-word">MIA'S BEACH RESORT</span>
+              <span className="brand-sub">Patnem Beach · Beachfront Cottages</span>
             </div>
           </a>
 
@@ -160,7 +160,7 @@ export const Header: React.FC<HeaderProps> = ({
                 <ArrowRight size={16} />
               </a>
               <a href="#hotspots" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Explore Palolem Shore</span>
+                <span>Explore Patnem Shore</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#dining" onClick={closeMobileMenu} className="mobile-nav-item">

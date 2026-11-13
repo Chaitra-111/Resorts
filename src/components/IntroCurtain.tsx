@@ -58,7 +58,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.1s",
             } as React.CSSProperties}
           >
-            Palolem Beach · South Goa
+            Patnem Beach · South Goa
           </span>
         </span>
 
@@ -89,7 +89,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.35s",
             } as React.CSSProperties}
           >
-            "Handcrafted wooden beach cottages & sea-facing verandas directly on Palolem Beach sand."
+            "Handcrafted wooden beach cottages & sea-facing verandas just 30m from Patnem Beach."
           </span>
         </p>
       </div>

@@ -47,10 +47,10 @@ export const AmenitiesSection: React.FC = () => {
       <div className="content-container">
         <div className="section-header-center">
           <span className="section-label">Resort Amenities & Beachside Comfort</span>
-          <h2 className="section-title">Frontline Wooden Cottages, Beach Shack & Direct Palolem Sand</h2>
+          <h2 className="section-title">Wooden Beach Cottages, Beach Shack & 30m to Patnem Sand</h2>
           <p className="section-desc">
-            Every amenity at Royal Woods Beach Resort is tailored for an effortless holiday—combining air-conditioned
-            comfort, wooden sea-facing porches, on-site beach shack dining, sun loungers, free Wi-Fi, and direct steps onto Palolem Beach.
+            Every amenity at Mia's Beach Resort is tailored for an effortless holiday—combining air-conditioned
+            comfort, wooden sea-facing porches, on-site beach shack dining, sun loungers, free Wi-Fi, and instant steps onto Patnem Beach.
           </p>
         </div>
 

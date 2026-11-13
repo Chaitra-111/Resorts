@@ -14,10 +14,10 @@ export const DiningSection: React.FC = () => {
       <div className="content-container">
         <div className="section-header-center">
           <span className="section-label">Coastal Gastronomy & Beach Shack Dining</span>
-          <h2 className="section-title">Royal Woods Beach Shack & Bar</h2>
+          <h2 className="section-title">Mia's Beach Shack & Cafe</h2>
           <p className="section-desc">
-            Dine with your feet in the warm sand overlooking the turquoise bay.
-            From freshly grilled Arabian Sea seafood and traditional Goan fish curries to sizzling tandoori grills, pizzas, and sunset cocktails.
+            Dine right on the soft sands of Patnem Beach overlooking the quiet bay.
+            From freshly grilled Arabian Sea seafood and traditional Goan curries to wood-fired pizzas, healthy smoothie bowls, and sunset cocktails.
           </p>
         </div>
 
@@ -27,7 +27,7 @@ export const DiningSection: React.FC = () => {
             <div style={{ position: "relative", height: "210px", borderRadius: "14px", overflow: "hidden", marginBottom: "1.5rem" }}>
               <img
                 src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80"
-                alt="Fresh Goan Seafood and Coastal Curries at Royal Woods Beach Resort Palolem"
+                alt="Fresh Goan Seafood and Coastal Curries at Mia's Beach Resort Patnem"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -38,20 +38,20 @@ export const DiningSection: React.FC = () => {
               </span>
             </div>
             <h3 style={{ fontSize: "1.5rem", marginBottom: "0.8rem", color: "var(--ink)" }}>
-              Palolem Fresh Seafood
+              Patnem Fresh Seafood
             </h3>
             <p style={{ fontSize: "0.94rem", lineHeight: 1.65, color: "var(--muted)" }}>
               Savor fresh catch tandoori pomfret, kingfish rava fry, garlic butter jumbo prawns, and spicy coconut Goan fish
-              curry served with hot steamed rice and local accompaniments.
+              curry served with hot steamed rice and fresh salads.
             </p>
           </div>
 
-          {/* Card 2: Garden Bar & Sunset Drinks */}
+          {/* Card 2: Beach Bar & Sunset Drinks */}
           <div className="card-tilt" style={{ padding: "2.2rem" }}>
             <div style={{ position: "relative", height: "210px", borderRadius: "14px", overflow: "hidden", marginBottom: "1.5rem" }}>
               <img
                 src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
-                alt="Sunset Cocktails and Chilled Drinks at Royal Woods Beach Shack"
+                alt="Sunset Cocktails and Chilled Drinks at Mia's Beach Shack"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -62,11 +62,11 @@ export const DiningSection: React.FC = () => {
               </span>
             </div>
             <h3 style={{ fontSize: "1.5rem", marginBottom: "0.8rem", color: "var(--ink)" }}>
-              Royal Woods Beach Bar
+              Mia's Sunset Bar
             </h3>
             <p style={{ fontSize: "0.94rem", lineHeight: 1.65, color: "var(--muted)" }}>
-              Relax right by the tide with chilled beers, handcrafted tropical mojitos, local cashew Feni concoctions,
-              and refreshing fruit juices as twilight blankets the Palolem crescent.
+              Relax right beside the water with chilled beers, handcrafted tropical mojitos, local cashew Feni infusions,
+              and fresh fruit mocktails as twilight blankets the Patnem horizon.
             </p>
           </div>
 
@@ -75,22 +75,22 @@ export const DiningSection: React.FC = () => {
             <div style={{ position: "relative", height: "210px", borderRadius: "14px", overflow: "hidden", marginBottom: "1.5rem" }}>
               <img
                 src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80"
-                alt="Morning Breakfast and Coffee at Royal Woods Beach Resort"
+                alt="Morning Breakfast and Coffee at Mia's Beach Resort"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", color: "var(--amber)", marginBottom: "0.5rem" }}>
               <Sun size={18} />
               <span style={{ fontSize: "0.76rem", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase" }}>
-                Oceanfront Breakfast & Cottage Service
+                Oceanfront Breakfast & Cafe Service
               </span>
             </div>
             <h3 style={{ fontSize: "1.5rem", marginBottom: "0.8rem", color: "var(--ink)" }}>
-              Palolem Shore Breakfast
+              Patnem Shore Breakfast
             </h3>
             <p style={{ fontSize: "0.94rem", lineHeight: 1.65, color: "var(--muted)" }}>
-              Begin your coastal morning with banana pancakes, masala eggs, muesli bowls, fresh fruit platters,
-              and rich South Indian filter coffee or tea served directly overlooking the sea.
+              Begin your morning with banana pancakes, masala eggs, muesli smoothie bowls, fresh tropical fruit platters,
+              and rich French press coffee served on shaded sand tables or your private cottage veranda.
             </p>
           </div>
         </div>
