@@ -57,8 +57,8 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
             </div>
 
             <p style={{ fontSize: "0.92rem", lineHeight: 1.65, maxWidth: "340px", marginBottom: "1.5rem" }}>
-              Palolem's peaceful cottage retreat offering handcrafted wooden cabins, authentic beach huts, family quad suites,
-              and on-site multi-cuisine dining just 100 meters from the sand in South Goa.
+              Rajbagh's premier resort retreat offering a sparkling swimming pool, executive suites, wellness spa,
+              and multi-cuisine dining near The LaLiT Golf Course and Rajbagh Beach in South Goa.
             </p>
 
             {/* Atmosphere Mood Switcher in Footer */}
@@ -97,12 +97,12 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.92rem" }}>
               <li>
                 <a href="#suites" className="footer-link">
-                  Cottages & Huts
+                  Suites & Rooms
                 </a>
               </li>
               <li>
                 <a href="#hotspots" className="footer-link">
-                  Palolem & Ourem Hotspots
+                  Pool & Beach Hotspots
                 </a>
               </li>
               <li>
@@ -112,7 +112,7 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
               </li>
               <li>
                 <a href="#banquets" className="footer-link">
-                  Family & Group Cottages
+                  Family Suites & Events
                 </a>
               </li>
               <li>
@@ -135,15 +135,15 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 marginBottom: "1.2rem",
               }}
             >
-              Palolem & Canacona Landmarks
+              Rajbagh & Canacona Landmarks
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.9rem", color: "var(--ink)" }}>
-              <li>• Palolem Beach Sands (100m / 2-Min Walk)</li>
-              <li>• Ourem Shore & Beach Shacks (Nearby)</li>
-              <li>• Colomb Bay & Patnem Trail (~1.5 km)</li>
-              <li>• Butterfly & Honeymoon Cove (By Boat)</li>
-              <li>• Canacona Railway Station (~2 km)</li>
-              <li>• Agonda Beach & Turtle Reserve (~9 km)</li>
+              <li>• Rajbagh Beach Sands (500m / 5-Min Walk)</li>
+              <li>• The LaLiT Golf & Spa Resort (Adjacent)</li>
+              <li>• Talpona River Estuary (~800m)</li>
+              <li>• Patnem Beach Crescent (~2.5 km)</li>
+              <li>• Canacona Railway Station (~3 km)</li>
+              <li>• Palolem Beach & Butterfly Cove (~4 km)</li>
             </ul>
           </div>
 

@@ -35,7 +35,7 @@ export const ReservationDrawer: React.FC<ReservationDrawerProps> = ({
 
   // WhatsApp Dispatch Message
   const suiteNames = selectedSuites.map((s) => s.name).join(", ");
-  const waMessage = `*DREAMS OF PALOLEM BEACH RESORT STAY INQUIRY*
+  const waMessage = `*ROYAL RESORT RAJBAG STAY INQUIRY*
 ----------------------------------------
 Guest Name: ${guestName || "Guest"}
 Phone: ${guestPhone || "Not provided"}

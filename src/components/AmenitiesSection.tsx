@@ -46,11 +46,11 @@ export const AmenitiesSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Resort Amenities & Coastal Comforts</span>
-          <h2 className="section-title">Crafted for Relaxed Beach Living, 100m to Palolem Shore</h2>
+          <span className="section-label">Resort Amenities & Premium Leisure</span>
+          <h2 className="section-title">Outdoor Swimming Pool, Spa & Rajbagh Beachfront Proximity</h2>
           <p className="section-desc">
-            Every amenity at Dreams of Palolem Beach Resort is tailored for effortless seaside relaxation—combining
-            handcrafted wooden cottages, split A/C, 24/7 hot showers, on-site multi-cuisine dining, and instant beach access.
+            Every amenity at Royal Resort Rajbag is designed for upscale comfort—featuring a sparkling outdoor swimming pool,
+            rejuvenating wellness spa, on-property night club, multi-cuisine restaurant, and 500m walk to Rajbagh Beach.
           </p>
         </div>
 

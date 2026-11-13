@@ -34,7 +34,7 @@ export const BanquetsSection: React.FC = () => {
             >
               <img
                 src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1400&q=85"
-                alt="Family Quad Cottages, Group Holidays and Gatherings at Dreams of Palolem Beach Resort"
+                alt="Family Suites, Group Vacations and Poolside Gatherings at Royal Resort Rajbag"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -67,28 +67,28 @@ export const BanquetsSection: React.FC = () => {
                 Group & Family Capacity
               </span>
               <h4 style={{ fontSize: "1.7rem", color: "var(--ink)", margin: "0.2rem 0" }}>
-                Cottages & Quad
+                Suites & Pool
               </h4>
               <p style={{ fontSize: "0.82rem", color: "var(--muted)" }}>
-                Deluxe Wooden Cottages, Quad Units & Traditional Beach Huts.
+                Executive Pool-View Suites, Family Units & Swimming Pool Deck.
               </p>
             </div>
           </div>
 
           {/* Editorial Content */}
           <div>
-            <span className="section-label">Family Vacations, Group Holidays & Palm Getaways</span>
+            <span className="section-label">Family Vacations, Group Stays & Poolside Events</span>
             <h2
               className="section-title"
               style={{ marginBottom: "1.25rem" }}
             >
-              Family Quad Cottages, Group Escapes & Palolem Beach Holidays.
+              Deluxe Family Suites, Group Getaways & Poolside Celebrations.
             </h2>
 
             <p style={{ fontSize: "1.05rem", lineHeight: 1.7, marginBottom: "2rem", color: "var(--muted)" }}>
-              Planning a beach holiday with family, a reunion with close friends, or a group trip to South Goa?
-              Dreams of Palolem Beach Resort offers spacious family quad cottages and multi-cottage bookings in our lush
-              Mohanbagh courtyard, just 100 meters from the sand.
+              Planning a South Goa family holiday, celebrating an anniversary, or organizing a group retreat near the beach?
+              Royal Resort Rajbag offers spacious two-bed family suites, block room bookings, poolside bonfire arrangements,
+              and on-site dining just 500m from Rajbagh Beach.
             </p>
 
             <div
@@ -103,9 +103,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Sparkles size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Family Quad Cottages</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Deluxe Family Suites</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Two plush queen beds and wide veranda accommodating families and groups together.
+                    Two plush queen beds, living area, and private balcony accommodating families with ease.
                   </p>
                 </div>
               </div>
@@ -113,9 +113,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Users size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Multi-Cottage Clusters</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Poolside Group Buyouts</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Reserve adjacent wooden cottages in our peaceful palm garden for group exclusivity.
+                    Reserve clusters of executive suites and rooms around the pool deck for private gatherings.
                   </p>
                 </div>
               </div>
@@ -123,9 +123,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Music size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Butterfly Beach & Dolphin Boats</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Night Club & Bonfire Nights</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Coordinated boat trips, kayak adventures, and scooter rentals to explore South Goa coves.
+                    On-site nightlife venue with DJ music plus cozy outdoor evening bonfire experiences.
                   </p>
                 </div>
               </div>
@@ -133,9 +133,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <HeartHandshake size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Restaurant Group Dining</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Spa & Wellness Packages</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Group lunch & dinner arrangements with fresh seafood platters, curries, and drinks.
+                    Dedicated on-property spa offering customized massage and relaxation treatments.
                   </p>
                 </div>
               </div>
@@ -144,7 +144,7 @@ export const BanquetsSection: React.FC = () => {
             <div className="banquets-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <a
                 href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent(
-                  "Hello Dreams of Palolem Beach Resort, I am interested in inquiring about group cottage bookings and family quad options."
+                  "Hello Royal Resort Rajbag, I am interested in inquiring about group bookings and family suite rates."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"

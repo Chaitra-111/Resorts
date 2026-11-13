@@ -32,21 +32,21 @@ export const SearchModal: React.FC<SearchModalProps> = ({
       target: "experiences",
     })),
     {
-      title: "Family Quad Cottages & Group Stays",
+      title: "Executive & Deluxe Family Suites",
       category: "Group Stays",
-      description: "Spacious wooden quad cottages with two queen beds, ideal for families and group vacations 100m from Palolem.",
+      description: "Two-bed deluxe family suites, executive pool-view rooms, and group blocks 500m from Rajbagh Beach.",
       target: "banquets",
     },
     {
-      title: "Dreams of Palolem Restaurant & Bar",
+      title: "Royal Multi-Cuisine Restaurant & Bar",
       category: "Dining",
-      description: "Fresh Goan seafood, North Indian tandoori grills, Chinese dishes, sunset cocktails & veranda room service.",
+      description: "Authentic Goan seafood curries, sizzling tandoor grills, poolside breakfast, cocktails, and night club lounge.",
       target: "dining",
     },
     {
-      title: "Location in Mohanbagh, Palolem Beach",
+      title: "Location in Rajbag Tarir, Canacona",
       category: "Location",
-      description: "Plot No. 103/5-B, Ourem Road, Mohanbagh — 100m walk to Palolem Beach, 2 km to Canacona Railway Station.",
+      description: "Rajbag Tarir / Kindlebag, near The LaLiT Golf & Spa — 500m to Rajbagh Beach, 3 km to Canacona Station.",
       target: "location",
     },
     {

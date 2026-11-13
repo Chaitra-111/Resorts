@@ -14,10 +14,10 @@ export const LocationSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Prime Palolem Beach Location</span>
+          <span className="section-label">Prime Rajbagh Beach Location</span>
           <h2 className="section-title">Location & Getting Here</h2>
           <p className="section-desc">
-            Located at Plot No. 103/5-B (H.No. 61/1A), Ourem Road, Mohanbagh on Palolem Beach, Canacona, South Goa — barely 100 meters (2-min walk) onto the golden sand and just 2 km from Canacona Railway Station.
+            Located at Rajbag Tarir in Kindlebag (near The LaLiT Golf & Spa Resort), Canacona, South Goa — an easy 500m walk to pristine Rajbagh Beach and just 3 km from Canacona Railway Station.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export const LocationSection: React.FC = () => {
                 }}
               >
                 <Compass size={16} />
-                <span>Ourem Road · Mohanbagh, Palolem</span>
+                <span>Rajbag Tarir · Kindlebag, Canacona</span>
               </div>
 
               <h3 style={{ fontSize: "1.8rem", color: "var(--ink)", marginBottom: "0.8rem" }}>
@@ -96,35 +96,35 @@ export const LocationSection: React.FC = () => {
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Waves size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>100m (2-Min Walk) to Palolem Beach:</strong> Stroll directly down the path onto calm crescent bay sands.
+                    <strong>500m to Rajbagh Beach Sands:</strong> Quick 5-minute walk down to quiet shores and Talpona estuary.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Landmark size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Near Colomb Bay & Butterfly Island:</strong> 5 mins to Colomb Bay walking trail and boat excursion points.
+                    <strong>Next to The LaLiT Golf & Spa:</strong> Championship golf greens and lush coastal canopy neighborhood.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Car size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>2 km to Canacona Railway Station:</strong> Quick 5-minute taxi or auto-rickshaw ride from the local station.
+                    <strong>3 km to Canacona Railway Station:</strong> Quick 7-minute drive; 2.5 km to Patnem Beach & 4 km to Palolem.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Clock size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Front Desk & Dining:</strong> 24/7 Reception · Restaurant & Bar open 7:30 AM – 11:30 PM.
+                    <strong>Front Desk & Dining:</strong> 24/7 Reception & Concierge · Restaurant 7:00 AM – 11:30 PM.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Phone size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Direct Reception:</strong> {RESORT_CONTACT.phone} · {RESORT_CONTACT.email}
+                    <strong>Direct Reception:</strong> {RESORT_CONTACT.phone} / {RESORT_CONTACT.phoneAlt}
                   </span>
                 </div>
               </div>
@@ -166,7 +166,7 @@ export const LocationSection: React.FC = () => {
             }}
           >
             <iframe
-              title="Dreams of Palolem Beach Resort Goa Map"
+              title="Royal Resort Rajbag Goa Map"
               src={RESORT_CONTACT.googleMapsEmbed}
               width="100%"
               height="100%"

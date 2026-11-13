@@ -13,84 +13,84 @@ export const DiningSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">On-Site Dining & Garden Lounge</span>
-          <h2 className="section-title">Dreams of Palolem Multi-Cuisine Restaurant & Bar</h2>
+          <span className="section-label">Poolside Dining & Refreshing Cocktails</span>
+          <h2 className="section-title">Royal Multi-Cuisine Restaurant & Lounge Bar</h2>
           <p className="section-desc">
-            Savor delicious coastal dining just steps from the shore. From freshly caught Arabian Sea fish and Goan curries
-            to authentic North Indian tandoori grills, Chinese wok favorites, and chilled drinks.
+            Dine right beside our sparkling outdoor swimming pool or in our spacious indoor dining pavilion.
+            Serving authentic Goan seafood curries, sizzling tandoori grills, continental breakfast classics, and tropical drinks.
           </p>
         </div>
 
         <div className="dining-grid">
-          {/* Card 1: Fresh Seafood & Goan Specialties */}
+          {/* Card 1: Fresh Catch & Goan Coastal Cuisine */}
           <div className="card-tilt" style={{ padding: "2.2rem" }}>
             <div style={{ position: "relative", height: "210px", borderRadius: "14px", overflow: "hidden", marginBottom: "1.5rem" }}>
               <img
                 src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80"
-                alt="Fresh Goan Seafood and Tandoori Grills at Dreams of Palolem"
+                alt="Goan Coastal Seafood and Tandoori Delicacies at Royal Resort Rajbag"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", color: "var(--amber)", marginBottom: "0.5rem" }}>
               <Utensils size={18} />
               <span style={{ fontSize: "0.76rem", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase" }}>
-                Fresh Catch & Curries
+                Authentic Coastal & Tandoor
               </span>
             </div>
             <h3 style={{ fontSize: "1.5rem", marginBottom: "0.8rem", color: "var(--ink)" }}>
-              Goan Seafood & Tandoor
+              Rajbagh Seafood & Curries
             </h3>
             <p style={{ fontSize: "0.94rem", lineHeight: 1.65, color: "var(--muted)" }}>
-              Choose your fresh catch—kingfish rava fry, tandoori pomfret, butter garlic prawns, or traditional Goan fish curry
-              rice cooked with authentic local spices.
+              Savor spicy Goan fish curry rice, butter garlic lobster, crispy rava fried kingfish, and tandoori platters
+              prepared with fresh local ingredients by our culinary team.
             </p>
           </div>
 
-          {/* Card 2: Dreams Garden Bar & Sunset Drinks */}
+          {/* Card 2: Poolside Bar & Lounge */}
           <div className="card-tilt" style={{ padding: "2.2rem" }}>
             <div style={{ position: "relative", height: "210px", borderRadius: "14px", overflow: "hidden", marginBottom: "1.5rem" }}>
               <img
                 src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
-                alt="Chilled Beers and Cocktails at Dreams of Palolem Bar"
+                alt="Poolside Drinks and Night Club Lounge at Royal Resort"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", color: "var(--amber)", marginBottom: "0.5rem" }}>
               <Wine size={18} />
               <span style={{ fontSize: "0.76rem", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase" }}>
-                Sunset Drinks & Cocktails
+                Poolside Lounge & Night Club
               </span>
             </div>
             <h3 style={{ fontSize: "1.5rem", marginBottom: "0.8rem", color: "var(--ink)" }}>
-              Dreams Garden Bar
+              Poolside Bar & Evening Lounge
             </h3>
             <p style={{ fontSize: "0.94rem", lineHeight: 1.65, color: "var(--muted)" }}>
-              Unwind beneath tropical palms with ice-cold beers, handcrafted cocktails, Goan cashew Feni mixes, and fresh
-              fruit juices after a sun-soaked afternoon at the beach.
+              Relax by the poolside sun deck with handcrafted tropical cocktails, chilled beers, and evening music in our
+              vibrant on-site night club and lounge space.
             </p>
           </div>
 
-          {/* Card 3: Morning Breakfast on the Veranda */}
+          {/* Card 3: Morning Breakfast & Room Service */}
           <div className="card-tilt" style={{ padding: "2.2rem" }}>
             <div style={{ position: "relative", height: "210px", borderRadius: "14px", overflow: "hidden", marginBottom: "1.5rem" }}>
               <img
                 src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80"
-                alt="Morning Breakfast and Room Service at Dreams of Palolem"
+                alt="Morning Breakfast and Suite Room Service at Royal Resort Rajbag"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", color: "var(--amber)", marginBottom: "0.5rem" }}>
               <Sun size={18} />
               <span style={{ fontSize: "0.76rem", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase" }}>
-                Morning Breeze & Room Service
+                Poolside Breakfast & Room Dining
               </span>
             </div>
             <h3 style={{ fontSize: "1.5rem", marginBottom: "0.8rem", color: "var(--ink)" }}>
-              Veranda Breakfast Service
+              Suite Balcony Breakfast
             </h3>
             <p style={{ fontSize: "0.94rem", lineHeight: 1.65, color: "var(--muted)" }}>
-              Start your Palolem day with freshly brewed coffee, masala omelettes, warm parathas, pancakes, or tropical
-              fruit bowls served on your private cottage veranda.
+              Wake up to delicious breakfast spreads—fresh fruit platters, South Indian dosas, eggs to order, and hot brewed
+              coffee served beside the pool or directly on your private suite balcony.
             </p>
           </div>
         </div>

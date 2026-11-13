@@ -47,11 +47,11 @@ export const MomentsCarousel: React.FC = () => {
         {/* Section Header */}
         <div className="section-header-split">
           <div className="left">
-            <span className="section-label">A Day at Dreams of Palolem</span>
-            <h2 className="section-title">Wooden Cottage & Palolem Bay Moments</h2>
+            <span className="section-label">A Day at Royal Resort Rajbag</span>
+            <h2 className="section-title">Swimming Pool & Rajbagh Beach Moments</h2>
             <p className="section-desc">
-              From morning coffee on your shaded wooden porch to 100m walks onto calm Palolem sands, fresh tandoori seafood
-              feasts, and relaxed starlit evenings in Mohanbagh.
+              From morning swims in our outdoor pool and scenic walks along the Talpona estuary, to soothing spa therapies,
+              delicious Goan fish curries, and starlit poolside drinks.
             </p>
           </div>
 

@@ -16,18 +16,18 @@ export const HotspotExplorer: React.FC = () => {
       <div className="content-container">
         <div className="section-header-center">
           <span className="section-label">Interactive Resort Showcase</span>
-          <h2 className="section-title">Explore Dreams of Palolem & Ourem Shore</h2>
+          <h2 className="section-title">Explore Royal Resort & Rajbagh Shore</h2>
           <p className="section-desc">
-            Touch the pulsing points across our property to discover the wooden cottages, on-site multi-cuisine restaurant & bar,
-            and the short 100m path leading straight onto Palolem Beach.
+            Touch the pulsing points across our property to discover the outdoor swimming pool, multi-cuisine restaurant & bar,
+            and the tranquil pathway to Rajbagh Beach and Talpona River estuary.
           </p>
         </div>
 
         {/* Visual Stage with Pulsing Hotspots */}
         <div className="hotspot-stage">
           <img
-            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=88"
-            alt="Dreams of Palolem Beach Resort Wooden Cottages near Palolem Beach"
+            src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1800&q=88"
+            alt="Royal Resort Rajbag Swimming Pool and Palm Gardens in Canacona"
           />
 
           {/* Hotspot Pins */}
