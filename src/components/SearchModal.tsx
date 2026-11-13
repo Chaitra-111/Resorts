@@ -32,21 +32,21 @@ export const SearchModal: React.FC<SearchModalProps> = ({
       target: "experiences",
     })),
     {
-      title: "Sea-Facing Huts & Family A/C Suites",
+      title: "Sea-View Rooms & Wooden Beach Cottages",
       category: "Group Stays",
-      description: "Direct ocean-view wooden huts, A/C bungalows, and family suites right on Patnem Beach sand.",
+      description: "Deluxe upper-floor sea-view balcony rooms, beach cottages & garden units just 50m from Palolem Beach.",
       target: "banquets",
     },
     {
-      title: "Casa Fiesta Restaurant & Sunset Bar",
+      title: "Royal Castle Multi-Cuisine Restaurant & Bar",
       category: "Dining",
-      description: "Famous toe-in-the-sand dining with fresh seafood catch, Mexican fajitas, tacos, Goan curries & beach loungers.",
+      description: "Fresh Goan seafood curries, tandoori grills, Chinese dishes, morning breakfast & sunset drinks.",
       target: "dining",
     },
     {
-      title: "Location at Patnem Beach Entrance",
+      title: "Location on Palolem Street",
       category: "Location",
-      description: "Patnem Beach Entrance, Canacona — 0m to beach sands, 5 mins walk to Colomb Bay, 3 km to Canacona Station.",
+      description: "Palolem Street, Mohanbagh — 50m to Palolem Beach sand, near Blue Lagoon & 2 km to Canacona Station.",
       target: "location",
     },
     {

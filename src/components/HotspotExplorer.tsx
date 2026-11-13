@@ -16,10 +16,10 @@ export const HotspotExplorer: React.FC = () => {
       <div className="content-container">
         <div className="section-header-center">
           <span className="section-label">Interactive Resort Showcase</span>
-          <h2 className="section-title">Explore Casa Fiesta & Patnem Shore</h2>
+          <h2 className="section-title">Explore Royal Castle & Palolem Shore</h2>
           <p className="section-desc">
-            Touch the pulsing points across our property to discover the sea-facing wooden beach huts, Casa Fiesta beachfront
-            restaurant & bar, and the scenic walking trail leading toward Colomb Bay.
+            Touch the pulsing points across our property to discover the sea-view balcony rooms, multi-cuisine restaurant & bar,
+            and the 50-meter pathway to Palolem Beach and the Blue Lagoon.
           </p>
         </div>
 
@@ -27,7 +27,7 @@ export const HotspotExplorer: React.FC = () => {
         <div className="hotspot-stage">
           <img
             src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=88"
-            alt="Casa Fiesta Sea Facing Resort Huts and Patnem Beach Shoreline"
+            alt="ROYAL CASTLE RESORT Palolem Beach Shoreline and Cottages"
           />
 
           {/* Hotspot Pins */}

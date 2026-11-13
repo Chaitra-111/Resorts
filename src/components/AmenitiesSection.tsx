@@ -46,11 +46,11 @@ export const AmenitiesSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Resort Amenities & Beachfront Living</span>
-          <h2 className="section-title">Direct Beach Access, Seafront Sunbeds & Sizzling Dining</h2>
+          <span className="section-label">Resort Amenities & Beachside Comfort</span>
+          <h2 className="section-title">Sea-View Balconies, Garden Cottages & 50m to Palolem Beach</h2>
           <p className="section-desc">
-            Every amenity at Casa Fiesta Sea Facing Resort is designed around barefoot coastal relaxation—featuring direct 0m
-            beach frontage, complimentary loungers, A/C bungalows, fresh seafood & Mexican dining, and warm Goan hospitality.
+            Every amenity at ROYAL CASTLE RESORT Palolem is tailored for an effortless holiday—combining air-conditioned
+            comfort, scenic balconies, multi-cuisine dining, free Wi-Fi, and instant steps to Palolem Beach.
           </p>
         </div>
 

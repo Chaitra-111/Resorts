@@ -34,7 +34,7 @@ export const BanquetsSection: React.FC = () => {
             >
               <img
                 src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1400&q=85"
-                alt="Group Beach Holidays, Family Suites and Candlelit Dining at Casa Fiesta Patnem Beach"
+                alt="Group Beach Vacations, Sea-View Rooms and Cottages at ROYAL CASTLE RESORT Palolem"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -64,31 +64,31 @@ export const BanquetsSection: React.FC = () => {
                   textTransform: "uppercase",
                 }}
               >
-                Group & Family Capacity
+                Group & Vacation Capacity
               </span>
               <h4 style={{ fontSize: "1.7rem", color: "var(--ink)", margin: "0.2rem 0" }}>
-                Huts & Suites
+                Rooms & Cottages
               </h4>
               <p style={{ fontSize: "0.82rem", color: "var(--muted)" }}>
-                Sea-Facing Huts, Deluxe A/C Bungalows & Beach Lounger Blocks.
+                Sea-View Balcony Rooms, Beach Cottages & Garden Units.
               </p>
             </div>
           </div>
 
           {/* Editorial Content */}
           <div>
-            <span className="section-label">Family Vacations, Group Holidays & Beach Gatherings</span>
+            <span className="section-label">Family Vacations, Group Stays & Beach Escapes</span>
             <h2
               className="section-title"
               style={{ marginBottom: "1.25rem" }}
             >
-              Family Beach Suites, Group Holidays & Candlelit Sand Dinners.
+              Sea-View Balconies, Group Cottage Blocks & Palolem Holidays.
             </h2>
 
             <p style={{ fontSize: "1.05rem", lineHeight: 1.7, marginBottom: "2rem", color: "var(--muted)" }}>
-              Planning a beachside family trip, gathering friends for a South Goa holiday, or organizing a relaxed coastal
-              retreat? Casa Fiesta offers multi-hut and bungalow bookings, spacious family A/C suites, candlelit beach dinners,
-              and reserved sunbed rows right on Patnem Beach.
+              Planning a South Goa beach getaway with friends, a family coastal vacation, or a group exploration
+              of Canacona? ROYAL CASTLE RESORT Palolem offers multi-room cottage blocks, sea-view balconies, and
+              on-site dining just 50 meters from the water.
             </p>
 
             <div
@@ -103,9 +103,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Sparkles size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Family A/C Suites</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Sea-View Balconies</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Comfortable multi-bed suites with split A/C and private verandas steps from the sand.
+                    Upper-floor vantage point overlooking Palolem Beach crescent and sunsets.
                   </p>
                 </div>
               </div>
@@ -113,9 +113,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Users size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Hut & Bungalow Clusters</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Group Cottage Blocks</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Reserve adjacent sea-facing huts and garden bungalows for private group comfort.
+                    Reserve clusters of wooden beach cottages and garden rooms together.
                   </p>
                 </div>
               </div>
@@ -123,9 +123,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Music size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Kayaks & Dolphin Excursions</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Dolphin Cruises & Kayaks</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Direct Patnem bay kayaking, dolphin spotting boat rides, and Butterfly Beach trips.
+                    Direct coordination for morning boat tours, Butterfly Beach trips, and kayaks.
                   </p>
                 </div>
               </div>
@@ -133,9 +133,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <HeartHandshake size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Candlelit Beach Dining</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Restaurant Group Dining</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Private group sand dinner setups with fresh seafood platters, fajitas, and cocktails.
+                    Arranged group lunches and dinners with fresh seafood curries and tandoori grills.
                   </p>
                 </div>
               </div>
@@ -144,7 +144,7 @@ export const BanquetsSection: React.FC = () => {
             <div className="banquets-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <a
                 href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent(
-                  "Hello Casa Fiesta Sea Facing Resort, I am interested in inquiring about group hut bookings and family suite rates."
+                  "Hello ROYAL CASTLE RESORT Palolem, I am interested in inquiring about group room bookings and cottage rates."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"

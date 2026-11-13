@@ -57,8 +57,8 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
             </div>
 
             <p style={{ fontSize: "0.92rem", lineHeight: 1.65, maxWidth: "340px", marginBottom: "1.5rem" }}>
-              Patnem's cherished beachfront resort offering sea-facing wooden huts, A/C bungalows, family suites,
-              and renowned toe-in-the-sand seafood & Mexican dining directly on Patnem Beach in South Goa.
+              Palolem's inviting beachside resort offering deluxe sea-view balcony rooms, wooden cottages,
+              and on-site multi-cuisine dining just 50 meters from Palolem Beach in South Goa.
             </p>
 
             {/* Atmosphere Mood Switcher in Footer */}
@@ -97,22 +97,22 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.92rem" }}>
               <li>
                 <a href="#suites" className="footer-link">
-                  Huts & Bungalows
+                  Rooms & Cottages
                 </a>
               </li>
               <li>
                 <a href="#hotspots" className="footer-link">
-                  Patnem Hotspots
+                  Palolem Hotspots
                 </a>
               </li>
               <li>
                 <a href="#dining" className="footer-link">
-                  Beachfront Restaurant & Bar
+                  Restaurant & Bar
                 </a>
               </li>
               <li>
                 <a href="#banquets" className="footer-link">
-                  Family Suites & Groups
+                  Family & Group Cottages
                 </a>
               </li>
               <li>
@@ -135,15 +135,15 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 marginBottom: "1.2rem",
               }}
             >
-              Patnem & Canacona Landmarks
+              Palolem & Canacona Landmarks
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.9rem", color: "var(--ink)" }}>
-              <li>• Patnem Beach Sands (0 meters / Direct)</li>
-              <li>• Colomb Bay Headland (~500m Walk)</li>
-              <li>• Palolem Beach Crescent (~1.5 km)</li>
-              <li>• Rajbagh Beach & Estuary (~2 km)</li>
-              <li>• Canacona Railway Station (~3 km)</li>
-              <li>• Butterfly & Honeymoon Cove (By Boat)</li>
+              <li>• Palolem Beach Sands (50m / 1-Min Walk)</li>
+              <li>• Palolem Blue Lagoon & Neptune Point (Nearby)</li>
+              <li>• Monkey Island & Butterfly Beach (By Boat)</li>
+              <li>• Colomb Bay & Patnem Beach (~1.5 km)</li>
+              <li>• Canacona Railway Station (~2 km)</li>
+              <li>• Agonda Beach & Turtle Sanctuary (~9 km)</li>
             </ul>
           </div>
 

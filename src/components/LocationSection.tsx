@@ -14,10 +14,10 @@ export const LocationSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Prime Patnem Beachfront Location</span>
+          <span className="section-label">Prime Palolem Beach Location</span>
           <h2 className="section-title">Location & Getting Here</h2>
           <p className="section-desc">
-            Located directly at the Patnem Beach Entrance in Canacona, South Goa — 0 meters directly on the sand, 5 minutes walk to Colomb Bay & Palolem Beach, and 3 km from Canacona Railway Station.
+            Located on Palolem Street in Mohanbagh, Canacona, South Goa — just 50 meters (1-minute walk) to Palolem Beach sands, near the Blue Lagoon, and 2 km from Canacona Railway Station.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export const LocationSection: React.FC = () => {
                 }}
               >
                 <Compass size={16} />
-                <span>Patnem Beachfront · Canacona Coast</span>
+                <span>Palolem Street · Mohanbagh, Canacona</span>
               </div>
 
               <h3 style={{ fontSize: "1.8rem", color: "var(--ink)", marginBottom: "0.8rem" }}>
@@ -96,28 +96,28 @@ export const LocationSection: React.FC = () => {
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Waves size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>0m Directly on Patnem Beach:</strong> Step straight from your hut or bungalow onto soft golden sands.
+                    <strong>50m to Palolem Beach Sands:</strong> Walk 1 minute straight onto Palolem's famous golden crescent.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Landmark size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>5 Mins to Colomb Bay & Palolem:</strong> Scenic coastal headland walk to neighboring bays and sunset points.
+                    <strong>Near Blue Lagoon & Neptune Point:</strong> Scenic headlands, sunset spots, and boat excursion departure.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Car size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>3 km to Canacona Railway Station:</strong> Fast 7-minute ride; easy taxi access to Madgaon Junction and Goa airports.
+                    <strong>2 km to Canacona Railway Station:</strong> Quick 5-minute auto or taxi ride; easy transfers to Goa airports.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Clock size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Front Desk & Dining:</strong> 24/7 Reception · Beach Shack Restaurant & Bar 7:30 AM – 11:30 PM.
+                    <strong>Front Desk & Dining:</strong> 24/7 Reception · Multi-Cuisine Restaurant & Bar 7:30 AM – 11:30 PM.
                   </span>
                 </div>
 
@@ -166,7 +166,7 @@ export const LocationSection: React.FC = () => {
             }}
           >
             <iframe
-              title="Casa Fiesta Sea Facing Resort Patnem Beach Goa Map"
+              title="ROYAL CASTLE RESORT Palolem Goa Map"
               src={RESORT_CONTACT.googleMapsEmbed}
               width="100%"
               height="100%"

@@ -51,8 +51,8 @@ export const Header: React.FC<HeaderProps> = ({
               <path d="M14 48H50" />
             </svg>
             <div className="brand-text">
-              <span className="brand-word">CASA FIESTA</span>
-              <span className="brand-sub">Patnem Beach · Huts & Dining</span>
+              <span className="brand-word">ROYAL CASTLE</span>
+              <span className="brand-sub">Palolem Beach · Rooms & Cottages</span>
             </div>
           </a>
 
@@ -61,7 +61,7 @@ export const Header: React.FC<HeaderProps> = ({
             <ul className="nav-links">
               <li>
                 <a href="#suites" className="nav-link">
-                  Huts & Bungalows
+                  Rooms & Cottages
                 </a>
               </li>
               <li>
@@ -156,15 +156,15 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="content-container">
             <nav className="mobile-nav-menu">
               <a href="#suites" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Huts & A/C Bungalows</span>
+                <span>Rooms & Beach Cottages</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#hotspots" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Explore Patnem Shore</span>
+                <span>Explore Palolem Shore</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#dining" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Beachfront Dining & Bar</span>
+                <span>Restaurant & Bar</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#banquets" onClick={closeMobileMenu} className="mobile-nav-item">
