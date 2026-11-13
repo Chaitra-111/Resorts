@@ -34,7 +34,7 @@ export const BanquetsSection: React.FC = () => {
             >
               <img
                 src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1400&q=85"
-                alt="2-BHK Villa, Group Cabana Holidays and Family Gatherings at Sapphire Sand Resort Agonda"
+                alt="Family Quad Cottages, Group Holidays and Gatherings at Dreams of Palolem Beach Resort"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -64,31 +64,31 @@ export const BanquetsSection: React.FC = () => {
                   textTransform: "uppercase",
                 }}
               >
-                Boutique Property Capacity
+                Group & Family Capacity
               </span>
               <h4 style={{ fontSize: "1.7rem", color: "var(--ink)", margin: "0.2rem 0" }}>
-                12 Cabanas + Villa
+                Cottages & Quad
               </h4>
               <p style={{ fontSize: "0.82rem", color: "var(--muted)" }}>
-                Luxury Pool-View Cabanas & Exclusive 2-BHK Family Villa.
+                Deluxe Wooden Cottages, Quad Units & Traditional Beach Huts.
               </p>
             </div>
           </div>
 
           {/* Editorial Content */}
           <div>
-            <span className="section-label">2-BHK Villa, Family Holidays & Boutique Buyouts</span>
+            <span className="section-label">Family Vacations, Group Holidays & Palm Getaways</span>
             <h2
               className="section-title"
               style={{ marginBottom: "1.25rem" }}
             >
-              Private Poolside Buyouts, 2-BHK Villa Stays & Agonda Group Getaways.
+              Family Quad Cottages, Group Escapes & Palolem Beach Holidays.
             </h2>
 
             <p style={{ fontSize: "1.05rem", lineHeight: 1.7, marginBottom: "2rem", color: "var(--muted)" }}>
-              Traveling as a family, planning a serene wellness retreat, or celebrating with friends in South Goa?
-              Sapphire Sand Resort offers an intimate 12-cabana winding pool courtyard plus a 2-BHK villa setup ideal for
-              exclusive coastal gatherings steps from northern Agonda Beach.
+              Planning a beach holiday with family, a reunion with close friends, or a group trip to South Goa?
+              Dreams of Palolem Beach Resort offers spacious family quad cottages and multi-cottage bookings in our lush
+              Mohanbagh courtyard, just 100 meters from the sand.
             </p>
 
             <div
@@ -103,9 +103,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Sparkles size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>2-BHK Coastal Villa</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Family Quad Cottages</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Accommodates families or 4–6 friends together beside the winding pool courtyard.
+                    Two plush queen beds and wide veranda accommodating families and groups together.
                   </p>
                 </div>
               </div>
@@ -113,9 +113,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Users size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>12-Cabana Resort Buyouts</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Multi-Cottage Clusters</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Reserve multiple thatched cabanas around the freeform pool for quiet private groups.
+                    Reserve adjacent wooden cottages in our peaceful palm garden for group exclusivity.
                   </p>
                 </div>
               </div>
@@ -123,9 +123,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Music size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Cola Lagoon & Cabo Tours</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Butterfly Beach & Dolphin Boats</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Coordinated scooter/car rentals, dolphin cruises, and secluded northern cove excursions.
+                    Coordinated boat trips, kayak adventures, and scooter rentals to explore South Goa coves.
                   </p>
                 </div>
               </div>
@@ -133,9 +133,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <HeartHandshake size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Poolside Group Dining</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Restaurant Group Dining</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Multi-cuisine dinner buffets, fresh Goan fish grills, and cozy evenings around the pool.
+                    Group lunch & dinner arrangements with fresh seafood platters, curries, and drinks.
                   </p>
                 </div>
               </div>
@@ -144,7 +144,7 @@ export const BanquetsSection: React.FC = () => {
             <div className="banquets-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <a
                 href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent(
-                  "Hello Sapphire Sand Resort Agonda, I am interested in inquiring about the 2-BHK Villa or group cabana bookings."
+                  "Hello Dreams of Palolem Beach Resort, I am interested in inquiring about group cottage bookings and family quad options."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"

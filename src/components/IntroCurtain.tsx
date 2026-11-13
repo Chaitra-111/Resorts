@@ -58,7 +58,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.1s",
             } as React.CSSProperties}
           >
-            Dhavalkhazan · Agonda, South Goa
+            Palolem Beach · South Goa
           </span>
         </span>
 
@@ -89,7 +89,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.35s",
             } as React.CSSProperties}
           >
-            "Winding freeform pool cabanas, 2-BHK villa & calm northern Agonda shores."
+            "Handcrafted wooden cottages, rustic beach huts & tropical palms 100m from Palolem."
           </span>
         </p>
       </div>

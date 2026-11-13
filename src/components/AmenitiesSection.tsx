@@ -46,11 +46,11 @@ export const AmenitiesSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Resort Amenities & Modern Comforts</span>
-          <h2 className="section-title">Freeform Winding Pool Luxury, 1-Min Walk to Agonda Sands</h2>
+          <span className="section-label">Resort Amenities & Coastal Comforts</span>
+          <h2 className="section-title">Crafted for Relaxed Beach Living, 100m to Palolem Shore</h2>
           <p className="section-desc">
-            Every amenity at Sapphire Sand Resort is crafted around boutique comfort—combining a meandering outdoor pool,
-            in-room kettles, TVs, reliable power backup, multi-cuisine dining, and instant Agonda Beach access.
+            Every amenity at Dreams of Palolem Beach Resort is tailored for effortless seaside relaxation—combining
+            handcrafted wooden cottages, split A/C, 24/7 hot showers, on-site multi-cuisine dining, and instant beach access.
           </p>
         </div>
 

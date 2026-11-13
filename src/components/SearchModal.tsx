@@ -32,21 +32,21 @@ export const SearchModal: React.FC<SearchModalProps> = ({
       target: "experiences",
     })),
     {
-      title: "2-BHK Villa & 12-Cabana Resort Buyouts",
+      title: "Family Quad Cottages & Group Stays",
       category: "Group Stays",
-      description: "Private 2-bedroom coastal villa and winding pool cabanas for families, retreats, and peaceful group getaways.",
+      description: "Spacious wooden quad cottages with two queen beds, ideal for families and group vacations 100m from Palolem.",
       target: "banquets",
     },
     {
-      title: "Sapphire Sand Multi-Cuisine Restaurant",
+      title: "Dreams of Palolem Restaurant & Bar",
       category: "Dining",
-      description: "Goan seafood curries, Indian dishes, continental breakfast & cabana room service overlooking the winding pool.",
+      description: "Fresh Goan seafood, North Indian tandoori grills, Chinese dishes, sunset cocktails & veranda room service.",
       target: "dining",
     },
     {
-      title: "Location in Dhavalkhazan, Agonda",
+      title: "Location in Mohanbagh, Palolem Beach",
       category: "Location",
-      description: "Bldg. No. 312, Beach Road, Dhavalkhazan — 300m (1-min walk) to Agonda Beach, 4 km to Cola Lagoon.",
+      description: "Plot No. 103/5-B, Ourem Road, Mohanbagh — 100m walk to Palolem Beach, 2 km to Canacona Railway Station.",
       target: "location",
     },
     {
