@@ -21,8 +21,8 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
       {/* Background container */}
       <div className="hero-bg-container">
         <img
-          src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=2400&q=88"
-          alt="Royal Resort Rajbag Swimming Pool and Executive Suites in Canacona South Goa"
+          src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2400&q=88"
+          alt="Casa Fiesta Sea Facing Resort Beach Huts and Bungalows on Patnem Beach South Goa"
           className="hero-image"
         />
         <div className="hero-overlay" />
@@ -33,25 +33,25 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
         <div className="hero-content">
           <div className="hero-eyebrow">
             <MapPin size={13} style={{ color: "var(--peach-light)", flexShrink: 0 }} />
-            <span>Rajbag Tarir / Kindlebag (Near The LaLiT Golf & Spa) · Canacona, South Goa</span>
+            <span>Patnem Beach Entrance · Canacona, South Goa</span>
           </div>
 
           <h1 className="hero-title">
-            Swimming Pool, Spa & Suites at <em>Rajbagh.</em>
+            Sea-Facing Huts & Sunset Dining at <em>Patnem.</em>
           </h1>
 
           <p className="hero-desc">
-            Experience serene coastal luxury just 500 meters from pristine Rajbagh Beach. Featuring an outdoor swimming pool,
-            executive pool-view suites, deluxe family rooms, wellness spa, and multi-cuisine dining near The LaLiT Golf Course.
+            Stay directly on the golden sands of Patnem Beach. Enjoy sea-facing wooden beach huts, air-conditioned bungalows,
+            family suites, complimentary loungers, and renowned toe-in-the-sand seafood and Mexican dining by the waves.
           </p>
 
           <div className="hero-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap", alignItems: "center" }}>
             <a href="#suites" className="btn-luxury" data-cursor="View Rooms">
-              <span>Explore Suites & Rates</span>
+              <span>Explore Huts & Bungalows</span>
               <ArrowRight size={15} />
             </a>
             <a
-              href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent("Hello Royal Resort Rajbag, I would like to inquire about suite availability and seasonal room tariffs.")}`}
+              href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent("Hello Casa Fiesta Sea Facing Resort, I would like to inquire about beachfront hut and bungalow availability.")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline"
@@ -104,11 +104,11 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               value={guests}
               onChange={(e) => setGuests(Number(e.target.value))}
             >
-              <option value={1}>1 Guest (Standard Garden Room)</option>
-              <option value={2}>2 Guests (Executive Pool-View Suite)</option>
-              <option value={3}>3 Guests (Super Deluxe Room)</option>
-              <option value={4}>4–5 Guests (Deluxe Family Suite)</option>
-              <option value={10}>10+ Guests (Group Vacation / Buyout)</option>
+              <option value={1}>1 Guest (Standard Garden Beach Hut)</option>
+              <option value={2}>2 Guests (Sea-Facing Wooden Beach Hut)</option>
+              <option value={3}>3 Guests (Deluxe A/C Coastal Bungalow)</option>
+              <option value={4}>4 Guests (Family A/C Beach Suite)</option>
+              <option value={10}>10+ Guests (Group Beach Holiday)</option>
             </select>
           </div>
 
@@ -118,7 +118,7 @@ export const Hero: React.FC<HeroProps> = ({ onCheckAvailability }) => {
               Destination
             </label>
             <div style={{ fontSize: "0.95rem", fontWeight: 700, color: "var(--ink)", padding: "2px 0" }}>
-              Rajbagh Beach, Goa
+              Patnem Beach, Goa
             </div>
           </div>
 

@@ -34,7 +34,7 @@ export const BanquetsSection: React.FC = () => {
             >
               <img
                 src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1400&q=85"
-                alt="Family Suites, Group Vacations and Poolside Gatherings at Royal Resort Rajbag"
+                alt="Group Beach Holidays, Family Suites and Candlelit Dining at Casa Fiesta Patnem Beach"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
@@ -67,28 +67,28 @@ export const BanquetsSection: React.FC = () => {
                 Group & Family Capacity
               </span>
               <h4 style={{ fontSize: "1.7rem", color: "var(--ink)", margin: "0.2rem 0" }}>
-                Suites & Pool
+                Huts & Suites
               </h4>
               <p style={{ fontSize: "0.82rem", color: "var(--muted)" }}>
-                Executive Pool-View Suites, Family Units & Swimming Pool Deck.
+                Sea-Facing Huts, Deluxe A/C Bungalows & Beach Lounger Blocks.
               </p>
             </div>
           </div>
 
           {/* Editorial Content */}
           <div>
-            <span className="section-label">Family Vacations, Group Stays & Poolside Events</span>
+            <span className="section-label">Family Vacations, Group Holidays & Beach Gatherings</span>
             <h2
               className="section-title"
               style={{ marginBottom: "1.25rem" }}
             >
-              Deluxe Family Suites, Group Getaways & Poolside Celebrations.
+              Family Beach Suites, Group Holidays & Candlelit Sand Dinners.
             </h2>
 
             <p style={{ fontSize: "1.05rem", lineHeight: 1.7, marginBottom: "2rem", color: "var(--muted)" }}>
-              Planning a South Goa family holiday, celebrating an anniversary, or organizing a group retreat near the beach?
-              Royal Resort Rajbag offers spacious two-bed family suites, block room bookings, poolside bonfire arrangements,
-              and on-site dining just 500m from Rajbagh Beach.
+              Planning a beachside family trip, gathering friends for a South Goa holiday, or organizing a relaxed coastal
+              retreat? Casa Fiesta offers multi-hut and bungalow bookings, spacious family A/C suites, candlelit beach dinners,
+              and reserved sunbed rows right on Patnem Beach.
             </p>
 
             <div
@@ -103,9 +103,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Sparkles size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Deluxe Family Suites</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Family A/C Suites</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Two plush queen beds, living area, and private balcony accommodating families with ease.
+                    Comfortable multi-bed suites with split A/C and private verandas steps from the sand.
                   </p>
                 </div>
               </div>
@@ -113,9 +113,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Users size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Poolside Group Buyouts</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Hut & Bungalow Clusters</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Reserve clusters of executive suites and rooms around the pool deck for private gatherings.
+                    Reserve adjacent sea-facing huts and garden bungalows for private group comfort.
                   </p>
                 </div>
               </div>
@@ -123,9 +123,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <Music size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Night Club & Bonfire Nights</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Kayaks & Dolphin Excursions</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    On-site nightlife venue with DJ music plus cozy outdoor evening bonfire experiences.
+                    Direct Patnem bay kayaking, dolphin spotting boat rides, and Butterfly Beach trips.
                   </p>
                 </div>
               </div>
@@ -133,9 +133,9 @@ export const BanquetsSection: React.FC = () => {
               <div style={{ display: "flex", gap: "0.8rem", alignItems: "flex-start" }}>
                 <HeartHandshake size={20} style={{ color: "var(--amber)", flexShrink: 0, marginTop: "2px" }} />
                 <div>
-                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Spa & Wellness Packages</h4>
+                  <h4 style={{ fontSize: "1.05rem", color: "var(--ink)" }}>Candlelit Beach Dining</h4>
                   <p style={{ fontSize: "0.86rem", color: "var(--muted)" }}>
-                    Dedicated on-property spa offering customized massage and relaxation treatments.
+                    Private group sand dinner setups with fresh seafood platters, fajitas, and cocktails.
                   </p>
                 </div>
               </div>
@@ -144,7 +144,7 @@ export const BanquetsSection: React.FC = () => {
             <div className="banquets-cta-group" style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <a
                 href={`https://wa.me/${RESORT_CONTACT.phoneRaw.replace("+", "")}?text=${encodeURIComponent(
-                  "Hello Royal Resort Rajbag, I am interested in inquiring about group bookings and family suite rates."
+                  "Hello Casa Fiesta Sea Facing Resort, I am interested in inquiring about group hut bookings and family suite rates."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"

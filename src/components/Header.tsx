@@ -51,8 +51,8 @@ export const Header: React.FC<HeaderProps> = ({
               <path d="M14 48H50" />
             </svg>
             <div className="brand-text">
-              <span className="brand-word">ROYAL RESORT</span>
-              <span className="brand-sub">Rajbagh Beach · Pool & Suites</span>
+              <span className="brand-word">CASA FIESTA</span>
+              <span className="brand-sub">Patnem Beach · Huts & Dining</span>
             </div>
           </a>
 
@@ -61,7 +61,7 @@ export const Header: React.FC<HeaderProps> = ({
             <ul className="nav-links">
               <li>
                 <a href="#suites" className="nav-link">
-                  Suites & Rooms
+                  Huts & Bungalows
                 </a>
               </li>
               <li>
@@ -156,19 +156,19 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="content-container">
             <nav className="mobile-nav-menu">
               <a href="#suites" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Suites & Deluxe Rooms</span>
+                <span>Huts & A/C Bungalows</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#hotspots" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Explore Pool & Rajbagh</span>
+                <span>Explore Patnem Shore</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#dining" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Restaurant & Pool Bar</span>
+                <span>Beachfront Dining & Bar</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#banquets" onClick={closeMobileMenu} className="mobile-nav-item">
-                <span>Family Suites & Events</span>
+                <span>Group & Family Stays</span>
                 <ArrowRight size={16} />
               </a>
               <a href="#experiences" onClick={closeMobileMenu} className="mobile-nav-item">

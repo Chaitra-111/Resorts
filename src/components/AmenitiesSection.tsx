@@ -46,11 +46,11 @@ export const AmenitiesSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Resort Amenities & Premium Leisure</span>
-          <h2 className="section-title">Outdoor Swimming Pool, Spa & Rajbagh Beachfront Proximity</h2>
+          <span className="section-label">Resort Amenities & Beachfront Living</span>
+          <h2 className="section-title">Direct Beach Access, Seafront Sunbeds & Sizzling Dining</h2>
           <p className="section-desc">
-            Every amenity at Royal Resort Rajbag is designed for upscale comfort—featuring a sparkling outdoor swimming pool,
-            rejuvenating wellness spa, on-property night club, multi-cuisine restaurant, and 500m walk to Rajbagh Beach.
+            Every amenity at Casa Fiesta Sea Facing Resort is designed around barefoot coastal relaxation—featuring direct 0m
+            beach frontage, complimentary loungers, A/C bungalows, fresh seafood & Mexican dining, and warm Goan hospitality.
           </p>
         </div>
 

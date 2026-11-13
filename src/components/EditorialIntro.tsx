@@ -5,47 +5,47 @@ export const EditorialIntro: React.FC = () => {
   return (
     <section className="editorial-section" id="story">
       <div className="content-container">
-        <span className="section-label">Poolside Serenity near Rajbagh Beach</span>
+        <span className="section-label">Direct Beachfront Living on Patnem Beach</span>
 
         <h2 className="statement-heading">
-          Outdoor swimming pool, executive suites & lush coconut gardens <br />
+          Sea-facing wooden huts, A/C bungalows & toe-in-the-sand dining <br />
           <em style={{ fontFamily: "var(--serif)", fontStyle: "italic", color: "var(--amber)" }}>
-            moments from pristine Rajbagh Beach, South Goa.
+            directly on the sands of Patnem Beach, South Goa.
           </em>
         </h2>
 
         <p className="statement-body">
-          Nestled at Rajbag Tarir in Kindlebag, right beside The LaLiT Golf & Spa Resort and just 500 meters from Rajbagh Beach,
-          Royal Resort Rajbag offers upscale tranquility in South Goa. Unwind in our sparkling outdoor swimming pool, rejuvenate
-          at the spa, savor authentic Goan seafood, and retreat to spacious air-conditioned suites with private balconies.
+          Located right at the Patnem Beach Entrance in Canacona, Casa Fiesta Sea Facing Resort pairs South Goa's
+          unspoiled coastal charm with comfortable beachfront living. Step straight from your wooden hut or A/C bungalow
+          onto the warm golden sand, lounge beneath shaded umbrellas, and enjoy famous Mexican and Goan seafood dining right by the surf.
         </p>
 
         {/* Feature Pillars */}
         <div className="statement-pillars">
           <div className="pillar-card">
             <Waves size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Outdoor Swimming Pool</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>0m on Patnem Beach</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              A crystal-clear outdoor swimming pool with surrounding sun loungers and palm gardens—perfect for refreshing
-              morning laps or relaxing sunny afternoons.
+              Direct beach frontage on Patnem's sheltered, family-friendly crescent.
+              Ideal for safe morning swimming, sunset shoreline walks, and relaxing on beach loungers.
             </p>
           </div>
 
           <div className="pillar-card">
             <Sparkles size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Executive & Family Suites</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Sea-Facing Huts & Bungalows</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Choose spacious Executive Pool-View Suites, Deluxe Family Suites, or Super Deluxe Rooms—all complete with
-              private balconies, split A/C, and modern amenities.
+              Choose rustic wooden beach huts with ocean-view balconies, split A/C bungalows, or family suites—all
+              fitted with modern attached baths, hot water, and private verandas.
             </p>
           </div>
 
           <div className="pillar-card">
             <Utensils size={28} style={{ color: "var(--amber)", marginBottom: "1rem" }} />
-            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Multi-Cuisine Dining & Lounge</h3>
+            <h3 style={{ fontSize: "1.3rem", marginBottom: "0.5rem" }}>Mexican & Seafood Beach Shack</h3>
             <p style={{ fontSize: "0.94rem" }}>
-              Enjoy authentic Goan seafood curries, sizzling tandoori grills, continental favorites, and evening cocktails
-              served poolside and in our open-air restaurant.
+              Toe-in-the-sand dining famous for fresh seafood grills, sizzling fajitas, Goan curries, and sunset
+              cocktails served right to your reserved beachfront sunbed.
             </p>
           </div>
         </div>
@@ -53,20 +53,20 @@ export const EditorialIntro: React.FC = () => {
         {/* Key Stats Counter */}
         <div className="statement-stats">
           <div className="stat-item">
-            <h3>500 m</h3>
-            <p>Walk to Rajbagh Beach Sand</p>
+            <h3>0 m</h3>
+            <p>Directly on Patnem Beach Sand</p>
           </div>
           <div className="stat-item">
-            <h3>Pool & Spa</h3>
-            <p>Full Leisure Amenities</p>
+            <h3>5 min</h3>
+            <p>Walk to Colomb Bay & Palolem</p>
           </div>
           <div className="stat-item">
             <h3>3 km</h3>
             <p>To Canacona Railway Station</p>
           </div>
           <div className="stat-item">
-            <h3>₹3,400+</h3>
-            <p>Resort Room Tariff</p>
+            <h3>₹2,600+</h3>
+            <p>Beach Hut & Bungalow Tariff</p>
           </div>
         </div>
       </div>

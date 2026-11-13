@@ -14,10 +14,10 @@ export const LocationSection: React.FC = () => {
     >
       <div className="content-container">
         <div className="section-header-center">
-          <span className="section-label">Prime Rajbagh Beach Location</span>
+          <span className="section-label">Prime Patnem Beachfront Location</span>
           <h2 className="section-title">Location & Getting Here</h2>
           <p className="section-desc">
-            Located at Rajbag Tarir in Kindlebag (near The LaLiT Golf & Spa Resort), Canacona, South Goa — an easy 500m walk to pristine Rajbagh Beach and just 3 km from Canacona Railway Station.
+            Located directly at the Patnem Beach Entrance in Canacona, South Goa — 0 meters directly on the sand, 5 minutes walk to Colomb Bay & Palolem Beach, and 3 km from Canacona Railway Station.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export const LocationSection: React.FC = () => {
                 }}
               >
                 <Compass size={16} />
-                <span>Rajbag Tarir · Kindlebag, Canacona</span>
+                <span>Patnem Beachfront · Canacona Coast</span>
               </div>
 
               <h3 style={{ fontSize: "1.8rem", color: "var(--ink)", marginBottom: "0.8rem" }}>
@@ -96,28 +96,28 @@ export const LocationSection: React.FC = () => {
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Waves size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>500m to Rajbagh Beach Sands:</strong> Quick 5-minute walk down to quiet shores and Talpona estuary.
+                    <strong>0m Directly on Patnem Beach:</strong> Step straight from your hut or bungalow onto soft golden sands.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Landmark size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Next to The LaLiT Golf & Spa:</strong> Championship golf greens and lush coastal canopy neighborhood.
+                    <strong>5 Mins to Colomb Bay & Palolem:</strong> Scenic coastal headland walk to neighboring bays and sunset points.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Car size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>3 km to Canacona Railway Station:</strong> Quick 7-minute drive; 2.5 km to Patnem Beach & 4 km to Palolem.
+                    <strong>3 km to Canacona Railway Station:</strong> Fast 7-minute ride; easy taxi access to Madgaon Junction and Goa airports.
                   </span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
                   <Clock size={18} style={{ color: "var(--amber)", flexShrink: 0 }} />
                   <span style={{ fontSize: "0.92rem", color: "var(--ink)" }}>
-                    <strong>Front Desk & Dining:</strong> 24/7 Reception & Concierge · Restaurant 7:00 AM – 11:30 PM.
+                    <strong>Front Desk & Dining:</strong> 24/7 Reception · Beach Shack Restaurant & Bar 7:30 AM – 11:30 PM.
                   </span>
                 </div>
 
@@ -166,7 +166,7 @@ export const LocationSection: React.FC = () => {
             }}
           >
             <iframe
-              title="Royal Resort Rajbag Goa Map"
+              title="Casa Fiesta Sea Facing Resort Patnem Beach Goa Map"
               src={RESORT_CONTACT.googleMapsEmbed}
               width="100%"
               height="100%"

@@ -57,8 +57,8 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
             </div>
 
             <p style={{ fontSize: "0.92rem", lineHeight: 1.65, maxWidth: "340px", marginBottom: "1.5rem" }}>
-              Rajbagh's premier resort retreat offering a sparkling swimming pool, executive suites, wellness spa,
-              and multi-cuisine dining near The LaLiT Golf Course and Rajbagh Beach in South Goa.
+              Patnem's cherished beachfront resort offering sea-facing wooden huts, A/C bungalows, family suites,
+              and renowned toe-in-the-sand seafood & Mexican dining directly on Patnem Beach in South Goa.
             </p>
 
             {/* Atmosphere Mood Switcher in Footer */}
@@ -97,22 +97,22 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.92rem" }}>
               <li>
                 <a href="#suites" className="footer-link">
-                  Suites & Rooms
+                  Huts & Bungalows
                 </a>
               </li>
               <li>
                 <a href="#hotspots" className="footer-link">
-                  Pool & Beach Hotspots
+                  Patnem Hotspots
                 </a>
               </li>
               <li>
                 <a href="#dining" className="footer-link">
-                  Restaurant & Bar
+                  Beachfront Restaurant & Bar
                 </a>
               </li>
               <li>
                 <a href="#banquets" className="footer-link">
-                  Family Suites & Events
+                  Family Suites & Groups
                 </a>
               </li>
               <li>
@@ -135,15 +135,15 @@ export const Footer: React.FC<FooterProps> = ({ currentMood, onSelectMood }) => 
                 marginBottom: "1.2rem",
               }}
             >
-              Rajbagh & Canacona Landmarks
+              Patnem & Canacona Landmarks
             </h4>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.75rem", fontSize: "0.9rem", color: "var(--ink)" }}>
-              <li>• Rajbagh Beach Sands (500m / 5-Min Walk)</li>
-              <li>• The LaLiT Golf & Spa Resort (Adjacent)</li>
-              <li>• Talpona River Estuary (~800m)</li>
-              <li>• Patnem Beach Crescent (~2.5 km)</li>
+              <li>• Patnem Beach Sands (0 meters / Direct)</li>
+              <li>• Colomb Bay Headland (~500m Walk)</li>
+              <li>• Palolem Beach Crescent (~1.5 km)</li>
+              <li>• Rajbagh Beach & Estuary (~2 km)</li>
               <li>• Canacona Railway Station (~3 km)</li>
-              <li>• Palolem Beach & Butterfly Cove (~4 km)</li>
+              <li>• Butterfly & Honeymoon Cove (By Boat)</li>
             </ul>
           </div>
 

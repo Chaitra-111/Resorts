@@ -58,7 +58,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.1s",
             } as React.CSSProperties}
           >
-            Rajbagh Beach · South Goa
+            Patnem Beach · South Goa
           </span>
         </span>
 
@@ -89,7 +89,7 @@ export const IntroCurtain: React.FC<IntroCurtainProps> = ({ onComplete }) => {
               "--d": "0.35s",
             } as React.CSSProperties}
           >
-            "Outdoor swimming pool, executive suites & spa 500m from Rajbagh Beach."
+            "Sea-facing wooden huts, A/C bungalows & sunset dining on Patnem Beach."
           </span>
         </p>
       </div>

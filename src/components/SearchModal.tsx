@@ -32,21 +32,21 @@ export const SearchModal: React.FC<SearchModalProps> = ({
       target: "experiences",
     })),
     {
-      title: "Executive & Deluxe Family Suites",
+      title: "Sea-Facing Huts & Family A/C Suites",
       category: "Group Stays",
-      description: "Two-bed deluxe family suites, executive pool-view rooms, and group blocks 500m from Rajbagh Beach.",
+      description: "Direct ocean-view wooden huts, A/C bungalows, and family suites right on Patnem Beach sand.",
       target: "banquets",
     },
     {
-      title: "Royal Multi-Cuisine Restaurant & Bar",
+      title: "Casa Fiesta Restaurant & Sunset Bar",
       category: "Dining",
-      description: "Authentic Goan seafood curries, sizzling tandoor grills, poolside breakfast, cocktails, and night club lounge.",
+      description: "Famous toe-in-the-sand dining with fresh seafood catch, Mexican fajitas, tacos, Goan curries & beach loungers.",
       target: "dining",
     },
     {
-      title: "Location in Rajbag Tarir, Canacona",
+      title: "Location at Patnem Beach Entrance",
       category: "Location",
-      description: "Rajbag Tarir / Kindlebag, near The LaLiT Golf & Spa — 500m to Rajbagh Beach, 3 km to Canacona Station.",
+      description: "Patnem Beach Entrance, Canacona — 0m to beach sands, 5 mins walk to Colomb Bay, 3 km to Canacona Station.",
       target: "location",
     },
     {
